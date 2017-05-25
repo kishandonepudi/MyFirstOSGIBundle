@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:views="views.*"
+		 implements="components.CQComponent"
+		 width="100%">
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.jcr.Node;
+			
+			public function loadContent(node:Node):void {
+				// nothing to load
+			}
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<s:CurrencyFormatter id="cf" useCurrencySymbol="true" fractionalDigits="0" />
+		<s:NumberFormatter id="nf" fractionalDigits="2" />
+	</fx:Declarations>
+	<s:Group id="summaryTable">
+		
+		<s:layout>
+			<s:VerticalLayout gap="1"/>
+		</s:layout>
+		
+		<s:Group height="40">
+			<s:Rect left="20" top="0" bottom="0" width="4">
+				<s:fill>
+					<s:SolidColor color="#FF5900"/>
+				</s:fill>
+			</s:Rect>
+			<s:Rect left="24" top="0" bottom="0" width="160">
+				<s:fill>
+					<s:SolidColor color="#919191"/>
+				</s:fill>
+			</s:Rect>
+			<s:Label text="Net worth:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+		</s:Group>
+		
+		<s:Group height="40">
+			<s:Rect left="20" top="0" bottom="0" width="4">
+				<s:fill>
+					<s:SolidColor color="#FF5900"/>
+				</s:fill>
+			</s:Rect>
+			<s:Rect left="24" top="0" bottom="0" width="160">
+				<s:fill>
+					<s:SolidColor color="#919191"/>
+				</s:fill>
+			</s:Rect>
+			<s:Label text="Last Month:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+		</s:Group>
+		
+		<s:Group height="40">
+			<s:Rect left="20" top="0" bottom="0" width="4">
+				<s:fill>
+					<s:SolidColor color="#FF5900"/>
+				</s:fill>
+			</s:Rect>
+			<s:Rect left="24" top="0" bottom="0" width="160">
+				<s:fill>
+					<s:SolidColor color="#919191"/>
+				</s:fill>
+			</s:Rect>
+			<s:Label text="6 Months Ago:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+		</s:Group>
+		
+		<s:Group height="40">
+			<s:Rect left="20" top="0" bottom="0" width="4">
+				<s:fill>
+					<s:SolidColor color="#FF5900"/>
+				</s:fill>
+			</s:Rect>
+			<s:Rect left="24" top="0" bottom="0" width="160">
+				<s:fill>
+					<s:SolidColor color="#919191"/>
+				</s:fill>
+			</s:Rect>
+			<s:Label text="Last Year:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+		</s:Group>
+		
+	</s:Group>
+	
+	<views:AssetsSummary id="assetsSummary" left="184" right="20" height="{summaryTable.height}"/>
+
+</s:Group>

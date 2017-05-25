@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="It doesn’t matter what you’re up to. If its winter, and if you’re outside enjoying, you are going to need a pair of quality gloves. If your hands are freezing, it doesn’t matter how bundled up the rest of you is…you’re going to be miserable. I would recommend to the ladies that you check out the Classic leather gloves. They’re made of genuine leather so you know they’ll last, and so far they have done a fine job of keeping me warm."
+    jcr:primaryType="cq:Comment"
+    jcr:title="Gloves: you can’t be too picky"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T14:08:31.129+01:00"
+    authorizableId="donna.billups@pookmail.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}1"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.html"
+    sentiment="{Long}5"
+    submit="Submit"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="donna.billups@pookmail.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="a5655e8c-b1ad-4531-acb1-b156e205a802">
+        <iStock_000018434377Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T08:59:58.499+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="4bfaada1-70a8-4276-b3c2-891097fd0a90"/>
+        </iStock_000018434377Small.jpg>
+    </attachments>
+</jcr:root>

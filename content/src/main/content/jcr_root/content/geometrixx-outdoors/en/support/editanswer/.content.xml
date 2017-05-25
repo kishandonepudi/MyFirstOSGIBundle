@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-06-15T15:31:06.077-07:00"
+        cq:lastModifiedBy="admin"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Edit Answer"
+        jcr:uuid="e7781185-24d9-4775-84ca-2ee86384685d"
+        sling:resourceType="geometrixx-outdoors/components/page_editanswer">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <start
+                jcr:created="{Date}2012-05-18T13:03:47.411-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-06-15T15:31:06.077-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/form/start"
+                action="/content/geometrixx-outdoors/en/support/"
+                actionType="social/commons/components/form/actions/edit"
+                contentType="question"
+                endpoint="social.editqnapost"
+                endResourceType="/libs/social/commons/components/form/end"
+                formid="_editanswer"
+                mode="editContent"
+                parentResourceType="social/qna/components/qnaforum"
+                renderOption="default"/>
+            <text_2418
+                jcr:created="{Date}2012-03-24T12:06:50.250-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-04-23T13:15:38.259-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Description"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="/libs/social/commons/components/richTextEditor"
+                cols="40"
+                name="jcr:description"
+                required="true"
+                requiredMessage="Please enter a little more detail about your question."
+                rows="6"
+                width="500"/>
+            <form_end
+                jcr:lastModified="{Date}2012-06-11T15:11:00.053-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Update"
+                sling:resourceSuperType="foundation/components/form/end"
+                sling:resourceType="social/commons/components/form/end"
+                cancel="true"
+                denyText="Sign in in order to post to this forum."
+                submit="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

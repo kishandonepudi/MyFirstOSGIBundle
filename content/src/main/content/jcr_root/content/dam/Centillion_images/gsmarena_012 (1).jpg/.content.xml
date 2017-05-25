@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="41e0bc68-7976-40cd-84c6-1b7ef6f12b13">
+    <jcr:content
+        cq:name="gsmarena_012 (1).jpg"
+        cq:parentPath="/content/dam/Centillion_images"
+        jcr:lastModified="{Date}2017-05-15T09:12:39.957+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:Comments="CREATOR: gd-jpeg v1.0 (using IJG JPEG v62), quality = 90&#xa;&#xa;"
+            dam:extracted="{Date}2017-05-13T17:29:18.156+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}1"
+            dam:Physicalheightininches="{Double}248.0"
+            dam:Physicalwidthindpi="{Long}1"
+            dam:Physicalwidthininches="{Double}330.0"
+            dam:Progressive="no"
+            dam:sha1="8ddad443d567647646c8d86c9ac7c4137eb2a692"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-05-15T09:12:39.957+05:30"
+            jcr:lastModified="{Date}2017-05-15T09:12:39.957+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}248"
+            tiff:ImageWidth="{Long}330"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

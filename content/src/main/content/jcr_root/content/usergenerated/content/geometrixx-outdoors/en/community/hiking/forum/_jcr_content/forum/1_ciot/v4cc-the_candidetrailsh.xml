@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T11:52:50.906+01:00"
+    cq:lastModifiedBy="donna.billups@pookmail.com"
+    jcr:description="The Candide trail shorts are amazing. Not only are they incredibly comfortable and flexible in all the right places, they also repelled water during heavy rain and breathed incredibly well. Finding all this in an affordable pair of hiking shorts is a rare find."
+    jcr:primaryType="cq:Comment"
+    jcr:title="Buy these shorts"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T11:47:22.622+01:00"
+    authorizableId="donna.billups@pookmail.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}1"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.html"
+    sentiment="{Long}5"
+    submit="Submit"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="donna.billups@pookmail.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="9677ec74-1813-4540-b53f-98918f40ed3d">
+        <iStock_000019684647Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T08:59:58.686+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="26db753f-fa48-413e-8220-7b8fc9bb484f"/>
+        </iStock_000019684647Small.jpg>
+    </attachments>
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <_x0036_tio-emily_that_sgreat
+            jcr:description="Emily that’s great. Let me know if you like them as much as I do."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:51:14.850+01:00"
+            authorizableId="donna.billups@pookmail.com"
+            email="donna.billups@pookmail.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__v4cc-the_candidetrailsh.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="donna.billups@pookmail.com"/>
+        <_x0038_5zo-ladies_if_youlike
+            jcr:description="Ladies, if you like the Candide shorts, but want something for warmer days, definitely check out the Grand Cayman shorts. I love them so much I bought two pair!"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:52:50.785+01:00"
+            authorizableId="aparker@geometrixx.info"
+            email="aparker@geometrixx.info"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__v4cc-the_candidetrailsh.html"
+            sentiment="{Long}5"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aparker@geometrixx.info">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="e0f41ce7-30f8-4e59-aaf1-583cc1d15b7d">
+                <iStock_000010253845Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.686+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="2633b4e5-472d-494b-bcbd-7f28e4d6910a"/>
+                </iStock_000010253845Small.jpg>
+            </attachments>
+        </_x0038_5zo-ladies_if_youlike>
+        <lxov-thanks_for_therecom
+            jcr:description="Thanks for the recommendation, Donna. There aren’t a lot of women on here, so it’s nice to hear your perspective on clothing"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:49:13.616+01:00"
+            authorizableId="ashley.thompson@spambob.com"
+            email="ashley.thompson@spambob.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__v4cc-the_candidetrailsh.html"
+            sentiment="{Long}5"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="ashley.thompson@spambob.com"/>
+        <nqhl-i_was_thinkingabout
+            jcr:description="I was thinking about buying a pair of those shorts. You just convinced me and I placed the order!"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:50:20.474+01:00"
+            authorizableId="emily.andrews@mailinator.com"
+            email="emily.andrews@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__v4cc-the_candidetrailsh.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="emily.andrews@mailinator.com"/>
+    </_x0031__tosp>
+</jcr:root>

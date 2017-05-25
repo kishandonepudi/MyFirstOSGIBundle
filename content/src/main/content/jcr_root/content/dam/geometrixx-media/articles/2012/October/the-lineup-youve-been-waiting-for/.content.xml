@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2012-12-06T09:40:49.832-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2012-12-06T09:40:49.251-05:00"
+            dam:sha1="f94b6c89d2294a6cd414b62dd6ff148a1824a1ac"
+            dam:WordCount="{Long}510"
+            dc:format="text/plain"
+            dc:modified="{Date}2012-10-23T16:08:32.211-04:00"
+            dc:title="The Lineup you've been waiting for"
+            jcr:lastModified="{Date}2012-12-06T09:40:49.832-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <assignment
+            jcr:primaryType="nt:unstructured"
+            brief=""
+            editor="admin"
+            startDate="{Date}2012-10-23T16:08:31.000-04:00"
+            status="Assigned"
+            writer="luz.a.smith@dodgit.com"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

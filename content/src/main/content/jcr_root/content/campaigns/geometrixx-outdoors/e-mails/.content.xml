@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <polar-goggles-reminder/>
+    <polar-googles-offer/>
+    <jcr:content
+        cq:allowedTemplates="[/apps/geometrixx-outdoors/templates/geometrixx_newsletter]"
+        cq:template="/libs/mcm/templates/brand"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="E-Mail Campaigns"
+        jcr:uuid="130abcfb-f38b-4c34-b944-1aa1a972d1ef"
+        sling:resourceType="mcm/components/brandpage"/>
+</jcr:root>

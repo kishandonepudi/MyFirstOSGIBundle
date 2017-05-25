@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-04-30T17:09:41.800-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page_mobile"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Contact"
+        jcr:uuid="f93e518f-3762-4107-8445-0d4f8534baa2"
+        sling:resourceType="/apps/geometrixx-outdoors/components/phonegap/phonegap_page_mobile">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:created="{Date}2012-04-30T17:08:44.358-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-04-30T17:09:41.798-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Find our Store"
+                sling:resourceType="geometrixx-outdoors/components/title"
+                type="medium"/>
+            <store_map
+                jcr:created="{Date}2012-01-31T16:59:25.497-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-01-31T16:59:25.497-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/phonegap/store_map"/>
+        </par>
+    </jcr:content>
+</jcr:root>

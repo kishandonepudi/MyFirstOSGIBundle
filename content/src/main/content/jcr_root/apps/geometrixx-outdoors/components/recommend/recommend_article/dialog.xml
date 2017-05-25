@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Recommend Article"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <title
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Title"
+            name="./jcr:title"
+            xtype="textfield"/>
+        <description
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Sub-Title"
+            name="./jcr:description"
+            xtype="textfield"/>
+        <button
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Button text"
+            name="./button"
+            xtype="textfield"/>
+        <link
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Link"
+            name="./link"
+            xtype="pathfield"/>
+    </items>
+</jcr:root>

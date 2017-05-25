@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Configure Store Map"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <destination
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Be specific. For example, &quot;343 Preston St, Ottawa, ON&quot;"
+            fieldLabel="Store address"
+            name="./storeAddress"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

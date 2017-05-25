@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-10T15:01:01.645+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Privacy Policy"
+        jcr:uuid="caf38a67-0fb4-47b7-8dac-afaae5b8f412"
+        sling:resourceType="geometrixx-outdoors/components/page"/>
+</jcr:root>

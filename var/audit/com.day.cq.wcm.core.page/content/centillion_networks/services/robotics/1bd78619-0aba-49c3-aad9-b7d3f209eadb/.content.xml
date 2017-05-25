@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:category="com/day/cq/wcm/core/page"
+    cq:path="/content/centillion_networks/services/robotics"
+    cq:properties="{Binary}"
+    cq:time="{Date}2017-05-01T13:06:13.947+05:30"
+    cq:type="PageMoved"
+    cq:userid="admin"
+    jcr:primaryType="cq:AuditEvent"
+    destination="/content/centillion_networks/english/services/robotics"
+    path="/content/centillion_networks/services/robotics"
+    type="PageMoved"
+    userId="admin"/>

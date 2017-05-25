@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-unlimited"
+        cq:lastModified="{Date}2012-11-05T10:28:15.176-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-unlimited/templates/coverpage"
+        jcr:description="Music Festivals"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Geometrixx Unlimited"
+        sling:resourceType="geometrixx-unlimited/components/pages/coverpage"
+        dps-isHiddenFromTOC="{Boolean}true"
+        dps-resourceType="dps:Article">
+        <scrubber-p
+            jcr:lastModified="{Date}2012-11-14T16:23:09.345-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/covers/geoUnlimited_Scrubber_v.png"
+            imageRotate="0"/>
+        <scrubber-l
+            jcr:lastModified="{Date}2012-11-14T16:23:09.345-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/covers/geoUnlimited_Scrubber_l.png"
+            imageRotate="0"/>
+        <image
+            jcr:lastModified="{Date}2012-11-19T12:46:16.764-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-unlimited/covers/geoUnlimited_TOC.png"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

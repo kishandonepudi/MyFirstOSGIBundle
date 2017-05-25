@@ -1,0 +1,184 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+input {
+    outline: none;
+}
+
+#globalsearch {
+    display: inline-block;
+    width: 35px;
+    top: 6px;
+    left: 8px;
+    position: relative;
+}
+
+.form-search {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: none;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.6) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#sp-searchtext {
+    -moz-box-sizing: border-box;
+    background-color: transparent;
+    background-image: none;
+    border: 0 none;
+    color: #FFFFFF;
+    height: 19px;
+    padding-left: 0;
+    padding-right: 0px;
+    width: 100%
+}
+
+
+#sp-label {
+    padding: 0px 9px 0px 30px;
+}
+
+.sp-magnify {
+    /*height: 15px;
+    width: 16px;
+    left: 10px;
+    position: absolute;
+    opacity: 1;
+    top: 5px;*/
+    background-image: url("/etc/designs/geometrixx-media/images/search.png");
+    width: 26px;
+    height: 20px;
+    background-position: 10px 5px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+/*
+#sp-magnify * {
+    height: 15px;
+    width: 16px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+input {
+    outline: none;
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+*/
+
+
+/*
+input[type=search] {
+    background: url(/etc/designs/geometrixx-media/images/search.png) no-repeat 9px center;
+    border: solid 1px #000000;
+
+    width: 30px;
+    height: auto;
+    padding: 0px;
+
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+input[type=search]:focus {
+    width: 130px;
+    background-color: #000;
+    border-color: #000000;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+*/
+
+/*form.form-search {
+    position: absolute;
+    top: -29px;
+    right: 11px;
+}
+
+input {
+    outline:none;
+}
+
+input[type=search] {
+    border: none;
+    background: url(/etc/designs/geometrixx-media/images/search.png) no-repeat 9px center;
+    -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    transition: width .5s;
+    width: 30px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+}
+
+
+input[type="search"] {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+input[type=search]:hover {
+    cursor: pointer;
+}
+
+input[type=search]:focus {
+    background-color: #000000;
+    width: 200px;
+    padding-left: 32px;
+    color: #ffffff;
+    cursor: auto;
+
+
+}*/

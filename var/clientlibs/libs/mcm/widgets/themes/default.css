@@ -1,0 +1,1037 @@
+/* ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2012 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+                  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+*/
+
+div.cq-campaign-details {
+    margin-top: 10px;
+    padding-left: 60px;
+}
+
+div.cq-campaign-details div.cq-thumbnail {
+    display: inline-block;
+    width: 110px;
+    min-height: 60px;
+}
+
+div.cq-campaign-details div.cq-thumbnail img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+div.cq-campaign-details div {
+    display: inline-block;
+    vertical-align: top;
+}
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2011 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ **************************************************************************/
+
+
+/* header and user info */
+
+#CQ #cq-header.cq-mcmadmin-header {
+    background:url('default/resources/titlebar_bg.png');
+}
+
+#CQ .cq-security-nav .cq-mcmadmin-tree .x-panel-body {
+    padding: 0;
+}
+
+
+#CQ .cq-mcmadmin-tree .x-tree-node .cq-mcmadmin-main-nav-item {
+    height: 28px;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+#CQ .cq-mcmadmin-tree .x-tree-root-node {
+    border-top: 1px solid #D0D0D0;
+}
+
+
+#CQ .cq-mcmadmin-tree .x-tree-node .cq-mcmadmin-main-nav-item .x-tree-ec-icon,
+#CQ .cq-mcmadmin-tree .x-tree-node .cq-mcmadmin-main-nav-item .x-tree-node-icon {
+    display: none;
+}
+
+#CQ .cq-mcmadmin-tree .x-tree-node .cq-mcmadmin-main-nav-item .x-tree-node-anchor span{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#CQ .cq-mcmadmin-tree .x-tree-node .cq-mcmadmin-main-nav-item .x-tree-node-anchor{
+    padding: 4px 6px 4px 14px;
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    height: 18px;
+}
+
+#CQ .cq-mcmadmin-tree .x-tree-node .cq-mcmadmin-main-nav-item.x-tree-selected,
+#CQ .cq-mcmadmin-tree .x-tree-node .cq-mcmadmin-main-nav-item.x-tree-node-over {
+    background: none;
+}
+
+#CQ .cq-mcmadmin-tree .x-tree-node .cq-mcmadmin-main-nav-item.x-tree-selected .x-tree-node-anchor span{
+    color: #666666;
+    font-weight: bold;
+}
+
+#CQ .cq-mcmadmin-tree .x-tree-node .cq-mcmadmin-main-nav-item.x-tree-node-over .x-tree-node-anchor{
+    background-color: #EFEFEF;
+}
+
+#CQ .cq-mcmadmin-tree .x-tree-node .cq-mcmadmin-main-nav-item.x-tree-selected .x-tree-node-anchor{
+    background-color: #D3EA9A;
+}
+
+
+
+
+#CQ .cq-mcmadmin-tree .x-tree-node .x-tree-node-indent .x-tree-icon {
+    display: inline;
+}
+
+#CQ .cq-mcmadmin-tree .x-tree-node-el.campaign-node a span {
+    display: inline;
+}
+
+#CQ .cq-mcmadmin-tree .x-tree-node-el.brand-node a span {
+    display: inline;
+}
+
+#CQ .cq-mcmadmin-tree .x-tree-node-el .experiences-count {
+    right: 2px;
+    position: absolute;
+    display: inline;
+    background-color: #A2CA51;
+    color: white;
+    height: 13px;
+    font-size: 9px;
+    padding: 0px 4px;
+    margin-top: 4px;
+    border-radius: 3px;
+}
+
+
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+#CQ DIV.cq-mcm-campaigns-maintitle,
+#CQ DIV.cq-mcm-campaigns-maintitle-first {
+    margin-bottom:35px;
+    border-top:1px solid #D0D0D0;
+    clear:both;
+}
+
+#CQ DIV.cq-mcm-campaigns-maintitle-first {
+    margin-top:6px;
+}
+
+#CQ DIV.cq-mcm-campaigns-maintitle {
+    margin-top:60px;
+}
+
+#CQ A.cq-mcm-campaigns-maintitle {
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:35px;
+}
+
+
+#CQ .cq-mcm-campaigns-title {
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:11px;
+    margin-top:20px;
+}
+
+#CQ .cq-mcm-campaigns-thumbnail {
+    float:left;
+    width:175px;
+    height:175px;
+    margin-right:20px;
+    background:center no-repeat;
+    margin-bottom:50px;
+    border:solid 1px #efefef;
+}
+
+#CQ .cq-mcm-campaigns-table {
+    width:250px;
+    border-collapse:collapse;
+}
+
+#CQ .cq-mcm-campaigns-wrapper {
+    /*clear:both;*/
+    margin-bottom:50px;
+    float:left;
+    width:450px;
+    margin-right:40px;
+}
+
+#CQ .cq-mcm-campaigns-table TD {
+    padding-bottom:5px;
+    padding-top:1px;
+    width:130px;
+    vertical-align:top;
+    font-size:11px;
+}
+
+#CQ .cq-mcm-campaigns-table TD.first {
+    width:120px;
+}
+
+#CQ .cq-mcm-campaigns-table TD.colspan {
+    width:250px;
+}
+
+#CQ .cq-mcm-campaigns-table TD.small {
+    /*font-size:11px;*/
+}
+
+#CQ .cq-mcm-campaigns-table TD.topline {
+    border-top:1px solid #D0D0D0;
+}
+
+#CQ .cq-mcm-campaigns-table TD.vspace {
+    height:15px;
+}
+
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+#CQ .cq-flighttest-restult {
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+#CQ .cq-flighttest-heading {
+    clear: right;
+    float: left;
+    height: 60px;
+    width: 130px;
+}
+
+#CQ .cq-flighttest-title {
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+#CQ .cq-flighttest-description {
+}
+
+#CQ .error {
+    background-image: url("../../../cq/ui/widgets/themes/default/icons/48x48/excl-red.png");
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+#CQ .cq-members {
+}
+
+#CQ .cq-members-title {
+    font-weight: bold;
+    padding: 12px 0 6px;
+}
+
+#CQ .cq-members-description {
+    padding-left: 18px;
+}
+
+#CQ .cq-members-list {
+    list-style-type: disc;
+    padding-top: 6px;
+    padding-left: 22px;
+}
+
+#CQ .cq-members-list li {
+    list-style-image: url("../../../cq/ui/widgets/themes/default/icons/16x16/user.png");
+    list-style-position: outside;
+    padding: 0px 0px 6px 0px;
+}
+
+#CQ .cq-members-list .name {
+    color:#cccccc;
+    margin-left:10px;
+}
+
+#/*
+ * Copyright 1997-2008 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+/* Override of libs/cq/ui/widgets/themes/default/widgets/Switcher.css because MCM resides one level less deep */
+
+#CQ #cq-switcher .cq-switcher-siteadmin-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/act_siteadmin.png');
+}
+
+#CQ #cq-switcher .cq-switcher-siteadmin-inactive-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/inact_siteadmin.png');
+}
+
+#CQ #cq-switcher .cq-switcher-damadmin-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/act_damadmin.png');
+}
+
+#CQ #cq-switcher .cq-switcher-damadmin-inactive-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/inact_damadmin.png');
+}
+
+#CQ #cq-switcher .cq-switcher-misc-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/act_misc.png');
+}
+
+#CQ #cq-switcher .cq-switcher-misc-inactive-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/inact_misc.png');
+}
+
+#CQ #cq-switcher .cq-switcher-useradmin-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/act_useradmin.png');
+}
+
+#CQ #cq-switcher .cq-switcher-useradmin-inactive-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/inact_useradmin.png');
+}
+
+#CQ #cq-switcher .cq-switcher-tagadmin-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/act_tagadmin.png');
+}
+
+#CQ #cq-switcher .cq-switcher-tagadmin-inactive-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/inact_tagadmin.png');
+}
+
+#CQ #cq-switcher .cq-switcher-inbox-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/act_inbox.png');
+}
+
+#CQ #cq-switcher .cq-switcher-inbox-inactive-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/inact_inbox.png');
+}
+
+#CQ #cq-switcher .cq-switcher-socoadmin-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/act_soco.png');
+}
+
+#CQ #cq-switcher .cq-switcher-socoadmin-inactive-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/inact_soco.png');
+}
+
+#CQ #cq-switcher .cq-switcher-mcmadmin-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/act_mcm.png');
+}
+
+#CQ #cq-switcher .cq-switcher-mcmadmin-inactive-ie6 {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../cq/ui/widgets/themes/default/widgets/Switcher/inact_mcm.png');
+}
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2011 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ **************************************************************************/
+
+/* Campaigns (general settings) */
+#CQ .cq-mcm-campaigns {
+    font-family: tahoma, arial, helvetica, sans-serif;
+}
+
+#CQ .cq-mcm-campaigns a {
+    color: #15428B;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#CQ .cq-mcm-campaigns .textline {
+    margin: 7px 0px;
+}
+
+#CQ .cq-mcm-campaigns .title {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* Campaign Planner */
+
+#CQ .cq-mcm-campaigns .listview .channel {
+    color: #888;
+}
+
+#CQ .cq-mcm-campaigns .listview .tag {
+    background: none repeat scroll 0 0 #DEDEDE;
+    padding: 1px 4px;
+    margin-right: 5px;
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/* Center the image in the list view grid */
+
+#CQ .cq-mcm-campaigns .listview .x-grid3-td-0 .x-grid3-cell-inner{
+    text-align: center;
+}
+
+/* List of Campaigns */
+
+#CQ .cq-mcm-campaigns .cq-mcm-campaignsview {
+}
+
+
+/* List of Brands */
+
+#CQ .cq-mcm-campaigns .cq-mcm-brandsview {
+}
+
+#CQ .cq-mcm-brandsview .brand-thumb {
+    float: left;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 10px 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#CQ .cq-mcm-brandsview .brand-thumb.x-view-over {
+    background: #EFEFEF;
+}
+
+#CQ .cq-mcm-brandsview .brand-thumb.x-view-selected {
+    background: #D3EA9A;
+}
+
+#CQ .cq-mcm-brandsview .brand-thumb img{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#CQ .cq-mcm-brandsview .brand-thumb p{
+    font-size: 11px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* @override http://localhost:4502/etc/designs/calendar/static.css */
+
+/* @group overall calendar layout */
+
+.cq-calendar .sidebox {
+    float: left;
+}
+
+.cq-calendar .sidebox .querybuilder {
+    width: 400px;
+}
+
+.cq-calendar .content {
+    width: 100%;
+    clear: both;
+    border-top: 3px solid #DDDDDD;
+    padding-top: 1px;
+}
+
+#CQ .cq-calendar {
+    font: normal 11px tahoma, arial, helvetica, sans-serif;
+}
+
+/*
+calendar box temporary disabled
+
+.cq-calendar .box {
+    float: left;
+    width: 150px;
+}    
+
+.cq-calendar .box .calendar-list {
+    height: 300px;
+    border: 1px solid;
+    background: #ddd;
+}
+
+.cq-calendar .content {
+    margin-left: 160px;
+}
+
+*/
+
+/* @end */
+
+/* @group top navigation bar */
+
+#CQ .cq-calendar .navbar {
+    overflow: hidden;
+    width:100%;
+    height: 28px;
+    margin-bottom: 1px;
+    padding: 0 10px 0 10px;
+    background-color: #DDDDDD;
+    font-size: 9pt;
+    font-weight: bold;
+    color: #535353;
+}
+
+#CQ .cq-calendar .navbar .left {
+    width: 40%;
+    white-space: nowrap;
+}
+    
+#CQ .cq-calendar .navbar .center {
+    width: 20%;
+    text-align: center;
+}
+    
+#CQ .cq-calendar .navbar .right {
+    width: 40%;
+}
+
+/* @group search & date display */
+
+.cq-calendar .navbar .search {
+    padding: 0px;
+    margin-right: 10px;
+    display: inline;
+}
+
+.cq-calendar .navbar .search input {
+}
+
+#CQ .cq-calendar .navbar .date {
+    padding-left: 6px;
+    font-size: 9pt;
+    font-weight: normal;
+    color: #535353;
+/*    vertical-align: middle;*/
+}
+
+#CQ .cq-calendar .navbar .date b {
+    font-size: 9pt;
+    color: #535353;
+}
+
+#CQ .cq-calendar .navbar .create {
+    float: left;
+    margin-left: 10px;
+}
+
+/* @end */
+
+/* @group calendar navigation */
+
+#CQ .cq-calendar .navbar .previous,
+#CQ .cq-calendar .navbar .next {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#CQ .cq-calendar .navbar .previous,
+#CQ .cq-calendar .navbar .next {
+    text-decoration: none;
+    font-size: 9pt;
+    font-weight: bold;
+    color: #535353;
+}
+
+#CQ .cq-calendar .navbar .today {
+    font-size: 9pt;
+    color: #535353;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* @end */
+
+/* @group lens buttons */
+
+#CQ #cq-calendar-lensdeck-buttons {
+    float: right;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn {
+    float: left;
+    margin-left:1px;
+}
+
+/* @group general button styles */
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-tl, #cq-calendar-lensdeck-buttons .x-btn-tc, #cq-calendar-lensdeck-buttons .x-btn-tr,
+#CQ #cq-calendar-lensdeck-buttons .x-btn-bl, #cq-calendar-lensdeck-buttons .x-btn-bc, #cq-calendar-lensdeck-buttons .x-btn-br {
+    height: 0;
+    background: none;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-tr i, #cq-calendar-lensdeck-buttons .x-btn-tl i,
+#CQ #cq-calendar-lensdeck-buttons .x-btn-br i, #cq-calendar-lensdeck-buttons .x-btn-bl i {
+    height: 0;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-ml{
+    background:url(../../../../etc/designs/geometrixx/images/dam/assetshare/lenses/btn_sprite.gif) no-repeat 0 0;
+}
+#CQ #cq-calendar-lensdeck-buttons .x-btn-mr{
+    background:url(../../../../etc/designs/geometrixx/images/dam/assetshare/lenses/btn_sprite.gif) no-repeat 0 -21px;
+}
+#CQ #cq-calendar-lensdeck-buttons .x-btn-mc{
+    background:url(../../../../etc/designs/geometrixx/images/dam/assetshare/lenses/btn_sprite.gif) repeat-x 0 -42px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-pressed .x-btn-ml{
+    background: url(../../../../etc/designs/geometrixx/images/dam/assetshare/lenses/btn_sprite.gif) no-repeat 0 -63px;
+}
+#CQ #cq-calendar-lensdeck-buttons .x-btn-pressed .x-btn-mr{
+    background: url(../../../../etc/designs/geometrixx/images/dam/assetshare/lenses/btn_sprite.gif) no-repeat 0 -84px;
+}
+#CQ #cq-calendar-lensdeck-buttons .x-btn-pressed .x-btn-mc{
+    background: url(../../../../etc/designs/geometrixx/images/dam/assetshare/lenses/btn_sprite.gif) repeat-x 0 -126px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-icon .x-btn-text,
+#CQ #cq-calendar-lensdeck-buttons .x-btn-text-icon .x-btn-text {
+    height: 21px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-icon .x-btn-text {
+    width: 17px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-pressed .x-btn-text {
+/*    color: white;*/
+}
+
+/* @end */
+
+/* @group lens button icons */
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn .month {
+    background:url(../../../collab/calendar/components/lenses/month/btn_month.png) no-repeat 2px 4px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-pressed .month {
+    background:url(../../../collab/calendar/components/lenses/month/btn_month_pressed.png) no-repeat 1px 3px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn .agenda {
+    background:url(../../../collab/calendar/components/lenses/agenda/btn_agenda.png) no-repeat 2px 4px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-pressed .agenda {
+    background:url(../../../collab/calendar/components/lenses/agenda/btn_agenda_pressed.png) no-repeat 1px 3px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn .day {
+    background:url(../../../collab/calendar/components/lenses/day/btn_day.png) no-repeat 2px 4px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-pressed .day {
+    background:url(../../../collab/calendar/components/lenses/day/btn_day_pressed.png) no-repeat 1px 3px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn .week {
+    background:url(../../../collab/calendar/components/lenses/week/btn_week.png) no-repeat 2px 4px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-pressed .week {
+    background:url(../../../collab/calendar/components/lenses/week/btn_week_pressed.png) no-repeat 1px 3px;
+}
+
+/* @end */
+
+/* @end */
+
+/* @end */
+
+/* @group lensdeck */
+
+#CQ #cq-calendar-lensdeck-lenses {
+    border-top: 1px dotted #919398;
+    padding-top: 5px;
+}
+
+#CQ #cq-calendar-lensdeck-lenses .x-panel-bwrap,
+#CQ #cq-calendar-lensdeck-lenses .x-panel-body {
+    overflow:visible;
+    /*height:auto;*/
+}
+
+#CQ #cq-calendar-lensdeck-parsys {
+    width:50%;
+    min-width: 300px;
+}
+
+.cq-wcm-edit #cq-calendar-lensdeck-parsys {
+    margin-top: 10px;
+}
+
+/* @end */
+
+/* @group month lens */
+
+#CQ  .prev-month-day,
+#CQ  .next-month-day {
+    background-color: #e1e1e1;
+    height: 100%;
+}
+
+#CQ .cq-calendar-month table,
+#CQ .cq-calendar-month td,
+#CQ .cq-calendar-month th {
+    border-style: solid;
+    border-color: #EDEDED;
+    padding: 0px;
+    margin: 0px;
+}
+#CQ .cq-calendar-month table {
+    border-spacing: 0;
+    //border-width: 1px 1px 0 0;
+}
+
+#CQ .cq-calendar-month td,
+#CQ .cq-calendar-month th {
+    vertical-align: top;
+    //border-width: 0 0 1px 1px;
+}
+
+#CQ .current-day {
+    background-color: rgb(228,238,250);
+}
+
+#CQ .cq-calendar-month-dayname {
+    text-align: center;
+}
+
+#CQ .cq-calendar-header-title {
+    padding-top: 7px;
+    padding-left: 7px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#CQ .cq-calendar-mcm-border {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #f9f9f9;
+}
+
+#CQ .cq-calendar-mcm-col-header-cell {
+    background-color: #DDD;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #c2c2c2 !important;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #c2c2c2 !important;
+}
+
+#CQ .cq-calendar-mcm-row-header-cell {
+    padding-top: 2px;
+    padding-left: 7px;
+}
+
+#CQ .cq-campaignlens-channel-header-text {
+    
+}
+
+#CQ .cq-campaign-touchpoint-row-header-cell {
+    background-color: #ECECEC;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: white !important;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #c2c2c2 !important;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #c2c2c2 !important;
+}
+
+#CQ .cq-calendar-mcm-cw-header {
+    background-color: #dddddd;
+    height: 18px;
+    padding-top: 4px;
+    padding-left: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #f9f9f9;
+    border-bottom: none;
+    border-right-color: #d0d0d0;
+    border-left-color: #eeeeee;
+}
+
+#CQ .cq-calendar-mcm-week-header {
+    background-color: #ececec;
+    height: 18px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #d0d0d0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #c6c6c6;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+#CQ .cq-calendar-mcm-uneven-bg {
+    background-color: #fcfcfc;
+}
+
+#CQ .cq-calendar .cq-campaign-touchpoint-cell,
+#CQ .cq-calendar .cq-calendar-month-dayname {
+    padding: 2px;
+}
+
+#CQ .cq-calendar-month-dayname .x-panel-body {
+    line-height: 20px;
+}
+
+#CQ .cq-calendar-month-day.cq-calendar-create-event-highlight:hover {
+    background-color: #f1f1f1;
+}
+
+#CQ .cq-calendar-month-daybar {
+    width: 100%;
+}
+
+#CQ .cq-calendar-month-day-number {
+    padding-right: 4px;
+    text-align:right;
+    background-color: #eee;
+}
+
+#CQ .cq-calendar-month-event {
+    display: block;
+    cursor:pointer;
+    margin: 0 3px;
+    height: 1.25em;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+#CQ .cq-calendar-month-event.all-day {
+    color: white;
+    margin: 0;
+}
+
+#CQ .cq-calendar-month-day-morelink {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#CQ .cq-calendar-month-day-morepopup {
+    background-color: white;
+    border: 2px solid black;
+    top: -1px !important;
+    left: -1px !important;
+}
+
+#CQ .cq-calendar-month-day-morepopup .cq-calendar-month-event {
+    margin: 5px 0 5px 0;
+}
+    
+#CQ .cq-calendar-month-day-closemorelink {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+
+/* @end */
+
+/* @group agenda lens */
+
+#CQ .cq-calendar-agenda-dataview {
+    padding: 4px;
+}
+
+#CQ .cq-calendar-agenda-item {
+    border-color:#FFFFFF #FFFFFF #EEEEEE;
+    border-style:solid;
+    border-width:1px;
+    color:#555555;
+    font-family:tahoma,arial,helvetica,sans-serif;
+    font-size:11px;
+    font-size-adjust:none;
+    font-stretch:normal;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:normal;
+    padding:3px 10px;
+    white-space:normal;
+
+    cursor:pointer;
+    height: 1.5em;
+}
+
+#CQ .cq-calendar-agenda-item:hover {
+    color: blue;
+}
+
+#CQ .cq-calendar-agenda-date {
+    font-weight:bold;   
+}
+
+#CQ .cq-calendar-agenda-time {
+    display:block;
+    margin-left:80px;
+    margin-top:-15px;
+}
+
+#CQ .cq-calendar-agenda-title {
+    display:block;
+    font-weight:bold;
+    margin-left:200px;
+    margin-top:-1.3em;
+    /*margin-bottom:4px;*/
+}
+
+/* @end */
+
+/* @group event popup */
+
+#CQ .cq-calendar-event-popup {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #9d9d9d;
+}
+
+#CQ .cq-calendar-event-popup .ext-el-mask {
+    background-color: white;
+}
+
+/* @end */
+
+/* @group misc */
+
+#CQ .lenses.parsys div.section {
+    margin: 0;
+    padding: 0;
+}
+
+#CQ .predicates.parsys div.section {
+    margin-bottom: 8px;
+}
+
+#CQ .cq-editrollover-insert-container {
+    overflow:hidden;
+}
+
+/* make table of a table layout stretch the whole element of its widget */ 
+.x-table-layout {
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+
+/* fix border color on safari */
+#CQ .cq-calendar .content .x-panel-body {
+    border-color:#99BBE8;
+}
+
+/* editbar links */
+#CQ .cq-editbar .xtb-text a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+/* @end */
+
+
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn .campaigns {
+    background:url(../../../../apps/istockphoto/components/campaignlens/btn_month.png) no-repeat 2px 4px;
+}
+
+#CQ #cq-calendar-lensdeck-buttons .x-btn-pressed .campaigns {
+    background:url(../../../../apps/istockphoto/components/campaignlens/btn_month_pressed.png) no-repeat 1px 3px;
+}
+#CQ .cq-campaign-teaser-cell {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #eeeeee;
+} 
+#CQ .cq-campaign-empty-teaser-cell, .cq-calendar-month-dayname {
+    cursor:pointer;
+}
+
+#CQ .cq-campaign-touchpoint-row-cell {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #c2c2c2;
+}
+
+#CQ .cq-calendar-month table {
+    width: 100%;
+    
+}
+

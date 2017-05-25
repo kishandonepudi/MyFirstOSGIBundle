@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-29T23:09:40.335+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="Find Your Fitness Mojo In Any Season"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Article"
+        jcr:uuid="c830348e-f034-48d7-b4a9-088ee63538c5"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="article">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <recommend_article
+                jcr:created="{Date}2011-11-29T17:08:24.215+01:00"
+                jcr:createdBy="admin"
+                jcr:description="Tips to jump-start your training and stick with it throughout the year."
+                jcr:lastModified="{Date}2011-11-29T23:09:40.334+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Find Your Fitness Mojo In Any Season"
+                sling:resourceType="geometrixx-outdoors/components/recommend/recommend_article"
+                image="/content/dam/geometrixx-outdoors/articles/find-your-fitness-mojo-in-any-season.jpg"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2011-11-03T20:56:34.681+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/articles/find-your-fitness-mojo-in-any-season.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,132 @@
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* Reverse visually hidden class */
+.visuallyshow {
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+.oldie {
+  /* hide sign-in title to allow for neat input label display */
+
+}
+.oldie #bg_default {
+  background-image: url('../../login/clientlib/resources/bg/default/2048x1536.jpg');
+}
+.oldie #login-box,
+.oldie #usage-box {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D9000000,endColorstr=#D9000000);
+  zoom: 1;
+}
+.oldie #login button {
+  float: left;
+}
+.oldie #login label[for="username"],
+.oldie #login label[for="password"] {
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+.oldie #forgotpwd {
+  padding-left: 10px;
+  line-height: 44px;
+}
+.oldie .sign-in-title {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.oldie button,
+.oldie .button {
+  display: block;
+  width: 10em;
+  /* 140px */
+
+  border-width: 1px;
+  border-style: solid;
+  margin: 5px 0;
+  padding: 7px 10px 6px 10px;
+  line-height: 20px;
+  font-size: 0.875em;
+  /* 14px */
+
+}
+.oldie button:active button:focus {
+  border-width: 1px;
+  outline: none;
+  padding: 6px 11px 7px 9px;
+}
+.oldie button.primary,
+.oldie .button.primary {
+  filter: progid:dximagetransform.microsoft.gradient(GradientType=0, startColorstr=#498ed1, endColorstr=#3779cb);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#498ED1, endColorstr=#3779CB)";
+  border-color: #1a4967;
+}
+.oldie input[type="text"],
+.oldie input[type="password"],
+.oldie input[type="email"],
+.oldie input[type="url"],
+.oldie input[type="tel"] {
+  box-sizing: content-box;
+  border: 1px solid #bbb;
+  padding: 4px 8px;
+  width: 254px;
+}
+.oldie input[type="checkbox"],
+.oldie input[type="radio"] {
+  height: 1em;
+  width: 1em;
+  margin: 0;
+  padding: 0;
+}
+.oldie input[type="checkbox"] + label,
+.oldie input[type="radio"] + label,
+.oldie input[type="checkbox"] + span,
+.oldie input[type="radio"] + span {
+  display: inline;
+}
+.oldie #username,
+.oldie #password {
+  width: 254px;
+  height: 28px;
+  margin: 0 0 10px;
+  line-height: 28px;
+}
+.oldie #remember input {
+  float: left;
+}
+.oldie #remember span {
+  display: block;
+  float: left;
+  margin-left: 5px;
+  line-height: 20px;
+}
+.oldie.ie8 input[type="checkbox"] + span:before,
+.oldie.ie8 input[type="radio"] + span:before,
+.oldie.ie8 input[type="checkbox"] + label:before,
+.oldie.ie8 input[type="radio"] + label:before {
+  background: none;
+  border: 0 none;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 0;
+  line-height: 0;
+}

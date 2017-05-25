@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2010-11-24T12:43:45.124+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:tags="[properties:style/color,properties:orientation/portrait,marketing:interest/product]"
+            dam:extracted="{Date}2010-10-06T15:58:04.921+02:00"
+            dam:Producer="Adobe PDF Library 9.0"
+            dam:Trapped="False"
+            dc:creator="[Adobe InDesign CS4 (6.0.3)]"
+            dc:format="application/pdf"
+            dc:modified="{Date}2010-10-06T15:58:07.817+02:00"
+            dc:subject="[null]"
+            dc:title="GeoPyramid Datasheet"
+            jcr:lastModified="{Date}2010-11-24T12:43:45.124+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            xmp:CreateDate="{Date}2010-10-05T09:09:49.000+02:00"
+            xmp:CreatorTool="Adobe InDesign CS4 (6.0.3)"
+            xmp:MetadataDate="{Date}2010-10-05T09:09:49.000+02:00"
+            xmp:ModifyDate="{Date}2010-10-05T09:09:49.000+02:00"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

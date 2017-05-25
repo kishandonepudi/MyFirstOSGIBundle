@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T12:48:59.502+01:00"
+    cq:lastModifiedBy="emily.andrews@mailinator.com"
+    jcr:description="My son is now two months old and I am dying to get back outside and on some good hikes, but I also don’t want to leave him with someone else. How long have other people waited until they thought it was appropriate to take their baby hiking?"
+    jcr:primaryType="cq:Comment"
+    jcr:title="Hiking with my baby"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T12:27:48.658+01:00"
+    authorizableId="emily.andrews@mailinator.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}2"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.html"
+    sentiment="{Long}5"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="emily.andrews@mailinator.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <s7hj-don_t_forgettobrin
+            jcr:description="Don’t forget to bring your bear mace! I’ve heard from more than a few hikers that a soiled diaper can attract animals. I don’t think it is anything to worry about, but better safe than sorry."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T12:48:59.448+01:00"
+            authorizableId="matt.monroe@mailinator.com"
+            email="matt.monroe@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__caqf-my_son_is_nowtwomo.html"
+            sentiment="{Long}5"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="matt.monroe@mailinator.com"/>
+        <w1ei-congrats_emilytob
+            jcr:description="Congrats Emily! To be honest, you’re not going to find a black/white answer. Trust me I already looked. I took my son with me in a sling when he was two months old, and we didn’t have any issues at all. Just remember to bring all your essentials, including sunscreen, and also plan to take a lot longer than you normally would. Have fun! "
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T12:29:35.697+01:00"
+            authorizableId="ashley.thompson@spambob.com"
+            email="ashley.thompson@spambob.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}3"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__caqf-my_son_is_nowtwomo.html"
+            sentiment="{Long}5"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="ashley.thompson@spambob.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="89f3b6bb-54c7-487c-9f20-706da17cb8eb">
+                <iStock_000012519786Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.750+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="f1f6b350-4ccf-4af4-853a-a60b29c2153c"/>
+                </iStock_000012519786Small.jpg>
+            </attachments>
+        </w1ei-congrats_emilytob>
+    </_x0031__tosp>
+</jcr:root>

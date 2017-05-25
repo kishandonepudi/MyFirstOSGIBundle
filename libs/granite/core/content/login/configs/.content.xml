@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <default
+        jcr:primaryType="nt:unstructured"
+        order="{Long}100">
+        <footer jcr:primaryType="nt:unstructured">
+            <copy
+                jcr:primaryType="nt:unstructured"
+                text="© 2013 Adobe Systems Incorporated. All Rights Reserved."/>
+            <items/>
+        </footer>
+    </default>
+    <cq
+        jcr:primaryType="nt:unstructured"
+        comment="since CQ 5.6 - overrides the default configuration of the Granite Login Screen"
+        favicon="login/favicon.ico"
+        order="{Long}1000"
+        title="AEM Sign In">
+        <box
+            jcr:primaryType="nt:unstructured"
+            text="An Adobe Marketing Cloud solution: All the tools you need to solve these complex digital business challenges."
+            title="Welcome to Adobe® Experience Manager">
+            <learnMore
+                jcr:primaryType="nt:unstructured"
+                href="http://www.adobe.com/go/marketingcloud_learn_more"
+                text="Learn More"/>
+        </box>
+        <footer jcr:primaryType="nt:unstructured">
+            <copy
+                jcr:primaryType="nt:unstructured"
+                text="© 2013 Adobe Systems Incorporated. All Rights Reserved."/>
+            <items/>
+        </footer>
+    </cq>
+</jcr:root>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="/etc/clientlibs/granite/jquery.js"></script>
+    <script type="text/javascript" src="/etc/clientlibs/granite/utils.js"></script>
+    <script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.js"></script>
+    <script type="text/javascript" src="/etc/clientlibs/granite/shared.js"></script>
+    <script type="text/javascript" src="/etc/clientlibs/granite/ui/bootstrap.js"></script>
+    <script type="text/javascript" src="/etc/clientlibs/granite/underscore.js"></script>
+    <script type="text/javascript" src="/libs/granite/ui/clientlibs/annotations.js"></script>
+    <script type="text/javascript" src="/etc/clientlibs/granite/datavisualization.js"></script>
+    <script type="text/javascript" src="example.js"></script>
+    <link rel="stylesheet" href="/etc/clientlibs/granite/ui/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="example.css" type="text/css">
+    <title>Annotations</title>
+</head>
+<body>
+    <h1>Annotations Sandbox</h1>
+    <div id="content">
+        <img class="target" id="image" src="sunset.jpg" />
+        <div class="target" id="chart"></div>
+    </div>
+    <div id="menu">
+        <div class="btn-group" data-toggle="buttons-radio">
+            <button type="button" class="btn" data-toggle="open">Open</button>
+            <button type="button" class="btn active" data-toggle="close">Close</button>
+        </div>
+        <br>
+        <button data-toggle="start" class="btn disabled">Add Shape</button><br>
+        <br>
+        <button data-toggle="clear" class="btn disabled">Clear</button><br>
+        <br>
+        <div class="btn-group" data-toggle="buttons-radio">
+            <button data-toggle="show" class="btn active">Show</button>
+            <button data-toggle="hide" class="btn">Hide</button>
+        </div>
+        <br>
+        <button data-toggle="save" class="btn">Save</button><br>
+        <br>
+        <div class="btn-group" data-toggle="buttons-radio">
+            <button data-toggle="image" class="btn active">Image</button>
+            <button data-toggle="chart" class="btn">Chart</button>
+        </div>
+    </div>
+    <div id="output"></div>
+    <br>
+    <div id="message" class="alert alert-info"></div>
+    <ul id="list"></ul>
+</body>
+</html>

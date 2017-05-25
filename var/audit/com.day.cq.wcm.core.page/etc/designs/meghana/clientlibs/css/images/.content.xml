@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <bg.gif/>
+    <right_curve.gif/>
+    <arrow.gif/>
+    <icons/>
+    <bullet.gif/>
+    <top_sep.gif/>
+    <footer_bg.gif/>
+    <gl.gif/>
+    <sign_up_btn.gif/>
+    <arrow-right.gif/>
+    <curve_bg.gif/>
+    <left_curve.gif/>
+    <menu_sep.gif/>
+    <body_bg.gif/>
+    <input_box.gif/>
+    <go_btn.gif/>
+    <loading.gif/>
+</jcr:root>

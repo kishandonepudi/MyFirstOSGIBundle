@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia6236i"
+    fall_back="nokia_generic_series40_dp20"
+    model_name="6236i"
+    streaming_real_media="none"
+    user_agent="Nokia6236i"/>

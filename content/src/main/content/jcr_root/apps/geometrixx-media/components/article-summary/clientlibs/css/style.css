@@ -1,0 +1,70 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.article-summary article {
+    position: relative;
+    width: 770px;
+    margin-bottom: 20px;
+}
+
+.article-summary .article-summary-description {
+    background-color: #ffffff;
+    float: left;
+    width: 90%;
+}
+
+.article-summary div.social {
+    float: right;
+    padding-right: 10px;
+}
+
+.article-summary h4 {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.article-summary-image {
+    width: 100%;
+}
+
+.article-summary-image img {
+    width: 100%;
+}
+
+span.floating-tag {
+    position: absolute;
+    top: 20px;
+    left: -7px;
+    color: white;
+    background-image: url("/etc/designs/geometrixx-media/clientlibs/img/tag-corner.png");
+    background-repeat: no-repeat;
+    height: 26px;
+}
+
+span.floating-tag>span {
+    background-color: #27b2c8;
+    background-image: url("/etc/designs/geometrixx-media/clientlibs/img/tag-gradient.png");
+    background-repeat: repeat-y;
+    padding: 3px 15px 3px 20px;
+}
+
+.article-summary-text h4 {
+    float: left;
+    padding: 20px 0px 0px 20px;
+    margin-right: 5px;
+}
+

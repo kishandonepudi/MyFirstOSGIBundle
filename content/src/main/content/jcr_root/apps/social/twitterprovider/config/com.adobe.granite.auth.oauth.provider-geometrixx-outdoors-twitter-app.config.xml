@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    oauth.access.token.persist="{Boolean}true"
+    oauth.client.id="sPCqimbNL0oWnfCeaWkMog"
+    oauth.client.secret="8EIopQz9MozHs9PkGN46ZS7MbkpZGYpwgwO01bG9c"
+    oauth.config.id="968485696f92b673e2c44ebbdf097e94"
+    oauth.config.provider.id="soco-twitter"
+    oauth.create.users="true"
+    oauth.create.users.groups="[geometrixx-twitter]"
+    oauth.encode.userids="false"/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:53.419-05:00"
+    jcr:createdBy="ryan.palmer@spambob.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Q&amp;A"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="That really depends on what type of race you are looking for. If you want to run a more competitive race with a lot more people trying to qualify with you, then definitely take a look at the Santa Rosa in California. If you’re looking for a more relaxed run in nice weather I would recommend St. George in Utah…one of my favorites."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/running/questions/jcr:content/forum_fa48/1_ciot/shrc-i_m_lookingatalis/1_tosp/szkd-that_reallydepends"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/qna/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Q&amp;A"
+        id="/content/geometrixx-outdoors/en/community/running/questions"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

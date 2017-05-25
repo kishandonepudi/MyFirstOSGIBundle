@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-08T13:31:07.567Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/mobilecontentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Services"
+        sling:resourceType="geometrixx/components/mobilecontentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text
+                jcr:created="{Date}2010-09-09T16:23:47.304+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T23:42:34.437Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;b>Services&lt;/b>&lt;/p>&#xa;&lt;p>The dedicated professionals at Geometrixx are dedicated to helping you make the most of your geometric portfolio. Whether you are starting off with a small set of squares and rectangles or have thousands of regular polyhedra to manage, we are there to help!&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

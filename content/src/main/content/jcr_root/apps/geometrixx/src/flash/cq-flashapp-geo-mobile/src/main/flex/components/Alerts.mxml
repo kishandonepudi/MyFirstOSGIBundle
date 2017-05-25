@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cq:Component xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					  xmlns:s="library://ns.adobe.com/flex/spark" 
+					  xmlns:mx="library://ns.adobe.com/flex/mx" 
+					  xmlns:cq="com.adobe.cq.foundation.components.*" 
+					  width="100%">
+	<fx:Metadata>
+		[FlexCqComponent("geometrixx/components/mobiletrader/alerts")]
+	</fx:Metadata>
+
+	<fx:Script>
+		<![CDATA[
+			import flash.events.Event;
+			
+			import mx.collections.ArrayCollection;
+			
+			import spark.events.IndexChangeEvent;
+			
+			[Bindable]
+			protected var alerts:ArrayCollection;
+			
+			[Embed("/assets/phone.png")]
+			private var phoneIcon:Class;
+			
+			override protected function onCreationComplete(event:Event):void {
+				super.onCreationComplete(event);
+			
+				alerts = new ArrayCollection();
+				alerts.addItem({type: "tel", name: "Call Financial Advisor", details: "617-219-2000", icon:phoneIcon});
+				alerts.addItem({type: "http", name: "Adobe posts strong results", details: "http://finance.google.com"});
+				alerts.addItem({type: "http", name: "Dow and S&P down for second week", details: "http://bloomberg.com"});
+			}
+			
+			protected function list_changeHandler(event:IndexChangeEvent):void
+			{
+				var action:Object = list.selectedItem;
+				list.selectedIndex = -1;
+				switch (action.type)
+				{
+					case "tel":
+						navigateToURL(new URLRequest("tel:"+action.details));
+						break;
+					
+					case "http":
+						navigateToURL(new URLRequest(action.details));
+						break;
+				}	
+			}
+			
+		]]>
+	</fx:Script>
+
+	<s:List id="list" width="100%" borderVisible="false" dataProvider="{alerts}" 
+			change="list_changeHandler(event)"
+			itemRenderer="renderers.IconItemRenderer">
+		<s:layout>
+			<s:VerticalLayout gap="0" useVirtualLayout="false" requestedMinRowCount="1"/>
+		</s:layout>
+	</s:List>
+
+</cq:Component>

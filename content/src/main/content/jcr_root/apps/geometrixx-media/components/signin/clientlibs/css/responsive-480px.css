@@ -1,0 +1,70 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+@media (max-width: 480px) {
+
+    .signin  {
+        display: none;
+        padding-right: 0px;
+    }
+
+    .show {
+        position: absolute;
+        display: block;
+        float: none;
+        top: 70px;
+        z-index: 2;
+    }
+
+    .userinfo nav {
+        width: 100%;
+        float: none;
+        padding-right: 0px;
+    }
+
+    .userinfo nav ul {
+        width: 100%;
+        display: inline;
+        height: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0;
+
+        background: #17849c; /* Old browsers */
+        background: -moz-linear-gradient(left,  #17849c 0%, #27b2c8 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#17849c), color-stop(100%,#27b2c8)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(left,  #17849c 0%,#27b2c8 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left,  #17849c 0%,#27b2c8 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left,  #17849c 0%,#27b2c8 100%); /* IE10+ */
+        background: linear-gradient(to right,  #17849c 0%,#27b2c8 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17849c', endColorstr='#27b2c8',GradientType=1 ); /* IE6-9 */
+    }
+
+    .userinfo nav ul li {
+        background:none;
+        font-size: 0.8em;
+    }
+
+    .userinfo nav ul li span {
+        color: #ffffff;
+    }
+
+}
+
+
+

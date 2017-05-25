@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="User State Toggle Button"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Texts &amp; Labels"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <positiveTextLabel
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldDescription="Positive Response Label"
+                    fieldLabel="Positive Response Label"
+                    name="./positiveText"
+                    xtype="textfield"/>
+                <negativeTextLabel
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldLabel="Negative Response Label"
+                    name="./negativeText"
+                    xtype="textfield"/>
+                <name
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldLabel="Tally Name"
+                    name="./name"
+                    xtype="textfield"/>
+            </items>
+        </text>
+    </items>
+</jcr:root>

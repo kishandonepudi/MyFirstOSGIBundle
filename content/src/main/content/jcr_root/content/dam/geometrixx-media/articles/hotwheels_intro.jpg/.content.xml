@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d05a396f-a1cc-44d9-bf2d-223276d81350">
+    <jcr:content
+        cq:name="hotwheels_intro.jpg"
+        cq:parentPath="/content/dam/geometrixx-media/articles"
+        jcr:lastModified="{Date}2012-11-23T08:00:49.773-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2012-11-23T08:00:48.283-05:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Double}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Double}-1.0"
+            dam:Progressive="no"
+            dam:sha1="03d01589cad9f598480e35c90dc6cfc7b1e27767"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2012-02-16T20:43:32.000-05:00"
+            jcr:lastModified="{Date}2012-11-23T08:00:49.773-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}360"
+            tiff:ImageWidth="{Long}640"
+            xmp:CreatorTool="Adobe Photoshop CS5 Macintosh"
+            xmpMM:DocumentID="xmp.did:04A15118356A11E28438C43D5A4BFC24"
+            xmpMM:InstanceID="xmp.iid:04A15117356A11E28438C43D5A4BFC24"
+            xmpMM:OriginalDocumentID="xmp.did:0F56FD6A092168119109D55341769100">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:A39E3D8D50F411E1B2B5E441E3CE95D4"
+                stRef:instanceID="xmp.iid:A39E3D8C50F411E1B2B5E441E3CE95D4"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

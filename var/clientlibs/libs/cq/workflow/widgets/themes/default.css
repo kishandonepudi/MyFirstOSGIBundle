@@ -1,0 +1,365 @@
+/******************************************************************************/
+/* Cq Workflow Console                                                        */
+/******************************************************************************/
+BODY.cq-workflow-body {
+    margin:0;
+    background-color:#e8e8e8;
+};
+
+#CQ #cq-header {
+    height:36px;
+    background:url('default/resources/titlebar_bg.png');
+}
+
+#CQ .cq-workflow-header .cq-homelink a {
+    width:240px;
+}
+
+#CQ .cq-workflow-console .x-tab-strip-spacer {
+    border-left:none;
+    border-right:none;
+}
+
+/******************************************************************************/
+/* Cq Workflow Editor                                                         */
+/******************************************************************************/
+#CQ div.cq-wf-column-wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+}
+
+/* transitions */
+#CQ div.cq-wf-transition-vertical { background:url('default/widget/WorkflowEditor/wf-trans-vert.png'); }
+
+
+#CQ div.cq-wf-transition-tl { background:url('default/widget/WorkflowEditor/wf-trans-tl.png'); }
+#CQ div.cq-wf-transition-bl { background:url('default/widget/WorkflowEditor/wf-trans-bl.png'); }
+
+
+#CQ div.cq-wf-transition-tr { background:url('default/widget/WorkflowEditor/wf-trans-tr.png'); }
+#CQ div.cq-wf-transition-br { background:url('default/widget/WorkflowEditor/wf-trans-br.png'); }
+
+
+/* splits */
+#CQ div.cq-wf-split-and { background:url('default/widget/WorkflowEditor/wf-split-and.png'); }
+#CQ div.cq-wf-split-or { background:url('default/widget/WorkflowEditor/wf-split-or.png'); }
+
+
+#CQ div.cq-wf-join-and { background:url('default/widget/WorkflowEditor/wf-join-and.png'); }
+#CQ div.cq-wf-join-or { background:url('default/widget/WorkflowEditor/wf-join-or.png'); }
+
+
+/* tree icons */
+#CQ .x-tree-node-leaf .Container { background: url('default/widget/WorkflowEditor/wf-node-container.png') 0 5px no-repeat }
+#CQ .x-tree-node-leaf .Participant { background: url('default/widget/WorkflowEditor/wf-node-participant.png') 0 5px no-repeat }
+#CQ .x-tree-node-leaf .Process { background: url('default/widget/WorkflowEditor/wf-node-process.png') 0 5px no-repeat }
+#CQ .x-tree-node-leaf .AND_SPLIT { background: url('default/widget/WorkflowEditor/wf-and-icon.png') 0 5px no-repeat }
+#CQ .x-tree-node-leaf .OR_SPLIT { background: url('default/widget/WorkflowEditor/wf-or-icon.png') 0 5px no-repeat }
+
+
+/* step icons */
+#CQ div.cq-wf-editor div.node-Start { background: url('default/widget/WorkflowEditor/wf-node-start.png') 0 5px no-repeat }
+#CQ div.cq-wf-editor div.node-End { background: url('default/widget/WorkflowEditor/wf-node-end.png') 0 5px no-repeat }
+#CQ div.cq-wf-editor div.node-Container { background: url('default/widget/WorkflowEditor/wf-node-container.png') 0 5px no-repeat }
+#CQ div.cq-wf-editor div.node-Participant { background: url('default/widget/WorkflowEditor/wf-node-participant.png') 0 5px no-repeat }
+#CQ div.cq-wf-editor div.node-Process { background: url('default/widget/WorkflowEditor/wf-node-process.png') 0 5px no-repeat }
+
+
+/* title, version, description */
+#CQ td input.cq-wf-title { text-align:right; }
+#CQ td input.cq-wf-version { text-align:center; width:30 }
+#CQ td input.cq-wf-description { text-align:left; }
+
+/*
+ * Copyright 1997-2008 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+
+/* header and user info */
+
+#CQ #cq-header.cq-workflow-inbox-header {
+    background:url('default/resources/titlebar_bg.png');
+}
+
+#CQ .cq-workflow-inbox-wrapper {
+    background-color:gray;
+}
+
+/*
+ * Copyright 1997-2008 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+
+/* actions */
+
+#CQ .cq-workflow-inbox-refresh {
+    background-image: url(default/icons/16x16/refresh.png) ! important;
+}
+/*
+ * Copyright 1997-2008 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+
+/* columns */
+
+#CQ .cq-cq-workflow-inbox-wrapper .status {
+    height: 16px;
+    padding-left: 18px;
+    background-repeat: no-repeat;
+    background-position: 0 -1px;
+}
+#CQ .cq-cq-workflow-inbox-wrapper .double {
+    padding-left: 32px;
+}
+
+/* in progress */
+#CQ .cq-cq-workflow-inbox-wrapper .status-in-progress td div {
+    color:#cccccc;
+}
+
+/* error */
+#CQ .cq-cq-workflow-inbox-wrapper .status-error td div {
+    color:#ff0000;
+}
+
+/* modified */
+#CQ .cq-cq-workflow-inbox-wrapper .status-modified {
+    background-image: url(default/icons/16x16/bulb-blue.gif);
+}
+#CQ .cq-cq-workflow-inbox-wrapper .status-localmodified {
+    color: #cccccc;
+    background-image: url(default/icons/16x16/bulb-grey.gif);
+}
+
+/* published */
+#CQ .cq-cq-workflow-inbox-wrapper .status-none {
+    background-image: url(default/widgets/Inbox/status-none.gif);
+}
+#CQ .cq-cq-workflow-inbox-wrapper .status-activated {
+    background-image: url(default/widgets/Inbox/status-activated.gif);
+}
+#CQ .cq-cq-workflow-inbox-wrapper .status-pending-activation {
+    background-image: url(default/widgets/Inbox/status-pending-activation.gif);
+}
+#CQ .cq-cq-workflow-inbox-wrapper .status-deactivated {
+    background-image: url(default/widgets/Inbox/status-deactivated.gif);
+}
+#CQ .cq-cq-workflow-inbox-wrapper .status-pending-deactivation {
+    background-image: url(default/widgets/Inbox/status-pending-deactivation.gif);
+}
+
+/* on-/offtime */
+#CQ .cq-cq-workflow-inbox-wrapper .status-ontime {
+    background-image: url(default/widgets/Inbox/status-ontime.gif);
+}
+#CQ .cq-cq-workflow-inbox-wrapper .status-offtime {
+    background-image: url(default/widgets/Inbox/status-offtime.gif);
+}
+#CQ .cq-cq-workflow-inbox-wrapper .status-onofftime {
+    background-image: url(default/widgets/Inbox/status-onofftime.gif);
+}
+
+/* scheduled activation, etc */
+
+#CQ .cq-cq-workflow-inbox-wrapper .status-scheduledtask {
+    background-image:url(default/widgets/Inbox/status-scheduledtask.gif);
+    background-position:0 -1px;
+}
+
+#CQ .cq-cq-workflow-inbox-wrapper .status-locked {
+    background-image:url(default/widgets/Inbox/status-locked.gif);
+    background-position:0 -1px;
+}
+
+#CQ .cq-cq-workflow-inbox-wrapper .status-workflow {
+    background-image:url(default/widgets/Inbox/status-workflow.gif);
+    background-position:0 -1px;
+}
+
+#CQ .cq-cq-workflow-inbox-wrapper .status-error {
+    background-image:url(default/widgets/Inbox/status-error.gif);
+    background-position:0 -1px;
+}
+
+#CQ .cq-cq-workflow-inbox-wrapper .workflow-suspended {
+    color:#B5B8C8;
+}
+
+#CQ .cq-cq-workflow-inbox-wrapper .status-livecopy {
+    background-image:url(default/widgets/Inbox/status-livecopy.gif);
+    background-position:0 -1px;
+}
+
+#CQ .qtip-table {
+    white-space: normal;
+    border-spacing: 3px;
+}
+
+#CQ .qtip-table th {
+    font-weight: bold;
+}
+
+#CQ .qtip-table td {
+    padding-right:5px;
+    overflow:hidden;
+}
+
+#CQ .qtip-table .status {
+    background-repeat: no-repeat;
+    background-position: 0 -1px;
+}
+
+#CQ .qtip-table .status-scheduledtask-activation {
+    background-image: url(default/widgets/Inbox/status-activated.gif);
+    width: 25px;
+}
+
+#CQ .qtip-table .status-scheduledtask-deactivation {
+    background-image: url(default/widgets/Inbox/status-deactivated.gif);
+    width: 25px;
+}
+
+
+/* impressions */
+
+#CQ .cq-cq-workflow-inbox-wrapper .monthly-hits {
+    padding-left:4px;
+    background:transparent url(default/widgets/Inbox/impressions-bar.gif) repeat-x;
+    border:1px solid #97BBDC;
+}
+
+#CQ .cq-cq-workflow-inbox-wrapper .no-hits {
+    padding-left:5px;
+}
+
+/* payload error */
+
+#CQ .cq-cq-workflow-inbox-wrapper .payload-error {
+    color: #f00;
+}
+
+/* payload summary */
+
+#CQ .cq-cq-workflow-inbox-wrapper .payload-summary {
+    overflow: hidden;
+}
+
+#CQ .cq-cq-workflow-inbox-wrapper .payload-summary a,
+#CQ .cq-cq-workflow-inbox-wrapper .payload-summary a:hover,
+#CQ .cq-cq-workflow-inbox-wrapper .payload-summary a:visited,
+#CQ .cq-cq-workflow-inbox-wrapper .payload-summary a:active {
+    text-decoration:underline;
+    color:#000;
+    cursor:pointer;
+}
+
+#CQ .cq-cq-workflow-inbox-wrapper .payload-summary-icon {
+    float:left;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+#CQ .cq-cq-workflow-inbox-wrapper .payload-summary-description {
+    color: gray;
+    font-style: italic;
+}
+
+/* title */
+#CQ .cq-cq-workflow-inbox-wrapper .comment {
+    color: gray;
+    font-style: italic;
+}
+
+/*
+ * Copyright 1997-2008 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+
+/* row details */
+
+#CQ .x-grid3-row-body .item-details {
+    margin:5px;
+    height:14px;
+}
+
+#CQ .x-grid3-row-body .item-details-title {
+    font-weight:bold;
+}
+
+#CQ .x-grid3-row-body .item-details-text {
+    font-style:italic;
+    color:#606060;
+}
+/*
+ * Copyright 1997-2008 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+/* participant step component */
+
+.participant-icon {
+    display: inline-block;
+    width: 20px;
+}
+
+.group .participant-icon {
+    background: url(../../../ui/widgets/themes/default/icons/16x16/group.png) no-repeat 0 0;
+}
+
+.user .participant-icon {
+    background: url(../../../ui/widgets/themes/default/icons/16x16/user.png) no-repeat 0 0;
+}
+
+.process-icon {
+	display: inline-block;
+    width: 20px;
+    background: url(../../../ui/widgets/themes/default/icons/16x16/process.png) no-repeat 0 0;
+}
+
+.dynamic-participant-icon {
+	display: inline-block;
+    width: 20px;
+    background: url(../../../ui/widgets/themes/default/icons/16x16/user.png) no-repeat 0 0;
+}
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    bmp="true"
+    colors="65536"
+    columns="18"
+    CQ5_UserAgentRadical="nokia6230i-03-89-profile-midp-configuration-cldc"
+    fall_back="nokia_6230i_ver1"
+    max_deck_size="131072"
+    mms_max_height="480"
+    mms_max_size="100000"
+    mms_max_width="640"
+    resolution_height="208"
+    resolution_width="208"
+    rows="5"
+    uaprof="http://nds1.nds.nokia.com/uaprof/N6230ir401.xml"
+    user_agent="Nokia6230i/2.0 (03.89) Profile/MIDP-2.0 Configuration/CLDC-1.1"/>

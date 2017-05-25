@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/social/blog/kubrick"
+        cq:lastModified="{Date}2010-08-19T16:38:42.287+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/social/blog/templates/page"
+        jcr:description="What's happening with Geometrixx"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="GeoBlog"
+        sling:resourceType="social/blog/components/page"
+        hideInNav="true">
+        <sidebar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <search
+                jcr:lastModified="{Date}2010-01-19T16:38:37.515-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/search"/>
+            <pages
+                jcr:lastModified="{Date}2010-01-19T16:38:41.350-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/pages"/>
+            <categories
+                jcr:lastModified="{Date}2010-01-19T16:38:44.391-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/categories"/>
+            <authors
+                jcr:lastModified="{Date}2010-01-19T16:38:47.003-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/authors"/>
+            <archive
+                jcr:lastModified="{Date}2010-01-19T16:38:50.039-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/archive"/>
+        </sidebar>
+        <blog jcr:primaryType="nt:unstructured">
+            <entries
+                jcr:lastModified="{Date}2010-01-19T16:51:39.181-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/entrylist"
+                limit="10"
+                pageMax="4"/>
+        </blog>
+    </jcr:content>
+    <_x0032_009/>
+    <unlisted/>
+</jcr:root>

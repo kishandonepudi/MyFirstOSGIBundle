@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:category="com/day/cq/replication"
+    cq:path="/etc/packages/my_packages/Training Latest-2.0.zip"
+    cq:time="{Date}2017-05-10T19:45:50.796+05:30"
+    cq:type="Activate"
+    cq:userid="admin"
+    jcr:primaryType="cq:AuditEvent"
+    paths="[/etc/packages/my_packages/Training Latest-2.0.zip]"/>

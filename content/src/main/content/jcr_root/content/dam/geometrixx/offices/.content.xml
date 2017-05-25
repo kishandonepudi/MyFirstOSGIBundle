@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="Offices">
+    <basel_x0020_kitchen.jpg/>
+    <basel_x0020_meeting_x0020_corner.jpg/>
+    <basel_x0020_meeting_x0020_island.jpg/>
+    <basel_x0020_meetingroom.jpg/>
+    <basel_x0020_roof.jpg/>
+    <basel_x0020_serverroom.jpg/>
+    <basel.jpg/>
+    <toronto_x0020_inside.jpg/>
+    <clean_room.jpg/>
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+    <geo_hq.jpg/>
+    <newport_x0020_beach.jpg/>
+</jcr:root>

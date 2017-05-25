@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/apps/geometrixx-outdoors/templates/.*]"
+        cq:designPath="/etc/designs/geometrixx-outdoors"
+        cq:deviceGroups="[/etc/mobile/groups/touch,/etc/mobile/groups/smart,/etc/mobile/groups/feature]"
+        cq:deviceIdentificationMode="client-side"
+        cq:lastModified="{Date}2011-12-13T22:36:12.685-08:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2012-06-05T16:35:55.257+01:00"
+        cq:lastRolledoutBy="admin"
+        cq:siteOwner=""
+        jcr:description="Geometrixx Outdoors - fashion that doesn't sacrifice style for comfort"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveSync,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Geometrixx Outdoors Mobile Site"
+        jcr:uuid="b8b0cbe0-8837-4a49-b904-74377f3b67a1"
+        sling:resourceType="foundation/components/redirect"
+        redirectTarget="/content/geometrixx-outdoors-mobile/en">
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}false"
+            cq:master="/content/geometrixx-outdoors"
+            cq:rolloutConfigs="[/etc/msm/rolloutconfigs/default,/etc/msm/rolloutconfigs/geometrixx-outdoors-mobile]"
+            jcr:primaryType="cq:LiveSyncConfig"/>
+        <cq:siteVariant
+            cq:childNodesMapTo="hreflang"
+            cq:variantDomain=""
+            cq:variantFamily="geometrixx-outdoors"
+            jcr:primaryType="nt:unstructured"
+            media="smartphone, tablet, highResolutionDisplay"/>
+        <image
+            cq:isCancelledForChildren="{Boolean}true"
+            jcr:lastModified="{Date}2012-11-27T15:05:14.459+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:LiveSyncCancelled]"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0">
+            <file/>
+        </image>
+    </jcr:content>
+    <en/>
+</jcr:root>

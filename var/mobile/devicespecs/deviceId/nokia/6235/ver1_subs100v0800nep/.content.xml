@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia6235-s100-v0800-nep-browser-mmp"
+    fall_back="nokia_6235_ver1"
+    mobile_browser="Openwave Mobile Browser"
+    mobile_browser_version="6.2"
+    user_agent="Nokia6235/1.0 (S100V0800.nep) UP.Browser/6.2.3.2 MMP/2.0"/>

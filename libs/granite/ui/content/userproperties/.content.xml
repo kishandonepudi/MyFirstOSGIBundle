@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="/libs/granite/ui/components/foundation/admin/userproperties"
+    action="impersonate"
+    userId="author">
+    <self
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/contsys">
+        <form jcr:primaryType="nt:unstructured">
+            <items jcr:primaryType="nt:unstructured">
+                <hiddenaction
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/form/hidden"
+                    name="action"
+                    value="impersonate"/>
+                <impersonate
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/form/fieldset">
+                    <items jcr:primaryType="nt:unstructured">
+                        <userpicker
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/form/userpicker"
+                            fieldLabel="Impersonate as:"
+                            impersonatesOnly="{Boolean}true"
+                            name="userId"
+                            renderReadOnly="{Boolean}false"
+                            required="true"/>
+                        <submit
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/form/submit"
+                            class="submit-impersonate"
+                            name="submit"
+                            text="OK"/>
+                    </items>
+                </impersonate>
+            </items>
+        </form>
+    </self>
+    <impersonated
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/contsys">
+        <form jcr:primaryType="nt:unstructured">
+            <items jcr:primaryType="nt:unstructured">
+                <hiddenaction
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/form/hidden"
+                    name="action"
+                    value="impersonate"/>
+                <userpicker
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/form/hidden"
+                    name="userId"
+                    value="-"/>
+                <submit
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/form/submit"
+                    class="button"
+                    name="submit"
+                    text="Revert to self"/>
+            </items>
+        </form>
+    </impersonated>
+    <preferences jcr:primaryType="nt:unstructured">
+        <form
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/form"
+            action=""
+            method="POST">
+            <items jcr:primaryType="nt:unstructured">
+                <language
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/form/dropdown"
+                    doNotTranslateOptions="{Boolean}true"
+                    fieldLabel="Language"
+                    name="language"
+                    value="-">
+                    <items jcr:primaryType="nt:unstructured">
+                        <en
+                            jcr:primaryType="nt:unstructured"
+                            text="English"
+                            text_noI18n="English"
+                            value="en"/>
+                        <de
+                            jcr:primaryType="nt:unstructured"
+                            text="Deutsch"
+                            text_noI18n="Deutsch"
+                            value="de"/>
+                        <es
+                            jcr:primaryType="nt:unstructured"
+                            text="Español"
+                            text_noI18n="Español"
+                            value="es"/>
+                        <fr
+                            jcr:primaryType="nt:unstructured"
+                            text="Français"
+                            text_noI18n="Français"
+                            value="fr"/>
+                        <it
+                            jcr:primaryType="nt:unstructured"
+                            text="Italiano"
+                            text_noI18n="Italiano"
+                            value="it"/>
+                        <zh-cn
+                            jcr:primaryType="nt:unstructured"
+                            text="简体中文"
+                            text_noI18n="简体中文"
+                            value="zh-cn"/>
+                        <ja
+                            jcr:primaryType="nt:unstructured"
+                            text="日本語"
+                            text_noI18n="日本語"
+                            value="ja"/>
+                        <ko-kr
+                            jcr:primaryType="nt:unstructured"
+                            text="한국어"
+                            text_noI18n="한국어"
+                            value="ko-kr"/>
+                    </items>
+                </language>
+                <window-mode
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/form/dropdown"
+                    fieldLabel="Window Management"
+                    name="winMode"
+                    value="-">
+                    <items jcr:primaryType="nt:unstructured">
+                        <multiple
+                            jcr:primaryType="nt:unstructured"
+                            text="Multiple Windows (Default)"
+                            value="multi"/>
+                        <single
+                            jcr:primaryType="nt:unstructured"
+                            text="Single Window"
+                            value="single"/>
+                    </items>
+                </window-mode>
+            </items>
+        </form>
+    </preferences>
+</jcr:root>

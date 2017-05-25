@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-05T16:53:12.437Z"
+        cq:lastModifiedBy="admin"
+        cq:tags="[marketing:interest/services]"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed consetetur sadipscing elitr ..."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Strategic Consulting"
+        sling:resourceType="geometrixx/components/contentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text_2
+                jcr:created="{Date}2010-11-05T14:02:01.374Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T16:53:12.436Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;large&quot;>The questions may seem trite at first glance, but they are an important beginning to an invaluable service. Our strategic consulting looks under the hood of your enterprise to reveal business insights that will help you gain the largest return on your shape investment.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <title1
+                jcr:lastModified="{Date}2010-11-02T00:58:04.444Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Why shapes? Which shapes? Where shapes? "
+                sling:resourceType="geometrixx/components/title"/>
+            <colctrl_0
+                jcr:created="{Date}2010-11-05T13:26:44.312Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T13:26:44.312Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="2;cq-colctrl-lt0"/>
+            <image
+                jcr:created="{Date}2010-11-05T13:26:55.130Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T13:31:12.937Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/portraits/john_doe.jpg"
+                imageCrop="154,70,849,540"
+                imageRotate="0"/>
+            <col_break12889636043140
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <text_1
+                jcr:created="{Date}2010-11-05T13:29:03.323Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T14:03:37.581Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>After over &lt;b>2000&lt;/b> successfully consulted projects our experienced in finding the right strategy&amp;nbsp;and implementation plan&amp;nbsp;to fit your needs is unparalleled.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_end12889636043141
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+            <title2
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Planning your deployment"
+                sling:resourceType="geometrixx/components/title"/>
+            <planning_your_deploy
+                jcr:lastModified="{Date}2010-11-05T13:35:18.430Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;span class=&quot;large&quot;>From the launch of the project to completion and beyond, Geometrixx consultants follow a rigorous process developed over thousands of years.&lt;/span>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <_x0032__1218385188790
+                jcr:lastModified="{Date}2010-11-02T02:42:28.118Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="process.png"
+                imageRotate="0">
+                <file/>
+            </_x0032__1218385188790>
+            <colctrl
+                jcr:created="{Date}2010-11-02T03:04:42.656Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T03:04:42.656Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="2;cq-colctrl-lt0"/>
+            <text_0
+                jcr:created="{Date}2010-11-02T03:07:30.791Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T03:07:52.996Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;meta charset=&quot;utf-8&quot;>&lt;/meta>&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 13px; color: rgb(102, 102, 102); line-height: 16px;&quot;>Once the project goes live you can still count on us for shape maintenance, ensuring that your parallel lines never cross! In general, various approaches to consulting can be thought of as lying somewhere along a continuum, with an 'expert' or prescriptive approach at one end, and a facilitative approach at the other. In the expert approach, the consultant takes the role of expert, and provides expert advice or assistance to the client, with, compared to the facilitative approach, less input from, and fewer collaborations with, the client(s).&amp;nbsp;&lt;/span>&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"/>
+            <col_break12886670827670
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <text
+                jcr:created="{Date}2010-11-02T03:06:58.244Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T03:07:12.612Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;meta charset=&quot;utf-8&quot;>&lt;/meta>With a facilitative approach, the consultant focuses less on specific or technical expert knowledge, and more on the process of consultation itself. Because of this focus on process, a facilitative approach is also often referred to as 'process consulting,' with Edgar Schein being considered the most well-known practitioner. The consulting firms listed above are closer toward the expert approach of this continuum.&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"/>
+            <col_end12886670827671
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+            <title3
+                jcr:lastModified="{Date}2010-11-02T03:11:12.896Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Consulting Documentation &amp; Products"
+                sling:resourceType="geometrixx/components/title"/>
+            <download
+                jcr:lastModified="{Date}2010-11-02T03:11:59.143Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/download"
+                fileName="Best Practices Guidelines 2011.pdf"
+                fileReference="/content/dam/geometrixx/documents/GeoSphere_Datasheet.pdf"/>
+            <download_0
+                jcr:created="{Date}2010-11-02T03:11:31.533Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T03:13:55.389Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/download"
+                fileName="Complete Strategic Consulting Product Pricing.pdf"
+                fileReference="/content/dam/geometrixx/documents/GeoSphere_Datasheet.pdf"/>
+            <download_1
+                jcr:created="{Date}2010-11-02T03:11:35.475Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T03:15:15.532Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/download"
+                fileName="From Analysis to Launch.pdf"
+                fileReference="/content/dam/geometrixx/documents/GeoSphere_Datasheet.pdf"/>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+        <image
+            jcr:lastModified="{Date}2010-10-27T15:32:03.835-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <title
+            jcr:lastModified="{Date}2010-10-27T15:31:33.661-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Strategic Consulting"
+            sling:resourceType="geometrixx/components/title"/>
+    </jcr:content>
+</jcr:root>

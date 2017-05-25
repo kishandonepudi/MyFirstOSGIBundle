@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:51.105-05:00"
+    jcr:createdBy="josh.bradley@pookmail.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Journal"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Hey&#xd;&#xa;everyone, my name is Josh and this is my first post in the hiking&#xd;&#xa;community. I just wanted to first say thanks to Jason for organizing&#xd;&#xa;this community, and that I also could not agree more with what you&#xd;&#xa;said about how friendly hikers are, in general. That, too, is one of&#xd;&#xa;the reasons I enjoy hitting the trail as often as I do. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Anyway,&#xd;&#xa;for the past year I have been planning and organizing my first trip&#xd;&#xa;to Africa, where I will be hiking Mt. Kili in Tanzania. I’ve gotta&#xd;&#xa;say, I kind of didn’t know what I was getting myself into! Even&#xd;&#xa;though we (I am taking my son) will be renting a decent amount of&#xd;&#xa;equipment from our guide company like our tent, sleeping bags, hiking&#xd;&#xa;poles, and cookware, it is still amazing how much we have to bring.&#xd;&#xa;I’m a little worried about making it all fit with all the bag&#xd;&#xa;restrictions. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Anyway,&#xd;&#xa;we leave in a little over a month, and I don’t want this to become&#xd;&#xa;a “bad stress” type of thing, so if there is anyone out there who&#xd;&#xa;has some pretty good advice, I would be grateful. Thanks.&lt;/font>&lt;/p>"
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/journal/jcr:content/entrycomments/1Bucket/vaao-_p_cl"
+        objectType="comment"
+        subType="social/journal/components/entrytext"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Journal"
+        id="/content/geometrixx-outdoors/en/community/hiking/journal"
+        objectType="geometrixx-outdoors/components/journal/page"/>
+</jcr:root>

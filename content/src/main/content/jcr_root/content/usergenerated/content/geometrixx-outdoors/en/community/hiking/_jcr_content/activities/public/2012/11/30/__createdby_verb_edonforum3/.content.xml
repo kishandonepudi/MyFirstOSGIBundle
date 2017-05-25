@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:47.035-05:00"
+    jcr:createdBy="andrew.schaeffer@trashymail.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="Just had one of the scariest experiences of my life. I rounded a corner on the trail at about 9:30am when there were very few hikers around, and came within 10 feet of a moose that wasn’t too happy to see me and started in my direction. &#xd;&#xa;&#xd;&#xa;Remembering a ridiculously illustrated, yet informative sign post I read years ago, I ran uphill as fast as I could and got behind the first big tree I could find. I turned around to see the moose charging up the small hill right in my direction. I waved my hands from behind the tree until I heard a hard thud. &#xd;&#xa;&#xd;&#xa;Looking around the side of the tree, I saw a dejected looking moose walking slowly back down to the trail. After twenty minutes of standing frozen, I decided to call it a day."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/forum/jcr:content/forum/1_ciot/kzxh-just_had_oneofthe"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/topic"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/hiking/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

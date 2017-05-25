@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-12-11T14:27:37.542Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="Call-to-action for the 'Sparrow passes the Endurolife test' article."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sparrow Call-to-Action"
+        jcr:uuid="6fc46b7b-d6f9-4d46-b52f-4a45592fafdb"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="sparrow-call-to-action">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <call-to-action
+                jcr:created="{Date}2012-12-11T13:40:56.364Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-11T14:22:26.177Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/call_to_action"
+                callToAction="Shop Now"
+                callToActionPath="/content/geometrixx-outdoors/en/equipment/biking"
+                message="Geometrixx Outdoors has teamed up with Endurolife to offer a $10 discount.  Simply type the code &quot;ENDUROLIFE&quot; into your cart."/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2012-12-11T14:19:58.061Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-media/articles/mountain-bike.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

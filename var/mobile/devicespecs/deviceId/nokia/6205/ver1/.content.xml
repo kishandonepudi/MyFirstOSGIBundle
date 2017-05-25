@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia-6205-browser-106-gui-mmp"
+    fall_back="nokia_generic_series60"
+    marketing_name="Verizon"
+    max_image_height="180"
+    model_name="6205"
+    playback_3gpp="true"
+    playback_acodec_amr="nb"
+    playback_mp4="true"
+    playback_real_media="8"
+    playback_vcodec_h263_0="10"
+    release_date="2008_january"
+    resolution_height="220"
+    streaming_real_media="8"
+    user_agent="Nokia 6205 UP.Browser/6.2.3.9.j.1.106 (GUI) MMP/2.0"
+    video="true"/>

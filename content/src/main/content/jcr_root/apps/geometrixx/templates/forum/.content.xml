@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Create a Geometrixx Forum page to add and manage a forum, topics and posts."
+    jcr:primaryType="cq:Template"
+    jcr:title="Geometrixx Forum"
+    ranking="{Long}200"
+    shortTitle="Forum">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="geometrixx/components/forum"/>
+</jcr:root>

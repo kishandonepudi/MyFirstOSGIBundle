@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-05-01T14:53:53.206+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/centillion/templates/cent_templates"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Engineering"
+        jcr:uuid="5f8f045e-eb96-456c-9282-e12b57b36735"
+        sling:resourceType="centillion/components/page/cent_component">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <myimage
+                jcr:created="{Date}2017-04-15T13:58:00.383+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-01T14:53:53.199+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training/components/myImage"
+                fileReference="/content/dam/Centillion_images/Engineering.jpg"
+                height="680"
+                imageRotate="0"
+                width="1330"/>
+            <colctrl
+                jcr:created="{Date}2017-04-16T00:35:29.026+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T00:35:29.026+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="3;cq-colctrl-lt1"/>
+            <title
+                jcr:created="{Date}2017-04-16T00:36:22.600+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T00:38:07.929+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training/components/page/title"
+                title="Consulting Services"/>
+            <text
+                jcr:created="{Date}2017-04-16T00:36:34.150+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T00:37:50.114+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="centillion/components/text"
+                text="&lt;ul>&#xa;&lt;li>Market research and analysis&lt;/li>&#xa;&lt;li>Industry and competitive analysis&lt;/li>&#xa;&lt;li>Business analysis and planning&lt;/li>&#xa;&lt;li>Cost analysis (CapEx and OpEx) &amp;amp; ROI estimation&lt;/li>&#xa;&lt;li>Network cost estimation and planning techniques&lt;/li>&#xa;&lt;li>Technology evaluation and equipment selections&lt;/li>&#xa;&lt;li>Network implementation plans and methods&lt;/li>&#xa;&lt;li>Network migration plans and process&lt;/li>&#xa;&lt;li>Operational support systems, Software and applications&lt;/li>&#xa;&lt;li>Project, Program and Portfolio management&lt;/li>&#xa;&lt;li>Basic Templates, Formats and Rulebase&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+            <col_break14922831290290
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <title_0
+                jcr:created="{Date}2017-04-16T00:37:01.466+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T00:38:19.045+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training/components/page/title"
+                title="Engineering Services"/>
+            <text_0
+                jcr:created="{Date}2017-04-16T00:37:21.104+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T00:38:34.854+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="centillion/components/text"
+                text="&lt;ul>&#xa;&lt;li>End to End Consulting Services&lt;/li>&#xa;&lt;li>Desktop based feasibility study services&lt;/li>&#xa;&lt;li>FTTx, SONET/SDH, DWDM, Network Architecture &amp;amp; Topologies Designs&lt;/li>&#xa;&lt;li>Telecom Equipment Room (TER) Designs and Drawings&lt;/li>&#xa;&lt;li>System development, Testing &amp;amp; Implementation&lt;/li>&#xa;&lt;li>Quality and Acceptance testing&lt;/li>&#xa;&lt;li>Service Configuration, Provisioning and fulfilment&lt;/li>&#xa;&lt;li>Network Migration Support&lt;/li>&#xa;&lt;li>System / Technology interoperability and comparability testing&lt;/li>&#xa;&lt;li>Fiber based Ethernet enabled services&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+            <col_break14922831290291
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <title_1
+                jcr:created="{Date}2017-04-16T00:37:14.207+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T00:38:46.486+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training/components/page/title"
+                title="Deployment Services"/>
+            <text_1
+                jcr:created="{Date}2017-04-16T00:37:25.756+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T20:42:21.479+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="centillion/components/text"
+                text="&lt;table width=&quot;990&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td colspan=&quot;2&quot;>&lt;ul>&#xa;&lt;li>Field &amp;amp; Site Surveys for Aerial &amp;amp; Underground&lt;/li>&#xa;&lt;li>Supply, Construction/Stringing of Overhead and Underground Fiber Optic Cables&lt;/li>&#xa;&lt;li>Supply, Installation, Commissioning &amp;amp; Testing of Fiber Optic Equipment&lt;/li>&#xa;&lt;li>Supply, Erection &amp;amp; Commissioning of SDH, SONET, EPAX, and RTUs&lt;/li>&#xa;&lt;li>Supply, Installations &amp;amp; Commissioning of CCTV infrastructure&lt;/li>&#xa;&lt;li>CPE Installation &amp;amp; Integration&lt;/li>&#xa;&lt;li>Site &amp;amp; Field Acceptance Test (SAT / FAT)&lt;/li>&#xa;&lt;li>Service Troubleshooting &amp;amp; Assurance&lt;/li>&#xa;&lt;li>Field force mobilization&lt;/li>&#xa;&lt;li>Warehouse and Logistics management&lt;/li>&#xa;&lt;li>Supply Chain management&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_end14922831290292
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+        </par>
+        <text
+            jcr:lastModified="{Date}2017-04-27T15:21:25.033+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="centillion/components/text"
+            text="&lt;p>We provides a range of telecommunication technologies from Legacy to Next Generation Networks (NGN) that includes SONET, SDH, PDH, DWDM, FTTH, Metro Ethernet, Broadband, HFC, IPTV and other related services. We provide consulting, engineering, project management and construction support for all these technologies. Our key strength lies with our capability of delivering the client needs quickly, efficiently and effectively. Our core telecom implementation team comprises of technical consultants, field engineers, testing engineers and project/program managers to meet end to end requirements of telecom operators. Our team has hands-on experience in deploying multi-vendor network equipment and solutions, right from inception. In addition, our team has industry standard certification such as CCNA, CHFP, ITIL, PMP,to provide the right deployment solutions to our clients.&lt;/p>&#xa;"
+            textIsRich="true"/>
+    </jcr:content>
+</jcr:root>

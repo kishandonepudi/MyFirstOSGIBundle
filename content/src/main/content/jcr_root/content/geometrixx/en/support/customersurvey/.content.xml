@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-14T15:13:28.031-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Customer Satisfaction Survey"
+        sling:resourceType="geometrixx/components/contentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Please take a few moments to complete this satisfaction survey. &lt;/p>&#xa;"
+                textIsRich="true"/>
+            <start
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/start"
+                action="/etc/forms/survey/"
+                actionType="foundation/components/form/actions/store"
+                clientValidation="true"
+                formid="customersurvey"
+                redirect="/content/geometrixx/en/support/customersurvey/thankyou.html"/>
+            <title
+                jcr:created="{Date}2010-09-15T16:45:13.544+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T16:45:24.260+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="How long have you been using our service?"
+                sling:resourceType="geometrixx/components/title"/>
+            <radio
+                jcr:lastModified="{Date}2010-10-11T14:41:46.049+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Would you recommend our service to colleagues or contacts within your industry?"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/radio"
+                hideTitle="true"
+                name="usagetime"
+                options="[less than 30 days,1-6 months,1-3 years,over 3 years,never used]"/>
+            <colctrl
+                jcr:created="{Date}2010-09-15T16:51:48.018+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T16:51:48.018+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="2;cq-colctrl-lt0"/>
+            <title_0
+                jcr:created="{Date}2010-09-15T16:45:47.897+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T16:45:59.522+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="How often do you use service?"
+                sling:resourceType="geometrixx/components/title"/>
+            <radio_0
+                jcr:lastModified="{Date}2010-10-11T14:41:54.419+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="How often do you use service?"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/radio"
+                hideTitle="true"
+                name="usagefrequency"
+                options="[once a week,2-3 times a month,once a month,less than once a month]"/>
+            <col_break12845623080210
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <title_6
+                jcr:created="{Date}2010-09-15T16:52:41.733+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T16:53:19.351+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="How satisfied were you with it?"
+                sling:resourceType="geometrixx/components/title"/>
+            <radio_1
+                jcr:lastModified="{Date}2010-10-11T14:42:04.333+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="How satisfied were you with it?"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/radio"
+                hideTitle="true"
+                name="howsatisfied"
+                options="[very satisfied,satisfied,neutral,unsatisfied,very unsatisfied,won't say]"/>
+            <col_end12845623080211
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+            <title_2
+                jcr:created="{Date}2010-09-15T16:45:13.544+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T16:45:24.260+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="What aspect of the service were you most satisfied by?"
+                sling:resourceType="geometrixx/components/title"/>
+            <radio_2
+                jcr:lastModified="{Date}2011-11-14T14:51:14.533-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="What aspect of the service were you most satisfied by?"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/checkbox"
+                hideTitle="true"
+                name="bestaspect"
+                options="[Quality,Price,Purchase Experience,Installation or First Use Experience,Usage Experience,Customer Service,Repeat Purchase Experience,Other]"/>
+            <text_2
+                jcr:created="{Date}2011-11-14T14:50:59.140-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-11-14T14:54:33.217-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Please describe what you were satisfied by:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="bestaspectother"
+                rows="5"
+                showHideExpression="(CQ.shared.String.contains(bestaspect,&quot;Other&quot;))"/>
+            <title_3
+                jcr:created="{Date}2010-09-15T16:45:13.544+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T16:45:24.260+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="What aspect of the service were you most disappointed by?"
+                sling:resourceType="geometrixx/components/title"/>
+            <radio_3
+                jcr:lastModified="{Date}2011-11-14T14:54:53.832-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="What aspect of the service were you most disappointed by?"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/checkbox"
+                hideTitle="true"
+                name="worstaspect"
+                options="[Quality,Price,Purchase Experience,Installation or First Use Experience,Usage Experience,Customer Service,Repeat Purchase Experience,Other]"/>
+            <text_5
+                jcr:created="{Date}2011-11-14T14:55:00.630-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-11-14T15:05:11.920-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Please describe what you were most disappointed by:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="worstaspectother"
+                rows="5"
+                showHideExpression="(CQ.shared.String.contains(worstaspect,&quot;Other&quot;))"/>
+            <title_4
+                jcr:created="{Date}2010-09-15T16:45:13.544+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T16:45:24.260+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="What do you like about the service?"
+                sling:resourceType="geometrixx/components/title"/>
+            <text_0
+                jcr:description="Please help us to improve our service."
+                jcr:lastModified="{Date}2010-10-11T14:42:38.642+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="What do you like about the service?"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                hideTitle="true"
+                name="likes"
+                rows="5"/>
+            <title_5
+                jcr:created="{Date}2010-09-15T16:45:13.544+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T16:45:24.260+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="What do you dislike about the service?"
+                sling:resourceType="geometrixx/components/title"/>
+            <text_1
+                jcr:description="Please help us to improve our service."
+                jcr:lastModified="{Date}2010-10-11T14:42:48.937+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="What do you dislike about the service?"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                hideTitle="true"
+                name="dislikes"
+                rows="5"/>
+            <title_8
+                jcr:created="{Date}2010-09-15T16:57:19.552+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T16:57:53.238+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Would you recommend our service to colleagues or contacts within your industry?"
+                sling:resourceType="geometrixx/components/title"/>
+            <dropdown
+                jcr:lastModified="{Date}2010-10-11T14:43:03.405+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Would you recommend our service to colleagues or contacts within your industry?"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/dropdown"
+                hideTitle="true"
+                name="recommendproduct"
+                options="[Definitely,Probably,Not sure,Probably not,Definitely not]"/>
+            <title_7
+                jcr:created="{Date}2010-09-15T16:54:27.514+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T16:54:33.911+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Please don't forget to enter your address if you would like a response."
+                sling:resourceType="geometrixx/components/title"/>
+            <text_3
+                jcr:description="Please enter your first and last name"
+                jcr:lastModified="{Date}2010-10-11T14:16:36.045+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Name"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="name"/>
+            <text_4
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Email Address"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="email"/>
+            <title_1
+                jcr:created="{Date}2010-09-16T13:37:44.972+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-16T13:37:54.315+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Submit"
+                sling:resourceType="geometrixx/components/title"/>
+            <colctrl_0
+                jcr:created="{Date}2010-09-16T12:31:53.374+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-16T12:31:53.374+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="2;cq-colctrl-lt0"/>
+            <captcha
+                jcr:lastModified="{Date}2010-10-11T14:04:02.921+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Captcha"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/captcha"
+                constraintMessage="Invalid captcha."
+                hideTitle="true"
+                required="true"/>
+            <col_break12846331133760
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <submit
+                jcr:created="{Date}2010-09-16T13:35:54.098+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-16T13:46:07.431+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Send Survey"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/submit"
+                css="customer_survey_submit"/>
+            <col_end12846331133771
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+            <form_end_1237452710578
+                jcr:lastModified="{Date}2010-09-16T13:35:39.401+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Send Survey"
+                sling:resourceType="foundation/components/form/end"/>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+        <title
+            jcr:lastModified="{Date}2010-08-25T17:13:50.659+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx/components/title"/>
+    </jcr:content>
+    <thankyou/>
+</jcr:root>

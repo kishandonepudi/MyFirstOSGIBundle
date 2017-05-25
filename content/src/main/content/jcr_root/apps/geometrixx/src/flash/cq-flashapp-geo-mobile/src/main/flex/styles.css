@@ -1,0 +1,44 @@
+@namespace spark "library://ns.adobe.com/flex/spark";
+@namespace components "com.adobe.cq.foundation.components.*";
+@namespace components1 "components.*";
+
+spark|List {
+	alternatingItemColors: #F0F0F0,#DCDCDC;
+}
+
+global {
+	fontLookup: "embeddedCFF";
+	fontFamily: "_sans";
+	fontSize: 20;  
+}
+
+components1|Title {
+	color: #646464;
+	fontSize: 24;
+	fontWeight: normal;
+	fontFamily: "_sans";
+	underlineColor: none;
+	skinClass: ClassReference("skins.MobileTitleSkin");
+}
+
+/* page navi */
+components|TabbedPageNavigation {
+	placeholderColor: #a0a0a0;
+}
+components|TabbedPageNavigation #navbar{
+	color: #FFFFFF;
+	fontSize: 14;
+	fontWeight: normal;
+}
+components|TabbedPageNavigation  #icon{
+	chromeColor: #ffffff;
+}
+
+/* parsys */
+components|ParSys {
+	placeholderColor: #a0a0a0;
+}
+
+spark|ButtonBar {
+	skinClass:ClassReference("skins.ButtonBarSkin");
+}

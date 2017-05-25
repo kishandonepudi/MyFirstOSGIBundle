@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-09-15T17:00:28.700+02:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Register"
+        sling:resourceType="geometrixx-media/components/page/profile/register">
+        <title-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:created="{Date}2012-11-01T14:55:40.886-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-01T14:58:58.910-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/title"/>
+        </title-par>
+        <form-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <start
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/start"
+                actionType="foundation/components/account/actions/update"
+                clientValidation="true"
+                formid="register"
+                home="/content/geometrixx-media/en"
+                intermediatePath="geometrixx-media"
+                memberOf="contributor"
+                thankyouPage="/content/geometrixx-media/en/toolbar/account/register/thank_you"/>
+            <accountname
+                jcr:created="{Date}2010-09-15T16:59:47.466+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T17:00:28.692+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Account Name"
+                sling:resourceType="foundation/components/account/accountname"
+                name="rep:userId"/>
+            <password
+                jcr:primaryType="nt:unstructured"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/profile/form/password"
+                constraintMessage="Passwords do not match"
+                constraintType="foundation/components/profile/form/constraints/password"
+                name="rep:password"/>
+            <text_0
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Last Name"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="familyName"/>
+            <hidden
+                jcr:created="{Date}2010-09-14T10:14:03.862+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-14T11:08:19.649+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/hidden"
+                defaultValue="mcm"
+                name="../cq:authorizableCategory"/>
+            <end
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Register"
+                sling:resourceType="foundation/components/form/end"
+                submit="true"/>
+        </form-par>
+    </jcr:content>
+    <thank_you/>
+</jcr:root>

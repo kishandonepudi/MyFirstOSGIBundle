@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:category="com/day/cq/wcm/core/page"
+    cq:path="/content/geometrixx/en/events/eventeditor"
+    cq:properties="{Binary}"
+    cq:time="{Date}2017-05-11T11:24:40.121+05:30"
+    cq:type="PageCreated"
+    cq:userid="admin"
+    jcr:primaryType="cq:AuditEvent"
+    path="/content/geometrixx/en/events/eventeditor"
+    type="PageCreated"
+    userId="admin"/>

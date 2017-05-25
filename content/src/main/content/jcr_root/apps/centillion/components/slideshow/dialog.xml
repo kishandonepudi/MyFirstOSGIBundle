@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    helpPath="en/cq/current/wcm/default_components.html#Slideshow"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <slides
+            jcr:primaryType="cq:Widget"
+            ddGroups="[media]"
+            fileReferencePrefix="./image$"
+            title="Slides"
+            xtype="slideshow"/>
+        <advanced
+            jcr:primaryType="cq:Widget"
+            title="Advanced"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <size
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Size"
+                    heightParameter="./slideshowHeight"
+                    widthParameter="./slideshowWidth"
+                    xtype="sizefield"/>
+            </items>
+        </advanced>
+    </items>
+</jcr:root>

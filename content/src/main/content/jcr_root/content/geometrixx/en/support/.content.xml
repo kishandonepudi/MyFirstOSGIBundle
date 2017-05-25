@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-11T18:12:24.516+01:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[marketing:interest/product,marketing:interest/services]"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Support"
+        sling:resourceType="geometrixx/components/contentpage"
+        analyticsProvider="undefined"
+        subtitle="24/7 available">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text_1
+                jcr:created="{Date}2010-11-08T07:15:43.969Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-08T07:19:09.508Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;span class=&quot;large&quot;>We offer support to all of our clients at varying levels of response. Every client is guaranteed a 48 hour response to support requests. Silver support offers 24 hours response, Gold offers 6 hour response and Platinum will address your issues within the hour. Please contact support to pick the program that's right for your business.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"/>
+            <image
+                jcr:created="{Date}2010-11-08T07:14:12.033Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-11T16:07:25.820+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/banners/call_center.jpg"
+                imageCrop="0,0,947,351"
+                imageRotate="0"/>
+            <title
+                jcr:lastModified="{Date}2009-10-06T16:22:38.204+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="We are here to help you"
+                sling:resourceType="geometrixx/components/title"/>
+            <text
+                jcr:lastModified="{Date}2010-11-08T21:17:58.872Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Need help finding the right shape? Contact us by phone at &lt;b>1-800-SHAPE4U&lt;/b>.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <title_0
+                jcr:lastModified="{Date}2009-10-06T16:33:13.358+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Your opinion matters to us"
+                sling:resourceType="geometrixx/components/title"/>
+            <text_0
+                cq:cssClass=" "
+                jcr:lastModified="{Date}2010-11-11T16:13:32.499+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Please click on the link below and fill out a short survey to let us know about your experience with our service and support. Your feedback will help us improve and provide an even better service for you in the future.&lt;/p> "
+                textIsRich="true"/>
+            <title_1
+                jcr:created="{Date}2010-11-11T16:11:00.476+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-11T18:12:24.514+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Customer Satisfaction Survey"
+                sling:resourceType="geometrixx/components/title"
+                href="/content/geometrixx/en/support/customersurvey.html"
+                type="link"/>
+        </par>
+        <rightpar
+            jcr:lastModified="{Date}2010-11-08T13:27:38.933Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys"
+            inheritance="cancel">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+            <title
+                jcr:created="{Date}2010-11-08T07:24:51.110Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-11T16:10:19.355+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Satisfied?"
+                sling:resourceType="geometrixx/components/title"/>
+            <text
+                jcr:created="{Date}2010-11-08T07:22:25.973Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-11T16:10:06.739+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Please take our &lt;a href=&quot;/content/geometrixx/en/support/customersurvey.html&quot;>customer satisfaction survey&lt;/a>.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2010-11-08T07:25:40.874Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-11T16:09:26.977+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/banners/questionnaire.jpg"
+                imageCrop="0,118,565,719"
+                imageRotate="0"
+                width="200"/>
+        </rightpar>
+        <title
+            jcr:lastModified="{Date}2010-08-25T17:13:32.997+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx/components/title"/>
+    </jcr:content>
+    <customersurvey/>
+</jcr:root>

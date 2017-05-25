@@ -1,0 +1,55 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.breadcrumb ul {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 11px;
+    line-height: 14px;
+    background: #c6c4c4 url(../../../../../../etc/designs/geometrixx-outdoors/images/page/breadcrumb.png) -38px 0 no-repeat;
+    zoom: 1; /* IE6 fix */
+}
+.breadcrumb li {
+    float: left;
+    border-left: 1px solid #d5d5d5;
+    list-style: none;
+}
+.breadcrumb li a,
+.breadcrumb li a:visited {
+    display: block;
+    height: 14px;
+    padding: 6px 10px 5px;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.breadcrumb li a:hover {
+    color: #fff;
+}
+
+/* Home item */
+.breadcrumb li.breadcrumb-first {
+    border: none;
+}
+.breadcrumb li.breadcrumb-first a {
+    overflow: hidden;
+    width: 18px;
+    text-indent: -1000em;
+}
+.breadcrumb li.breadcrumb-first a:hover {
+    background: url(../../../../../../etc/designs/geometrixx-outdoors/images/page/breadcrumb.png) 0 0 no-repeat;
+}

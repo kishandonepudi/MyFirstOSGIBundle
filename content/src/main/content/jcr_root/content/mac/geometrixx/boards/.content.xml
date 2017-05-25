@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-07-16T13:41:40.658-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/mac/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Boards"
+        sling:resourceType="mac/components/redirect"
+        redirectType="USER_BOARDS"/>
+</jcr:root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <GeoPyramid_Packshot.jpg/>
+    <GeoSphere_Packshot.jpg/>
+    <GeoCube_Packshot.jpg/>
+    <jcr:content
+        cq:lastModified="{Date}2010-10-06T16:02:19.188+02:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Package Shots">
+        <folderThumbnail/>
+    </jcr:content>
+    <pack_circle.jpg/>
+    <pack_mandelbrot.jpg/>
+    <pack_square.jpg/>
+    <pack_triangle.jpg/>
+</jcr:root>

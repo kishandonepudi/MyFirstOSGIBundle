@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-04-27T10:15:18.496+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/centillion/templates/cent_templates"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Join Us"
+        sling:resourceType="centillion/components/page/cent_component">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title_0
+                jcr:created="{Date}2017-04-27T10:15:14.817+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-27T10:15:14.817+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="centillion/components/title"/>
+            <text
+                jcr:created="{Date}2017-04-16T11:22:12.848+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T11:24:01.592+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Enter Full Name"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="name"/>
+            <text_0
+                jcr:created="{Date}2017-04-16T11:23:49.580+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T11:24:20.658+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Enter Phone Number"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="phone"/>
+            <text_1
+                jcr:created="{Date}2017-04-16T11:24:25.785+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T11:24:50.808+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Enter e-mail "
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="email"/>
+            <textarea
+                jcr:created="{Date}2017-04-16T11:32:20.694+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T11:32:20.694+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my_blog/components/page/textarea"/>
+            <textarea_0
+                jcr:created="{Date}2017-04-16T11:32:25.755+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T11:32:25.755+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my_blog/components/page/textarea"/>
+            <address
+                jcr:created="{Date}2017-04-16T11:34:12.471+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T11:34:12.471+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/address"/>
+            <submit
+                jcr:created="{Date}2017-04-16T11:34:32.201+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T11:34:32.201+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/submit"/>
+        </par>
+    </jcr:content>
+</jcr:root>

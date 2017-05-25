@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-02-07T17:46:09.007+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="User Conference"
+        sling:resourceType="geometrixx/components/contentpage"
+        subtitle="2010-05-10">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2010-10-06T13:59:03.572+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-10-06T13:59:15.526+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/banners/userconf.jpg"
+                imageRotate="0"
+                width="700"/>
+            <event
+                jcr:lastModified="{Date}2009-10-09T14:04:34.609+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="collab/calendar/components/event">
+                <event
+                    cq:distribute="{Boolean}true"
+                    jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="cq:CalendarEvent"
+                    jcr:title="World Wide User Conference"
+                    end="{Date}2010-10-05T00:00:00.000Z"
+                    isDate="{Boolean}true"
+                    sequence="{Long}2"
+                    stamp="{Date}2009-10-09T12:05:08.000Z"
+                    start="{Date}2010-10-05T00:00:00.000Z"
+                    uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                    url="/content/geometrixx/en/events/userconf">
+                    <recurrence jcr:primaryType="cq:CalendarRecurrence">
+                        <rule
+                            jcr:primaryType="cq:CalendarRecurrenceRule"
+                            frequency="weekly"
+                            interval="{Long}1"
+                            until="{Date}2012-10-30T01:00:00.000Z"/>
+                    </recurrence>
+                </event>
+                <_x0032_010 jcr:primaryType="nt:unstructured">
+                    <_x0031_0 jcr:primaryType="nt:unstructured">
+                        <_x0031_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-10-12T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-10-12T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_2>
+                        <_x0031_9 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-10-19T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-10-19T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_9>
+                        <_x0032_6 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-10-26T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-10-26T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_6>
+                    </_x0031_0>
+                    <_x0031_1 jcr:primaryType="nt:unstructured">
+                        <_x0030_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-11-02T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-11-02T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_2>
+                        <_x0030_9 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-11-09T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-11-09T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_9>
+                        <_x0031_6 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-11-16T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-11-16T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_6>
+                        <_x0032_3 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-11-23T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-11-23T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_3>
+                        <_x0033_0 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-11-30T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-11-30T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0033_0>
+                    </_x0031_1>
+                    <_x0031_2 jcr:primaryType="nt:unstructured">
+                        <_x0030_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-12-07T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-12-07T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_7>
+                        <_x0031_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-12-14T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-12-14T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_4>
+                        <_x0032_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-12-21T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-12-21T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_1>
+                        <_x0032_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2010-12-28T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2010-12-28T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_8>
+                    </_x0031_2>
+                </_x0032_010>
+                <_x0032_011 jcr:primaryType="nt:unstructured">
+                    <_x0030_1 jcr:primaryType="nt:unstructured">
+                        <_x0030_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-01-04T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-01-04T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_4>
+                        <_x0031_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-01-11T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-01-11T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_1>
+                        <_x0031_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-01-18T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-01-18T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_8>
+                        <_x0032_5 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-01-25T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-01-25T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_5>
+                    </_x0030_1>
+                    <_x0030_2 jcr:primaryType="nt:unstructured">
+                        <_x0030_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-02-01T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-02-01T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_1>
+                        <_x0030_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-02-08T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-02-08T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_8>
+                        <_x0031_5 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-02-15T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-02-15T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_5>
+                        <_x0032_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-02-22T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-02-22T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_2>
+                    </_x0030_2>
+                    <_x0030_3 jcr:primaryType="nt:unstructured">
+                        <_x0030_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-03-01T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-03-01T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_1>
+                        <_x0030_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-03-08T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-03-08T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_8>
+                        <_x0031_5 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-03-15T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-03-15T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_5>
+                        <_x0032_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-03-22T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-03-22T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_2>
+                        <_x0032_9 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-03-29T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-03-29T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_9>
+                    </_x0030_3>
+                    <_x0030_4 jcr:primaryType="nt:unstructured">
+                        <_x0030_5 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-04-05T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-04-05T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_5>
+                        <_x0031_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-04-12T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-04-12T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_2>
+                        <_x0031_9 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-04-19T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-04-19T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_9>
+                        <_x0032_6 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-04-26T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-04-26T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_6>
+                    </_x0030_4>
+                    <_x0030_5 jcr:primaryType="nt:unstructured">
+                        <_x0030_3 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-05-03T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-05-03T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_3>
+                        <_x0031_0 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-05-10T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-05-10T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_0>
+                        <_x0031_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-05-17T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-05-17T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_7>
+                        <_x0032_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-05-24T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-05-24T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_4>
+                        <_x0033_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-05-31T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-05-31T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0033_1>
+                    </_x0030_5>
+                    <_x0030_6 jcr:primaryType="nt:unstructured">
+                        <_x0030_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-06-07T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-06-07T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_7>
+                        <_x0031_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-06-14T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-06-14T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_4>
+                        <_x0032_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-06-21T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-06-21T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_1>
+                        <_x0032_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-06-28T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-06-28T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_8>
+                    </_x0030_6>
+                    <_x0030_7 jcr:primaryType="nt:unstructured">
+                        <_x0030_5 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-07-05T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-07-05T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_5>
+                        <_x0031_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-07-12T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-07-12T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_2>
+                        <_x0031_9 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-07-19T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-07-19T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_9>
+                        <_x0032_6 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-07-26T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-07-26T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_6>
+                    </_x0030_7>
+                    <_x0030_8 jcr:primaryType="nt:unstructured">
+                        <_x0030_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-08-02T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-08-02T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_2>
+                        <_x0030_9 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-08-09T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-08-09T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_9>
+                        <_x0031_6 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-08-16T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-08-16T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_6>
+                        <_x0032_3 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-08-23T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-08-23T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_3>
+                        <_x0033_0 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-08-30T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-08-30T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0033_0>
+                    </_x0030_8>
+                    <_x0030_9 jcr:primaryType="nt:unstructured">
+                        <_x0030_6 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-09-06T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-09-06T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_6>
+                        <_x0031_3 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-09-13T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-09-13T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_3>
+                        <_x0032_0 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-09-20T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-09-20T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_0>
+                        <_x0032_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-09-27T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-09-27T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_7>
+                    </_x0030_9>
+                    <_x0031_0 jcr:primaryType="nt:unstructured">
+                        <_x0030_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-10-04T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-10-04T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_4>
+                        <_x0031_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-10-11T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-10-11T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_1>
+                        <_x0031_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-10-18T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-10-18T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_8>
+                        <_x0032_5 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-10-25T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-10-25T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_5>
+                    </_x0031_0>
+                    <_x0031_1 jcr:primaryType="nt:unstructured">
+                        <_x0030_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-11-01T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-11-01T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_1>
+                        <_x0030_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-11-08T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-11-08T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_8>
+                        <_x0031_5 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-11-15T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-11-15T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_5>
+                        <_x0032_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-11-22T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-11-22T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_2>
+                        <_x0032_9 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-11-29T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-11-29T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_9>
+                    </_x0031_1>
+                    <_x0031_2 jcr:primaryType="nt:unstructured">
+                        <_x0030_6 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-12-06T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-12-06T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_6>
+                        <_x0031_3 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-12-13T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-12-13T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_3>
+                        <_x0032_0 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-12-20T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-12-20T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_0>
+                        <_x0032_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2011-12-27T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2011-12-27T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_7>
+                    </_x0031_2>
+                </_x0032_011>
+                <_x0032_012 jcr:primaryType="nt:unstructured">
+                    <_x0030_1 jcr:primaryType="nt:unstructured">
+                        <_x0030_3 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-01-03T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-01-03T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_3>
+                        <_x0031_0 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-01-10T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-01-10T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_0>
+                        <_x0031_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-01-17T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-01-17T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_7>
+                        <_x0032_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-01-24T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-01-24T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_4>
+                        <_x0033_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-01-31T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-01-31T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0033_1>
+                    </_x0030_1>
+                    <_x0030_2 jcr:primaryType="nt:unstructured">
+                        <_x0030_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-02-07T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-02-07T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_7>
+                        <_x0031_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-02-14T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-02-14T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_4>
+                        <_x0032_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-02-21T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-02-21T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_1>
+                        <_x0032_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-02-28T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-02-28T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_8>
+                    </_x0030_2>
+                    <_x0030_3 jcr:primaryType="nt:unstructured">
+                        <_x0030_6 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-03-06T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-03-06T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_6>
+                        <_x0031_3 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-03-13T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-03-13T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_3>
+                        <_x0032_0 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-03-20T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-03-20T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_0>
+                        <_x0032_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-03-27T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-03-27T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_7>
+                    </_x0030_3>
+                    <_x0030_4 jcr:primaryType="nt:unstructured">
+                        <_x0030_3 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-04-03T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-04-03T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_3>
+                        <_x0031_0 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-04-10T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-04-10T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_0>
+                        <_x0031_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-04-17T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-04-17T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_7>
+                        <_x0032_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-04-24T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-04-24T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_4>
+                    </_x0030_4>
+                    <_x0030_5 jcr:primaryType="nt:unstructured">
+                        <_x0030_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-05-01T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-05-01T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_1>
+                        <_x0030_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-05-08T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-05-08T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_8>
+                        <_x0031_5 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-05-15T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-05-15T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_5>
+                        <_x0032_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-05-22T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-05-22T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_2>
+                        <_x0032_9 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-05-29T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-05-29T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_9>
+                    </_x0030_5>
+                    <_x0030_6 jcr:primaryType="nt:unstructured">
+                        <_x0030_5 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-06-05T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-06-05T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_5>
+                        <_x0031_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-06-12T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-06-12T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_2>
+                        <_x0031_9 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-06-19T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-06-19T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_9>
+                        <_x0032_6 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-06-26T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-06-26T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_6>
+                    </_x0030_6>
+                    <_x0030_7 jcr:primaryType="nt:unstructured">
+                        <_x0030_3 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-07-03T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-07-03T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_3>
+                        <_x0031_0 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-07-10T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-07-10T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_0>
+                        <_x0031_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-07-17T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-07-17T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_7>
+                        <_x0032_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-07-24T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-07-24T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_4>
+                        <_x0033_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-07-31T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-07-31T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0033_1>
+                    </_x0030_7>
+                    <_x0030_8 jcr:primaryType="nt:unstructured">
+                        <_x0030_7 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-08-07T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-08-07T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_7>
+                        <_x0031_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-08-14T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-08-14T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_4>
+                        <_x0032_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-08-21T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-08-21T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_1>
+                        <_x0032_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-08-28T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-08-28T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_8>
+                    </_x0030_8>
+                    <_x0030_9 jcr:primaryType="nt:unstructured">
+                        <_x0030_4 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-09-04T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-09-04T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_4>
+                        <_x0031_1 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-09-11T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-09-11T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_1>
+                        <_x0031_8 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-09-18T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-09-18T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_8>
+                        <_x0032_5 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-09-25T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-09-25T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_5>
+                    </_x0030_9>
+                    <_x0031_0 jcr:primaryType="nt:unstructured">
+                        <_x0030_2 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-10-02T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-10-02T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_2>
+                        <_x0030_9 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-10-09T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-10-09T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0030_9>
+                        <_x0031_6 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-10-16T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-10-16T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0031_6>
+                        <_x0032_3 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-10-23T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-10-23T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0032_3>
+                        <_x0033_0 jcr:primaryType="nt:unstructured">
+                            <world_wide_user_conference
+                                cq:distribute="{Boolean}true"
+                                jcr:lastModified="{Date}2011-02-07T16:45:46.000Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="cq:CalendarEvent"
+                                jcr:title="World Wide User Conference"
+                                end="{Date}2012-10-30T00:00:00.000Z"
+                                isDate="{Boolean}true"
+                                recurrenceOf="{Path}/content/geometrixx/en/events/userconf/jcr:content/par/event/event"
+                                sequence="{Long}2"
+                                stamp="{Date}2009-10-09T12:05:08.000Z"
+                                start="{Date}2012-10-30T00:00:00.000Z"
+                                uid="14850D30-D24D-4ADF-B34D-2E86AF2679EC"
+                                url="/content/geometrixx/en/events/userconf"/>
+                        </_x0033_0>
+                    </_x0031_0>
+                </_x0032_012>
+            </event>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+        <image
+            jcr:lastModified="{Date}2011-02-07T17:46:09.006+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx/banners/userconf.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

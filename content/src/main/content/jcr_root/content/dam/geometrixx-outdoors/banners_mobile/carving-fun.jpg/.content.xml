@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:lockable]"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2011-12-15T03:15:44.439-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:ExifOffset="{Long}168"
+            dam:extracted="{Date}2011-12-08T12:44:42.763+01:00"
+            dam:Fileformat="JPEG"
+            dam:JpgFromRawLength="{Long}6488"
+            dam:JpgFromRawStart="{Long}306"
+            dam:MIMEtype="image/jpeg"
+            dam:ModifyDate="{Date}2011-11-03T14:39:04.000+01:00"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:OtherImageLength="{Long}6488"
+            dam:OtherImageStart="{Long}306"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Double}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Double}-1.0"
+            dam:PreviewImageLength="{Long}6488"
+            dam:PreviewImageStart="{Long}306"
+            dam:Progressive="yes"
+            dam:sha1="c40421bd4d4e7672ab6aa1b5130f5b70915b2fbf"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2011-11-03T14:39:07.248+01:00"
+            dc:title="Get the most from the mountain. – Shop our newest downhill gear for your best runs yet. – Shop Now."
+            exif:ColorSpace="{Long}1"
+            exif:PixelXDimension="{Double}72.0"
+            exif:PixelYDimension="{Double}72.0"
+            jcr:lastModified="{Date}2011-12-08T15:19:29.207+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="3"
+            photoshop:DocumentAncestors="[3568BB899842375D29DE9BA696DD99D2,C47B660E070F14E1C527DA87EF305287]"
+            photoshop:ICCProfile="sRGB IEC61966-2.1"
+            photoshop:TextLayers="[Shop now  >,Shop our newest downhill gear for  your best runs yet.,Get the most from  the mountain,]"
+            tiff:Compression="{Long}6"
+            tiff:ImageLength="{Long}200"
+            tiff:ImageWidth="{Long}320"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="{Double}72.0"
+            tiff:YResolution="{Double}72.0"
+            xmp:CreateDate="{Date}2011-10-20T18:15:49.000+02:00"
+            xmp:CreatorTool="Adobe Photoshop CS5 Macintosh"
+            xmp:MetadataDate="{Date}2011-11-03T14:39:04.000+01:00"
+            xmp:ModifyDate="{Date}2011-11-03T14:39:04.000+01:00"
+            xmpMM:DocumentID="xmp.did:EC563F3919B511E19D539FC0754C35FE"
+            xmpMM:History="[created,xmp.iid:814839BDF7206811963EAC508E2739FF,Adobe Photoshop CS5 Macintosh,2011-10-20T10:15:49-06:00,saved,/,xmp.iid:824839BDF7206811963EAC508E2739FF,2011-10-28T12:20:49-06:00,xmp.iid:834839BDF7206811963EAC508E2739FF,2011-10-28T12:26:01-06:00,xmp.iid:844839BDF7206811963EAC508E2739FF,2011-10-28T12:34:16-06:00,xmp.iid:854839BDF7206811963EAC508E2739FF,2011-10-28T12:35:55-06:00,xmp.iid:864839BDF7206811963EAC508E2739FF,2011-10-28T12:39:30-06:00,xmp.iid:874839BDF7206811963EAC508E2739FF,xmp.iid:0480117407206811871F85B5EEA37CF3,2011-10-29T18:14:24-06:00,xmp.iid:0580117407206811871F85B5EEA37CF3,xmp.iid:01801174072068118F62E94ECC85A7BA,2011-10-29T18:56:12-06:00,xmp.iid:02801174072068118F62E94ECC85A7BA,2011-10-29T19:11:02-06:00,xmp.iid:0180117407206811871F8A3CEEC2688B,2011-10-29T19:13:07-06:00,xmp.iid:0280117407206811871F8A3CEEC2688B,2011-10-29T19:17:30-06:00,xmp.iid:0380117407206811871F8A3CEEC2688B,xmp.iid:0480117407206811871F8A3CEEC2688B,2011-10-29T19:23:27-06:00,xmp.iid:0580117407206811871F8A3CEEC2688B,2011-10-29T19:28:08-06:00,xmp.iid:0680117407206811871F8A3CEEC2688B,2011-10-29T20:10:54-06:00,xmp.iid:0A80117407206811871F8A3CEEC2688B,2011-10-29T20:12:52-06:00,xmp.iid:EB1BD62ED7206811871F8A3CEEC2688B,2011-10-30T20:03:04-06:00,xmp.iid:B947689D3820681194578AF279266457,2011-11-01T16:50:05-06:00,xmp.iid:A4A8216B6820681194578AF279266457,2011-11-02T10:45:47-06:00,xmp.iid:A5A8216B6820681194578AF279266457,xmp.iid:A6A8216B6820681194578AF279266457,2011-11-02T10:46:08-06:00,xmp.iid:55543A121D206811A090E45CADCA2915,Adobe Photoshop CS5.1 Macintosh,2011-11-03T14:39:04+01:00,converted,from application/vnd.adobe.photoshop to image/jpeg,derived,converted from application/vnd.adobe.photoshop to image/jpeg,xmp.iid:56543A121D206811A090E45CADCA2915,]"
+            xmpMM:InstanceID="xmp.iid:EC563F3819B511E19D539FC0754C35FE"
+            xmpMM:OriginalDocumentID="xmp.did:814839BDF7206811963EAC508E2739FF">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef_x0025_3AdocumentID="xmp.did:814839BDF7206811963EAC508E2739FF"
+                stRef_x0025_3AinstanceID="xmp.iid:A6A8216B6820681194578AF279266457"
+                stRef_x0025_3AoriginalDocumentID="xmp.did:814839BDF7206811963EAC508E2739FF"/>
+        </metadata>
+        <activity jcr:primaryType="nt:unstructured">
+            <admin_1320327547310
+                jcr:primaryType="nt:unstructured"
+                timestamp="{Long}1320327547299"
+                type="REQUEST"
+                user="admin"/>
+        </activity>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

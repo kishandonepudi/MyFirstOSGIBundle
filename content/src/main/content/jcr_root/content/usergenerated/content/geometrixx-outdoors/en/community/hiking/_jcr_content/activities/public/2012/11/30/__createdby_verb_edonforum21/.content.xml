@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:51.763-05:00"
+    jcr:createdBy="matt.monroe@mailinator.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="I have spent a lot of time hiking in Yellowstone, and I’m a big fan of Lava Creek. Its about four miles, but it is fairly strenuous. I think it usually takes me four hours and I move kinda quick. I also like Bunsen Peak and Sepulcher Mountain."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/forum/jcr:content/forum/1_ciot/sjca-my_family_andiare/1_tosp/0zmt-i_have_spentaloto"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/hiking/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

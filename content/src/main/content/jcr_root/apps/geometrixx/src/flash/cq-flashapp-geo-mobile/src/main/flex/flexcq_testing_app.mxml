@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   xmlns:foundation="com.adobe.cq.foundation.*"
+			   xmlns:ns1="*"
+			   minWidth="955" minHeight="600" 
+			   creationComplete="initApp();"
+			   xmlns:controller="controller.*"
+			   xmlns:components="com.adobe.cq.foundation.components.*">
+	<fx:Declarations>
+		<controller:Feed id="feed"/>
+		<s:RadioButtonGroup id="wcmmodeGroup" change="wcmRadioChanged(event)"/>
+	</fx:Declarations> 
+	<fx:Style source="styles.css"/>
+	<fx:Style>
+		@namespace s "library://ns.adobe.com/flex/spark";
+		s|ButtonBar s|ButtonBarButton {
+			chromeColor: #D8D8D8;
+			color: #ffffff;
+			fontSize: 12 !important;
+			fontWeight:bold;
+		}
+		s|ButtonBar { 
+			chromeColor: #D8D8D8;
+			color: #ffffff;
+			fontSize: 12 !important;
+		}
+	</fx:Style>
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.cq.foundation.WCM;
+			import com.adobe.cq.foundation.WCMMode;
+			import com.adobe.cq.foundation.components.*;
+			import com.adobe.cq.foundation.core.MetadataComponentResolver;
+			import com.adobe.cq.foundation.dd.ComponentDDData;
+			import com.adobe.cq.foundation.dd.ExternalDDAdapter;
+			import com.adobe.cq.foundation.dd.MediaDDData;
+			
+			import components.Advisor;
+			import components.AssetsSummary;
+			import components.PortfolioChart;
+			import components.WatchList;
+			
+			import mx.collections.ArrayCollection;
+			import mx.core.DragSource;
+			import mx.core.FlexGlobals;
+			import mx.core.IVisualElement;
+			import mx.events.*;
+			import mx.managers.DragManager;
+			
+			private function initApp():void {
+				// initialize the external DragDrop adapter
+				ExternalDDAdapter.init();
+				WCM.init();
+				
+				// register Geometrixx components - todo: dynamic loading of "tiles"
+				MetadataComponentResolver.register(AssetsSummary);
+				MetadataComponentResolver.register(PortfolioChart);
+				MetadataComponentResolver.register(WatchList);
+				MetadataComponentResolver.register(Advisor);
+
+				for (var i:int = 0; i<4; i++) {
+					var page:DefaultPage = new DefaultPage();
+					page.percentHeight=100;
+					page.percentWidth=100;
+					page.initContent("Test " + i, null);				
+					navi.viewStack.addChild(page);				
+				}
+				// trigger creation of empty page
+				navi.onWcmModeChange(null);
+				
+				addEventListener(MouseEvent.MOUSE_MOVE, onMouseMove);
+				srcList.dataProvider = new ArrayCollection([{
+					label:"Title", 
+					data: {
+						format: ComponentDDData.FORMAT,
+						obj: new ComponentDDData("foundation/components/title")
+					}
+				}, {
+					label:"Text", 
+					data: {
+						format: ComponentDDData.FORMAT,
+						obj: new ComponentDDData("foundation/components/text")
+					}
+				}, {
+					label:"Image", 
+					data: {
+						format: ComponentDDData.FORMAT,
+						obj: new ComponentDDData("foundation/components/image")
+					}
+				}, {
+					label:"Assets (Mobile)", 
+					data: {
+						format: ComponentDDData.FORMAT,
+						obj: new ComponentDDData("geometrixx/components/mobile-assets")
+					}
+				}, {
+					label:"Portfolio (Mobile)", 
+					data: {
+						format: ComponentDDData.FORMAT,
+						obj: new ComponentDDData("geometrixx/components/mobile-portfolio")
+					}
+				}, {
+					label:"Watchlist (Mobile)", 
+					data: {
+						format: ComponentDDData.FORMAT,
+						obj: new ComponentDDData("geometrixx/components/mobile-watchlist")
+					}
+				}, {
+					label:"Advisor (Mobile)", 
+					data: {
+						format: ComponentDDData.FORMAT,
+						obj: new ComponentDDData("geometrixx/components/mobile-advisor")
+					}
+				}, {
+					label:"Image (Media)", 
+					data: {
+						format: MediaDDData.FORMAT,
+						obj: new MediaDDData("/foo", "image/png")
+					}
+				}]);
+			}
+			
+			/**
+			 * CS5 completely broke flashVars.
+			 * See http://forums.adobe.com/thread/644057 for details.
+			 */
+			private function getFlashVar(varName:String) :String {
+				var paramObj:Object = LoaderInfo(this.root.loaderInfo).parameters;
+				if (parent != null && parent.parent != null) {
+					paramObj = parent.parent.loaderInfo.parameters;
+				}
+				
+				try {
+					for (var el:String in paramObj)
+						if (el == varName)
+							return paramObj[el].toString();
+				} catch(e:Object) {
+				}
+				return "";
+			}
+			
+			public function onMouseMove(evt:MouseEvent):void {
+				if (extDDEnabled) {
+					ExternalDDAdapter.extDDOver(evt.stageX, evt.stageY, []);
+				}
+			}
+			
+			public function wcmRadioChanged(evt:Event):void {
+				WCM.instance.currentMode = wcmmodeGroup.selectedValue as WCMMode;
+			}
+			
+			private var extDDEnabled:Boolean = false;
+			protected function button1_clickHandler(event:MouseEvent):void {
+				if (extDDEnabled) {
+					extDDEnabled = false;
+					extDDButton.label = "Enter Ext DD (comp)";
+					ExternalDDAdapter.extDDOut(0, 0, []); 
+				} else {
+					extDDEnabled = true;
+					extDDButton.label = "Exit Ext DD";
+					ExternalDDAdapter.extDDEnter(0, 0, [{
+						resourceType:"foundation/components/text"
+					}]);
+				}
+			}
+			protected function button2_clickHandler(event:MouseEvent):void {
+				if (extDDEnabled) {
+					extDDEnabled = false;
+					extDDButton2.label = "Enter Ext DD (media)";
+					ExternalDDAdapter.extDDOut(0, 0, []); 
+				} else {
+					extDDEnabled = true;
+					extDDButton2.label = "Exit Ext DD";
+					ExternalDDAdapter.extDDEnter(0, 0, [{
+						mimeType:"image/png",
+						name: "Test.png",
+						path: "/foo/bnar"
+					}]);
+				}
+			}
+			
+		]]>
+	</fx:Script>
+	<components:TabbedPageNavigation id="navi" x="55" y="74" width="600" height="600" pageClass="{Class(DefaultPage)}" />
+	
+	<ns1:TestList id="srcList" x="666" y="74" dragEnabled="true"/>
+	<s:TextArea id="debugLabel" x="55" y="10" width="591" height="56" text="Label"/>
+	<s:BorderContainer mouseEnabled="false" depth="1000" id="ddRect" visible="false" borderWeight="5" borderColor="#5EE350" backgroundAlpha="0" />
+	<s:Button id="extDDButton" x="666" y="500" label="Enter EXT DD (comp)" click="button1_clickHandler(event)"/>
+	<s:Button id="extDDButton2" x="666" y="550" label="Enter EXT DD (media)" click="button2_clickHandler(event)"/>
+	<s:VGroup x="666" y="600">
+		<s:RadioButton label="Edit" selected="true" value="{WCMMode.EDIT}" groupName="wcmmodeGroup"/>
+		<s:RadioButton label="Preview" value="{WCMMode.PREVIEW}" groupName="wcmmodeGroup"/>
+		<s:RadioButton label="Disabled" selected="false" value="{WCMMode.DISABLED}" groupName="wcmmodeGroup"/>
+	</s:VGroup>
+	
+</s:Application>

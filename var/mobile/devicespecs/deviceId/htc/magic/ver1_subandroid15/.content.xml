@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    aac="true"
+    colors="65536"
+    CQ5_UserAgentRadical="htc-magic"
+    directdownload_support="true"
+    fall_back="htc_magic_ver1"
+    mms_max_height="480"
+    mms_max_size="307200"
+    mms_max_width="640"
+    mobile_browser_version="1.5"
+    oma_support="true"
+    release_date="2009_april"
+    uaprof="http://www.htcmms.com.tw/Android/Common/HTC_Magic/ua-profile.xml"
+    user_agent="HTC Magic"/>

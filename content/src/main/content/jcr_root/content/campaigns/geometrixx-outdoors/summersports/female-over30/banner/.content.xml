@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-06-27T16:36:05.080+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:created="{Date}2012-06-27T12:29:07.841+03:00"
+        jcr:createdBy="admin"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Banner"
+        jcr:uuid="9656fd43-8ca5-4495-b0d6-378d0846de02"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="/content/geometrixx-outdoors/en/women/jcr:content/par/banner">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2011-11-03T17:36:02.554+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-06-27T12:35:20.495+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx-outdoors/banners/dedication.jpg"
+                linkURL="/content/geometrixx-outdoors/en/seasonal/summer"/>
+        </par>
+    </jcr:content>
+</jcr:root>

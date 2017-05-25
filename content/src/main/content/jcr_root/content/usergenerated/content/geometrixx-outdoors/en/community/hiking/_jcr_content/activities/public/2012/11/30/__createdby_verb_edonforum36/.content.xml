@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:54.655-05:00"
+    jcr:createdBy="ashley.thompson@spambob.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="Congrats Emily! To be honest, you’re not going to find a black/white answer. Trust me I already looked. I took my son with me in a sling when he was two months old, and we didn’t have any issues at all. Just remember to bring all your essentials, including sunscreen, and also plan to take a lot longer than you normally would. Have fun! "
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/forum/jcr:content/forum/1_ciot/caqf-my_son_is_nowtwomo/1_tosp/w1ei-congrats_emilytob"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/hiking/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

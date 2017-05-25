@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-05T17:01:33.328Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Articles"
+        sling:resourceType="geometrixx/components/contentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text
+                jcr:created="{Date}2010-11-03T00:02:59.025Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-03T00:03:39.469Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>News and opinion from around the world on Geometrixx and its products.&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"/>
+            <download
+                jcr:created="{Date}2010-11-03T00:03:44.800Z"
+                jcr:createdBy="admin"
+                jcr:description="From Shapes Today, an article on the future of open source geometry.&#xa;"
+                jcr:lastModified="{Date}2010-11-03T00:05:25.252Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/download"
+                fileName="Open Source Geometry.pdf"
+                fileReference="/content/dam/geometrixx/documents/GeoSphere_Datasheet.pdf"/>
+            <download_0
+                jcr:created="{Date}2010-11-03T00:05:28.829Z"
+                jcr:createdBy="admin"
+                jcr:description="The environmental effect of industrial geometry and how Geometrixx is working to make it better."
+                jcr:lastModified="{Date}2010-11-03T00:06:43.993Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/download"
+                fileName="Sustainable Geometry.pdf"
+                fileReference="/content/dam/geometrixx/documents/GeoPyramid_Datasheet.pdf"/>
+            <download_1
+                jcr:created="{Date}2010-11-03T00:06:48.968Z"
+                jcr:createdBy="admin"
+                jcr:description="A Defence Department study of the feasibility of stationing triangles, squares and parallelograms on the far side of the moon."
+                jcr:lastModified="{Date}2010-11-03T00:08:23.280Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/download"
+                fileName="Space-based Polygons.pdf"
+                fileReference="/content/dam/geometrixx/documents/GeoCube_Datasheet.pdf"/>
+        </par>
+    </jcr:content>
+</jcr:root>

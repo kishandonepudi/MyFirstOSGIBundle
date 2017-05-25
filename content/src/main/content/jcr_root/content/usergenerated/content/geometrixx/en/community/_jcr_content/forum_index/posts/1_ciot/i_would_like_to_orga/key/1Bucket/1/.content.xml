@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    indices="[count_me_in_\,date-modified#1285849766894,i_am_in_\,date-modified#1285849754490,me_too_\,date-modified#1285849760754,sorry_i_can_t_make\,date-modified#1285849788960]"/>

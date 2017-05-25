@@ -1,0 +1,84 @@
+#user_dialog.popover.arrow-pos-right::before, #user_dialog.popover.arrow-pos-right::after {
+    left: 99%;
+}
+#user_dialog {
+    top: 46px;
+    left: -250px; /* TODO: Fixed positioning on a dynamically sizing element ist evil */
+    line-height: 100%;
+    padding: 10px;
+    color: #0F0F0F;
+}
+#user_dialog h3 {
+    padding: 0;
+    margin: 0;
+    line-height: 100%;
+}
+#user_dialog .email {
+    line-height: 110%;
+    max-width: 15rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#user_dialog .impersonate {
+    clear: both;
+    border-top: 1px solid #e5e5e5;
+    margin: 10px -10px 0px -10px;
+    padding: 15px 10px 0px 10px;
+}
+#user_dialog .granite-userpicker .dropdown-list li {
+    height: auto;
+}
+#user_dialog .submit-impersonate {
+    display: inline-block;
+    width: auto;
+    min-width: 0;
+    margin: 0 0 0 5px;
+}
+#user_dialog .user_dialog_footer {
+    text-align: right;
+    padding-top: 35px;
+}
+#user_dialog .user_dialog_footer .button {
+    display: inline-block;
+    width: auto;
+    min-width: 0;
+    margin: 0 0 0 5px;
+}
+#user_dialog p {
+    margin: 0;
+    padding: 0;
+}
+#user_dialog .avatar {
+    float: left;
+    padding-right: 10px;
+}
+#user_dialog fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+#user_dialog label > span {
+    display: block;
+    margin-bottom: 3px;
+}
+
+#user_preferences .modal-body {
+    overflow: visible;
+    padding-right: 0.5rem;
+}
+
+#user_preferences label > span {
+    display: block;
+    margin: .5rem 0 .2rem 0;    
+}
+
+#user_preferences fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+#user_preferences .dropdown button {
+    width: 20rem;
+}
+

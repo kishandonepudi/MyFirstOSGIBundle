@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia6250"
+    fall_back="nokia_generic"
+    max_image_height="39"
+    model_name="6250"
+    preferred_markup="wml_1_1"
+    release_date="2000_january"
+    resolution_height="60"
+    resolution_width="96"
+    streaming_real_media="none"
+    user_agent="Nokia6250"
+    xhtml_support_level="-1"/>

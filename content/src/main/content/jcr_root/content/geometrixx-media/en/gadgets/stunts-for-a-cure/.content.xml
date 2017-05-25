@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-media"
+        cq:lastModified="{Date}2012-12-14T16:25:17.453-05:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[geometrixx-media:events/parties,geometrixx-media:gadgets/cars]"
+        cq:template="/apps/geometrixx-media/templates/media-article-page"
+        jcr:description="Your favorite toy car company sets its sight on a good cause."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Stunts For A Cure"
+        sling:resourceType="geometrixx-media/components/page/article"
+        subtitle="GADGETS">
+        <image
+            jcr:lastModified="{Date}2012-09-19T14:48:57.966+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-media/articles/hotwheels_act2.jpg"
+            imageRotate="0"/>
+        <author-summary
+            jcr:lastModified="{Date}2012-12-14T16:25:17.449-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx-media/components/author-summary"
+            articleAuthor="/home/users/geometrixx/larry.a.spiller@pookmail.com"
+            publishedDate="{Date}2012-09-28T00:00:00.000-04:00"/>
+        <right-panel-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <section_header
+                jcr:created="{Date}2012-10-17T16:56:40.794-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-10-17T16:57:02.561-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-media/components/section-header"
+                sectionHeaderText="most popular"/>
+            <popular_articles
+                jcr:created="{Date}2012-10-17T16:57:06.585-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-10-17T16:58:17.065-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-media/components/popular-articles"
+                firstDefault="/content/geometrixx-media/en/gadgets/bored-top-25"
+                secondDefault="/content/geometrixx-media/en/gadgets/paladin-game"
+                thirdDefault="/content/geometrixx-media/en/events/warp-11-tour"
+                topLevelPage="/content/geometrixx-media/en"/>
+        </right-panel-par>
+        <article-content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <adaptive_image
+                jcr:created="{Date}2012-11-22T17:41:32.357-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-22T17:41:41.132-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-media/components/adaptive-image"
+                fileReference="/content/dam/geometrixx-media/articles/hotwheels_act2.jpg"/>
+            <comments
+                jcr:created="{Date}2012-12-04T16:58:16.809-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-04T16:58:16.809-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/comments"/>
+        </article-content-par>
+    </jcr:content>
+</jcr:root>

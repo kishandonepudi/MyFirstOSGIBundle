@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-30T12:09:31.289+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="Make Your Rogue Trail Legitimate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Article"
+        jcr:uuid="8d819341-7401-4cc0-a794-f9dbf116eacc"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="article">
+        <image
+            jcr:lastModified="{Date}2011-11-30T12:09:31.288+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/articles/make-your-rogue-trail-legitimate.jpg"
+            imageRotate="0"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <recommend_article
+                jcr:created="{Date}2011-11-29T16:55:03.392+01:00"
+                jcr:createdBy="admin"
+                jcr:description="How to get your favorite singletrack recognized."
+                jcr:lastModified="{Date}2011-11-29T23:07:49.990+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Make Your Rogue Trail Legitimate"
+                sling:resourceType="geometrixx-outdoors/components/recommend/recommend_article"
+                image="/content/dam/geometrixx-outdoors/articles/make-your-rogue-trail-legitimate.jpg"/>
+        </par>
+    </jcr:content>
+</jcr:root>

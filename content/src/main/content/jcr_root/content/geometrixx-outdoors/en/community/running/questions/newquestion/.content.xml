@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-12-10T15:02:32.155+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page_newquestion"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="New Question"
+        jcr:uuid="4742b281-a2c5-405d-84bc-e11fdad0ddfa"
+        sling:resourceType="geometrixx-outdoors/components/page_newquestion">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <start
+                jcr:created="{Date}2012-05-18T13:03:47.411-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-08-29T16:23:31.620-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/form/start"
+                action="/content/geometrixx-outdoors/en/community/running/questions/"
+                actionType="social/commons/components/form/actions/create"
+                clientValidation="true"
+                contentType="question"
+                endpoint="social.createqnapost"
+                endResourceType="/libs/social/commons/components/form/end"
+                formid="_newquestion"
+                mode="createContent"
+                parentResourceType="geometrixx-outdoors/components/qna/qnaforum"
+                renderOption="default"/>
+            <text_21e8
+                jcr:created="{Date}2012-04-18T17:35:50.659-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-26T15:39:32.129+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Title:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="social/commons/components/form/text"
+                defaultValue="Ask a question..."
+                emptytext="true"
+                name="jcr:title"
+                requiredMessage="Please enter your question."
+                width="500"/>
+            <text_6cfa
+                jcr:created="{Date}2012-11-23T16:47:06.818+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-26T14:46:34.210+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Comment:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="jcr:description"
+                required="true"
+                rows="5"/>
+            <image
+                jcr:created="{Date}2012-11-23T16:46:07.124+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-23T16:46:07.124+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Image:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/image"
+                name="file"/>
+            <form_end
+                jcr:lastModified="{Date}2012-05-18T13:05:12.409-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Post Question"
+                sling:resourceSuperType="foundation/components/form/end"
+                sling:resourceType="social/commons/components/form/end"
+                denyText="Sign in in order to post to this forum."
+                name="Post Question"
+                submit="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

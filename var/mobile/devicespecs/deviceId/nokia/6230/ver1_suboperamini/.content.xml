@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="opera-01-midp-opera-mini-2292-hifi-nordic-int-nokia-6230-ssr"
+    fall_back="nokia_6230_ver1"
+    j2me_max_jar_size="125000"
+    mobile_browser="Opera Mini"
+    mobile_browser_version="1.1"
+    resolution_height="128"
+    resolution_width="128"
+    user_agent="Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.2292/hifi/nordic/int; Nokia 6230; en; U; ssr)"/>

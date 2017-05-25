@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <ordervalueover100/>
+    <jcr:content
+        cq:lastModified="{Date}2011-11-03T20:57:02.175+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/campaign"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Big Spender Campaign"
+        jcr:uuid="1806a398-81ec-49dc-b502-100c321431fb"
+        sling:resourceType="cq/personalization/components/campaignpage"/>
+    <ordervalue75to100/>
+</jcr:root>

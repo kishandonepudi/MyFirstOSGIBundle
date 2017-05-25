@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:52.161-05:00"
+    jcr:createdBy="donna.billups@pookmail.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="Yeah, you need to wax your board. The first time I went out, I didn’t really take any advice or ask any questions. After fumbling around for a whole day, someone else in the water told me I need to wax my board. It’s like night and day."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/surfing/forum/jcr:content/forum/1_ciot/shuf-this_communityhasg/1_tosp/8lha-yeah_you_needtowa"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/surfing/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

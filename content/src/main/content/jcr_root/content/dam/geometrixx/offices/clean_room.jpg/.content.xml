@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2010-11-24T12:47:44.796+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:tags="[stockphotography:technology,stockphotography:business/business_people,properties:orientation/landscape,stockphotography:concepts_and_ideas/teamwork,properties:style/color]"
+            dam:Bitsperpixel="{Long}24"
+            dam:ExifOffset="{Long}164"
+            dam:extracted="{Date}2010-11-11T17:16:46.441+01:00"
+            dam:Fileformat="JPEG"
+            dam:JpgFromRawLength="{Long}4255"
+            dam:JpgFromRawStart="{Long}302"
+            dam:MIMEtype="image/jpeg"
+            dam:ModifyDate="{Date}2006-01-05T16:37:12.000+01:00"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:OtherImageLength="{Long}4255"
+            dam:OtherImageStart="{Long}302"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Double}-1.0"
+            dam:PreviewImageLength="{Long}4255"
+            dam:PreviewImageStart="{Long}302"
+            dam:Progressive="no"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2010-11-05T09:36:50.288Z"
+            dc:title="Men at Work in the Clean Room"
+            exif:ColorSpace="{Long}65535"
+            exif:PixelXDimension="{Double}300.0"
+            exif:PixelYDimension="{Double}300.0"
+            jcr:lastModified="{Date}2010-11-24T12:47:44.796+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:Compression="{Long}6"
+            tiff:ImageLength="{Long}560"
+            tiff:ImageWidth="{Long}857"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="{Double}300.0"
+            tiff:YResolution="{Double}300.0"
+            xmp:CreatorTool="Adobe Photoshop CS Macintosh"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

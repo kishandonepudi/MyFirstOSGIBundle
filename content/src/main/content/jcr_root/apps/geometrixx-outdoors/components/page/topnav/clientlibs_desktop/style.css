@@ -1,0 +1,80 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+    color: #5a5a5a;
+    background: #fff url(../../../../../../etc/designs/geometrixx-outdoors/images/page/bg_inside.gif) repeat-x left top;
+    zoom: 1; /* IE6 fix */
+}
+.topnav a,
+.topnav a:visited {
+    display: block;
+    color: #5a5a5a;
+    text-decoration: none;
+    -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    /* transition: background 1s; not supported with IE -> ugly effect */
+}
+.topnav a:hover {
+    color: #000;
+    background-color: #fff;
+    -moz-transition: background 200ms;
+    -webkit-transition: background 200ms;
+    -o-transition: background 200ms;
+    /* transition: background 200ms; not supported with IE -> ugly effect */
+}
+
+
+/* The title */
+
+.topnav h1 {
+    overflow: hidden;
+    float: left;
+    margin: 0;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    font-weight: normal;
+    text-indent: -1000em;
+    background: url(../../../../../../etc/designs/geometrixx-outdoors/images/page/geometrixx_outdoors.png);
+}
+.topnav h1 a:hover {
+    background-color: transparent;
+}
+
+/* The pages */
+
+.topnav ul {
+    float: right;
+}
+
+.topnav li {
+    float: left;
+    height: 70px;
+    margin-bottom: 10px;
+    border-left: #bebebe 1px solid;
+}
+.topnav li a {
+    width: 100px;
+    height: 15px
+    line-height: 15px;
+    padding: 54px 0 11px 5px;
+    text-transform: uppercase;
+}

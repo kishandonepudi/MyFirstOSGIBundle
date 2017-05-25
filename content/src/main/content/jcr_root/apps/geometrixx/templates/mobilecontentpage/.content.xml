@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Create a Geometrixx mobile content page that is editable via phone emulator and renders according to mobile device detection."
+    jcr:primaryType="cq:Template"
+    jcr:title="Geometrixx Mobile Content Page"
+    allowedPaths="[/content/geometrixx_mobile(/.*)?]"
+    ranking="{Long}100"
+    shortTitle="Mobile Content">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="geometrixx/components/mobilecontentpage"/>
+</jcr:root>

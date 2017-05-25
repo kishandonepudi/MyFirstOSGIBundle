@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-12-04T14:57:37.862+01:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="12"
+        sling:resourceType="geometrixx-outdoors/components/journal/page"
+        journalarchive="2012/12"/>
+    <welcome_to_the_winte/>
+    <avalanche_seasonis/>
+    <a_skier_makes_thesw/>
+</jcr:root>

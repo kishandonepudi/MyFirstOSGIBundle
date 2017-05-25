@@ -1,0 +1,177 @@
+/* 
+ * New community styles
+ */
+
+#new-community {
+    background: #EBEBEB;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/*
+ * Columns
+ */
+
+#new-community .colctrl-2c-c0 {
+    width: 405px;
+    margin-right: 25px;
+}
+
+#new-community .colctrl-2c-c1 {
+    width: 220px;
+}
+
+/*
+ * Form
+ */
+
+#new-community .form_field_text {
+    width: 255px;
+}
+
+#new-community textarea {
+    width: auto;
+}
+
+#new-community .dummy-input {
+    width: 244px;
+}
+
+/*
+ * Radios (theme select)
+ */
+
+#new-community .radio.section {
+    padding: 0;
+}
+
+#new-community .radio .form_row {
+    float: left;
+    clear: none;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+#new-community .radio .form_leftcol {
+    padding-left: 0;
+}
+
+/* select theme main label */
+#new-community .radio .form_row:first-child {
+    float: none;
+}
+
+#new-community .radio .form_row:first-child,
+#new-community .radio .form_row:first-child .form_leftcol,
+#new-community .radio .form_row:first-child .form_leftcollabel {
+    width: auto;
+}
+
+/* theme select button width */
+#new-community .radio .form_row,
+#new-community .radio .form_leftcol,
+#new-community .radio .form_leftcollabel {
+    width: 73px;
+}
+
+/* first theme select button is 1px wider */
+#new-community .radio .form_row:first-child + .form_row,
+#new-community .radio .form_row:first-child + .form_row .form_leftcol,
+#new-community .radio .form_row:first-child + .form_row .form_leftcollabel {
+    width: 74px;
+}
+
+/* hide right radio button columns visually (html5bp) */
+#new-community .radio .form_rightcol {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin-left: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* theme select image replacement */
+#new-community .theme-select {
+    display: block;
+    float: left;
+    width: 72px;
+    height: 0;
+    padding-top: 55px;
+    background: #fff url('/etc/designs/geometrixx-outdoors/images/soco/select-theme.png') no-repeat;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    border-color: #c1c1c1;
+    overflow: hidden;
+}
+
+/* selected */
+#new-community .theme-select.selected {
+    border-color: #d35016;
+}
+
+/* content driven */
+#new-community .theme-select[for="new-community_bluePrintPathSelect-0"] {
+    border-width: 1px;
+    background-position: -2px -63px;
+    width: 72px;
+}
+
+#new-community .theme-select[for="new-community_bluePrintPathSelect-0"].selected {
+    background-position: -77px -63px;
+}
+
+/* discussion driven */
+#new-community .theme-select[for="new-community_bluePrintPathSelect-1"] {
+    background-position: -2px -123px;
+}
+
+#new-community .theme-select[for="new-community_bluePrintPathSelect-1"].selected {
+    background-position: -78px -123px;
+}
+
+/* event driven */
+#new-community .theme-select[for="new-community_bluePrintPathSelect-2"] {
+    background-position: -3px -3px;
+}
+
+#new-community .theme-select[for="new-community_bluePrintPathSelect-2"].selected {
+    background-position: -78px -3px;
+}
+
+/*
+ * Theme descriptions
+ */
+
+#new-community .parbase.textimage {
+    padding: 22px 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f85e1a;
+    background: #fff;
+}
+
+#new-community .parbase.textimage h2 {
+    color: #f85e1a;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#new-community .parbase.textimage .image {
+    float: none;
+}
+
+#new-community .parbase.textimage ul {
+    padding-left: 20px;
+}
+
+/* validation message */
+#new-community .validate-result.invalid {
+    color: red;
+}
+
+#new-community .validate-result.valid {
+    color: green;
+}

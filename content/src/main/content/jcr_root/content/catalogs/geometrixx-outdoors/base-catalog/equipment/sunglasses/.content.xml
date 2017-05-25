@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-01-23T11:05:28.592+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/commerce/templates/section"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sunglasses"
+        jcr:uuid="9b9d0360-719f-4fd8-885c-983dd21fad92"
+        sling:resourceType="commerce/components/section">
+        <target
+            jcr:primaryType="nt:unstructured"
+            jcr_title="Sunglasses">
+            <par jcr:primaryType="nt:unstructured">
+                <banner
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/geometrixx-outdoors/banners/summer.jpg"/>
+            </par>
+        </target>
+        <filter
+            jcr:primaryType="nt:unstructured"
+            matchTags="[geometrixx-outdoors:apparel/glasses]"/>
+    </jcr:content>
+</jcr:root>

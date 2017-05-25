@@ -1,0 +1,57 @@
+/*
+ * Copyright 1997-2009 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+#cq-emulator.android.vertical {
+    background: url("resources/bg.png") no-repeat;
+    height: 454px;
+    padding: 131px 0 202px;
+    width: 386px;
+}
+
+#cq-emulator.android.horizontal {
+    background: url("resources/bg_horizontal.png") no-repeat;
+    padding: 33px 0 38px;
+    width: 862px;
+}
+
+#cq-emulator-content.android {
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#cq-emulator-content.android.vertical {
+    width: 320px;
+    height: 454px;
+}
+
+#cq-emulator-content.android.horizontal {
+    width: 454px;
+    height: 320px;
+}
+
+#cq-emulator-rotate.android {
+    text-indent: -10000px;
+    height: 32px;
+    width: 32px;
+}
+
+#cq-emulator-rotate.android.vertical {
+    background: url("resources/rotate_to_horizontal.png") no-repeat;
+    right: 53px;
+    top: 56px;
+}
+
+#cq-emulator-rotate.android.horizontal {
+    background: url("resources/rotate_to_vertical.png") no-repeat;
+    right: 124px;
+    top: 310px;
+}

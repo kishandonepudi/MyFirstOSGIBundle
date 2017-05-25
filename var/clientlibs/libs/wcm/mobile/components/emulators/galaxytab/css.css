@@ -1,0 +1,57 @@
+/*
+ * Copyright 1997-2009 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+#cq-emulator.galaxytab.vertical {
+    background: url("resources/bg.png") no-repeat;
+    width: 557px;
+    height: 906px;
+   	padding: 141px 156px 153px 161px;
+}
+
+#cq-emulator.galaxytab.horizontal {
+    background: url("resources/bg_horizontal.png") no-repeat;
+    width: 906px;
+    height: 557px;
+    padding: 89px 181px 90px 143px;
+}
+
+#cq-emulator-content.galaxytab {
+    background-color: #fff;
+    overflow: auto;
+}
+
+#cq-emulator-content.galaxytab.vertical {
+    width: 557px;
+    height: 906px;
+}
+
+#cq-emulator-content.galaxytab.horizontal {
+    width: 906px;
+    height: 557px;
+}
+
+#cq-emulator-rotate.galaxytab {
+    text-indent: -10000px;
+    height: 32px;
+    width: 32px;
+}
+
+#cq-emulator-rotate.galaxytab.vertical {
+    background: url("resources/rotate_to_horizontal.png") no-repeat;
+    right: 125px;
+    top: 56px;
+}
+
+#cq-emulator-rotate.galaxytab.horizontal {
+    background: url("resources/rotate_to_vertical.png") no-repeat;
+    right: 85px;
+    top: 650px;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-29T23:07:19.674+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="Top Winter Destinations"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Article Mobile"
+        jcr:uuid="160c0443-f818-4fdb-8222-f539fd87d8d3"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="article-mobile">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <recommend_article
+                jcr:created="{Date}2011-11-29T17:09:01.275+01:00"
+                jcr:createdBy="admin"
+                jcr:description="From ice palaces to fjords, see or top ten picks for winter trips."
+                jcr:lastModified="{Date}2011-11-29T23:07:19.672+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Top Winter Destinations"
+                sling:resourceType="geometrixx-outdoors/components/recommend/recommend_article"
+                image="/content/dam/geometrixx-outdoors/articles/top-winter-destinations.jpg"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2011-11-03T20:57:30.256+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/articles/top-winter-destinations.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark"
+		destructionPolicy="never"
+		creationComplete="init()"
+		viewActivate="activateHandler(event)"
+		viewDeactivate="deactivateHandler(event)">
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.jcr.Node;
+			
+			import spark.events.ViewNavigatorEvent;
+
+			private var webView:StageWebView;
+			
+			public function init():void  {
+				webView = new StageWebView();
+				webView.stage = null;
+				var r:Rectangle = getBounds(this);
+				r.top += 55;
+				r.bottom += 55;
+				webView.viewPort = r;
+			}
+			
+			protected function activateHandler(event:ViewNavigatorEvent):void {
+				var node:Node = (this.data) as Node;
+				var url:String = node.getProperty("url");
+				if (!url) {
+					url = node.path;
+				}
+				if (url.charAt(0) == '/') {
+					url = node.session.urlPrefix + url;
+					if (url.indexOf(".html") < 0) {
+						url+= ".html";
+					}
+				}
+				webView.loadURL(url);
+				webView.stage = stage;
+			}
+			
+			protected function deactivateHandler(event:ViewNavigatorEvent):void {
+				webView.stage = null;
+			}
+						
+		]]>
+	</fx:Script>
+	<s:titleContent>
+		<s:Image source="@Embed('/assets/logo.png')"/>
+	</s:titleContent>
+</s:View>

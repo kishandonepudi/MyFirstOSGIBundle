@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastReplicated="{Date}2012-12-04T14:15:37.996+01:00"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:description="Josh, I’m glad to hear you and your son are taking on Mt. Kilimanjaro. I have actually summited twice and I hope to make it back again in the next few years. The biggest piece of advice I can offer to you is to NOT cut back on essentials because you think you are taking too much. Even if you have to pay extra baggage fees, it is well worth the $20. It is far better to be over-prepared. Talk to your guide company the day before you set out. If they tell you that you brought too much, just about every hotel out there will store your stuff for a minimal fee while you’re on the mountain. Did your guide company provide you with a packing list?"
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="cq:Comment"
+    sling:resourceType="social/commons/components/comments/comment"
+    activityCreated="true"
+    added="{Date}2012-12-04T14:15:37.704+01:00"
+    approved="{Boolean}true"
+    authorizableId="donna.billups@pookmail.com"
+    email="donna.billups@pookmail.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/journal/2012/12/gearing_up_for_myki.html"
+    sentiment="{Long}3"
+    url=""
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="donna.billups@pookmail.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="7afb5f31-91ba-4064-89d0-47b471ef33dd">
+        <iStock_000014674004Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T09:00:00.970+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="b705bcb4-d6ea-4c29-94d4-1f9352e156f0"/>
+        </iStock_000014674004Small.jpg>
+    </attachments>
+</jcr:root>

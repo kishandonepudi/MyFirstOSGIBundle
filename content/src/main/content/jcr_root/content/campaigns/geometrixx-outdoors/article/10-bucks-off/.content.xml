@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-07-26T12:28:15.978+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/commerce/templates/promotion"
+        jcr:description="Sample promotion for the $10 Off voucher."
+        jcr:lastModified="{Date}2012-07-26T12:28:15.974+03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="$10 Off"
+        sling:resourceType="commerce/components/promotion"
+        priority="100"
+        promotionType="/libs/commerce/components/promotion/discount">
+        <image
+            jcr:lastModified="{Date}2012-08-29T13:37:04.193+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <config
+            jcr:lastModified="{Date}2012-09-03T14:51:08.972+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/promotion/discount"
+            discountType="absolute"
+            discountValue="{Decimal}10"/>
+    </jcr:content>
+</jcr:root>

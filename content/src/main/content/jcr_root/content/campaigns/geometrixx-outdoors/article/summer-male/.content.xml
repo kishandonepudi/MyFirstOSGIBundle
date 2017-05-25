@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <endurolife-voucher/>
+    <article/>
+    <article-mobile/>
+    <jcr:content
+        cq:lastModified="{Date}2011-11-29T23:07:49.992+01:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="/etc/segmentation/geometrixx-outdoors/summer-male"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Summer Male"
+        jcr:uuid="f2707c27-5d07-4090-98e3-0081c175006a"
+        sling:resourceType="cq/personalization/components/experiencepage">
+        <image
+            jcr:lastModified="{Date}2011-11-03T20:54:38.668+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/articles/going-for-gold.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

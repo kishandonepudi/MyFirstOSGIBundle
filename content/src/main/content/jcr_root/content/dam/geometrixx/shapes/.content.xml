@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-10T14:17:57.365+01:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Shapes">
+        <folderThumbnail/>
+    </jcr:content>
+    <_x0030_1.jpg/>
+    <_x0030_2.jpg/>
+    <_x0030_3.jpg/>
+    <_x0030_4.jpg/>
+    <_x0030_5.jpg/>
+    <_x0030_6.jpg/>
+    <_x0030_7.jpg/>
+    <_x0030_8.jpg/>
+    <_x0030_9.jpg/>
+    <W01.jpg/>
+    <W02.jpg/>
+    <W03.jpg/>
+    <W04.jpg/>
+    <W05.jpg/>
+    <W06.jpg/>
+    <W07.jpg/>
+    <W08.jpg/>
+    <W09.jpg/>
+    <W10.jpg/>
+    <W11.jpg/>
+    <mandelbrot.jpg/>
+    <tri_equilateral.png/>
+    <tri_isoceles.png/>
+    <tri_scalene.png/>
+    <sq_plan.png/>
+    <sq_cube.png/>
+    <sq_square.png/>
+    <sq_elipse.png/>
+    <cir_circle.png/>
+    <cir_sphere.png/>
+</jcr:root>

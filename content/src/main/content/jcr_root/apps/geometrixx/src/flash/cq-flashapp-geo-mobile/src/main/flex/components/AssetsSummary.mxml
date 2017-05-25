@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cq:Component xmlns:cq="com.adobe.cq.foundation.components.*"
+			  xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 	  xmlns:s="library://ns.adobe.com/flex/spark"
+		 	  xmlns:views="views.*"
+			  width="100%"
+			  >
+	<fx:Metadata>
+		[FlexCqComponent("geometrixx/components/mobiletrader/assets-summary")]
+	</fx:Metadata>
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.jcr.Node;
+			
+			import mx.core.FlexGlobals;
+			
+			public override function loadContent(node:Node):void {
+				// nothing to load
+			}
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<s:CurrencyFormatter id="cf" useCurrencySymbol="true" fractionalDigits="0" />
+		<s:NumberFormatter id="nf" fractionalDigits="2" />
+	</fx:Declarations>
+	<s:Group width="100%">
+		<s:Group id="summaryTable" left="20">
+			<s:layout>
+				<s:VerticalLayout gap="1"/>
+			</s:layout>
+			
+			<s:Group height="40">
+				<s:Rect left="0" top="0" bottom="0" width="4">
+					<s:fill>
+						<s:SolidColor color="#FF5900"/>
+					</s:fill>
+				</s:Rect>
+				<s:Rect left="4" top="0" bottom="0" width="160">
+					<s:fill>
+						<s:SolidColor color="#919191"/>
+					</s:fill>
+				</s:Rect>
+				<s:Label text="Net worth:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+			</s:Group>
+			
+			<s:Group height="40">
+				<s:Rect left="0" top="0" bottom="0" width="4">
+					<s:fill>
+						<s:SolidColor color="#FF5900"/>
+					</s:fill>
+				</s:Rect>
+				<s:Rect left="4" top="0" bottom="0" width="160">
+					<s:fill>
+						<s:SolidColor color="#919191"/>
+					</s:fill>
+				</s:Rect>
+				<s:Label text="Last Month:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+			</s:Group>
+			
+			<s:Group height="40">
+				<s:Rect left="0" top="0" bottom="0" width="4">
+					<s:fill>
+						<s:SolidColor color="#FF5900"/>
+					</s:fill>
+				</s:Rect>
+				<s:Rect left="4" top="0" bottom="0" width="160">
+					<s:fill>
+						<s:SolidColor color="#919191"/>
+					</s:fill>
+				</s:Rect>
+				<s:Label text="6 Months Ago:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+			</s:Group>
+			
+			<s:Group height="40">
+				<s:Rect left="0" top="0" bottom="0" width="4">
+					<s:fill>
+						<s:SolidColor color="#FF5900"/>
+					</s:fill>
+				</s:Rect>
+				<s:Rect left="4" top="0" bottom="0" width="160">
+					<s:fill>
+						<s:SolidColor color="#919191"/>
+					</s:fill>
+				</s:Rect>
+				<s:Label text="Last Year:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+			</s:Group>
+		</s:Group> <!-- summary table -->
+		<views:AssetsSummary id="assetsSummary" left="184" right="20" height="{summaryTable.height}"/>
+	</s:Group>
+</cq:Component>

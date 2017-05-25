@@ -1,0 +1,79 @@
+.video .not-published div,
+.mobileVideo .not-published div,
+.multiscreenflyoutzoom .not-published div,
+.basiczoom .not-published div,
+.flyoutzoom .not-published div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.video .not-published,
+.mobileVideo .not-published,
+.multiscreenflyoutzoom .not-published,
+.basiczoom .not-published,
+.flyoutzoom .not-published {
+    border: 2px dashed #CCCCCC;
+}
+
+.video .not-published img,
+.mobileVideo .not-published img,
+.multiscreenflyoutzoom .not-published img,
+.basiczoom .not-published img,
+.flyoutzoom .not-published img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -24px;
+    margin-top: -38px;
+}
+
+.video .overlay,
+.mobileVideo .overlay,
+.multiscreenflyoutzoom .overlay,
+.basiczoom .overlay,
+.flyoutzoom .overlay {
+    background: white;
+    filter:alpha(opacity=50); 
+    -moz-opacity: 0.5; 
+    -webkit-opacity: 0.5; 
+    opacity: 0.5;
+}
+
+.video .publish-button,
+.mobileVideo .publish-button,
+.multiscreenflyoutzoom .publish-button,
+.basiczoom .publish-button,
+.flyoutzoom .publish-button {
+    border:1px solid white;
+    padding: 2px 5px;
+    background: #aaa; 
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: -45px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+}
+
+.video .publish-button:hover,
+.mobileVideo .publish-button:hover,
+.multiscreenflyoutzoom .publish-button:hover,
+.basiczoom .publish-button:hover,
+.flyoutzoom .publish-button:hover {
+    background-color: #777;
+}
+
+.video a.publish-button,
+.mobileVideo a.publish-button,
+.multiscreenflyoutzoom a.publish-button,
+.basiczoom a.publish-button,
+.flyoutzoom a.publish-button{
+    color: white;
+    text-decoration:none;
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:54.971-05:00"
+    jcr:createdBy="ashley.thompson@spambob.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="I have never been much of a colder weather hiker, but this year I think I’m going to give it a shot. I don’t like getting all bulked up in clothing and gear, so I’m looking for some advice about how to stay warm without looking like an Eskimo. "
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/forum/jcr:content/forum/1_ciot/uxdj-i_have_neverbeenmu"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/topic"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/hiking/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

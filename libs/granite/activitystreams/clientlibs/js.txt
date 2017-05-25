@@ -1,0 +1,5 @@
+Activitystreams.js
+
+# legacy
+source/Activity.js
+source/ActivityManager.js

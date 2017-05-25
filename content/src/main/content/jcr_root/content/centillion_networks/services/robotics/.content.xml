@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-05-01T14:58:04.466+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/centillion/templates/cent_templates"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Robotics"
+        jcr:uuid="102ca521-8def-4d43-a027-e148290ea2d4"
+        sling:resourceType="centillion/components/page/cent_component">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2017-04-15T15:51:34.688+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-01T14:58:04.463+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/Centillion_images/robotics.jpg"
+                height="680"
+                imageRotate="0"
+                width="1330"/>
+            <text
+                jcr:created="{Date}2017-04-16T14:08:06.046+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T14:31:38.580+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="centillion/components/text"
+                text="&lt;p>&lt;u>Robotics :&lt;/u>&lt;/p>&#xa;&lt;p>Centillion robotic drone is a state of art of technology equipped with sensors, detection instruments, image scanning and data communication apparatus like LiDAR camera, torsion sensors, servo motors and drives, Wi-Fi transmitter, Gyroscope, accelerometer, actuators, joystick, flight controller. Unlike conventional approaches as foot patrols, aerial surveys, the robotic drone is more efficient and safer to assure higher maintenance quality. Thus it is has a broad engineering application prospects.&lt;/p>&#xa;&lt;p>Centillion ROBOTIC DRONE equipped with a ROBOTIC ARM autonomously performs the maintenance of EHV (Extra High Voltage) transmission lines at a reduced operational costs and enhanced safety. In conventional method, visual patrols from a helicopter, performs the maintenance task. As helicopter is prone to come in contact with the EHV transmission lines, human lives are at risk. To deal with this concern, Centillion has developed a robotic drone with technological marvel, which performs efficiently the maintenance of broken or damaged splice and avoids hazards to humans such as the risk of falling and electric shock.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

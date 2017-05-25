@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-12-08T15:27:38.978+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="Winter Banner"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Banner"
+        jcr:uuid="0d77d2bb-dda2-45e8-9f5b-bed095337d33"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="banner">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2011-11-03T17:39:46.521+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-12-08T15:27:38.975+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx-outdoors/banners/winter.jpg"
+                imageRotate="0"
+                linkURL="/content/geometrixx-outdoors/en/women/winter">
+                <file jcr:primaryType="nt:unstructured">
+                    <jcr:content.undoblob.save.json jcr:primaryType="nt:unstructured"/>
+                </file>
+            </image>
+        </par>
+        <image
+            jcr:lastModified="{Date}2011-12-08T14:47:47.200+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

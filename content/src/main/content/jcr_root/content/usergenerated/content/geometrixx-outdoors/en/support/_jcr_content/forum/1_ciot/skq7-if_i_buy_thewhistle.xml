@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastModified="{Date}2012-11-29T17:01:30.794+01:00"
+    cq:lastModifiedBy="weston.mccall@dodgit.com"
+    jcr:description="If I buy the Whistler Snowboard, can I switch out the bindings or am I stuck with the ones it comes with? "
+    jcr:primaryType="cq:Comment"
+    jcr:title="If I buy the..."
+    sling:resourceType="geometrixx-outdoors/components/qna/topic"
+    _charset_="UTF-8"
+    added="{Date}2012-11-29T16:58:21.605+01:00"
+    authorizableId="weston.mccall@dodgit.com"
+    helpful="0"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notHelpful="0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.html"
+    sentiment="{Long}3"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="weston.mccall@dodgit.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <c2i7-the_whistleriscomp
+            jcr:description="The Whistler is compatible with just about any binding setup out there, with the exception of Burton. If you get the Whistler, you will have four screw holes to attach the baseplate to, which is almost universal (Burton only has three holes)."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T16:59:14.405+01:00"
+            authorizableId="aaron.mcdonald@mailinator.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}1"
+            notHelpful="0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__skq7-if_i_buy_thewhistle.html"
+            sentiment="{Long}1"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aaron.mcdonald@mailinator.com"/>
+        <toke-i_changed_outthebi
+            jcr:description="I changed out the bindings when I got the Whistler because I don’t like the straps (they bother my ankles). I had no issues attaching my step bindings."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:01:30.754+01:00"
+            authorizableId="ryan.palmer@spambob.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__skq7-if_i_buy_thewhistle.html"
+            sentiment="{Long}3"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="ryan.palmer@spambob.com"/>
+    </_x0031__tosp>
+</jcr:root>

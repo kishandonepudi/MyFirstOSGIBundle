@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cq:Title xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					  xmlns:s="library://ns.adobe.com/flex/spark" 
+					  xmlns:mx="library://ns.adobe.com/flex/mx" 
+					  xmlns:cq="com.adobe.cq.foundation.components.*"
+					  >
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<fx:Metadata>
+		[FlexCqComponent("geometrixx/components/title")]
+	</fx:Metadata>
+	
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.jcr.Node;
+			
+			override public function loadContent(node:Node):void {
+				super.loadContent(node);
+			}
+		]]>
+	</fx:Script>
+</cq:Title>

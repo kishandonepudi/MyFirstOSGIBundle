@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-03T18:50:37.946+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/campaign"
+        jcr:description="Contains the basic personalization features for the Geometrixx-Outdoors storefront."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Storefront Campaign"
+        jcr:uuid="cc51f28e-e2e9-45a4-80c4-4f81d039219f"
+        sling:resourceType="cq/personalization/components/campaignpage"/>
+    <summer-female-under30/>
+    <summer-female-over30/>
+    <winter-female-under30/>
+    <winter-female-over30/>
+    <summer-male-under30/>
+    <summer-male-over30/>
+    <winter-male-under30/>
+    <winter-male-over30/>
+    <summer-female/>
+    <winter-female/>
+    <summer-male/>
+    <winter-male/>
+    <female/>
+    <male/>
+    <summer/>
+    <winter/>
+    <generic/>
+</jcr:root>

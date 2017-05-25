@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    accept_third_party_cookie="false"
+    CQ5_UserAgentRadical="nokia6288-06-43-profile-midp-configuration-cldc"
+    fall_back="nokia_6288_ver1"
+    max_data_rate="384"
+    user_agent="Nokia6288/2.0 (06.43) Profile/MIDP-2.0 Configuration/CLDC-1.1"/>

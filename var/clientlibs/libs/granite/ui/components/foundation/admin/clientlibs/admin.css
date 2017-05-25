@@ -1,0 +1,89 @@
+/* TODO merge into coral, all of these are just temporary so we have some "ui" */
+
+/************************
+ * Collection
+ ***********************/
+ 
+.card.mode-selection {
+    background: url(admin/css/resources/selmode_bg.png);
+}
+
+
+/************************
+ * Form
+ ***********************/
+
+.foundation-form.mode-default label {
+    line-height: 2;
+}
+
+.foundation-form label {
+    margin-bottom: 4px;
+}
+
+.foundation-form label > span:first-child {
+    color: #9a9a9a;
+}
+
+.foundation-form.mode-default .foundation-field-readonly.checkbox-status {
+    padding-left: 1.5em;
+    color: #4b4b4b;
+}
+
+.foundation-form.mode-default .foundation-field-readonly.checkbox-status.withLabel {
+    padding-left: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset fieldset {
+    margin: 0;
+    padding: 0 0.5rem;
+}
+
+fieldset > legend {
+    text-transform: uppercase;
+}
+
+fieldset.radiogroup > legend, fieldset.select > legend {
+    padding: 0;
+    text-transform: none;
+    font-size: 0.8125rem;
+}
+
+fieldset.radiogroup .foundation-field-readonly {
+    font-size: 0.8125rem;
+}
+
+fieldset.select {
+    font-size: 0.8125rem;
+}
+
+fieldset.select ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+form.vertical label {
+    display: block;
+}
+
+form.vertical label > span:first-child {
+    display: block;
+}
+
+.foundation-field-readonly.filters ul.tags .popover {
+    color: #9A9A9A;
+}
+
+.foundation-field-readonly.filters ul.tags .popover div {
+    padding: .3rem;
+}
+
+.foundation-field-readonly.filters ul.tags a {
+    color: white;
+}
+

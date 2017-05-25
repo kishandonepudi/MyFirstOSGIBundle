@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}false"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="nt:folder"
+    jcr:uuid="40ed38c9-cb13-41dc-8602-0249e2c1b4c2"/>

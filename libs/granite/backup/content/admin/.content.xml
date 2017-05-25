@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Backup"
+    sling:resourceType="granite/backup/components/admin">
+    <backups
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Backups"
+        sling:resourceType="granite/backup/components/backups"/>
+    <backup
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Backup"
+        sling:resourceType="granite/backup/components/backup"/>
+</jcr:root>

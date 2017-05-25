@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-02-02T12:00:46.269+01:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Default Teaser"
+        sling:resourceType="cq/personalization/components/teaserpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:created="{Date}2010-11-04T04:34:35.305Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-08T07:07:23.319Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Get the Geometrixx App"
+                sling:resourceType="geometrixx/components/title"
+                type="small"/>
+            <text
+                jcr:created="{Date}2010-11-04T04:35:24.582Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-10T18:11:14.120+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>All things Geometrixx, anytime, anywhere. Our mobile app is is as groundbreaking and remarkably easy-to-use as our shapes. &lt;/p>&lt;p>&lt;/p>"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2010-11-04T04:32:26.790Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-08T07:07:06.918Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/banners/mobile.jpg"/>
+        </par>
+    </jcr:content>
+</jcr:root>

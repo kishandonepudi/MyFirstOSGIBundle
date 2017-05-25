@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Section Header"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <title
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Header Text"
+            name="./sectionHeaderText"
+            xtype="textfield"/>
+        <style
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Size of the header to render (defaults to h3)"
+            fieldLabel="Header size"
+            name="./headerSize"
+            type="select"
+            xtype="selection">
+            <options jcr:primaryType="cq:WidgetCollection">
+                <medium
+                    jcr:primaryType="nt:unstructured"
+                    text="Medium (h3)"
+                    value="h3"/>
+                <large
+                    jcr:primaryType="nt:unstructured"
+                    text="Large (h2)"
+                    value="h2"/>
+                <small
+                    jcr:primaryType="nt:unstructured"
+                    text="Deck (h5)"
+                    value="h5"/>
+            </options>
+        </style>
+    </items>
+</jcr:root>

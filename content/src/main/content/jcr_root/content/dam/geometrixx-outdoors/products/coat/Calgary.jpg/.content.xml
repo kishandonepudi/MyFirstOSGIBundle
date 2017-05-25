@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2012-11-30T13:29:10.886+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:ApertureValue="{Double}9.0"
+            dam:Bitsperpixel="{Long}24"
+            dam:CustomRendered="{Long}0"
+            dam:DateTimeDigitized="{Date}2009-12-19T16:44:19.000+01:00"
+            dam:DateTimeOriginal="{Date}2009-12-19T16:44:19.000+01:00"
+            dam:ExifImageLength="{Long}350"
+            dam:ExifImageWidth="{Long}600"
+            dam:ExifOffset="{Long}262"
+            dam:ExifVersion="{Binary}"
+            dam:ExposureCompensation="{Double}0.0"
+            dam:ExposureMode="{Long}1"
+            dam:ExposureTime="{Double}0.008"
+            dam:extracted="{Date}2012-11-30T13:29:10.538+01:00"
+            dam:Fileformat="JPEG"
+            dam:FlashpixVersion="{Binary}"
+            dam:FocalLength="{Double}35.0"
+            dam:FocalPlaneResolutionUnit="{Long}2"
+            dam:FocalPlaneXResolution="{Double}3849.2115384615386"
+            dam:FocalPlaneYResolution="{Double}3908.1418439716313"
+            dam:MaxApertureValue="{Double}4.0"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:PhotographicSensitivity="{Long}100"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Double}1.1666666269302368"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Double}2.0"
+            dam:Progressive="no"
+            dam:SceneCaptureType="{Long}0"
+            dam:sha1="9e7d768f488c80b0544323702808b1d49a011caf"
+            dam:ShutterSpeedValue="{Double}7.0"
+            dam:SubjectDistance="{Double}1.68"
+            dam:WhiteBalance="{Long}1"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2012-11-30T13:29:10.886+01:00"
+            exif:Flash="{Long}16"
+            exif:FNumber="{Double}22.0"
+            jcr:lastModified="{Date}2012-11-30T13:29:10.886+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}350"
+            tiff:ImageWidth="{Long}600"
+            xmp:CreatorTool="Adobe Photoshop CS5.1 Macintosh"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="mozilla-linux-android-update1-a6277-build-ere27-apple-web-kit-530-17-khtml-like-gecko-version-mobile-safari-530-17-sprint-apa6277"
+    device_os_version="2.1"
+    fall_back="htc_a6277_ver1"
+    user_agent="Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; A6277 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17 Sprint APA6277KT"/>

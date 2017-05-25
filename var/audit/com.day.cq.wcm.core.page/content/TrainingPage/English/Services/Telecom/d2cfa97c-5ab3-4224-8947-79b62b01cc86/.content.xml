@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:category="com/day/cq/wcm/core/page"
+    cq:path="/content/TrainingPage/English/Services/Telecom"
+    cq:properties="{Binary}"
+    cq:time="{Date}2017-05-11T11:37:53.868+05:30"
+    cq:type="PageModified"
+    cq:userid="admin"
+    jcr:primaryType="cq:AuditEvent"
+    path="/content/TrainingPage/English/Services/Telecom"
+    type="PageModified"
+    userId="admin"/>

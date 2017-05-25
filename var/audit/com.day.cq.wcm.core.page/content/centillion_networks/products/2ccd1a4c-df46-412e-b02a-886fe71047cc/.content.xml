@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:category="com/day/cq/wcm/core/page"
+    cq:path="/content/centillion_networks/products"
+    cq:properties="{Binary}"
+    cq:time="{Date}2017-04-27T10:07:00.036+05:30"
+    cq:type="PageModified"
+    cq:userid="admin"
+    jcr:primaryType="cq:AuditEvent"
+    path="/content/centillion_networks/products"
+    type="PageModified"
+    userId="admin"/>

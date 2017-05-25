@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:53.008-05:00"
+    jcr:createdBy="matt.monroe@mailinator.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="Aaron, bear mace works. It is tested and proven effective. A bear will literally turn and run away from you if you use mace. I recommend that everyone who ventures out into bear country keep some with them at all times, whether hiking or sleeping. It is also proven to work with moose, wolves, and mountain lions."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/forum/jcr:content/forum/1_ciot/sjca-my_family_andiare/1_tosp/wpoc-aaron_bear_macewor"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/hiking/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

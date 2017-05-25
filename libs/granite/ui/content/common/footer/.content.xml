@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    copyright="© {year} Adobe Systems Incorporated. All Rights Reserved">
+    <help
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/hyperlink"
+        href="http://www.adobe.com/go/marketingcloud_help"
+        text="Help"
+        title="Help"/>
+    <terms
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/hyperlink"
+        href="http://www.adobe.com/go/marketingcloud_terms_of_use"
+        text="Terms of Use"
+        title="Terms of Use"/>
+    <policy
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/hyperlink"
+        href="http://www.adobe.com/go/marketingcloud_privacy"
+        text="Privacy Policy and Cookies"
+        title="Privacy Policy and Cookies"/>
+    <license
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/hyperlink"
+        href="/system/granite/license/"
+        text="License Information"
+        title="License Information"
+        x-cq-linkchecker="valid"/>
+</jcr:root>

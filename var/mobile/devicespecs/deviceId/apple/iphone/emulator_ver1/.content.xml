@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    brand_name="Apple"
+    CQ5_UserAgentRadical="mozilla-aspen-simulator-aspen-like-mac-apple-web-kit-52"
+    fall_back="apple_iphone_ver1"
+    model_extra_info="Emulator"
+    model_name="iPhone"
+    user_agent="Mozilla/5.0 (Aspen Simulator; U; Aspen 1_2 like Mac OS X; en-us) AppleWebKit/52"/>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Create a new question with dynamic search"
+    jcr:primaryType="cq:Template"
+    jcr:title="New Question"
+    allowedPaths="[/content/geometrixx-outdoors/[^/]+/community(/.*)?,/content/geometrixx-outdoors/[^/]+/support(/.*)?]">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="geometrixx-outdoors/components/page_newquestion">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <start
+                jcr:created="{Date}2012-05-18T13:03:47.411-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-05-21T15:43:36.408-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/form/start"
+                action="/content/geometrixx-outdoors/en/questions/"
+                actionType="social/commons/components/form/actions/create"
+                contentType="question"
+                endpoint="social.createqnapost"
+                endResourceType="/libs/social/commons/components/form/end"
+                formid="_newquestion"
+                mode="createContent"
+                parentResourceType="social/qna/components/qnaforum"
+                renderOption="default"/>
+            <text_21e8
+                jcr:created="{Date}2012-04-18T17:35:50.659-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-08-24T14:57:21.278-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Question"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="social/commons/components/form/text"
+                defaultValue="Enter your question here."
+                emptytext="true"
+                name="jcr:title"
+                required="true"
+                requiredMessage="Enter your question here."
+                width="630"/>
+            <text_2418
+                jcr:created="{Date}2012-03-24T12:06:50.250-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-04-23T13:15:38.259-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Description"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="/libs/social/commons/components/form/text"
+                cols="40"
+                defaultValue="Enter details here to help get the right answer to your question."
+                emptytext="true"
+                name="jcr:description"
+                required="true"
+                requiredMessage="Enter details here to help get the right answer to your question."
+                rows="6"
+                width="630"/>
+            <tagging
+                jcr:created="{Date}2012-08-09T20:28:08.405-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-08-09T20:29:31.608-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/tagging"
+                filterVal="/etc/tags/forum"
+                name="cq:tags"/>
+            <checkbox_5e1e
+                jcr:created="{Date}2012-08-24T16:29:02.037-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-08-24T16:31:20.902-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/checkbox"
+                defaultValue="Email me when answers are posted."
+                hideTitle="true"
+                name="notify"
+                options="Email me when answers are posted."/>
+            <form_end
+                jcr:lastModified="{Date}2012-05-18T13:05:12.409-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="SUBMIT QUESTION"
+                sling:resourceSuperType="foundation/components/form/end"
+                sling:resourceType="social/commons/components/form/end"
+                cancel="true"
+                cancelTitle="CANCEL"
+                denyText="Sign in in order to post to this forum."
+                submit="true"/>
+        </par>
+        <sidebar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <related_questions_side_bar_9b77
+                jcr:created="{Date}2012-01-22T22:17:35.462+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-03-25T00:33:23.033-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Recent Questions"
+                sling:resourceType="/libs/social/qna/components/related_questions_side_bar"/>
+        </sidebar>
+    </jcr:content>
+</jcr:root>

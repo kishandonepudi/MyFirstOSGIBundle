@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia-6256i"
+    fall_back="nokia_6255_ver1"
+    model_name="6256i"
+    playback_3gpp="true"
+    playback_acodec_amr="nb"
+    qcelp="true"
+    ringtone_mp3="true"
+    ringtone_qcelp="true"
+    streaming_real_media="none"
+    user_agent="NOKIA-6256i"/>

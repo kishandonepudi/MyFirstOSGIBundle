@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <articles/>
+    <pressreleases/>
+    <_x0036_42c2c18-6494-47a7-8f95-d651401044c0/>
+    <c658825c-d3b4-483a-8c00-9fc1462d4c4e/>
+</jcr:root>

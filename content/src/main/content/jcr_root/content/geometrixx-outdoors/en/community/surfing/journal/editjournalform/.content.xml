@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-08-20T22:47:05.986-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/social/journal/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Edit Journal Entry"
+        jcr:uuid="9726d17e-b6cd-4ace-86ba-b50e33b9c230"
+        sling:resourceType="geometrixx-outdoors/components/journal/page_editjournal">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <start
+                jcr:created="{Date}2012-05-18T13:03:47.411-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-08-20T17:18:53.664-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/form/start"
+                action="/content/geometrixx-outdoors/en/community/surfing/journal"
+                actionType="social/commons/components/form/actions/edit"
+                clientValidation="true"
+                contentType="journal"
+                endpoint="social.editjournalentry"
+                endResourceType="/libs/social/commons/components/form/end"
+                formid="_editjournalentry"
+                mode="editContent"
+                parentResourceType=" "
+                redirect="//content/geometrixx-outdoors/en/community/surfing/journal"
+                renderOption="default"/>
+            <text_title
+                jcr:created="{Date}2012-04-18T17:35:50.659-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-08-08T15:08:12.673-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Title"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="social/commons/components/form/text"
+                name="title"
+                required="true"
+                width="450"/>
+            <text_2418
+                jcr:created="{Date}2012-03-24T12:06:50.250-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-08-08T12:43:23.562-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Content:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="social/commons/components/richTextEditor"
+                cols="40"
+                name="text"
+                required="true"
+                requiredMessage="Please enter a little more detail about your question."
+                rows="6"
+                width="450"/>
+            <image
+                jcr:created="{Date}2012-09-17T23:34:24.140-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-04T17:20:47.751+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Image:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/image"
+                height="100"
+                name="file"/>
+            <form_end
+                jcr:lastModified="{Date}2012-08-20T22:47:05.986-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Update"
+                sling:resourceSuperType="foundation/components/form/end"
+                sling:resourceType="social/commons/components/form/end"
+                cancel="true"
+                denyText="Sign in in order to post to this forum."
+                submit="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

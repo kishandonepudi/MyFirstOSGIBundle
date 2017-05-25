@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <_x0034_5063b1e-ab32-4dde-baa2-bef9f2e3ff8b/>
+    <asseteditor/>
+    <assetviewer/>
+    <_x0033_9da5911-c8c2-4ee0-bef9-4098c7dd91aa/>
+</jcr:root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia6235"
+    fall_back="nokia_generic_series40_dp20"
+    image_inlining="true"
+    j2me_cldc_1_1="true"
+    model_name="6235"
+    ringtone_mp3="true"
+    ringtone_qcelp="true"
+    ringtone_voices="24"
+    streaming_real_media="none"
+    user_agent="Nokia6235"/>

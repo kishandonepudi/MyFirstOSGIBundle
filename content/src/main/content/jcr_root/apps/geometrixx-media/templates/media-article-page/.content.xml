@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Article page template"
+    jcr:mixinTypes="[mix:lockable]"
+    jcr:primaryType="cq:Template"
+    jcr:title="Media Article"
+    allowedPaths="[/content/geometrixx-media/[^/]+(/.*)?]"
+    ranking="{Long}2">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-media"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="geometrixx-media/components/page/article">
+        <right-panel-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <section_header
+                jcr:created="{Date}2012-10-17T16:56:40.794-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-10-17T16:57:02.561-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-media/components/section-header"
+                sectionHeaderText="most popular"/>
+            <popular_articles
+                jcr:created="{Date}2012-10-17T16:57:06.585-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-10-17T16:58:17.065-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-media/components/popular-articles"
+                firstDefault="/content/geometrixx-media/en/gadgets/bored-top-25"
+                secondDefault="/content/geometrixx-media/en/gadgets/paladin-game"
+                thirdDefault="/content/geometrixx-media/en/events/warp-11-tour"
+                topLevelPage="/content/geometrixx-media/en"/>
+        </right-panel-par>
+        <article-content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <comments
+                jcr:created="{Date}2012-11-28T19:22:54.922-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-28T19:22:54.922-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/comments"/>
+        </article-content-par>
+    </jcr:content>
+</jcr:root>

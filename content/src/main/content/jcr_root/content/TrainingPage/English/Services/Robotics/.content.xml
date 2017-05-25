@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-05-08T12:50:24.689+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/Training/Templates/Training_Template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Robotics"
+        sling:resourceType="Training/Components/Page">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <flash
+                jcr:created="{Date}2017-05-08T12:49:51.568+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-08T12:49:51.568+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/flash"/>
+            <list
+                jcr:created="{Date}2017-05-08T12:49:47.835+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-08T12:49:47.835+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/list"/>
+        </par>
+        <ipar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/personalization/components/target">
+            <default
+                jcr:lastModified="{Date}2017-05-08T12:49:59.414+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys">
+                <iparsys_fake_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cq/personalization/components/target">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/iparsys/par"/>
+                </iparsys_fake_par>
+            </default>
+        </ipar>
+    </jcr:content>
+</jcr:root>

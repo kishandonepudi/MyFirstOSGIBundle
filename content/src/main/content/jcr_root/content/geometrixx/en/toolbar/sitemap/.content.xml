@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-08-19T16:38:37.966+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        cq:toolbars="[bottom]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sitemap"
+        sling:resourceType="geometrixx/components/contentpage"
+        subtitle="some words about us">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <sitemap
+                jcr:lastModified="{Date}2009-11-20T00:48:18.161-00:05"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/sitemap"/>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+    </jcr:content>
+</jcr:root>

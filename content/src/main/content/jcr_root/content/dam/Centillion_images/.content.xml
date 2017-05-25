@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content jcr:primaryType="nt:unstructured"/>
+    <clogo.png/>
+    <Engineering_mini.jpg/>
+    <Software_mini.jpg/>
+    <robotics_mini.jpg/>
+    <robotic_drone_mini.jpg/>
+    <pfs_mini.jpg/>
+    <logo.png/>
+    <people1.jpg/>
+    <people2.jpg/>
+    <people3.jpg/>
+    <people6.jpg/>
+    <people4.jpg/>
+    <people5.jpg/>
+    <people8.jpg/>
+    <people7.jpg/>
+    <_x0037_.jpg/>
+    <SDC12001.jpg/>
+    <roboti_drone.jpg/>
+    <robotics.jpg/>
+    <Engineering.jpg/>
+    <Software.jpg/>
+    <pfs_wall.jpg/>
+    <giphy.mp4/>
+    <img_20170413_101812.jpg/>
+    <img_20170414_132201.jpg/>
+    <img_20170419_090349.jpg/>
+    <gsmarena_012_x0020__x0028_1_x0029_.jpg/>
+</jcr:root>

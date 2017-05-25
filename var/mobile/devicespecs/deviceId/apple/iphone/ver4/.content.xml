@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="mozilla-phone-cpu-phone-like-mac-apple-web-kit-532-khtml-like-gecko-mobile-d11"
+    device_os_version="4.0"
+    fall_back="apple_iphone_ver3_1_3"
+    model_extra_info="4.0"
+    model_name="iPhone"
+    playback_3g2="true"
+    playback_3gpp="true"
+    release_date="2010_april"
+    streaming_3gpp="false"
+    user_agent="Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Mobile/7D11"/>

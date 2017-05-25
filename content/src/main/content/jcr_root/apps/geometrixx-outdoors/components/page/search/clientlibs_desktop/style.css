@@ -1,0 +1,51 @@
+/*
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2011 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+*/
+
+.search .search-form {
+    overflow: hidden;
+}
+.search .search-field,
+.search .search-submit {
+    float: left;
+    margin: 0;
+}
+.search .search-field input {
+    width: 160px;
+    height: 12px;
+    line-height: 12px;
+    padding: 2px 5px;
+    border: none;
+    color: #888;
+    background: #fff url(/etc/designs/geometrixx-outdoors/images/page/search.png) 0 -32px repeat-x;
+}
+.search .search-field input:focus {
+    color: #000;
+}
+.search .search-submit input {
+    overflow: hidden;
+    width: 20px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: #d55920 url(/etc/designs/geometrixx-outdoors/images/page/search.png) no-repeat;
+    text-indent: -1000em;
+}
+.search .search-submit input:hover {
+    background-position: 0 -16px;
+}

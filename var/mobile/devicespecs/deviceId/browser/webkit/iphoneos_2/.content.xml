@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="not-match-browser-webkit-iphoneos"
+    fall_back="browser_webkit_iphoneos_1"
+    mobile_browser="WebKit/iPhone"
+    user_agent="DO_NOT_MATCH_BROWSER_WEBKIT_IPHONEOS_2"/>

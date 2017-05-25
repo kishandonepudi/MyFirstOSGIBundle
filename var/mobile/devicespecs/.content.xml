@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:lastModified="{Date}2017-04-21T10:12:27.621+05:30"
+    jcr:primaryType="sling:Folder"
+    inputFileDigest="5749bb76c43d75ebbde0b2fd93b116fc"
+    inputFilePath="/libs/wcm/mobile/devicespecs/wurfl.xml"/>

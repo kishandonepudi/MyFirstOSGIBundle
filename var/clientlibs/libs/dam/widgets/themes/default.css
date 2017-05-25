@@ -1,0 +1,224 @@
+/*
+ * Copyright 1997-2009 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+/* -------------------------------------------------------------------------- */
+/* panel layouts config */
+/* -------------------------------------------------------------------------- */
+
+#CQ .cq-asseteditor .cq-asseteditor-east .x-tab-panel-header .x-tab-scroller-left {
+    background-image:url(default/widgets/AssetEditor/scroll-left.gif);
+}
+#CQ .cq-asseteditor .cq-asseteditor-east .x-tab-panel-header .x-tab-scroller-right {
+    background-image:url(default/widgets/AssetEditor/scroll-right.gif);
+}
+
+/* footer of east, center and west */
+#CQ .cq-asseteditor .cq-asseteditor-west .x-panel-footer,
+#CQ .cq-asseteditor .cq-asseteditor-east .x-tab-panel-footer {
+    /*border:none;*/
+    /*padding-top:0;*/
+}
+
+#CQ .cq-asseteditor .x-toolbar.x-small-editor {
+    height:21px;
+}
+
+/* paddings */
+#CQ .cq-asseteditor .cq-asseteditor-west .x-panel-body {
+    padding:30px 0 20px 15px;
+}
+#CQ .cq-asseteditor .cq-asseteditor-center .x-panel-body {
+    padding:30px 30px 20px 20px;
+}
+#CQ .cq-asseteditor .cq-asseteditor-east .x-panel-body {
+    border-top:none;
+}
+
+/* reset padding inside inner east, center and west panels */
+#CQ .cq-asseteditor .cq-asseteditor-east .x-panel-body .x-panel-body,
+#CQ .cq-asseteditor .cq-asseteditor-center .x-panel-body .x-panel-body,
+#CQ .cq-asseteditor .cq-asseteditor-west .x-panel-body .x-panel-body {
+    padding:0;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* info panel */
+/* -------------------------------------------------------------------------- */
+
+#CQ .cq-asseteditor .cq-asseteditor-west .x-table-layout {
+    width:180px;
+}
+#CQ .cq-asseteditor .cq-asseteditor-west .x-table-layout TD {
+    vertical-align:top;
+}
+
+#CQ .cq-asseteditor .cq-asseteditor-west .cq-static.cq-asseteditor-thumbnail IMG {
+    cursor:pointer;
+}
+#CQ .cq-asseteditor .cq-asseteditor-west .cq-static.cq-asseteditor-thumbnail .ext-el-mask-msg {
+    border:none;
+    background:none;
+}
+#CQ .cq-asseteditor .cq-asseteditor-west .cq-static.cq-asseteditor-thumbnail .ext-el-mask-msg DIV {
+    border:none;
+    background-color:transparent;
+}
+#CQ .cq-asseteditor .cq-asseteditor-west .cq-asseteditor-title {
+    color:#111111;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:15px;
+    margin-top:20px;
+}
+#CQ .cq-asseteditor .cq-asseteditor-west .cq-static-small {
+    border-top:1px solid #d0d0d0;
+    margin-top:5px;
+    padding-top:1px;
+}
+#CQ .cq-asseteditor .cq-asseteditor-west .cq-static A {
+    cursor:pointer;
+    text-decoration:underline;
+    color:#15428B;
+}
+#CQ .cq-asseteditor .cq-asseteditor-west .cq-static A:active {
+    color:#8394D0;
+}
+#CQ .cq-asseteditor .cq-asseteditor-west .cq-static A:visited {
+    color:#936C88;
+}
+
+/* -------------------------------------------------------------------------- */
+/* tab panel */
+/* -------------------------------------------------------------------------- */
+
+#CQ .cq-asseteditor-renditions .x-panel-body,
+#CQ .cq-asseteditor-versions .x-panel-body,
+#CQ .cq-asseteditor-references .x-panel-body {
+    padding:15px 10px 10px 15px;
+    font-family:tahoma,arial,helvetica,sans-serif;
+    font-size:11px;
+}
+
+#CQ DIV.cq-asseteditor-substab-item,
+#CQ DIV.cq-asseteditor-renditions-item {
+    display:block;
+    margin-bottom:20px;
+    text-align:center;
+    cursor:pointer;
+    font-size:10px;
+    color:black;
+}
+#CQ .cq-asseteditor-substab-item {
+    float:left;
+    margin:15px 10px 10px 15px;
+}
+
+#CQ .cq-asseteditor TD.x-table-layout-cell {
+    white-space:normal;
+}
+
+
+/* subasset tab: thumbnail is img */
+#CQ .cq-asseteditor-substab-thumbnail {
+    height:100px;
+    margin-bottom:2px;
+    text-align:center;
+    vertical-align:top;
+}
+#CQ .cq-asseteditor-substab IMG {
+    cursor:pointer;
+}
+/* renditions tab: thumbail is bg */
+#CQ .cq-asseteditor-renditionstab-thumbnail {
+    width:192px;
+    height:192px;
+    margin-bottom:4px;
+    /*cursor:pointer;*/
+    background:none no-repeat scroll center center transparent;
+    border:solid 1px #efefef;
+}
+#CQ DIV.cq-asseteditor-renditions-item {
+    border:solid 1px #ffffff;
+    width:194px;
+    padding:3px;
+    padding-top:4px;
+}
+#CQ .cq-asseteditor-renditions-item.x-view-over {
+    border-color:#dedede;
+    background-color:#efefef;
+}
+#CQ .cq-asseteditor-renditions-item.x-view-selected {
+    border-color:#d0d0d0;
+    background-color:#dedede;
+}
+#CQ .cq-asseteditor-renditions-item.x-view-selected .cq-asseteditor-renditionstab-thumbnail {
+    border-color:#dedede;
+}
+
+
+/* versions tab */
+#CQ .cq-asseteditor-versions-item.x-view-over {
+    background:#efefef repeat-x left top;
+}
+#CQ .cq-asseteditor-versions-item.x-view-selected {
+    background:#dedede no-repeat right bottom;
+}
+
+#CQ .cq-asseteditor-versions-item {
+    border-bottom:solid 1px #d0d0d0;
+    font-family:tahoma,arial,helvetica,sans-serif;
+    font-size:11px;
+    padding:7px 7px;
+    white-space:normal;
+}
+#CQ .cq-asseteditor-versions-thumbnail {
+    float:left;
+    margin-right:10px;
+}
+#CQ .cq-asseteditor-versions-label {
+    font-weight:bold;
+    color:#111111;
+}
+#CQ .cq-asseteditor-versions-item TD {
+    vertical-align:top;
+    white-space:normal;
+}
+#CQ .cq-asseteditor-versions-comment {
+    margin-top:4px;
+}
+
+/* references tab */
+#CQ .cq-asseteditor-references-item {
+    border-bottom:solid 1px #d0d0d0;
+    font-family:tahoma,arial,helvetica,sans-serif;
+    font-size:11px;
+    padding:7px 7px;
+    white-space:normal;
+}
+#CQ .cq-asseteditor-references-item A {
+    color:#000000;
+}
+#CQ .cq-asseteditor-references-title {
+    font-weight:bold;
+    color:#111111;
+    cursor:pointer;
+}
+#CQ .cq-asseteditor-references-quantity {
+    cursor:pointer;
+}
+#CQ .cq-asseteditor-references-path {
+    display:block;
+    margin-top:2px;
+    font-size:10px;
+    cursor:pointer;
+}

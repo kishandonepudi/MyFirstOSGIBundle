@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="not-match-nokia-series60-webkit"
+    css_spriting="true"
+    fall_back="nokia_generic_series60_dp30"
+    html_web_4_0="true"
+    max_data_rate="384"
+    mobile_browser="Safari"
+    preferred_markup="html_web_4_0"
+    release_date="2005_march"
+    user_agent="DO_NOT_MATCH_NOKIA_SERIES60_DP_3_0_WEBKIT"
+    xhtml_support_level="4"/>

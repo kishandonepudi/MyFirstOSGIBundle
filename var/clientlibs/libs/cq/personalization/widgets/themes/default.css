@@ -1,0 +1,722 @@
+/* the ../icons redundant path is needed to proper remapping */
+
+/* teaser is not active */
+.cq-teaser-header-off {
+    background: url('default/icons/48x48/teaser_inactive.png') no-repeat 0 15px;
+}
+
+/* teaser is active */
+.cq-teaser-header-on {
+    background: url('default/icons/48x48/teaser_active.png') no-repeat 0 15px;
+}
+
+.cq-teaser-status-inactive {
+    background-image: url('../../../ui/widgets/themes/default/icons/48x48/excl-yellow.png');
+}
+.cq-teaser-img {
+    float: left;
+    width: 140px;
+    height: 100px;
+    margin-top: 9px;
+    margin-left: 60px;
+}
+
+ul.cq-teaser-data {
+    padding-left: 160px;
+    min-height: 120px;
+}
+
+ul.cq-teaser-data li {
+    width: 405px;
+}
+#cq-segment-validitystatus .cq-segment-validitystatus-unresolved {
+    background-image: url('../../../ui/widgets/themes/default/icons/48x48/excl-yellow.png');
+    background-position: 8px 0;
+    min-height: 18px;
+}
+
+#cq-segment-validitystatus .cq-segment-validitystatus-invalid {
+    background-image: url('../../../ui/widgets/themes/default/icons/48x48/excl-red.png');
+}
+
+.cq-segment-header-off {
+    background: url('../../../ui/widgets/themes/default/icons/48x48/off-slider.png') no-repeat 0 15px;
+}
+
+.cq-segment-header-on {
+    background: url('../../../ui/widgets/themes/default/icons/48x48/on-slider.png') no-repeat 0 15px;
+}
+.segmenteditor-or {
+    padding:10px;
+    background-color: #607084;
+    color: white;
+    border:1px dotted white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.segmenteditor-and {
+    padding:10px;
+    background-color: white;
+    border: 1px dotted darkgray;
+    color: #607084;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.segmenteditor-container-logic-text {
+    width: 100%;
+    margin-left: -5px;
+    padding-right: 5px;
+}
+
+.segmenteditor-logic-text {
+    font-weight:bold;
+    line-height:30px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.segmenteditor-container-content {
+    padding-left:5px;
+    line-height:30px;
+    border: 2px solid white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align:center;
+    width:90%;
+    margin-left: 20px;
+}
+.segmenteditor-container-and-header, .segmenteditor-container-or-header {
+    margin-left:-8px;
+    margin-top:-10px;
+    padding-bottom:5px;
+}
+
+.segmenteditor-operator {
+    display: inline;
+}
+
+.trait-resolved {
+    /*border: 1px dotted lightgreen;*/
+    background-color: #CDF56E;
+    color: #607084;
+}
+.trait-unresolved {
+    /*border: 1px dotted red;*/
+    /*background-color: #F5BD43;*/
+    background-color: #D3D3D3;
+    color: #607084;
+}
+
+.trait-invalid {
+    background-color: #FF6347;
+    color: #607084;
+}
+
+.logic-trait-resolved {
+    /*color: green;*/
+    /*color: #CDF56E;*/
+}
+
+.logic-trait-unresolved {
+    /*color: red;*/
+    /*color: #F5BD43;*/
+    /*font-weight: bold;*/
+}
+#CQ .cq-eclickstreamcloud-list {
+    border-color:#FFFFFF rgb(255, 255, 255) rgb(238, 238, 238);
+    border-style:solid;
+    border-width:1px;
+    color:#555555;
+    font-family:tahoma,arial,helvetica,sans-serif;
+    font-size:11px;
+    font-size-adjust:none;
+    font-stretch:normal;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:normal;
+    padding:3px 10px;
+    white-space:normal;
+    right:5px !important;
+    top:25px !important;
+    left:auto !important;
+    cursor:default !important;
+}
+#CQ .cq-eclickstreamcloud-list-entry {
+    cursor:pointer !important
+}
+
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+#CQ .x-edit-insertvariable {
+    background: none !important;
+    padding-left: 0 !important;
+}
+
+.cq-variable {
+
+}
+
+.cq-variable-code {
+    background-color: #dddddd;
+}
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2012 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+/* shared font definition */
+/* rounded corners helper */
+#CQ .cq-targeting-launch-icon {
+  z-index: 8006;
+  cursor: pointer;
+  position: absolute;
+  background: url('default/targeting/resources/experiences_button.png') no-repeat;
+  height: 40px;
+  width: 40px;
+}
+#CQ .cq-targeting-icon-placeholder-off {
+  display: none;
+}
+#CQ .cq-targeting-editor {
+  position: absolute;
+  margin-top: -206px;
+  height: 206px;
+  min-width: 372px;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #4e514d;
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  /* same as in client context */
+
+  font-weight: normal;
+  color: #999999;
+  z-index: 9001;
+}
+#CQ .cq-targeting-editor-toolbar {
+  height: 28px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #151515;
+  -moz-border-radius-topleft: 8px;
+  -khtml-border-radius-topleft: 8px;
+  -webkit-border-top-left-radius: 8px;
+  border-top-left-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  -khtml-border-radius-topright: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#CQ .cq-targeting-editor-toolbar .cq-targeting-action {
+  margin-top: 8px;
+  width: 20px;
+  height: 14px;
+  cursor: pointer;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+#CQ .cq-targeting-editor-toolbar .cq-targeting-action-edit {
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgZmlsbD0iI0ZGRkZGRiIgdmVyc2lvbj0iMS4xIiBpZD0iaWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMCIgeT0iMCIJIHdpZHRoPSIxMTUycHgiIGhlaWdodD0iMTE1MnB4IiB2aWV3Qm94PSIwIDAgMTE1MiAxMTUyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMTUyIDExNTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik0xMTUyLDY3MlY0ODBoLTEwNS42NTZjLTEyLjQyMi02MS4yNjYtMzYuNjU2LTExOC4yMTktNzAuMDMxLTE2OC41ODZsNzQuODU5LTc0LjgzNglsLTEzNS43NS0xMzUuNzVsLTc0Ljg1OSw3NC44MzZDNzkwLjIxOSwxNDIuMzEyLDczMy4yNjYsMTE4LjA3OCw2NzIsMTA1LjYzM1YwSDQ4MHYxMDUuNjMzCWMtNjEuMjY2LDEyLjQ0NS0xMTguMjE5LDM2LjY4LTE2OC41NjIsNzAuMDMxbC03NC44NTgtNzQuODM2bC0xMzUuNzUsMTM1Ljc1bDc0Ljg1OSw3NC44MzYJYy0zMy4zNzUsNTAuMzY3LTU3LjYwOSwxMDcuMzItNzAuMDMxLDE2OC41ODZIMHYxOTJoMTA1LjY1NmMxMi40MjIsNjEuMjY2LDM2LjY1NiwxMTguMjE5LDcwLjAzMSwxNjguNTg2bC03NC44NTksNzQuODM2CWwxMzUuNzUsMTM1Ljc1bDc0Ljg1OS03NC44MzZjNTAuMzQ0LDMzLjM1MiwxMDcuMjk3LDU3LjU4NiwxNjguNTYyLDcwLjAzMVYxMTUyaDE5MnYtMTA1LjYzMwljNjEuMjY2LTEyLjQ0NSwxMTguMjE5LTM2LjY4MSwxNjguNTYyLTcwLjAzMWw3NC44NTksNzQuODM2bDEzNS43NS0xMzUuNzVsLTc0Ljg1OS03NC44MzYJYzMzLjM3NS01MC4zNjcsNTcuNjA5LTEwNy4zMiw3MC4wMzEtMTY4LjU4NkgxMTUyTDExNTIsNjcyeiBNNTc2LDg2NGMtMTU5LjA5NCwwLTI4OC0xMjguOTUzLTI4OC0yODhzMTI4LjkwNi0yODgsMjg4LTI4OAlzMjg4LDEyOC45NTMsMjg4LDI4OFM3MzUuMDk0LDg2NCw1NzYsODY0eiIvPjwvc3ZnPg==");
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+  margin-left: 1px;
+}
+#CQ .cq-targeting-editor-toolbar .cq-targeting-action-add {
+  height: 20px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+#CQ .cq-targeting-editor-toolbar .cq-targeting-action.cq-targeting-action-add:before {
+  content: "+";
+  color: white;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: bold;
+}
+#CQ .cq-targeting-editor-toolbar .cq-targeting-action-close {
+  background-image: url("../../components/clientcontext/clientlib/ui/themes/default/icons/close.png");
+  position: absolute;
+  right: 11px;
+  top: 0;
+}
+#CQ .cq-targeting-editor-content .jcarousel-container {
+  padding: 7px 37px;
+}
+#CQ .cq-targeting-editor-content .jcarousel-clip {
+  overflow: hidden;
+}
+#CQ .cq-targeting-editor-content .jcarousel-item {
+  width: 142px;
+  height: 156px;
+  margin: 0 7px 0 0;
+  border: 3px solid #4e514d;
+  overflow: hidden;
+  -moz-border-radius-bottomleft: 8px;
+  -khtml-border-radius-bottomleft: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -khtml-border-radius-bottomright: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-selected {
+  border: 3px solid #ffffff;
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-content {
+  height: 154px;
+  overflow: hidden;
+  background: #252824;
+  border: 1px solid #333631;
+  -moz-border-radius-bottomleft: 8px;
+  -khtml-border-radius-bottomleft: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -khtml-border-radius-bottomright: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-img-clip {
+  width: 140px;
+  height: 100px;
+  overflow: hidden;
+  cursor: pointer;
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-img {
+  position: relative;
+  background-color: #999999;
+  cursor: pointer;
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-label {
+  height: 45px;
+  line-height: 15px;
+  margin: 4px 7px 5px 7px;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  /* same as in client context */
+
+  font-weight: normal;
+  color: #999999;
+  cursor: pointer;
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-selected .cq-targeting-experience-content,
+#CQ .cq-targeting-editor-content .cq-targeting-experience-selected .cq-targeting-experience-img-clip,
+#CQ .cq-targeting-editor-content .cq-targeting-experience-selected .cq-targeting-experience-img,
+#CQ .cq-targeting-editor-content .cq-targeting-experience-selected .cq-targeting-experience-label {
+  cursor: default;
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-quickactions {
+  display: none;
+  position: absolute;
+  top: 0px;
+  background-color: transparent;
+}
+#CQ .cq-targeting-editor-content .jcarousel-item:hover .cq-targeting-experience-quickactions {
+  display: block;
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-quickactions > div {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 50px;
+  border: 2px solid #ffffff;
+  -moz-border-radius: 36px;
+  -khtml-border-radius: 36px;
+  -webkit-border-radius: 36px;
+  border-radius: 36px;
+  background-size: 18px 18px;
+  background-position: 9px 9px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-color: #252824;
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-quickactions > div:hover {
+  background-color: #4e514d;
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-quickactions-edit {
+  top: 8px;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgZmlsbD0iI0ZGRkZGRiIgdmVyc2lvbj0iMS4xIiBpZD0iaWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMCIgeT0iMCIJIHdpZHRoPSIxMTUycHgiIGhlaWdodD0iMTE1MnB4IiB2aWV3Qm94PSIwIDAgMTE1MiAxMTUyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMTUyIDExNTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik0xMTQwLDEzMkwxMDIwLDEyYzAsMC0xMi0xMi0zNi0xMnMtMzYsMTItMzYsMTJsLTg0LDg0bDE5MiwxOTJsODQtODRjMCwwLDEyLTEyLDEyLTM2CVMxMTQwLDEzMiwxMTQwLDEzMnoiLz48cmVjdCB4PSIxOTIuNzE4IiB5PSI0MTYuMjM2IiB0cmFuc2Zvcm09Im1hdHJpeCgwLjcwNzEgLTAuNzA3MSAwLjcwNzEgMC43MDcxIC0yMTQuNTg0IDU4NS45NDY0KSIgd2lkdGg9IjgxNC41NzkiIGhlaWdodD0iMjcxLjUyNiIvPjxwYXRoIGQ9Ik0zMzYsMTAwOEwxNDQsODE2TDAsMTE0MGMwLDEyLDAsMTIsMTIsMTJDMTIuNSwxMTUyLDMzNiwxMDA4LDMzNiwxMDA4eiIvPjwvc3ZnPg==");
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-quickactions-delete {
+  top: 55px;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgZmlsbD0iI0ZGRkZGRiIgdmVyc2lvbj0iMS4xIiBpZD0iaWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMCIgeT0iMCIJIHdpZHRoPSIxMTUycHgiIGhlaWdodD0iMTE1MnB4IiB2aWV3Qm94PSIwIDAgMTE1MiAxMTUyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMTUyIDExNTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik0xOTIsMzg0djc2OGg3NjhWMzg0SDE5MnogTTQzMiw5OTZjMCwwLDAsMTItMTIsMTJzLTU5Ljk5OSwwLTcyLDBzLTEyLTEyLTEyLTEyVjQ5MgljMCwwLDAtMTIsMTItMTJzNjAsMCw3MiwwczEyLDEyLDEyLDEyVjk5NnogTTYyNCw5OTZjMCwwLDAsMTItMTIsMTJzLTYwLDAtNzIsMHMtMTItMTItMTItMTJWNDkyYzAsMCwwLTEyLDEyLTEyczYwLDAsNzIsMAlzMTIsMTIsMTIsMTJWOTk2eiBNODE2LDk5NmMwLDAsMCwxMi0xMiwxMnMtNjAsMC03Miwwcy0xMi0xMi0xMi0xMlY0OTJjMCwwLDAtMTIsMTItMTJzNjAsMCw3MiwwczEyLDEyLDEyLDEyVjk5NnoiLz48cGF0aCBkPSJNOTg0LDE5MmMtOTYsMC0xNjgsMC0xNjgsMFY2MGMwLDAsMC02MC02MC02MGMtOTYsMC0yNjQsMC0zNjAsMGMtNjAsMC02MCw2MC02MCw2MHYxMzIJYzAsMC03MiwwLTE2OCwwYy03MiwwLTcyLDcyLTcyLDcydjcyaDk2MHYtNzJDMTA1NiwyNjQsMTA1NiwxOTIsOTg0LDE5MnogTTY3MiwxOTJINDgwdi04NGMwLDAsMC0xMiwxMi0xMmMyNCwwLDE0NCwwLDE2OCwwCWMxMiwwLDEyLDEyLDEyLDEyVjE5MnoiLz48L3N2Zz4=");
+}
+#CQ .cq-targeting-editor-content .cq-targeting-experience-plus {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border: 1px solid white;
+  cursor: pointer;
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  /* same as in client context */
+
+  font-weight: normal;
+  color: #999999;
+  font-size: 45px;
+}
+#CQ .cq-targeting-editor-content .jcarousel-prev-horizontal {
+  position: absolute;
+  top: 78px;
+  left: 9px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: transparent url("../../../../../etc/clientlibs/foundation/personalization/jcarousel/resources/left.png") no-repeat 0 0;
+}
+#CQ .cq-targeting-editor-content .jcarousel-prev-disabled {
+  display: none;
+}
+#CQ .cq-targeting-editor-content .jcarousel-next-horizontal {
+  position: absolute;
+  top: 78px;
+  right: 9px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: transparent url("../../../../../etc/clientlibs/foundation/personalization/jcarousel/resources/right.png") no-repeat 0 0;
+}
+#CQ .cq-targeting-editor-content .jcarousel-next-disabled {
+  display: none;
+}
+#CQ .cq-targeting-editor-clientcontext-hint {
+  width: 100%;
+  height: 176px;
+  position: absolute;
+  display: table;
+}
+#CQ .cq-targeting-editor-clientcontext-hint > span {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  /* same as in client context */
+
+  font-weight: normal;
+  color: #999999;
+  color: white;
+}
+#CQ .cq-targeting-editor-clientcontext-hint a {
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  /* same as in client context */
+
+  font-weight: normal;
+  color: #999999;
+  color: white;
+  text-decoration: underline;
+}
+#CQ .cq-targeting-editor-clientcontext-hint a > img {
+  vertical-align: top;
+  margin-left: 5px;
+}
+#CQ .cq-targeting-experience-dialog {
+  z-index: 10000;
+  background-color: #252824;
+  border: 1px solid white;
+  padding: 10px;
+}
+#CQ .cq-targeting-experience-dialog .cq-targeting-segment-link {
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  /* same as in client context */
+
+  font-weight: normal;
+  color: #999999;
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+}
+#CQ .cq-targeting-experience-dialog h3 {
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  /* same as in client context */
+
+  font-weight: normal;
+  color: #999999;
+  margin-bottom: 10px;
+}
+#CQ .cq-targeting-experience-dialog input[type="submit"] {
+  margin: 20px 15px 10px 0px;
+  padding: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 12px;
+  min-width: 80px;
+  text-align: center;
+}
+
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2012 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+.cq-wcm-undefined .analyzable,
+.cq-wcm-analytics .analyzable {
+  position: relative;
+}
+.cq-wcm-undefined .analyzable .mboxDefault,
+.cq-wcm-analytics .analyzable .mboxDefault {
+  display: inline-block;
+}
+.cq-wcm-undefined .analyzable .analyzable-launch-button,
+.cq-wcm-analytics .analyzable .analyzable-launch-button {
+  z-index: 5;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: url('default/targeting/resources/analytics-button.png') no-repeat;
+  height: 40px;
+  width: 40px;
+}
+.cq-wcm-undefined .analyzable .analyzable-overlay,
+.cq-wcm-analytics .analyzable .analyzable-overlay {
+  z-index: 1;
+  position: absolute;
+  background: rgba(147, 199, 34, 0.5);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.cq-wcm-undefined .analyzable .analyzable-overlay-background-1,
+.cq-wcm-analytics .analyzable .analyzable-overlay-background-1 {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 5%;
+  bottom: 5%;
+  background-color: #000;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+.cq-wcm-undefined .analyzable .analyzable-overlay-contents,
+.cq-wcm-analytics .analyzable .analyzable-overlay-contents {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+  bottom: 10px;
+  background-color: #4E514D;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  padding: 10px;
+  color: #CCC;
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  /* same as in client context */
+
+  font-weight: normal;
+  overflow: auto;
+}
+.cq-wcm-undefined .analyzable .analyzable-legend,
+.cq-wcm-analytics .analyzable .analyzable-legend {
+  font-size: 10px;
+  margin-left: 109px;
+  margin-right: 15px;
+  padding: 10px 0;
+}
+.cq-wcm-undefined .analyzable .analyzable-legend .analyzable-legend-image,
+.cq-wcm-analytics .analyzable .analyzable-legend .analyzable-legend-image {
+  display: inline-block;
+  height: 9px;
+  width: 20px;
+}
+.cq-wcm-undefined .analyzable .analyzable-legend .analyzable-legend-lift,
+.cq-wcm-analytics .analyzable .analyzable-legend .analyzable-legend-lift {
+  float: right;
+}
+.cq-wcm-undefined .analyzable .analyzable-legend .analyzable-legend-lift-image,
+.cq-wcm-analytics .analyzable .analyzable-legend .analyzable-legend-lift-image {
+  display: inline-block;
+  height: 9px;
+  width: 20px;
+  margin-left: 1em;
+}
+.cq-wcm-undefined .analyzable .analyzable-legend .analyzable-legend-lift-image-negative,
+.cq-wcm-analytics .analyzable .analyzable-legend .analyzable-legend-lift-image-negative {
+  display: inline-block;
+  height: 9px;
+  width: 10px;
+  background-color: #d96d00;
+}
+.cq-wcm-undefined .analyzable .analyzable-legend .analyzable-legend-lift-image-positive,
+.cq-wcm-analytics .analyzable .analyzable-legend .analyzable-legend-lift-image-positive {
+  display: inline-block;
+  height: 9px;
+  width: 10px;
+  background-color: #8ccc00;
+}
+.cq-wcm-undefined .analyzable .analyzable-legend .analyzable-legend-impressions-image,
+.cq-wcm-analytics .analyzable .analyzable-legend .analyzable-legend-impressions-image {
+  display: inline-block;
+  height: 9px;
+  width: 20px;
+  background-color: #d9d900;
+  margin-right: 1em;
+}
+.cq-wcm-undefined .analyzable .analyzable-row-winner,
+.cq-wcm-analytics .analyzable .analyzable-row-winner {
+  background: rgba(147, 199, 34, 0.5);
+  margin-left: 14px;
+}
+.cq-wcm-undefined .analyzable .analyzable-row-winner-marker,
+.cq-wcm-analytics .analyzable .analyzable-row-winner-marker {
+  float: left;
+  width: 4px;
+  height: 50px;
+  background-color: #8ccc00;
+}
+.cq-wcm-undefined .analyzable .analyzable-row,
+.cq-wcm-analytics .analyzable .analyzable-row {
+  border-top: 1px solid #333333;
+  height: 50px;
+  padding-right: 15px;
+  margin-left: 14px;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-icon,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-icon {
+  float: left;
+  width: 60px;
+  height: 44px;
+  overflow: hidden;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-icon img,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-icon img {
+  position: relative;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-first,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-first {
+  padding-top: 10px;
+  color: #999999;
+  font-size: 11px;
+  margin-left: 95px;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-first .analyzable-row-experience,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-first .analyzable-row-experience {
+  font-weight: bold;
+  color: #CCC;
+  margin-left: 45px;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-first .analyzable-row-lift-positive,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-first .analyzable-row-lift-positive {
+  float: right;
+  color: #8ccc00;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-first .analyzable-row-lift-negative,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-first .analyzable-row-lift-negative {
+  float: right;
+  color: #d96d00;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-first .analyzable-row-highlight-default,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-first .analyzable-row-highlight-default {
+  padding-left: 5px;
+  color: #d9d900;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-first .analyzable-row-highlight-winner,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-first .analyzable-row-highlight-winner {
+  padding-left: 5px;
+  color: #92C53A;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-second,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-second {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 95px;
+  margin-top: 3px;
+  line-height: 16px;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-second .analyzable-row-conversion-rate,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-second .analyzable-row-conversion-rate {
+  float: right;
+  color: #d9d900;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-second .analyzable-row-impression-count,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-second .analyzable-row-impression-count {
+  float: left;
+  color: #d9d900;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-second .analyzable-row-bars,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-second .analyzable-row-bars {
+  height: 16px;
+  margin-left: 45px;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-second .analyzable-row-bar-default,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-second .analyzable-row-bar-default {
+  height: 16px;
+  float: left;
+  background: url('default/targeting/resources/conversions_background.png');
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-second .analyzable-row-bar-positive-lift,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-second .analyzable-row-bar-positive-lift {
+  height: 16px;
+  float: left;
+  background-color: #8ccc00;
+}
+.cq-wcm-undefined .analyzable .analyzable-row .analyzable-row-second .analyzable-row-bar-negative-lift,
+.cq-wcm-analytics .analyzable .analyzable-row .analyzable-row-second .analyzable-row-bar-negative-lift {
+  height: 16px;
+  float: left;
+  background: url('default/targeting/resources/negative-lift-background.png');
+}
+

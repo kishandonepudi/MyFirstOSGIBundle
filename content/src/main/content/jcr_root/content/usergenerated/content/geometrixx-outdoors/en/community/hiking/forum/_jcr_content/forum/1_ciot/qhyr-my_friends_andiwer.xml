@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T11:20:45.334+01:00"
+    cq:lastModifiedBy="matt.monroe@mailinator.com"
+    jcr:description="My friends and I were hiking a few miles outside Jackson and came across two girls from Israel who looked like they had just taken a dip. We asked them what they were up to since the Snake River was way too cold to run around in, and they let us know about the Granite Hot Springs at the base of a series of trailheads. &#xd;&#xa;&#xd;&#xa;Seriously, go there. There is nothing better than coming back down from a hike and soaking in mineral-rich, natural hot springs. Plus, it’s only a few dollars for unlimited use for a day."
+    jcr:primaryType="cq:Comment"
+    jcr:title="Granite Hot Springs: a must if hiking Jackson, Wyo."
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T11:17:47.334+01:00"
+    authorizableId="matt.monroe@mailinator.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}2"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.html"
+    sentiment="{Long}5"
+    submit="Submit"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="matt.monroe@mailinator.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="6677e4e5-b145-4f35-b06b-538cf51909e9">
+        <iStock_000000833973Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T08:59:58.828+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="f48150fa-002a-4d65-9048-48a1086382cc"/>
+        </iStock_000000833973Small.jpg>
+    </attachments>
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <iqd9-that_soundssonice
+            jcr:description="That sounds so nice!"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:19:40.738+01:00"
+            authorizableId="rebekah.larsen@trashymail.com"
+            email="rebekah.larsen@trashymail.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__qhyr-my_friends_andiwer.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="rebekah.larsen@trashymail.com"/>
+        <mcv9-nothing_likeanatur
+            jcr:description="Nothing like a natural spa day after a nice hike! Sounds amazing…I think I’ll check it out."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:20:45.272+01:00"
+            authorizableId="emily.andrews@mailinator.com"
+            email="emily.andrews@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__qhyr-my_friends_andiwer.html"
+            sentiment="{Long}5"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="emily.andrews@mailinator.com"/>
+    </_x0031__tosp>
+</jcr:root>

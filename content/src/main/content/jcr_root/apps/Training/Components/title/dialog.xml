@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    title="Training title Component"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Title Dialog">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Title"
+                        fieldSubLabel="default is equal to page title"
+                        xtype="textfield"/>
+                </items>
+            </tab1>
+            <New_x0020_tab
+                jcr:primaryType="cq:Panel"
+                title="newy">
+                <widget jcr:primaryType="cq:WidgetCollection">
+                    <widgetc
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="titlw"
+                        fieldSubLabel="enter details"
+                        xtype="textfield"/>
+                </widget>
+            </New_x0020_tab>
+        </items>
+    </items>
+</jcr:root>

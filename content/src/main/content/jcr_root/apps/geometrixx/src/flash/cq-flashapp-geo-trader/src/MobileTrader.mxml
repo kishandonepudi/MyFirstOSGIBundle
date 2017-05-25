@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:TabbedViewNavigatorApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+								  xmlns:s="library://ns.adobe.com/flex/spark"
+								  xmlns:controller="controller.*"
+								  splashScreenImage="@Embed('assets/splash-trader.jpg')"
+								  applicationComplete="init()">
+	
+	<fx:Style source="styles.css"/>
+	
+	<fx:Declarations>
+		<controller:Feed id="feed"/>
+	</fx:Declarations> 
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.jcr.*;
+			import com.adobe.rtc.util.URLParser;
+			
+			import components.Text;
+			
+			import mx.controls.Alert;
+			import mx.events.PropertyChangeEvent;
+			
+			import spark.components.ViewNavigator;
+			
+			import views.DynamicView;
+			import views.HTMLView;
+			import views.URLPromptView;
+			
+			[Embed(source="/assets/money_48.png")]
+			private var icon_assets:Class;
+			
+			[Embed(source="/assets/chart_line_48.png")]
+			private var icon_watch:Class;
+			
+			[Embed(source="/assets/alarm_on_48.png")]
+			private var icon_alerts:Class;
+			
+			[Embed(source="/assets/man_48.png")]
+			private var icon_advisor:Class;
+			
+			[Embed(source="/assets/html_48.png")]
+			private var icon_html:Class;
+			
+			[Embed(source="/assets/gear_48.png")]
+			private var icon_settings:Class;
+			
+			public var applicationURL:String = "http://localhost:4503/content/geometrixx_mobile/en/trader";
+			
+			public function get appURL():String {
+				return applicationURL;
+			}
+			
+			public function set appURL(str:String):void {
+				applicationURL = str;
+				tabbedNavigator.removeAll();
+				init();
+			}
+			public function init():void {
+				var o:Object = URLParser.parseURL(applicationURL);
+				var s:Session = new Session(o.serverURL, ".noredirect");
+				s.load(o.path, 2, contentLoaded, function(evt:IOErrorEvent):void {
+					trace(evt.text);
+					var view:ViewNavigator = new ViewNavigator();
+					view.firstView = Class(URLPromptView);
+					view.percentHeight=100;
+					view.percentWidth=100;
+					tabbedNavigator.addItem(view);
+				});
+			}
+			
+			private function contentLoaded(node:Node):void {
+				var i:int = 0;
+				for each (var child:Node in node.getNodes()) {
+					if (child.name == "jcr:content") {
+						continue;
+					}
+					var content:Node = child.getNode("jcr:content");
+					var rt:String = content.getProperty("sling:resourceType", "");
+					var view:ViewNavigator = new ViewNavigator();
+					var title:String = content.getProperty("jcr:title", child.name);
+					view.label = title;
+					view.firstView = Class(DynamicView);
+					view.percentHeight=100;
+					view.percentWidth=100;
+					view.firstViewData = child;
+					title = title.toLowerCase();
+					if (rt == "geometrixx/components/mobilecontentpage") {
+						view.icon = icon_html;
+						view.firstView = Class(HTMLView);
+					} else if (title.indexOf("assets")==0) {
+						view.icon = icon_assets;	
+					} else if (title.indexOf("watch")==0) {
+						view.icon = icon_watch;	
+					} else if (title.indexOf("alerts")==0) {
+						view.icon = icon_alerts;
+					} else if (title.indexOf("advisor")==0) {
+						view.icon = icon_advisor;	
+					}
+					tabbedNavigator.addItem(view);
+				}
+			}
+		]]>
+	</fx:Script>
+
+</s:TabbedViewNavigatorApplication>

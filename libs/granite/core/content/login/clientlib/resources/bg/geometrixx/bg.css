@@ -1,0 +1,74 @@
+/*#bg_geometrixx::after {*/
+    /*content: "geometrixx background";*/
+/*}*/
+
+/* Note: To be moved to CQ / Geometrixx */
+
+#bg_geometrixx {
+    background-image: url('login/clientlib/resources/bg/geometrixx/2122x1415.jpg');
+    background-position: center center;
+}
+
+/* currently we only have 1 resolution for the geometrixx image */
+
+@media only screen and (orientation: portrait) {
+    /*#bg_default::after {*/
+    /*content: "orientation portrait (768x966)";*/
+    /*}*/
+    #bg_geometrixx {
+        background-image: url('login/clientlib/resources/bg/geometrixx/2122x1415.jpg');
+    }
+}
+@media only screen and (orientation: landscape) {
+    /*#bg_default::after {*/
+    /*content: "orientation landscape (1024x710)";*/
+    /*}*/
+    #bg_geometrixx {
+        background-image: url('login/clientlib/resources/bg/geometrixx/2122x1415.jpg');
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    /*#bg_default::after {*/
+    /*content: "orientation portrait (768x966, retina)";*/
+    /*}*/
+    #bg_geometrixx {
+        background-image: url('login/clientlib/resources/bg/geometrixx/2122x1415.jpg');
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    /*#bg_default::after {*/
+    /*content: "orientation landscape (1024x710, retina)";*/
+    /*}*/
+    #bg_geometrixx {
+        background-image: url('login/clientlib/resources/bg/geometrixx/2122x1415.jpg');
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    /*#bg_default::after {*/
+    /*content: "desktop (1280x768)";*/
+    /*}*/
+    #bg_geometrixx {
+        background-image: url('login/clientlib/resources/bg/geometrixx/2122x1415.jpg');
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    /*#bg_default::after {*/
+    /*content: "desktop (1280, retina)";*/
+    /*}*/
+    #bg_geometrixx {
+        background-image: url('login/clientlib/resources/bg/geometrixx/2122x1415.jpg');
+    }
+}
+
+@media only screen and (min-width: 2048px) {
+    /*#bg_default::after {*/
+    /*content: "desktop (2048x1536)";*/
+    /*}*/
+    #bg_geometrixx {
+        background-image: url('login/clientlib/resources/bg/geometrixx/2122x1415.jpg');
+    }
+}

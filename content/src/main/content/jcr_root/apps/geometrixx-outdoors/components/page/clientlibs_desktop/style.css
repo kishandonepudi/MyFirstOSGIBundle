@@ -1,0 +1,280 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+/* Page */
+
+body.page {
+    color: #4c4c4c;
+    background: #141414 url(../../../../../etc/designs/geometrixx-outdoors/images/page/bg_outside.jpg) repeat-x center top fixed;
+}
+body.page.ext-ie10 {
+    background-attachment: scroll; /* IE10 fix as 'background-attachment: fixed' breaks the display with the cf */
+}
+body.page #main {
+    width: 966px;
+    margin: 0 auto 200px;
+}
+
+/* Header */
+
+body.page .page-header-content .page-systemnav {
+    overflow: hidden;
+    height: 16px;
+    padding: 5px 10px 6px;
+    font-size: 11px;
+    color: #bababa;
+    background: #4d4d4d;
+}
+body.page .page-header-content .page-systemnav a {
+    color: #bababa;
+    text-decoration: none;
+}
+body.page .page-header-content .page-systemnav a:hover {
+    color: #eee;
+}
+
+body.page .page-header-content .page-systemnav .userinfo {
+    float: right;
+    padding-right: 10px
+}
+body.page .page-header-content .page-systemnav .search {
+    float: right;
+}
+
+/* For a nicer design mode experience */
+body.page .page-header-content .page-systemnav .cq-editcomponent-placeholder {
+    float: left !important;
+    margin: -6px 0 0 -10px !important;
+}
+
+/* Content */
+
+body.page .page-content {
+    overflow: hidden;
+    padding: 0 20px 20px;
+    background: #fff;
+    zoom: 1; /* IE6 fix */
+    min-height: 400px;
+}
+body.page .page-content .parsys
+body.page .page-content .iparsys {
+    margin: 10px 0 20px;
+}
+body.page .page-content-main {
+    float: left;
+    width: 700px;
+    padding-bottom: 40px;
+}
+body.page .page-content-sidebar {
+    float: right;
+    width: 200px;
+    padding-bottom: 40px;
+}
+
+h1.cart-title {
+    font-style: italic;
+    font-size: 1.8em;
+    margin: 0;
+    color: #4D4D4D;
+}
+
+h2.cart-title {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 0 0 20px 0;
+    color: #4D4D4D;
+}
+
+/* Links */
+
+.page-content a,
+.page-content a:hover,
+.page-content a:visited {
+    color: #f26522;
+    text-decoration: none;
+}
+
+.page-content a:hover {
+    color: #f26522;
+    text-decoration: underline;
+}
+
+/* Footer */
+
+body.page .page-footer {
+    overflow: hidden;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+body.page .page-footer,
+body.page .page-footer a {
+    color: #808080;
+    text-decoration: none;
+}
+body.page .page-footer a:hover {
+    color: #ccc;
+}
+
+body.page .page-footer .toolbar {
+    overflow: hidden;
+    float: left;
+    display: inline;
+    zoom: 1; /* IE7 fix */
+    margin: 5px -5px;
+}
+body.page .page-footer .toolbar a {
+    float: left;
+    display: inline;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+body.page .page-footer .copyright {
+    float: right;
+    margin: 10px 0;
+}
+
+/* Forms */
+
+.par form {
+    margin-top: 20px;
+}
+
+.par form input {
+    height: 22px;
+}
+
+.par form .form_field_text.form_field_multivalued {
+    width: 308px;
+}
+
+.par form .form_rightcol_wrapper input.form_field_multivalued {
+    width: 334px;
+}
+
+.par form input:focus,
+.par form textarea:focus {
+    color: #000;
+}
+
+.par form .form_row .form_mv_add,
+.par form .form_row .form_mv_remove {
+    display: inline-block;
+    cursor: pointer;
+    width: 20px;
+    height: 18px;
+    font-size: 0;
+    background: #fff url(../../../../../etc/designs/geometrixx-outdoors/images/common/plus-minus.png) no-repeat;
+    color: transparent;
+}
+
+.par form .form_row .form_mv_remove {
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.par form .form_row .form_mv_add {
+    background-position: -10px -10px;
+}
+
+.par form .form_row .form_mv_remove {
+    background-position: -44px -10px;
+}
+
+.par form div.new {
+    display: none;
+}
+
+.par form div.title {
+    padding-top: 0;
+}
+
+/* Community */
+
+.par .forum form {
+    margin: 0px;
+}
+
+.par .forum .searchbox input,
+.par .forum input[type="checkbox"] {
+    height: 14px;
+}
+
+.par .forum .composer div.left.expanded {
+    height: 160px;
+}
+
+/* Product */
+
+.product .product-submit span.button-group input[type="submit"] {
+    background: #be4b15 url(../../../../../etc/designs/geometrixx-outdoors/images/product/add_to_cart.png) 0 -56px repeat-x;
+}
+
+.product .product-submit span.button-group span {
+    background: url(../../../../../etc/designs/geometrixx-outdoors/images/product/add_to_cart.png) no-repeat;
+}
+
+/* Shopping Cart */
+
+.quantity input[type="submit"] {
+    background: #be4b15 url(../../../../../etc/designs/geometrixx-outdoors/images/product/add_to_cart.png) 0 -56px repeat-x;
+}
+
+/* Checkout Button */
+
+.cq-checkout a,
+a.cq-checkout,
+form input.cq-checkout[type="button"],
+form input.cq-checkout[type="submit"] {
+    background: transparent url(../../../../../etc/designs/geometrixx-outdoors/images/product/checkout_button.png) 100% 0 no-repeat;
+    display: inline-block;
+    border: none;
+    padding: 7px 18px 0 12px;
+    height: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+form input.cq-checkout[type="button"],
+form input.cq-checkout[type="submit"] {
+    /* buttons generally use border-box sizing, so this is required */
+    height: 29px;
+    padding-top: 2px;
+}
+
+.cq-checkout a:hover,
+a.cq-checkout:hover,
+form input.cq-checkout[type="button"]:hover,
+form input.cq-checkout[type="submit"]:hover {
+    background-position: 100% -29px;
+}
+
+/* Vouchers */
+
+.cq-voucher-error {
+    color: #F26522;
+}
+.cq-voucher-invalid {
+    color: #F26522;
+}
+.vouchers input[type="submit"] {
+    background: #be4b15 url(../../../../../etc/designs/geometrixx-outdoors/images/product/add_to_cart.png) 0 -56px repeat-x;
+}
+

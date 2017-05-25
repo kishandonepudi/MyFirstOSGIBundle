@@ -1,0 +1,108 @@
+@import "utilities.less";
+
+//
+// Old IE fallbacks < ie9
+//
+
+.oldie { // Layout
+  #bg_default {
+    background-image: url('../login/clientlib/resources/bg/default/2048x1536.jpg');
+  }
+  #login-box,
+  #usage-box {
+    background: transparent;
+    filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=#D9000000,endColorstr=#D9000000)";
+    zoom: 1;
+  }
+  #login button {
+    float: left;
+  }
+  #login label[for="username"],
+  #login label[for="password"] {
+    .visuallyshow;
+  }
+  #forgotpwd {
+    padding-left: 10px;
+    line-height: 44px;
+  }
+
+/* hide sign-in title to allow for neat input label display */
+  .sign-in-title {
+    .visuallyhidden;
+  }
+
+// Buttons
+  button, .button {
+    display: block;
+    width: 10em; /* 140px */
+    border-width: 1px;
+    border-style: solid;
+    margin: 5px 0;
+    padding: 7px 10px 6px 10px;
+    line-height: 20px;
+    font-size: 0.875em; /* 14px */
+  }
+  button:active
+    button:focus {
+    border-width: 1px;
+    outline: none;
+    padding: 6px 11px 7px 9px;
+  }
+  button.primary, .button.primary {
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #498ED1, endColorstr = #3779CB);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#498ED1, endColorstr=#3779CB)";
+    border-color: #1a4967;
+  }
+
+// Inputs
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="url"],
+  input[type="tel"] {
+    box-sizing: content-box;
+    border: 1px solid #bbb;
+    padding: 4px 8px;
+    width: 254px;
+  }
+  input[type="checkbox"], input[type="radio"] {
+    height: 1em;
+    width: 1em;
+    margin: 0;
+    padding: 0;
+  }
+  input[type="checkbox"] + label, input[type="radio"] + label, input[type="checkbox"] + span, input[type="radio"] + span {
+    display: inline;
+  }
+  #username, #password {
+    width: 254px;
+    height: 28px;
+    margin: 0 0 10px;
+    line-height: 28px;
+  }
+  #remember input {
+    float: left;
+  }
+  #remember span {
+    display: block;
+    float: left;
+    margin-left: 5px;
+    line-height: 20px;
+  }
+
+// IE8 specific
+  &.ie8 {
+    input[type="checkbox"] + span:before,
+    input[type="radio"] + span:before,
+    input[type="checkbox"] + label:before,
+    input[type="radio"] + label:before {
+      background: none;
+      border: 0 none;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin: 0;
+      line-height: 0;
+    }
+  }
+}

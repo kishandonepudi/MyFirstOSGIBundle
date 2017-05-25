@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/social/journal/kubrick"
+        cq:lastModified="{Date}2012-12-10T16:03:14.842+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/social/journal/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="New Journal Entry"
+        jcr:uuid="d07979e3-21b8-44fc-aa54-b346bf154bae"
+        sling:resourceType="geometrixx-outdoors/components/journal/page_newjournal">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <start
+                jcr:created="{Date}2012-05-18T13:03:47.411-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-08-20T17:13:31.911-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/form/start"
+                action="/content/geometrixx-outdoors/en/community/winter-sports/journal"
+                actionType="social/commons/components/form/actions/create"
+                contentType="journal"
+                endpoint="social.createjournalentry"
+                endResourceType="/libs/social/commons/components/form/end"
+                formid="_newjournalentry"
+                mode="createContent"
+                parentResourceType=" "
+                redirect="/content/geometrixx-outdoors/en/community/winter-sports/journal"
+                renderOption="default"/>
+            <text_title
+                jcr:created="{Date}2012-04-18T17:35:50.659-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-10T15:15:54.036+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Title:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="social/commons/components/form/text"
+                name="title"
+                required="true"
+                requiredMessage="Please enter your question."
+                width="450"/>
+            <text_textbody
+                jcr:created="{Date}2012-03-24T12:06:50.250-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-10T15:15:59.325+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Content:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="social/commons/components/richTextEditor"
+                cols="40"
+                name="text"
+                required="true"
+                rows="6"
+                width="450"/>
+            <image
+                jcr:created="{Date}2012-09-17T23:34:24.140-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-04T17:20:47.751+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Image:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/image"
+                height="100"
+                name="file"/>
+            <form_end
+                jcr:lastModified="{Date}2012-08-16T15:07:35.849-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Submit Entry"
+                sling:resourceSuperType="foundation/components/form/end"
+                sling:resourceType="social/commons/components/form/end"
+                denyText="Sign in in order to post to this forum."
+                submit="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

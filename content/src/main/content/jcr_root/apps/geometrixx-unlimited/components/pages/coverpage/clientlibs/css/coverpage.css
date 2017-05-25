@@ -1,0 +1,118 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+@media all and (orientation:landscape){
+   body.cover{
+    background-image:url(images/Geometrixx_magazine_h.png);
+   } 
+}
+
+@media all and (orientation:portrait){
+   body.cover{
+    background-image:url(images/Geometrixx_magazine_v.png);
+   } 
+}
+
+body.cover{
+    background-size: cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+html{
+    width:100%;
+    height:100%;
+}
+
+
+.footer{
+    color:#AAAAAA;
+    font-size:2em;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    
+}
+
+.footer-header{
+    color:#EEEEEE;
+    padding-left:2em;
+    margin-top:3em;
+    width:90%;
+    height:2em;
+}
+
+.footer-in-this-issue{
+    background-image:url(images/Cover_InThisIssue.png);
+    width:100%;
+    height:100%;
+}
+
+.footer-content-module{
+    float:left;
+    padding-left:1.5em;
+    padding-bottom:0.8em;
+    width:30%;
+    background-image:url(images/heading_slash.png) ;
+    background-repeat:no-repeat;
+    background-position:bottom left;
+    height:3.5em;
+    
+}
+
+.footer-content{
+    width:100%;
+    margin-left:0%;
+    transition: margin-left 1s;
+    transition-delay: 1s;
+    -webkit-transition: margin-left 1s;
+    -webkit-transition-delay: 1s;
+}
+
+.footer-content-hidden{
+    margin-left:100%;
+    width:150%;
+}
+
+.footer-content-module > img{
+    float:right;
+}
+
+.heading{
+    width:100%;
+    height:100%;
+}
+
+.heading1{
+    background-image:url(images/Cover_Text_1.png);
+}
+
+.heading2{
+    background-image:url(images/Cover_Text_2.png);
+}
+
+.heading3{
+    background-image:url(images/Cover_Text_3.png);
+}
+
+.footer-in-this-issue, .heading{
+    background-repeat:no-repeat;
+    background-size: auto 100%;
+}

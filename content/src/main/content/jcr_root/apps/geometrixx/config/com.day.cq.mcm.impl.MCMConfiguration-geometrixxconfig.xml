@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    experience.indirection="[geometrixx/components/newsletterpage,mcm/components/newsletter/page]"
+    README="Use these configuration settings to make subclassing components possible. eg. [apps/geom/components/nl, mcm/components/newsletter] introduces a geometrix nl component as subcomponents of mcm newsletter. That way the experience search can find it."
+    touchpoint.indirection="[exampleGeometrixxAddedComp,exampleMCMSuperTouchpoint]"/>

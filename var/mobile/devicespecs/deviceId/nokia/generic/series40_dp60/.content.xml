@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    ajax_manipulate_css="true"
+    ajax_manipulate_dom="true"
+    ajax_support_event_listener="true"
+    ajax_support_events="true"
+    ajax_support_getelementbyid="true"
+    ajax_support_inner_html="true"
+    ajax_support_javascript="true"
+    ajax_xhr_type="standard"
+    CQ5_UserAgentRadical="not-match-nokia-series40"
+    fall_back="nokia_generic_series40_dp50"
+    nokia_edition="6"
+    release_date="2009_january"
+    user_agent="DO_NOT_MATCH_NOKIA_SERIES40_DP_6_0"/>

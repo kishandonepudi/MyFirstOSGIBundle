@@ -1,0 +1,101 @@
+/* Profile Detail/Edit Pages */
+
+.community-profile .topic-top {
+    border-bottom: 7px solid #EF5A28;
+    padding-bottom: 5px;
+    width: 290px;
+}
+
+.community-profile .content-right .topic-top {
+    width: 600px;
+    margin: 0;
+    border-bottom: 7px solid #EF5A28;
+}
+.community-profile .content-right .useractivities .title {
+    display:none;
+}    
+.community-profile .topic-top h1,
+.community-profile .topic-top h2{
+    float: left;
+}
+
+.community-profile .topic-top h1 {
+    font-size: 27px;
+    color: #4d4d4d;
+    margin: 0;
+    font-style: italic;
+}
+.community-profile .topic-top h2,
+.community-profile div.peoplelist .outer>p:first-of-type{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+    color: #8C8C8C;
+    padding-top: 3px;
+}
+
+.community-profile .content-left {
+    width: 290px;
+    float: left;
+}
+
+.community-profile .content-right {
+    width: 600px;
+    float: right;
+}
+
+.community-profile-top .par {
+  padding: 20px;
+  background: #EBEBEB;
+  margin-bottom: 35px; 
+}
+
+.community-profile .content-right .topic-top {
+    margin: 10px 0 0;
+}
+
+.community-profile .topic-top .orange_button {
+    float: right;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: .1em;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.community .member-profile-picture {
+    margin-bottom: 15px;
+}
+
+.activity .earned-badge,
+.community .profile-top .badge-name {
+    float: left;
+    width: 90px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.community-profile.badges {
+    float: left;
+}
+
+.community-profile.badges img {
+    float: left;
+    margin-right: 10px;
+}
+
+.community .comment-count {
+    float: right;
+    width: 32px;
+    height: 34px;
+    padding: 5px 0; 
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    background: url(/etc/designs/geometrixx-outdoors/images/soco/profile-comment-bubble.png) no-repeat 0 0;
+}

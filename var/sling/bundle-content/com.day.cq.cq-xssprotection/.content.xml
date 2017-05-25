@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:lockable]"
+    jcr:primaryType="nt:unstructured"
+    content-load-time="{Date}2017-05-12T15:52:54.897+05:30"
+    content-loaded="{Boolean}true"
+    content-loaded-by="e1f0d2e5-5852-4af6-8243-27327c8fd5fa"
+    uninstall-paths="[crx.default:/libs/cq/xssprotection/config.xml]"/>

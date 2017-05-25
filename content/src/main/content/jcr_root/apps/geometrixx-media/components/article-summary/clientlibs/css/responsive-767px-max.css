@@ -1,0 +1,67 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+/* phone landscape */
+@media (max-width: 767px) {
+
+    .article-summary div.social {
+        margin: 0px;
+    }
+
+    .article-summary .social-header {
+        padding-top: 10px;
+    }
+
+    .article-summary .article-summary-description {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .article-summary .article-summary-description h4 {
+        padding-bottom: 0px;
+    }
+
+    .article-summary article {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .article-summary {
+        top: 32px;
+        width: 100%;
+    }
+
+    .article-summary-image {
+        float: none;
+    }
+
+    .article-summary h4 {
+        font-size: 1.4em;
+        padding-top: 3px;
+    }
+
+    span.floating-tag {
+        float: left;
+        position: relative;
+        color: white;
+        background-image: none;
+        height: 26px;
+        top: 0px;
+        left: 0px;
+    }
+
+}

@@ -1,0 +1,53 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.nav_products .product {
+    margin: 0;
+    padding: 0 0 6px 1px;
+    list-style-type: none;
+}
+.nav_products .product li {
+    float: left;
+}
+.nav_products .product a {
+    position: relative;
+    display: block;
+    float: left;
+    width: 173px;
+    margin: 0 -1px -1px 0;
+    padding-bottom: 10px;
+    border: 1px solid #d9d9d9;
+    text-decoration: none;
+    color: #5a5a5a;
+}
+.nav_products .product a:hover {
+    z-index: 1;
+    border-color: #007cba;
+    color: #007cba;
+}
+.nav_products .product a img {
+    display: block;
+    margin: 0 auto;
+}
+.nav_products .product a h4,
+.nav_products .product a p {
+    margin: 0 10px;
+    font-weight: normal;
+}
+.nav_products .product a p {
+    font-weight: bold;
+}

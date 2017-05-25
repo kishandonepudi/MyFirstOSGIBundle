@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-28T21:56:54.341+01:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"/>
+    <qizr-i_really_wantamusi/>
+    <shrc-i_m_lookingatalis/>
+    <_x0036_yxh-the_reason_iamwond/>
+    <epiq-i_absolutelyloveth/>
+</jcr:root>

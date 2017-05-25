@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <e459a8bb-137e-447a-8ed0-0d1352d28551/>
+    <b529d0d7-eddc-409b-aade-dc9d41512bd2/>
+    <home/>
+    <products/>
+    <people/>
+    <join-us/>
+    <we-care/>
+    <reach-us/>
+    <search/>
+    <_x0039_8ca654e-6efc-45ca-adf8-e59a88fd62be/>
+    <english/>
+    <services/>
+    <_x0034_fc420fa-77b2-4199-8829-04228485ace2/>
+    <_x0032_41a26cd-c72a-448b-a596-3b4d0f3424da/>
+</jcr:root>

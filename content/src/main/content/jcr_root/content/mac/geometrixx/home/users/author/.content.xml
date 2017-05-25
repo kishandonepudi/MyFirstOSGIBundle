@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <jcr:content
+        cq:lastModified="{Date}2012-08-23T10:39:11.838-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/mac/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="mac/components/contentpage"/>
+    <boards/>
+</jcr:root>

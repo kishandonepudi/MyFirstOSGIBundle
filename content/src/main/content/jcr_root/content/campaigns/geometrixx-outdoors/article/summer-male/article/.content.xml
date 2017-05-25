@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-29T23:07:49.992+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="Sparrow Passes the Endurolife Test"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Article"
+        jcr:uuid="fd3e7182-2e7c-49cf-a412-9e4bae5b27ee"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="article">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <recommend_article
+                jcr:created="{Date}2011-11-29T16:55:03.392+01:00"
+                jcr:createdBy="admin"
+                jcr:description="New trail bike wows our reviewer."
+                jcr:lastModified="{Date}2011-11-29T23:07:49.990+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Sparrow Passes the Endurolife Test"
+                sling:resourceType="geometrixx-outdoors/components/recommend/recommend_article"
+                image="/content/dam/geometrixx-media/articles/mountain-bike.jpg"
+                link="/content/geometrixx-media/en/gadgets/sparrow-passes-theendurolifetest"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2011-11-03T20:54:38.668+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-media/articles/mountain-bike.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

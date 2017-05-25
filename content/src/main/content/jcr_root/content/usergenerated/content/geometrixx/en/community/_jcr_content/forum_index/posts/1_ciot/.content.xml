@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-12-17T11:22:03.206-08:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"/>
+    <a_friend_of_minebou/>
+    <hey_geofanboys_andg/>
+    <how_can_i_disableco/>
+    <i_always_fanciedag/>
+    <i_am_a_recreational/>
+    <i_am_looking_forar/>
+    <i_am_planning_tobuy/>
+    <i_have_seen_on_wikip/>
+    <i_just_got_my_geocub/>
+    <i_ordered_a_relative/>
+    <i_ordered_geoprismt/>
+    <i_own_a_golden_retri/>
+    <i_ve_read_something/>
+    <i_would_like_to_orga/>
+    <is_it_possible_toha/>
+    <it_does_not_workpl/>
+    <my_geocuboid_smells/>
+    <somebody_steppedove/>
+    <we_already_have_aco/>
+    <why_won_t_anybodyhe/>
+</jcr:root>

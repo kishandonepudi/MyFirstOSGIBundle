@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:47.154-05:00"
+    jcr:createdBy="aparker@geometrixx.info"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Q&amp;A"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="I love my Mombassa Runners!  In addition to them being really cute (I get complements for them all the time) I also was able to relieve some knee pain by running with these shoes. I can’t say enough about them."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/running/questions/jcr:content/forum_fa48/1_ciot/epiq-i_absolutelyloveth/1_tosp/acdv-i_love_my_mombassar"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/qna/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Q&amp;A"
+        id="/content/geometrixx-outdoors/en/community/running/questions"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

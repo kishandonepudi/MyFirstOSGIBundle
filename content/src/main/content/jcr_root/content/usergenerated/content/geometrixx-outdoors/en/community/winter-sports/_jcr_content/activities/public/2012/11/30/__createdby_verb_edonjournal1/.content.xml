@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:53.959-05:00"
+    jcr:createdBy="josh.bradley@pookmail.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Journal"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>This&#xd;&#xa;is the inaugural journal entry for the winter sports community. I&#xd;&#xa;hope that every one of you finds exactly what you’re looking for,&#xd;&#xa;and if you don’t, we’ll work hard to make sure you do. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>To&#xd;&#xa;begin, I would like to get the conversation started on snowshoeing.&#xd;&#xa;Compared to other winter sports, snowshoeing isn’t exactly popular,&#xd;&#xa;but I’m here to change that! I’m confident that most of you would&#xd;&#xa;love breaking through fresh powder on a sunny weekend morning if you&#xd;&#xa;just give it a shot. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>My&#xd;&#xa;son and I are making our own snowshoes this year. It’s a great&#xd;&#xa;activity and I’ve spent many years refining my formula for the&#xd;&#xa;perfect snowshoe. I’m even going to host a Snowshoeing: 101 class&#xd;&#xa;if anyone is interested. Check the calendar for more details.  &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Anyway,&#xd;&#xa;now you know a little bit more about me. I can’t wait to see what&#xd;&#xa;this community becomes.&amp;nbsp;&lt;/font>&#xd;&#xa;&lt;/p>"
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/winter-sports/journal/jcr:content/entrycomments/1Bucket/fld1-_p_cl"
+        objectType="comment"
+        subType="social/journal/components/entrytext"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Journal"
+        id="/content/geometrixx-outdoors/en/community/winter-sports/journal"
+        objectType="geometrixx-outdoors/components/journal/page"/>
+</jcr:root>

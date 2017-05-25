@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:charts="charts.*" 
+		 implements="components.CQComponent"
+		 width="100%"
+		 height="100%">
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.jcr.Node;
+			
+			public function loadContent(node:Node):void {
+				// nothing to load
+			}
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<charts:PortfolioChart id="chart" bottom="20" left="20" right="20"/>
+
+</s:Group>

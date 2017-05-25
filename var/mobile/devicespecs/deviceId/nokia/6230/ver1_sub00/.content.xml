@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia6230-wap"
+    fall_back="nokia_6230_ver1"
+    max_data_rate="40"
+    user_agent="Nokia6230/2.0 WAP/1.1"/>

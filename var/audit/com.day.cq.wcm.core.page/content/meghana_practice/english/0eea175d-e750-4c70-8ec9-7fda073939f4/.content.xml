@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:category="com/day/cq/wcm/core/page"
+    cq:path="/content/meghana_practice/english"
+    cq:properties="{Binary}"
+    cq:time="{Date}2017-05-12T14:29:41.461+05:30"
+    cq:type="VersionCreated"
+    cq:userid="admin"
+    jcr:primaryType="cq:AuditEvent"
+    path="/content/meghana_practice/english"
+    type="VersionCreated"
+    userId="admin"
+    versionId="1.0"/>

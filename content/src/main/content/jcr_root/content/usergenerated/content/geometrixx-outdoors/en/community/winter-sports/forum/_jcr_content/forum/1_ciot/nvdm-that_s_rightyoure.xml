@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T13:44:41.368+01:00"
+    cq:lastModifiedBy="aaron.mcdonald@mailinator.com"
+    jcr:description="That’s right. You read correctly. Men, wear a scarf on the mountain if you plan on socializing with the women. Enough said. &#xa;&#xa;P.S., the Sherbrooke Winter worked wonders for me. "
+    jcr:primaryType="cq:Comment"
+    jcr:title="Don’t underestimate the power of the scarf."
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T13:41:34.374+01:00"
+    authorizableId="aaron.mcdonald@mailinator.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.html"
+    sentiment="{Long}3"
+    submit="Submit"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="aaron.mcdonald@mailinator.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="a3f1d116-887f-46b9-a558-ae20f119435b">
+        <iStock_000011543187Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T08:59:58.530+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="984e722e-a0fd-4a59-af8a-d9d609f3be16"/>
+        </iStock_000011543187Small.jpg>
+    </attachments>
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <g6bl-amen_to_thatirock
+            jcr:description="Amen to that. I rock the Halifax."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T13:43:30.210+01:00"
+            authorizableId="weston.mccall@dodgit.com"
+            email="weston.mccall@dodgit.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.html/forum__nvdm-that_s_rightyoure.html"
+            sentiment="{Long}3"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="weston.mccall@dodgit.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="76db8853-0fb3-4aea-9c08-fcf11ebe2772">
+                <iStock_000021716473Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.514+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="7a6d7195-6bf5-4693-8b39-5f5af69395f0"/>
+                </iStock_000021716473Small.jpg>
+            </attachments>
+        </g6bl-amen_to_thatirock>
+        <hztc-you_guys_aredorks
+            jcr:description="You guys are dorks."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T13:44:41.303+01:00"
+            authorizableId="ashley.thompson@spambob.com"
+            email="ashley.thompson@spambob.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.forum__nvdm-that_s_rightyoure__g6bl-amen_to_thatirock._s_1_tosp.html/forum__nvdm-that_s_rightyoure.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="ashley.thompson@spambob.com"/>
+    </_x0031__tosp>
+</jcr:root>

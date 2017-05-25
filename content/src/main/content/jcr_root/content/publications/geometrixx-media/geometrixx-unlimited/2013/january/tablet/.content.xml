@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-unlimited"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2012-07-12T11:06:32.769-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-unlimited/templates/issue"
+        jcr:description="First issue of Geometrixx Unlimited"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Tablet Folio"
+        sling:resourceType="geometrixx-unlimited/components/pages/issue"
+        dps-coverLandscape="/content/dam/geometrixx-unlimited/covers/geoUnlimitedPreview_h.jpg"
+        dps-coverPortrait="/content/dam/geometrixx-unlimited/covers/geoUnlimitedPreview_v.jpg"
+        dps-exportTemplate="/etc/contentsync/templates/dps-geometrixx-unlimited"
+        dps-folioIntent="Both"
+        dps-folioNumber="Music Festivals"
+        dps-publicationName="Geometrixx Unlimited"
+        dps-resolutionHeight="{Long}768"
+        dps-resolutionWidth="{Long}1024"
+        dps-resourceType="dps:Issue"/>
+    <cover/>
+    <ad-adobe-cloud/>
+    <summer-blockbuster-hits-and-misses/>
+    <ad-adobe-touch/>
+    <ad-adobe-marketingcloud/>
+    <the-lineup-you-ve-been-waiting-for/>
+    <ad-adobe-dp/>
+    <meet-canada-s-hip-hop-royalty/>
+</jcr:root>

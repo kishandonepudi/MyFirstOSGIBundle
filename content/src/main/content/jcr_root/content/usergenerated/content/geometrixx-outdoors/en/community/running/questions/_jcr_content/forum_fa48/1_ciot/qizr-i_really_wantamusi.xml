@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastModified="{Date}2012-11-29T16:00:43.905+01:00"
+    cq:lastModifiedBy="rebekah.larsen@trashymail.com"
+    jcr:description="I really want a music player for my runs, and the GoMobile looks great, but does anyone else have one? I need to know what it can do."
+    jcr:primaryType="cq:Comment"
+    jcr:title="How many songs can the GoMobile hold?"
+    sling:resourceType="geometrixx-outdoors/components/qna/topic"
+    _charset_="UTF-8"
+    added="{Date}2012-11-29T15:54:11.825+01:00"
+    authorizableId="rebekah.larsen@trashymail.com"
+    helpful="0"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notHelpful="0"
+    positive="{Long}1"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/running/questions.html"
+    sentiment="{Long}5"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="rebekah.larsen@trashymail.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <_x0036_hao-i_have_it_tooith
+            jcr:description="I have it, too. I think I have 20GB on it right now, and it hasn’t told me that I’m running out of room."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T16:00:43.861+01:00"
+            authorizableId="aaron.mcdonald@mailinator.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/running/questions.topic.html/forum_fa48__qizr-i_really_wantamusi.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aaron.mcdonald@mailinator.com"/>
+        <one9-rebekah_i_didbuyt
+            jcr:description="Rebekah, I did buy the GoMobile. I honestly have no idea how many songs it holds, but I do know that I have about 5,000 songs on mine and it is nowhere near close to running out of room."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T15:59:50.747+01:00"
+            authorizableId="donna.billups@pookmail.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/running/questions.topic.html/forum_fa48__qizr-i_really_wantamusi.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="donna.billups@pookmail.com"/>
+    </_x0031__tosp>
+</jcr:root>

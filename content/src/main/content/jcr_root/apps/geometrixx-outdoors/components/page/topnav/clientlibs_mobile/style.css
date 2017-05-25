@@ -1,0 +1,62 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+/* The title */
+
+.topnav h1 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0;
+    height: 58px;
+    line-height: 58px;
+    text-indent: -1000em;
+    box-shadow: 0 1px 10px #000;
+}
+.narrow .topnav h1 {
+    height: 95px;
+}
+.topnav h1 a {
+    float: left;
+    width: 150px;
+    background: url(../../../../../../etc/designs/geometrixx-outdoors/images/page_mobile/geometrixx_outdoors.png) no-repeat;
+}
+
+/* The pages */
+
+.topnav ul {
+    overflow: hidden;
+    padding: 0;
+    background: #ef5f2f;
+}
+.topnav li {
+    float: left;
+    height: 35px;
+    width: 50%;
+    margin: 0 -1px -1px 0;
+    border-right: 1px solid #ff8159;
+    border-bottom: 1px solid #ff8159;
+    list-style: none;
+}
+.topnav li a {
+    display: block;
+    height: 14px;
+    line-height: 14px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}

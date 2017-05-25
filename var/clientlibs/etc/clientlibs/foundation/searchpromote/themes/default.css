@@ -1,0 +1,144 @@
+/** general */
+
+.cq-editrollover-container {
+    border: 2px dashed #CCCCCC;
+}
+
+/** Search */
+.cq-searchpromote-search {
+    text-align: center;
+}
+.cq-searchpromote-search #q {
+    width: 225px;
+}
+
+/** Results */
+.cq-searchpromote-results {
+    min-height: 100px;
+}
+
+/** Pagination */
+.cq-searchpromote-pagination {
+    text-align: center;
+}
+
+/** Breadcrumbs */
+.cq-searchpromote-breadcrumbs {
+    
+}
+
+/** Checkboxlist Facet */
+.cq-searchpromote-facet-checkboxlist {
+    min-height:50px;
+    height:auto;  
+    overflow:auto;
+}
+.cq-searchpromote-facet-checkboxlist ul {
+    list-style-type: none;
+}
+
+/** Datepicker Facet */
+.cq-searchpromote-facet-datepicker {}
+
+/** Dropdown Facet */
+.cq-searchpromote-facet-dropdown {}
+
+/** Linklist Facet */
+.cq-searchpromote-facet-linklist {}
+.cq-searchpromote-facet-linklist ul {
+    list-style-type: none;
+}
+
+.cq-searchpromote-facet-linklist .cq-div-page a {
+    font-style: italic;
+}
+
+/** Nestlist Facet */
+.cq-searchpromote-facet-nestedlist li {
+    margin-left: 20px;
+}
+
+.cq-searchpromote-facet-nestedlist ul.parent {
+    list-style-type: none;
+}
+
+.cq-searchpromote-facet-nestedlist ul.children {
+    list-style-type: circle;
+    margin-bottom: 10px;
+}
+
+.cq-searchpromote-facet-nestedlist ul.selected {
+    font-weight: bold;
+}
+
+
+/** Sorting **/
+.cq-searchpromote-sorting { 
+}
+
+select.cq-searchpromote-sorting-dropdown-select { 
+}
+
+
+/** Ranking facet */
+.cq-searchpromote-facet-ratings {
+    height:70px; 
+    overflow:auto 
+}
+.cq-searchpromote-facet-ranking-selected-value { 
+    float: right;
+}
+
+.cq-searchpromote-facet-star-on {
+    width: 14px;
+    height: 14px;
+    background: #fff url(default/stars.png) 0px 0px no-repeat;
+    float: left;
+}
+
+.cq-searchpromote-facet-star-off {
+    width: 14px;
+    height: 14px;
+    background: #fff url(default/stars.png) 0px -14px no-repeat;
+    float: left;
+}
+
+
+/** Color Facet */
+.cq-searchpromote-facet-color {
+    height:70px; 
+    overflow:auto 
+}
+
+.cq-searchpromote-colors-list{
+    margin: 0;
+    padding: 0 0 6px 1px;
+    list-style-type: none;
+}
+
+.cq-searchpromote-colors-list li {
+    float: left; 
+    margin: 3px 6px 3px 0px;
+    border: 2px solid #ffffff;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -o-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.cq-searchpromote-colors-zone {
+    width: 24px; 
+    height: 24px; 
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -o-border-radius: 8px;
+    border-radius: 8px;
+    opacity: .8;
+}
+
+input.cq-searchpromote-colors-checkbox {
+    width: 22px;
+    height: 22px;
+    border: none;
+    opacity: 0;
+}

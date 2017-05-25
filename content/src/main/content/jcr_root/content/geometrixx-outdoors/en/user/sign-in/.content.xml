@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-10T15:08:26.677+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sign-In"
+        jcr:uuid="89943417-b7ca-4498-ade2-72e28fac1043"
+        sling:resourceType="geometrixx-outdoors/components/page">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <login
+                jcr:created="{Date}2011-11-10T15:08:26.676+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-11-10T15:08:26.676+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/login"
+                loginLabel="Sign In"
+                sectionLabel="Please Sign In:"/>
+        </par>
+    </jcr:content>
+</jcr:root>

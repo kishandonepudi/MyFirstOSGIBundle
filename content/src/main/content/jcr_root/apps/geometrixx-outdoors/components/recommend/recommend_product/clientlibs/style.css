@@ -1,0 +1,104 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.page-mobile .recommend_product {
+    float: left;
+    width: 146px;
+    height: 154px;
+    margin: 0 12px 0 0;
+}
+.page-mobile .campaign .parsys_column:last-child .recommend_product:last-child {
+    margin-right: 0;
+}
+
+.recommend_product {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+.recommend_product a {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+
+.recommend_product .description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.recommend_product .description p {
+    position: relative;
+    z-index: 3;
+    margin: 5px 2px 5px 10px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #e6e6e6;
+}
+.recommend_product .description p strong {
+    display: block;
+}
+.recommend_product .description .bg {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+    -moz-transition: opacity 500ms;
+    -webkit-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+.recommend_product a:hover .description .bg {
+    opacity: 0.8;
+    filter: alpha(opacity = 80);
+    -moz-transition: opacity 200ms;
+    -webkit-transition: opacity 200ms;
+    -o-transition: opacity 200ms;
+    transition: opacity 200ms;
+}
+
+.recommend_product .inset-shadow {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    -moz-box-shadow: inset 0 0 50px #000;
+    -webkit-box-shadow: inset 0 0 50px #000;
+    box-shadow: inset 0 0 50px #000;
+    opacity: 0.3;
+    filter: alpha(opacity = 30);
+}
+.recommend_product a:hover .inset-shadow {
+    -moz-transition: opacity 500ms;
+    -webkit-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+    opacity: 0.4;
+    filter: alpha(opacity = 40);
+}

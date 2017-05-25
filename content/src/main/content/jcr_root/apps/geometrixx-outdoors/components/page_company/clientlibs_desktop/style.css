@@ -1,0 +1,42 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+/* Layout */
+
+body.page-company .page-par {
+    float: left;
+    width: 600px;
+}
+
+body.page-company .recommend_article img {
+    height: auto;
+}
+
+/* Sidebar */
+
+body.page-company .page-aside {
+    width: 290px;
+}
+
+body.page-company .page-aside.right {
+    float: right;
+}
+
+body.page-company .page-aside.left {
+    float: left;
+    margin-right: 35px;
+}

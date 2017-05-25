@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    indices="[did_you_open_or_geoc\,date-modified#1285853764083,i_did_not_my_dogdi\,date-modified#1285853793922,unfortunately_wecan\,date-modified#1285853842457]"/>

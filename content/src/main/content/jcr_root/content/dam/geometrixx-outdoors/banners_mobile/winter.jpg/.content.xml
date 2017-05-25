@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2011-12-15T03:15:45.414-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2011-12-08T12:44:53.718+01:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Double}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Double}-1.0"
+            dam:Progressive="yes"
+            dam:sha1="55503ea8cec32f793d8a5393ba7f40729de9d0cf"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2011-12-08T12:44:47.810+01:00"
+            dc:title="Winter is not time to stay inside. – Find winter fashing that doesn't sacrifice style for comfort. – Shop Now."
+            jcr:lastModified="{Date}2011-12-08T15:22:29.599+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}200"
+            tiff:ImageWidth="{Long}320"
+            xmp:CreatorTool="Adobe Photoshop CS5 Macintosh"
+            xmpMM:DocumentID="xmp.did:F0F70ED619B511E19D539FC0754C35FE"
+            xmpMM:InstanceID="xmp.iid:F0F70ED519B511E19D539FC0754C35FE"
+            xmpMM:OriginalDocumentID="xmp.did:814839BDF7206811963EAC508E2739FF">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef_x0025_3AdocumentID="xmp.did:814839BDF7206811963EAC508E2739FF"
+                stRef_x0025_3AinstanceID="xmp.iid:97DC53D36F20681194578AF279266457"/>
+        </metadata>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

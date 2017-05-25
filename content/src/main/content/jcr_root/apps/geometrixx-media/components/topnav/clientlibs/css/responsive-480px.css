@@ -1,0 +1,68 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+@media (max-width: 480px) {
+
+    header {
+        margin-top: 10px;
+        position: relative;
+    }
+
+    header div.logo {
+        height: 60px;
+        position: relative;
+        top: 20px;
+    }
+
+    header div.logo img {
+        width: 150px;
+    }
+
+    header .topnav nav {
+        display: none;
+    }
+
+    header .topnav nav ul {
+        width: 100%;
+        padding: 0;
+    }
+
+    header .topnav nav ul li {
+        width: 100%;
+        text-align: left;
+    }
+
+    header .topnav nav ul li a {
+        padding-left: 10px;
+    }
+
+    header .topnav .btn.menu-dropdown {
+        right: 85px;
+        top: 16px;
+    }
+
+    header .topnav .btn.authenticate {
+        display: block;
+        position: absolute;
+        margin: 0;
+        top: 16px;
+        right: 8px;
+        padding: 3px 7px 3px 7px;
+        width: 53px;
+    }
+
+
+}

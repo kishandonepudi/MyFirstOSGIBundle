@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-07-28T15:13:19.411+01:00"
+        cq:lastModifiedBy="author"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Support"
+        sling:resourceType="geometrixx/components/contentpage"/>
+</jcr:root>

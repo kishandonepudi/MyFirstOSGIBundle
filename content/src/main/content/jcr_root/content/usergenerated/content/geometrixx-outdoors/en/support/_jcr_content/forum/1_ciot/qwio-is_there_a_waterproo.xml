@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-30T17:06:44.798+01:00"
+    cq:lastModifiedBy="aaron.mcdonald@mailinator.com"
+    jcr:description="Is there a waterproof rating for the Slopeside jacket, and are the seams taped?"
+    jcr:primaryType="cq:Comment"
+    jcr:title="Is there a waterproof..."
+    sling:resourceType="geometrixx-outdoors/components/qna/topic"
+    _charset_="UTF-8"
+    added="{Date}2012-11-29T17:53:32.441+01:00"
+    authorizableId="aaron.mcdonald@mailinator.com"
+    helpful="0"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notHelpful="0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.html"
+    sentiment="{Long}3"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="aaron.mcdonald@mailinator.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <fjbq-i_got_last_seasons
+            jcr:description="I got last season’s version of this jacket and took it up the mountain at least 60 times. If this one is anything like the last one, you will be happy with the waterproof rating. I had zero problems with it, even when I got stuck on the lift one time and was sitting/leaning on it for half an hour straight in a snowstorm. That’s about all you need."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:55:50.238+01:00"
+            authorizableId="weston.mccall@dodgit.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}4"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.forum__qwio-is_there_a_waterproo__ie6r-aaron_i_wasinthe._s_1_tosp.html/forum__qwio-is_there_a_waterproo.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="weston.mccall@dodgit.com"/>
+        <ie6r-aaron_i_wasinthe
+            jcr:description="Aaron, I was in the same boat as you when looking at this jacket. I ended up deciding to just buy the jacket and hope that it came with all the info I needed to make an educated decision and either keep it or send it back for something else. This is what the Slopeside gives you: &#xd;&#xa;&#xd;&#xa;-Guaranteed waterproof to 10,000 mm &#xd;&#xa;-Guaranteed breathability to 10,000 g/m2&#xd;&#xa;-Critically taped 13mm seams &#xd;&#xa;&#xd;&#xa;Now that’s a nice jacket. Needless to say, I kept mine. &#xd;&#xa;"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:54:29.157+01:00"
+            authorizableId="jason.werner@dodgit.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__qwio-is_there_a_waterproo.html"
+            sentiment="{Long}5"
+            submit="Post Answer"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="jason.werner@dodgit.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="0503d984-35c5-4383-9b0d-82bad8b6b40d">
+                <iStock_000018314658Small_edit.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T09:00:01.142+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="4fc6a3ab-4efb-4552-a51e-c19efc5fe284"/>
+                </iStock_000018314658Small_edit.jpg>
+            </attachments>
+        </ie6r-aaron_i_wasinthe>
+        <oaok-sounds_likeyoureg
+            jcr:description="Sounds like you’re going to hear nothing but greatness about this jacket. I will give the Slopeside my own personal waterproof rating of ‘built like a brick house.’ I have taken this everywhere from snowboarding to hiking in a downpour to sitting in the rain at an outdoor concert. Not only is it completely waterproof, but also I never get too hot or clammy because it ventilates so well."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:56:49.527+01:00"
+            authorizableId="james.devore@spambob.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}2"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.forum__qwio-is_there_a_waterproo__ie6r-aaron_i_wasinthe._s_1_tosp.html/forum__qwio-is_there_a_waterproo.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="james.devore@spambob.com"/>
+        <rtcu-i_m_happy_tohearal
+            jcr:description="I’m happy to hear all of you have great things to say about your jackets because mine was a huge disappointment. The seams leak like crazy. I’m so happy because now I know I got a dud…definitely using my warranty and sending mine back for a replacement."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:57:40.891+01:00"
+            authorizableId="ryan.palmer@spambob.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}3"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.forum__qwio-is_there_a_waterproo__ie6r-aaron_i_wasinthe._s_1_tosp.html/forum__qwio-is_there_a_waterproo.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="ryan.palmer@spambob.com"/>
+    </_x0031__tosp>
+</jcr:root>

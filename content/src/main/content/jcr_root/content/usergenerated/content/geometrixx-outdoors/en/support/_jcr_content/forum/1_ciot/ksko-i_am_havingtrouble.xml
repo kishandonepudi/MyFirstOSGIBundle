@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T17:30:36.514+01:00"
+    cq:lastModifiedBy="andrew.schaeffer@trashymail.com"
+    jcr:description="I am having trouble with my Longirod Trek hiking poles. I tighten the extension locks as tight as I can, but they still loosen up after only an hour of use. Is there a trick to this that I need to know about? Is this a defect that is covered by my warranty?"
+    jcr:primaryType="cq:Comment"
+    jcr:title="I am having trouble..."
+    sling:resourceType="geometrixx-outdoors/components/qna/topic"
+    _charset_="UTF-8"
+    added="{Date}2012-11-29T17:25:38.390+01:00"
+    authorizableId="andrew.schaeffer@trashymail.com"
+    helpful="0"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notHelpful="0"
+    positive="{Long}1"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.html"
+    sentiment="{Long}5"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="andrew.schaeffer@trashymail.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <_x0035_11v-i_can_t_reallytell
+            jcr:description="I can’t really tell with the picture, so you’ll have to tell me if the pole extensions have a twist and lock or a lever clamp."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:26:16.207+01:00"
+            authorizableId="jason.werner@dodgit.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__ksko-i_am_havingtrouble.html"
+            sentiment="{Long}3"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="jason.werner@dodgit.com"/>
+        <dbk6-in_that_caseyouma
+            jcr:description="In that case, you may have just bought a pair of poles that can’t do what you expect them to, which is to stay tight for an entire hike. The twist and lock poles are kind of an outdated technology as far as poles are concerned. The threads inside the locking mechanism are just asking to get worn out or stripped every time you make an adjustment. &#xd;&#xa;&#xd;&#xa;It’s a catch 22. If you don’t tighten the poles tight enough, they don’t stay at the height they are supposed to. If you tighten the poles too tight, every time you do the threads will become less effective.  &#xd;&#xa;&#xd;&#xa;I would recommend finding a pair of poles that have the FlickLock system. You simply pull a lever out from the pole to adjust, and then clamp it back down to tighten, much like the quick-release lever on bicycle tires and seats."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:28:14.362+01:00"
+            authorizableId="jason.werner@dodgit.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}3"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__ksko-i_am_havingtrouble.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="jason.werner@dodgit.com"/>
+        <edaa-andrew_we_aresorry
+            jcr:description="Andrew, we are sorry that you are having trouble with your Longirod Trek poles. The locking mechanism is covered by your warranty. You can either receive a full refund or get replacement poles if yours are defective. We have already emailed you detailed information about getting this issue resolved at your convenience."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:30:10.795+01:00"
+            authorizableId="sean.smith@geometrixxoutdoors.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__ksko-i_am_havingtrouble.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="sean.smith@geometrixxoutdoors.com"/>
+        <edn8-they_twist_andlock
+            jcr:description="They twist and lock to tighten at two different points on the telescope."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:27:02.792+01:00"
+            authorizableId="andrew.schaeffer@trashymail.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__ksko-i_am_havingtrouble.html"
+            sentiment="{Long}3"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="andrew.schaeffer@trashymail.com"/>
+        <lm0b-in_additiontoflick
+            jcr:description="In addition to FlickLock, look into poles with the SLS system. This type of extension has an expander/screw combination that you could lean on with your full body weight, and it’s not going to go anywhere. I’ve been using poles with SLS for a few years now for both summer and winter hiking (my buddy took this picture of me while we were out last time) and I have had zero complaints."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:30:36.490+01:00"
+            authorizableId="weston.mccall@dodgit.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}1"
+            notHelpful="0"
+            positive="{Long}2"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__ksko-i_am_havingtrouble.html"
+            sentiment="{Long}4"
+            submit="Post Answer"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="weston.mccall@dodgit.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="a92550ca-c822-4576-adf8-c1e7660f51a0">
+                <iStock_000019572344Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T09:00:01.142+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="aa851671-af87-4355-b5df-d9e0c4803e0a"/>
+                </iStock_000019572344Small.jpg>
+            </attachments>
+        </lm0b-in_additiontoflick>
+        <x6ii-i_agree_withjasono
+            jcr:description="I agree with Jason on this one, except that there are twist and lock poles out there that actually do work and last a long time. They are called $250 poles. But honestly, if you are going to spend the money, get the FlickLock."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:29:17.867+01:00"
+            authorizableId="aaron.mcdonald@mailinator.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}2"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__ksko-i_am_havingtrouble.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aaron.mcdonald@mailinator.com"/>
+    </_x0031__tosp>
+</jcr:root>

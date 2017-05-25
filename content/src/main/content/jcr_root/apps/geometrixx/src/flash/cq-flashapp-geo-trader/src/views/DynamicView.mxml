@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" title="DynamicView"
+		destructionPolicy="auto"
+		creationComplete="init()">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.coreUI.controls.NullColorPicker;
+			import com.adobe.jcr.Node;
+			
+			import components.Advisor;
+			import components.Alerts;
+			import components.AssetsSummary;
+			import components.CQComponent;
+			import components.PortfolioChart;
+			import components.Text;
+			import components.WatchList;
+			
+			import mx.controls.Alert;
+			import mx.core.FlexGlobals;
+
+			private var rtMapping:Object = {
+				"foundation/components/title": {
+					cls: Class(components.Text)
+				},
+				"geometrixx/components/mobiletrader/title": {
+					cls: Class(components.Text)
+				},
+				"geometrixx/components/assetssummary": {
+					cls: Class(components.AssetsSummary)
+				},
+				"geometrixx/components/mobiletrader/assets-summary": {
+					cls: Class(components.AssetsSummary)
+				},
+				"geometrixx/components/assetschart": {
+					cls: Class(components.PortfolioChart)
+				},
+				"geometrixx/components/mobiletrader/assets-history": {
+					cls: Class(components.PortfolioChart)
+				},
+				"geometrixx/components/watchlist": {
+					cls: Class(components.WatchList)
+				},
+				"geometrixx/components/mobiletrader/watchlist": {
+					cls: Class(components.WatchList)
+				},
+				"geometrixx/components/advisor": {
+					cls: Class(components.Advisor)
+				},
+				"geometrixx/components/mobiletrader/advisor": {
+					cls: Class(components.Advisor)
+				},
+				"geometrixx/components/mobiletrader/alerts": {
+					cls: Class(components.Alerts)
+				},
+				"foundation/components/mobileimage": {
+					cls: Class(components.Image)
+				}
+				
+				
+			}
+
+			public function init():void	{
+				var node:Node = (data as Node);
+				node.session.load(node.path + "/jcr:content/par", -1, contentLoaded);
+			}
+			
+			private function contentLoaded(par:Node):void {
+				for each (var compNode:Node in par.getNodes()) {
+					var rt:String = compNode.getProperty("sling:resourceType");
+					var rtMap = rtMapping[rt];
+					if (rtMap) {
+						var cls:Class = rtMap.cls;
+						var comp:CQComponent = new cls;
+						comp.loadContent(compNode);
+						contents.addElement(comp);
+					}
+				}
+			}
+
+			private function openSettings():void {
+				navigator.pushView(Class(views.URLPromptView));
+				
+			}
+			override public function setCurrentState(stateName:String, playTransition:Boolean=true):void
+			{
+				if (stateName == "landscape")
+				{
+					if (FlexGlobals.topLevelApplication.height<500)
+						super.setCurrentState("landscapeSmall", playTransition);
+					else if (FlexGlobals.topLevelApplication.height<600)
+						super.setCurrentState("landscapeMedium", playTransition);
+					else
+						super.setCurrentState("landscapeLarge", playTransition);
+				}
+				else
+				{
+					super.setCurrentState(stateName, playTransition);
+				}
+			}
+			
+
+		]]>
+	</fx:Script>
+	<s:states>
+		<s:State name="portrait"/>
+		<s:State name="landscape"/>
+		<s:State name="landscapeLarge"/>
+		<s:State name="landscapeMedium"/>
+		<s:State name="landscapeSmall"/>
+		<s:State name="landscapeHistory"/>
+	</s:states>
+	<s:titleContent>
+		<s:Image source="@Embed('/assets/logo.png')" click="openSettings()"/>
+	</s:titleContent>
+	<s:Group id="contents" width="100%" height="100%">
+		<s:layout>
+			<s:VerticalLayout gap="1"/>
+		</s:layout>
+	</s:Group>
+</s:View>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-06-27T16:13:51.171+02:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="/etc/segmentation/geometrixx-outdoors/female-under30"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:created="{Date}2012-06-07T14:52:57.791+03:00"
+        jcr:createdBy="admin"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Female under 30"
+        jcr:uuid="e5298b8d-9c9c-40eb-9ced-c06876a45f05"
+        sling:resourceType="cq/personalization/components/experiencepage"/>
+    <shirt/>
+    <banner/>
+</jcr:root>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T12:16:02.802+01:00"
+    cq:lastModifiedBy="aaron.mcdonald@mailinator.com"
+    jcr:description="I need to figure out the best hydration in the world. I can’t carry enough water bottles to stay hydrated if my hike is longer than three hours."
+    jcr:primaryType="cq:Comment"
+    jcr:title="Hydrating beyond water"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T12:13:43.443+01:00"
+    authorizableId="aaron.mcdonald@mailinator.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.html"
+    sentiment="{Long}3"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="aaron.mcdonald@mailinator.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <_x0036_heq-hydration_backpacks
+            jcr:description="Hydration backpacks. Get one!"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T12:14:34.490+01:00"
+            authorizableId="matt.monroe@mailinator.com"
+            email="matt.monroe@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__5mmr-i_need_to_figureout.html"
+            sentiment="{Long}5"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="matt.monroe@mailinator.com"/>
+        <izl1-in_additiontogetti
+            jcr:description="In addition to getting a hydration backpack and filling the bladder with water, you should bring along a small, high glycemic drink like apple juice. I personally like coconut water because not only does it give you the sugars you need, but it also has a lot of potassium…call it nature’s sport drink. Something like that could be all you need to stay hydrated."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T12:16:02.667+01:00"
+            authorizableId="james.devore@spambob.com"
+            email="james.devore@spambob.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}2"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__5mmr-i_need_to_figureout.html"
+            sentiment="{Long}5"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="james.devore@spambob.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="3238e019-21af-4c9f-ab3a-5af285684ec5">
+                <iStock_000021656501Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.844+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="b5c6895d-cbfc-4e44-ab16-d8b66c9c6de9"/>
+                </iStock_000021656501Small.jpg>
+            </attachments>
+        </izl1-in_additiontogetti>
+    </_x0031__tosp>
+</jcr:root>

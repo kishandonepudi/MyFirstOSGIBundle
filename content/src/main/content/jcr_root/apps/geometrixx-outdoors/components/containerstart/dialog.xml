@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="{Long}575"
+    stateful="{Boolean}false"
+    xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tabs
+            jcr:primaryType="cq:TabPanel"
+            layoutOnTabChange="{Boolean}true">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <first
+                    jcr:primaryType="nt:unstructured"
+                    title="Properties"
+                    xtype="panel">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <cssclass
+                            jcr:primaryType="cq:Widget"
+                            componentId="cssClass"
+                            fieldLabel="CSS class"
+                            name="./cssclass"
+                            xtype="textfield"/>
+                    </items>
+                </first>
+            </items>
+        </tabs>
+    </items>
+</jcr:root>

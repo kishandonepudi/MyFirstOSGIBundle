@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="apple-phone-core-media"
+    device_os_version="1.1.5"
+    fall_back="apple_iphone_coremedia_ver1"
+    user_agent="Apple iPhone v1.1.5 CoreMedia v1.0.0.4B1"/>

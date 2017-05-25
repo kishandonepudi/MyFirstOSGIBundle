@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="Banners">
+    <banner-mono.png/>
+    <banner-retro.png/>
+    <banner-web20.png/>
+    <dsc.jpg/>
+    <shapecon.jpg/>
+    <techsummit.jpg/>
+    <userconf.jpg/>
+    <airport.jpg/>
+    <city.jpg/>
+    <mobile.jpg/>
+    <call_center.jpg/>
+    <questionnaire.jpg/>
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

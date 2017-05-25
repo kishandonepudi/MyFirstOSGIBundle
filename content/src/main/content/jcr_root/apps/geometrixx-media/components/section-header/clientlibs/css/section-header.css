@@ -1,0 +1,46 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.section-header {
+    line-height: normal;
+}
+
+.section-header h2, h3 {
+    font-size: 2.4em;
+    font-style: italic;
+    text-align: center;
+    background-image: url("/etc/designs/geometrixx-media/clientlibs/img/header-bar-h2.png");
+    background-repeat: repeat-x;
+    background-position: 0 50%;
+    margin: 0px 0px 0px 0px;
+}
+
+.section-header h3 {
+    font-size: 2.5em;
+    background-image: url("/etc/designs/geometrixx-media/clientlibs/img/header-bar-h3.png");
+}
+
+.section-header h2>span, h3>span {
+    background-color: #E9E9E2;
+    padding: 0 20px 0 20px;
+    text-decoration:none;
+}
+
+
+.section-header h5 {
+    margin: 0 0 0 0;
+}

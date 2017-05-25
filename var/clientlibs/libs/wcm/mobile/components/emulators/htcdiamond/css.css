@@ -1,0 +1,64 @@
+/*
+ * Copyright 1997-2009 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #25262B !important;
+}
+
+#cq-emulator.htcdiamond.vertical {
+    background: url("resources/bg.png") no-repeat;
+    height: 488px;
+    padding: 83px 0 360px;
+    width: 492px;
+}
+
+#cq-emulator.htcdiamond.horizontal {
+    background: url("resources/bg_horizontal.png") no-repeat;
+    height: 420px;
+    padding: 36px 0 41px;
+    width: 1270px;
+}
+
+#cq-emulator-content.htcdiamond {
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#cq-emulator-content.htcdiamond.vertical {
+    height: 488px;
+    width: 420px;
+}
+
+#cq-emulator-content.htcdiamond.horizontal {
+    height: 420px;
+    width: 488px;
+}
+
+#cq-emulator-rotate.htcdiamond {
+    text-indent: -10000px;
+    height: 32px;
+    width: 32px;
+}
+
+#cq-emulator-rotate.htcdiamond.vertical {
+    background: url("resources/rotate_to_horizontal.png") no-repeat;
+    right: 127px;
+    top: 32px;
+}
+
+#cq-emulator-rotate.htcdiamond.horizontal {
+    background: url("resources/rotate_to_vertical.png") no-repeat;
+    right: 338px;
+    top: 337px;
+}

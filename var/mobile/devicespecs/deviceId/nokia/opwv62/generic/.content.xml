@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    brand_name="Nokia"
+    CQ5_UserAgentRadical="not-match-nokia-running-upbrowser6"
+    fall_back="opwv_v62_generic"
+    user_agent="DO_NOT_MATCH_NOKIA_RUNNING_UPBROWSER6"/>

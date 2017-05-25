@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-02-07T17:43:42.291+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="ShapeCon Las Vegas"
+        sling:resourceType="geometrixx/components/contentpage"
+        subtitle="2011-10-12">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2010-10-06T13:58:18.426+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-10-06T13:58:31.188+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/banners/shapecon.jpg"
+                imageRotate="0"
+                width="700"/>
+            <event
+                jcr:lastModified="{Date}2009-10-09T14:10:15.921+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="collab/calendar/components/event">
+                <event
+                    cq:distribute="{Boolean}true"
+                    jcr:lastModified="{Date}2011-02-07T16:43:23.000Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="cq:CalendarEvent"
+                    jcr:title="ShapeCon Las Vegas"
+                    end="{Date}2011-10-13T00:00:00.000Z"
+                    isDate="{Boolean}true"
+                    sequence="{Long}1"
+                    stamp="{Date}2009-10-09T12:11:00.000Z"
+                    start="{Date}2011-10-12T00:00:00.000Z"
+                    uid="8332F4E8-465A-4D7A-89CD-B4612863C7D3"
+                    url="/content/geometrixx/en/events/shapecon"/>
+            </event>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+        <image
+            jcr:lastModified="{Date}2011-02-07T17:43:42.290+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx/banners/shapecon.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,7 @@
+#base=js
+
+rail.js
+rail-toggle.js
+layouttoggle.js
+selectionstatus.js
+properties-activator.js

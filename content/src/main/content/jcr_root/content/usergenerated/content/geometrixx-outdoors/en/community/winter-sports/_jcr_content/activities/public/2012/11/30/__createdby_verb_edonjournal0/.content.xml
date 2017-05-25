@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:48.792-05:00"
+    jcr:createdBy="jason.werner@dodgit.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Journal"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>As&#xd;&#xa;we gear up for the winter season, and it looks like it will be a good&#xd;&#xa;one, remember that safety is always priority #1. Wherever you decide&#xd;&#xa;to go, be sure to check with local officials first to see if there&#xd;&#xa;are any avalanche warnings in effect. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Almost&#xd;&#xa;all the ski resorts in Utah are scheduled to open early this year due&#xd;&#xa;to significant snowpack before Thanksgiving, but with early snow&#xd;&#xa;comes moderate to considerable avalanche warnings. Jason is putting&#xd;&#xa;together an avalanche safety and first aid/CPR review. I would&#xd;&#xa;strongly suggest to everyone over here in winter sports connect with&#xd;&#xa;Jason for more info.&lt;/font>&lt;/p>"
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/winter-sports/journal/jcr:content/entrycomments/1Bucket/tg37-_p_cl"
+        objectType="comment"
+        subType="social/journal/components/entrytext"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Journal"
+        id="/content/geometrixx-outdoors/en/community/winter-sports/journal"
+        objectType="geometrixx-outdoors/components/journal/page"/>
+</jcr:root>

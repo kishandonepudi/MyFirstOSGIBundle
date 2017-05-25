@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/libs/cq/personalization/templates/campaign"
+        jcr:description="Hats and scarves cross-sell campaign."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Cosy Up To Winter"
+        jcr:uuid="a05a02cf-957c-4b29-8142-4326df5d3c33"
+        sling:resourceType="cq/personalization/components/campaignpage"/>
+    <winter-female/>
+</jcr:root>

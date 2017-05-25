@@ -1,0 +1,65 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+div.last-viewed-product  {
+    border-color: white;
+    border-radius: 5px;
+}
+
+div.last-viewed-product h3,
+div.last-viewed-product p,
+div.last-viewed-product img, {
+    position: relative;
+    z-index: 1;
+}
+
+div.last-viewed-product h3 {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #808080;
+    font-style: italic;
+}
+
+div.last-viewed-product p.description {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 6px 10px 40px;
+    width: 340px;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+div.last-viewed-product img.product {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+div.last-viewed-product p.call-to-action {
+    float: right;
+    margin-top: 60px;
+    padding: 5px 10px;
+    height: 15px;
+    line-height: 15px;
+    color: #ffffff;
+    background: #be4b16 url(../../../../../etc/designs/geometrixx-outdoors/images/common/button.png) left top repeat-x;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+

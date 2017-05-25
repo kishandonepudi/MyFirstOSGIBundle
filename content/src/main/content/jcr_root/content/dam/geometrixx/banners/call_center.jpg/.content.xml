@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2010-11-24T12:42:36.266+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:tags="[stockphotography:business/business_people,stockphotography:technology/communications_techn,stockphotography:concepts_and_ideas/communication,properties:orientation/landscape,properties:style/color]"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2010-11-11T16:06:29.599+01:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Double}13.152777671813965"
+            dam:Progressive="no"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2010-11-11T16:06:29.697+01:00"
+            dc:title="Call Center"
+            jcr:lastModified="{Date}2010-11-24T12:42:36.266+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}507"
+            tiff:ImageWidth="{Long}947"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

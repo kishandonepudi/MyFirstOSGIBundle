@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastModified="{Date}2012-11-29T16:52:45.021+01:00"
+    cq:lastModifiedBy="ashley.thompson@spambob.com"
+    jcr:description="I would like to know if there is an impact rating for the Sequoia helmet. Does anyone know where I can find this info?"
+    jcr:primaryType="cq:Comment"
+    jcr:title="I would like to..."
+    sling:resourceType="geometrixx-outdoors/components/qna/topic"
+    _charset_="UTF-8"
+    added="{Date}2012-11-29T16:50:25.141+01:00"
+    authorizableId="ashley.thompson@spambob.com"
+    helpful="0"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notHelpful="0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.html"
+    sentiment="{Long}3"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="ashley.thompson@spambob.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <fzkm-our_helmetsareput
+            jcr:description="Our helmets are put through rigorous impact tests to ensure that all our products meet the most stringent safety standards. To test our helmets, we drop each one from a minimum of 7’—so that it reaches at least 20 ft./sec—and measure the results as per safety regulations published by the U.S. Consumer Product Safety Commission Requirements for Bicycle Helmets.&#xd;&#xa;&#xd;&#xa;Every helmet, including the Sequoia, meets or exceeds the Commission’s pass/fail test for impact, as well as chinstrap safety and peripheral vision testing. We hope this information helps."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T16:52:44.980+01:00"
+            authorizableId="sean.smith@geometrixxoutdoors.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}3"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__if0q-i_would_liketoknow.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="sean.smith@geometrixxoutdoors.com"/>
+        <wd1t-i_bought_thishelmet
+            jcr:description="I bought this helmet, and on the packaging it reads, “The Sequoia is made of a fully reinforced, singular structure that disperses impact across multiple nerves between the vents for maximum protection.” &#xd;&#xa;&#xd;&#xa;It doesn’t say anything specific about an impact rating, like a numerical value, but I hope that helps."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T16:51:14.583+01:00"
+            authorizableId="aparker@geometrixx.info"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__if0q-i_would_liketoknow.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aparker@geometrixx.info"/>
+    </_x0031__tosp>
+</jcr:root>

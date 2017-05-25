@@ -1,0 +1,107 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+/* phone landscape */
+@media (max-width: 767px) {
+
+    .mutli-col-article-summary .article-summary-image {
+        float: left;
+        width: 220px;
+    }
+
+    .mutli-col-article-summary .article-summary-description {
+        width: auto;
+        margin-left: 220px;
+    }
+
+    .mutli-col-article-summary .article-summary-description h4 {
+        padding-left: 10px;
+    }
+
+    .mutli-col-article-summary .article-summary-text {
+        margin-left: 127px;
+        min-height: 122px;
+        top: 0;
+    }
+
+    .mutli-col-article-summary .social-header {
+        border-top: 1px solid #EFEFEA;
+        padding-top: 10px;
+    }
+
+    .mutli-col-article-summary .social {
+        top: 0;
+        right: 10px;
+        height: 0px;
+        margin-top: 8px;
+    }
+
+    .mutli-col-article-summary article {
+        background-color: #ffffff;
+        min-height: 127px;
+    }
+
+    .mutli-col-article-summary span.floating-tag {
+        color: #69AFC7;
+        background: none;
+        background-repeat: no-repeat;
+        height: 26px;
+        top: 0px;
+        left: 0px;
+        position: relative;
+        float: none;
+    }
+
+    .mutli-col-article-summary span.floating-tag>span {
+        background-color: inherit;
+        background-image: none;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .mutli-col-article-summary h4 {
+        font-size: 1.2em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .mutli-col-article-summary .article-summary-text {
+        border-top: 1px solid #efefea;
+        margin-left: 127px;
+        min-height: 122px;
+        background-color: white;
+        top: 0px;
+        padding-top: 5px;
+        clear: none;
+    }
+
+    .mutli-col-article-summary .article-summary-text h4 {
+        margin: 0;
+        font-size: 1.2em;
+        float: none;
+        padding-left: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .mutli-col-article-summary .article-summary-text span {
+        color: #27B2C8;
+        padding-left: 10px;
+        font-size: 1.2em;
+    }
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:54.147-05:00"
+    jcr:createdBy="weston.mccall@dodgit.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="I found this used surfboard from a guy online. He seems really honest and is asking for a fair price, and the board looks to be in really good shape. I have to admit this is kind of an impulse buy, and I don’t know what size or shape I should get as a beginner. Any help?"
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/surfing/forum/jcr:content/forum/1_ciot/wask-i_found_thisusedsu"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/topic"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/surfing/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

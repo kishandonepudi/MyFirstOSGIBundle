@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-11T23:06:35.180+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        cq:toolbars="[top]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Contact"
+        sling:resourceType="geometrixx/components/contentpage"
+        subtitle="mail">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_x0031_5_1204887676656
+                jcr:lastModified="{Date}2010-11-11T23:06:35.179+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;b>Geometrixx World Headquarters&lt;/b>&lt;br>&#xa;1234 Wilshire Blvd.&lt;br>&#xa;Los Angeles, CA 90210&lt;br>&#xa;USA&lt;/p>&#xa;&lt;p>&lt;b>Geometrixx US East Coast&lt;/b>&lt;br>&#xa;10 Avery Street&lt;br>&#xa;Boston, MA 02111&lt;br>&#xa;USA&lt;/p>&#xa;&lt;p>&lt;b>Geometrixx EMEA&lt;/b>&lt;br>&#xa;Barfuesserplatz 6&lt;br>&#xa;4051 Basel&lt;br>&#xa;Switzerland&lt;/p>&#xa;&lt;p>&lt;b>Geometrixx APAC&lt;/b>&lt;br>&#xa;14 Temasek Blvd.&lt;br>&#xa;Singapore&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+        <image
+            jcr:lastModified="{Date}2010-08-25T22:47:33.042+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

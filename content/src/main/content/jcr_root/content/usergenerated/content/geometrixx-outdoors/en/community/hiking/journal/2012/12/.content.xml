@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-12-04T14:08:14.121+01:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"/>
+    <thanks_for_dropping/>
+    <gearing_up_for_myki/>
+    <yellowstone_in_thef/>
+    <i_finally_gave_inan/>
+    <enjoying_the_redwood/>
+</jcr:root>

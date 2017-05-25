@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-11T15:33:52.279+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Overview"
+        sling:resourceType="geometrixx/components/contentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <textimage
+                jcr:created="{Date}2010-11-02T01:00:48.488Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-03T16:55:02.428Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/textimage"
+                text="&lt;p>Tired of the same old shapes, day in, day out? Take a look at the Mandelbrot set. It's like nothing you have ever seen before, and now with our special fractal-based leasing program your monthly payments will seem so much lower than they really are!&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2010-11-03T16:55:02.428Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/geometrixx/shapes/mandelbrot.jpg"
+                    imageRotate="0"/>
+            </textimage>
+        </par>
+        <title
+            jcr:lastModified="{Date}2010-11-11T15:33:52.273+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Grandpa's Circles Not Up to Snuff? Move to Mandelbrot Set."
+            sling:resourceType="geometrixx/components/title"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:lockable]"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Travel">
+        <folderThumbnail/>
+    </jcr:content>
+    <airport_escalator_1.jpg/>
+    <airport_escalator_2.jpg/>
+    <airport_escalator_3.jpg/>
+    <airport_gate.jpg/>
+    <airport_people_1.jpg/>
+    <airport_people_2.jpg/>
+    <airport_stairs.jpg/>
+    <cars_by_night.jpg/>
+    <in_flight.jpg/>
+    <meeting_notes.jpg/>
+    <packing.jpg/>
+    <parking.jpg/>
+    <plane_1.jpg/>
+    <runway.jpg/>
+    <subway_people_1.jpg/>
+    <subway_people_2.jpg/>
+    <subway_people_3.jpg/>
+    <subway_people_4.jpg/>
+    <subway_platform.jpg/>
+    <subway_stairs.jpg/>
+    <subway_train.jpg/>
+    <take_off.jpg/>
+    <train_man_working.jpg/>
+    <train_platform_1.jpg/>
+    <train_platform_2.jpg/>
+    <train_station_escalator_2.jpg/>
+    <train_station_woman.jpg/>
+    <airport_terminal.jpg/>
+    <plane_2.jpg/>
+    <plane_3.jpg/>
+    <train_platform_boarding.jpg/>
+    <train_station_escalator_1.jpg/>
+</jcr:root>

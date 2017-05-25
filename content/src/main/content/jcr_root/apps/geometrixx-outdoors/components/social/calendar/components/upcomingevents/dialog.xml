@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        xtype="tabpanel">
+        <items
+            jcr:primaryType="nt:unstructured"
+            title="Upcoming Events"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="Upcoming Events"
+                    fieldLabel="Title"
+                    name="./title"
+                    xtype="textfield"/>
+                <maxEvents
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="{Long}3"
+                    fieldLabel="Max number of events to display"
+                    name="./maxEvents"
+                    xtype="numberfield"/>
+                <calendarPagePath
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Calendar Page Path"
+                    name="./calendarPagePath"
+                    xtype="pathfield"/>
+            </items>
+        </items>
+    </items>
+</jcr:root>

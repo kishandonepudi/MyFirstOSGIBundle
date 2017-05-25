@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    queue.maxparallel="{Long}-1"
+    queue.name="Granite Workflow External Process Polling Queue"
+    queue.priority="MIN"
+    queue.topics="com/adobe/granite/workflow/external/polling/event"
+    queue.type="TOPIC_ROUND_ROBIN"/>

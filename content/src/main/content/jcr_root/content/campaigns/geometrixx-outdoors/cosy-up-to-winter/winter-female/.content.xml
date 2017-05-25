@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <companion-teaser/>
+    <jcr:content
+        cq:lastModified="{Date}2011-11-29T23:09:40.335+01:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="/etc/segmentation/geometrixx-outdoors/winter-female"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Winter Female"
+        jcr:uuid="9e919a33-648a-4f32-a909-96c8ca54bc01"
+        sling:resourceType="cq/personalization/components/experiencepage"/>
+    <cosy-companions/>
+</jcr:root>

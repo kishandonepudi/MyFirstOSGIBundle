@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2012-10-23T14:41:14.509-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2012-10-23T14:41:14.181-04:00"
+            dam:sha1="0983faf40f22ee37acbe88296d57558b5c1ac055"
+            dam:WordCount="{Long}560"
+            dc:format="text/plain"
+            dc:modified="{Date}2012-10-23T14:39:59.696-04:00"
+            dc:title="Meet Canada's Hip Hop Royalty"
+            jcr:lastModified="{Date}2012-10-23T14:41:14.508-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <assignment
+            jcr:primaryType="nt:unstructured"
+            brief=""
+            editor="admin"
+            startDate="{Date}2012-10-23T14:39:59.000-04:00"
+            status="Assigned"
+            writer="yolanda.s.huggins@trashymail.com"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

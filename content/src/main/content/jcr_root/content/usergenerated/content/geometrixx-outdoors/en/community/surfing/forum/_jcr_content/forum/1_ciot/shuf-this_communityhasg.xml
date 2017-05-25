@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastModified="{Date}2012-11-29T14:51:11.628+01:00"
+    cq:lastModifiedBy="emily.andrews@mailinator.com"
+    jcr:description="This community has got me thinking that I should give surfing a shot. When I was looking up some info about boards and apparel, I noticed that they make board wax. It looks like it’s similar to what I do to my skis, but I don’t get how wax would affect the board in water."
+    jcr:primaryType="cq:Comment"
+    jcr:title="To wax or not to wax: this is my question"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T14:49:41.857+01:00"
+    authorizableId="emily.andrews@mailinator.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}1"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/surfing/forum.html"
+    sentiment="{Long}5"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="emily.andrews@mailinator.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <_x0038_lha-yeah_you_needtowa
+            jcr:description="Yeah, you need to wax your board. The first time I went out, I didn’t really take any advice or ask any questions. After fumbling around for a whole day, someone else in the water told me I need to wax my board. It’s like night and day."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T14:51:11.572+01:00"
+            authorizableId="donna.billups@pookmail.com"
+            email="donna.billups@pookmail.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/surfing/forum.topic.html/forum__shuf-this_communityhasg.html"
+            sentiment="{Long}5"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="donna.billups@pookmail.com"/>
+        <ofd8-take_it_frommeorj
+            jcr:description="Take it from me or just about anyone else who surfs that you ask…wax your board. However, you wax the TOP of your board. This prevents your feet from slipping."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T14:50:29.137+01:00"
+            authorizableId="aaron.mcdonald@mailinator.com"
+            email="aaron.mcdonald@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/surfing/forum.topic.html/forum__shuf-this_communityhasg.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aaron.mcdonald@mailinator.com"/>
+    </_x0031__tosp>
+</jcr:root>

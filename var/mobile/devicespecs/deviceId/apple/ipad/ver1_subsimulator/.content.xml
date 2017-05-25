@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="mozilla-pad-simulator-cpu-phone-like-mac-i386-apple-web-kit-525-18-khtml-like-gecko"
+    fall_back="apple_ipad_ver1"
+    user_agent="Mozilla/5.0 (iPad Simulator; U; CPU iPhone OS 3_2 like Mac OS X; HW i386; en_us) AppleWebKit/525.18.1 (KHTML, like Gecko)"/>

@@ -1,0 +1,164 @@
+
+/* Workaround to apply style to card */
+.properties > .grid {
+  display: inline;    
+}
+
+/* necessary to prevent Dropdown from overflow hidden from tabs */
+.properties .tabs > section {
+  overflow: visible;
+}
+
+
+.properties .card-page {
+  width: 14rem;
+  background: white;
+}
+
+.properties.hideCard .card-page {
+    display: none;
+}
+
+
+.properties .tabs-wrapper {
+  min-width: 43.875rem;
+  margin-left: 1rem;
+  *zoom: 1;
+  width: calc(100% - 15em); /* remove size of template article and the margin of tabs-wrapper */
+  width: -webkit-calc(100% - 15em);
+  width: -moz-calc(100% - 15em);
+}
+
+.properties.hideCard .tabs-wrapper {
+    margin-left: 0;
+    width: 100%;
+}
+
+.properties .tabs-wrapper:before,
+.properties .tabs-wrapper:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.properties .tabs-wrapper:after {
+  clear: both;
+}
+.properties .tabs {
+  width: 100%;
+}
+.properties .tabs div.left {
+  margin-left: 1.5rem;
+  width: 13rem;
+}
+.properties .tabs div.left:first-child {
+  margin-left: 0;
+}
+.properties .tabs .basic > div > input,
+.properties .tabs .basic > div > label,
+.properties .tabs .basic > div > textarea,
+.properties .tabs .basic > div > .filters, {
+  display: block;
+}
+.properties .tabs .basic > div label {
+  margin-bottom: 0.3125rem;
+}
+
+.properties .tabs .basic > div .dropdown button {
+    text-align: left;
+}
+
+.properties .tabs .basic > div textarea {
+  height: 8.75rem;
+}
+
+.properties .select ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset.pagethumbnail {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pagethumbnail .preview-box img {
+  max-height:300px;
+  max-width:13rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-width: 2px;
+  color: #CDCDCD;
+}
+
+.pagethumbnail .preview-box {
+  position:relative;
+}
+
+.pagethumbnail .preview-box.working {
+  height:200px;
+  width:13rem;
+  border-style: dashed;
+  border-width: 2px;
+  color: #CDCDCD;
+}
+
+.pagethumbnail .generate-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pagethumbnail .upload-box span.button label {
+  margin: 0px;
+}
+
+.pagethumbnail .upload-box span.button {
+  width: 13rem;
+}
+
+.pagethumbnail .generate-box a.button {
+  width: 13rem;
+}
+
+.properties .card-page a {
+  cursor:default;
+}
+
+.modal .page-list {
+    font-weight: bold;
+}
+.page .content .center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page .content .no-children-banner {
+    margin-top: 200px;
+}
+
+.page.noglobalbar {
+  top: 0;   
+}
+/** TODO: Move to CoralUI */
+.properties .filters input,
+.properties .dropdown button,
+.properties .pathbrowser input {
+    margin-top: .5rem;
+}
+.properties .dropdown button {
+    width: 13rem;
+}
+
+.properties textarea,
+.properties input[type=text] {
+    width: 13rem;
+}
+.properties .datepicker input[type=text] {
+    width: 11rem;
+}
+.properties .advanced div:first-child + div label:first-child {
+    margin-bottom: 1rem;
+}
+.properties .basic div:first-child label:first-child + label + label {
+    margin-bottom: 1rem;
+}

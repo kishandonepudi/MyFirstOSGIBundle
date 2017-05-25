@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T10:59:37.151+01:00"
+    cq:lastModifiedBy="rebekah.larsen@trashymail.com"
+    jcr:description="I want to buy my husband a GPS navigator as a gift. He is an avid hiker and is always talking about how great it would be to have one. I don’t know a lot about the technology or options available out there, and I am hoping for a little advice backed by experience."
+    jcr:primaryType="cq:Comment"
+    jcr:title="Best GPS for hiking? "
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T10:39:27.873+01:00"
+    authorizableId="rebekah.larsen@trashymail.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}1"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.html"
+    sentiment="{Long}5"
+    submit="Submit"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="rebekah.larsen@trashymail.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <_x0038_qme-why_do_you_needagp
+            jcr:description="Why do you need a GPS to hike? If I have to, I’ll use the stars!"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T10:58:00.154+01:00"
+            authorizableId="weston.mccall@dodgit.com"
+            email="weston.mccall@dodgit.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.forum__9hxa-i_want_to_buymyhus__a5g4-i_am_currentlyusing._s_1_tosp.html/forum__9hxa-i_want_to_buymyhus.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="weston.mccall@dodgit.com"/>
+        <a5g4-i_am_currentlyusing
+            jcr:description="I am currently using the Aqua Force GPS fitness monitor. After about six months I can honestly say that I am impressed. The reading is accurate and since it is a fitness watch it can also track runs and has all the normal functions you would expect of a watch. "
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T10:54:48.470+01:00"
+            authorizableId="ryan.palmer@spambob.com"
+            email="ryan.palmer@spambob.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__9hxa-i_want_to_buymyhus.html"
+            sentiment="{Long}3"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="ryan.palmer@spambob.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="097daef0-e535-47a4-ad19-93b007a0becf">
+                <iStock_000020970305Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.717+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="f3f099ee-4bd2-4da4-88c8-6a83168e8986"/>
+                </iStock_000020970305Small.jpg>
+            </attachments>
+        </a5g4-i_am_currentlyusing>
+        <ejlo-ryan_thanksforthe
+            jcr:description="Ryan thanks for the info, I’ll definitely check out the Aqua Force. I like the idea of it being a GPS watch. I think he’ll be less likely to lose it on the trail. Weston, I would rather my husband figures out where he is before it gets dark"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T10:59:37.109+01:00"
+            authorizableId="rebekah.larsen@trashymail.com"
+            email="rebekah.larsen@trashymail.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.forum__9hxa-i_want_to_buymyhus__a5g4-i_am_currentlyusing._s_1_tosp.html/forum__9hxa-i_want_to_buymyhus.html"
+            sentiment="{Long}5"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="rebekah.larsen@trashymail.com"/>
+    </_x0031__tosp>
+</jcr:root>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-09-30T22:34:34.288-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Edit Social Community Form"
+        jcr:uuid="dd7ca568-4536-48b4-b433-8159cd9bc1d8"
+        sling:resourceType="geometrixx-outdoors/components/page_editcommunity">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:created="{Date}2012-07-25T16:41:10.134-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-09-27T10:36:26.939-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Edit Social Community"
+                sling:resourceType="geometrixx/components/title"/>
+            <start
+                jcr:lastModified="{Date}2012-09-28T16:06:08.102-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/start"
+                actionType="social/group/components/form/actions/edit"
+                clientValidation="true"
+                formid="profile"
+                thankyouPage="/content/geometrixx/en/toolbar/account/me"/>
+            <text_liveCopyTitle
+                jcr:created="{Date}2012-07-21T23:28:26.070-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-09-28T16:19:48.714-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Community Name"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="jcr:content/jcr:title"/>
+            <text_shortdesc
+                jcr:created="{Date}2012-07-21T23:28:26.070-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-09-28T16:19:56.026-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Short Description"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="jcr:content/jcr:description"
+                width="600"/>
+            <text_longdesc
+                jcr:created="{Date}2012-07-21T23:28:26.070-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-09-28T16:28:20.886-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Details"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="jcr:content/detailDescription"
+                rows="10"
+                width="600"/>
+            <image
+                jcr:lastModified="{Date}2012-09-28T15:55:38.958-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Community Image"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/image"
+                height="100"
+                name="photos/image"/>
+            <hidden
+                jcr:created="{Date}2011-01-26T15:37:05.827+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-01-26T15:37:38.495+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/hidden"
+                defaultValue="sling:Folder"
+                name="photos/jcr:primaryType"/>
+            <end
+                jcr:lastModified="{Date}2012-09-30T22:34:34.283-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Save"
+                sling:resourceSuperType="foundation/components/form/end"
+                sling:resourceType="social/commons/components/form/end"
+                cancel="true"
+                denyText="Sign in in order to post to this forum."
+                name=":ignore"
+                reset="true"
+                resetTitle="Reset"
+                submit="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

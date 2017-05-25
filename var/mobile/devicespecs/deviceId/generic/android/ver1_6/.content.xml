@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="not-match-generic-android"
+    device_os_version="1.6"
+    fall_back="generic_android_ver1_5"
+    release_date="2009_july"
+    user_agent="DO_NOT_MATCH_GENERIC_ANDROID_1_6"/>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2012-11-30T13:23:28.994+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:DateTimeDigitized="{Date}2011-11-03T13:45:42.000+01:00"
+            dam:ExifImageLength="{Long}386"
+            dam:ExifImageWidth="{Long}926"
+            dam:ExifOffset="{Long}166"
+            dam:extracted="{Date}2012-11-30T13:23:27.096+01:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Double}5.361111164093018"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Double}12.86111068725586"
+            dam:Progressive="no"
+            dam:sha1="e96fd8b4b03f15f28a6f3cfa2ebba68b33b36bf2"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2012-11-30T13:23:28.995+01:00"
+            jcr:lastModified="{Date}2012-11-30T13:23:28.994+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}386"
+            tiff:ImageWidth="{Long}926"
+            xmp:CreatorTool="Adobe Photoshop CS5.1 Macintosh"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

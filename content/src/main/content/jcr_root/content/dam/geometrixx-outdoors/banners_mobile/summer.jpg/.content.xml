@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:lockable]"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2011-12-15T03:15:45.352-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:ExifOffset="{Long}168"
+            dam:extracted="{Date}2011-12-08T12:44:52.863+01:00"
+            dam:Fileformat="JPEG"
+            dam:JpgFromRawLength="{Long}6606"
+            dam:JpgFromRawStart="{Long}306"
+            dam:MIMEtype="image/jpeg"
+            dam:ModifyDate="{Date}2011-11-03T14:30:55.000+01:00"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:OtherImageLength="{Long}6606"
+            dam:OtherImageStart="{Long}306"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Double}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Double}-1.0"
+            dam:PreviewImageLength="{Long}6606"
+            dam:PreviewImageStart="{Long}306"
+            dam:Progressive="yes"
+            dam:sha1="8cc1c3c191ad93d5df56f9b0cddb0d9bf646b3ae"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2011-11-03T14:31:43.318+01:00"
+            dc:title="Summer at Last. – Get ready with swimwear, clothing, gear and more. – Shop Now."
+            exif:ColorSpace="{Long}1"
+            exif:PixelXDimension="{Double}72.0"
+            exif:PixelYDimension="{Double}72.0"
+            jcr:lastModified="{Date}2011-12-08T15:22:12.752+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="3"
+            photoshop:DocumentAncestors="[103ACFF625B766D89F82A1FF937CAD30,23D50BC68375D9E5C40C2B963C7FEA07,D690539BCC20F9E521A001051C0B82AA,uuid:FFCCD92BEF38DF11A2C1E31D9DCCEC32,xmp.did:0380117407206811871F85B5EEA37CF3]"
+            photoshop:ICCProfile="sRGB IEC61966-2.1"
+            photoshop:TextLayers="[Shop Now  >,Get ready with swimwear\,  clothing\, gear and more.,Summer  at last. ,]"
+            tiff:Compression="{Long}6"
+            tiff:ImageLength="{Long}200"
+            tiff:ImageWidth="{Long}320"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="{Double}72.0"
+            tiff:YResolution="{Double}72.0"
+            xmp:CreateDate="{Date}2011-10-20T18:15:49.000+02:00"
+            xmp:CreatorTool="Adobe Photoshop CS5 Macintosh"
+            xmp:MetadataDate="{Date}2011-11-03T14:30:55.000+01:00"
+            xmp:ModifyDate="{Date}2011-11-03T14:30:55.000+01:00"
+            xmpMM:DocumentID="xmp.did:F02377A919B511E19D539FC0754C35FE"
+            xmpMM:History="[created,xmp.iid:814839BDF7206811963EAC508E2739FF,Adobe Photoshop CS5 Macintosh,2011-10-20T10:15:49-06:00,saved,/,xmp.iid:824839BDF7206811963EAC508E2739FF,2011-10-28T12:20:49-06:00,xmp.iid:834839BDF7206811963EAC508E2739FF,2011-10-28T12:26:01-06:00,xmp.iid:844839BDF7206811963EAC508E2739FF,2011-10-28T12:34:16-06:00,xmp.iid:854839BDF7206811963EAC508E2739FF,2011-10-28T12:35:55-06:00,xmp.iid:864839BDF7206811963EAC508E2739FF,2011-10-28T12:39:30-06:00,xmp.iid:874839BDF7206811963EAC508E2739FF,xmp.iid:0480117407206811871F85B5EEA37CF3,2011-10-29T18:14:24-06:00,xmp.iid:0580117407206811871F85B5EEA37CF3,xmp.iid:01801174072068118F62E94ECC85A7BA,2011-10-29T18:56:12-06:00,xmp.iid:02801174072068118F62E94ECC85A7BA,2011-10-29T19:11:02-06:00,xmp.iid:0180117407206811871F8A3CEEC2688B,2011-10-29T19:13:07-06:00,xmp.iid:342179FC0F206811871F8A3CEEC2688B,2011-10-29T20:14:12-06:00,xmp.iid:91A1DA891C206811871F8A3CEEC2688B,2011-10-29T21:45:36-06:00,xmp.iid:92A1DA891C206811871F8A3CEEC2688B,xmp.iid:93A1DA891C206811871F8A3CEEC2688B,2011-10-29T21:46:32-06:00,xmp.iid:94A1DA891C206811871F8A3CEEC2688B,2011-10-29T21:49:14-06:00,xmp.iid:95A1DA891C206811871F8A3CEEC2688B,2011-10-29T22:06:54-06:00,xmp.iid:562BF7CA20206811871F8A3CEEC2688B,2011-10-29T23:42:45-06:00,xmp.iid:572BF7CA20206811871F8A3CEEC2688B,xmp.iid:582BF7CA20206811871F8A3CEEC2688B,2011-10-29T23:47:20-06:00,xmp.iid:592BF7CA20206811871F8A3CEEC2688B,2011-10-29T23:52:16-06:00,xmp.iid:5A2BF7CA20206811871F8A3CEEC2688B,2011-10-29T23:52:39-06:00,xmp.iid:5B2BF7CA20206811871F8A3CEEC2688B,xmp.iid:5D2BF7CA20206811871F8A3CEEC2688B,2011-10-29T23:57:16-06:00,xmp.iid:5E2BF7CA20206811871F8A3CEEC2688B,2011-10-30T00:04:40-06:00,xmp.iid:3256F195C4206811871F8A3CEEC2688B,2011-10-30T19:13:15-06:00,xmp.iid:3356F195C4206811871F8A3CEEC2688B,xmp.iid:3456F195C4206811871F8A3CEEC2688B,2011-10-30T19:15:55-06:00,xmp.iid:3556F195C4206811871F8A3CEEC2688B,2011-10-30T19:20:28-06:00,xmp.iid:3656F195C4206811871F8A3CEEC2688B,2011-10-30T19:21:35-06:00,xmp.iid:3756F195C4206811871F8A3CEEC2688B,xmp.iid:3856F195C4206811871F8A3CEEC2688B,2011-10-30T19:25:50-06:00,xmp.iid:5EC15CA9D2206811871F8A3CEEC2688B,2011-10-30T19:27:42-06:00,xmp.iid:5FC15CA9D2206811871F8A3CEEC2688B,2011-10-30T19:31:57-06:00,xmp.iid:60C15CA9D2206811871F8A3CEEC2688B,2011-10-30T19:32:24-06:00,xmp.iid:61C15CA9D2206811871F8A3CEEC2688B,xmp.iid:62C15CA9D2206811871F8A3CEEC2688B,2011-10-30T19:51:04-06:00,xmp.iid:63C15CA9D2206811871F8A3CEEC2688B,2011-10-30T19:56:14-06:00,xmp.iid:55817FF3D7206811871F8A3CEEC2688B,2011-10-30T20:05:43-06:00,xmp.iid:FC2CA45D1520681194578AF279266457,2011-11-01T13:23:10-06:00,xmp.iid:FD2CA45D1520681194578AF279266457,xmp.iid:002DA45D1520681194578AF279266457,2011-11-01T16:14:15-06:00,xmp.iid:55DCCF635220681194578AF279266457,2011-11-01T19:57:41-06:00,xmp.iid:BE2B159F8220681194578AF279266457,2011-11-02T13:29:57-06:00,xmp.iid:BF2B159F8220681194578AF279266457,2011-11-02T13:30:15-06:00,xmp.iid:C02B159F8220681194578AF279266457,xmp.iid:C12B159F8220681194578AF279266457,2011-11-02T13:30:25-06:00,xmp.iid:AB29FB3718206811A090E45CADCA2915,Adobe Photoshop CS5.1 Macintosh,2011-11-03T14:30:55+01:00,converted,from application/vnd.adobe.photoshop to image/jpeg,derived,converted from application/vnd.adobe.photoshop to image/jpeg,xmp.iid:AC29FB3718206811A090E45CADCA2915,]"
+            xmpMM:InstanceID="xmp.iid:F02377A819B511E19D539FC0754C35FE"
+            xmpMM:OriginalDocumentID="xmp.did:814839BDF7206811963EAC508E2739FF">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef_x0025_3AdocumentID="xmp.did:814839BDF7206811963EAC508E2739FF"
+                stRef_x0025_3AinstanceID="xmp.iid:C12B159F8220681194578AF279266457"
+                stRef_x0025_3AoriginalDocumentID="xmp.did:814839BDF7206811963EAC508E2739FF"/>
+        </metadata>
+        <activity jcr:primaryType="nt:unstructured">
+            <admin_1320327103381
+                jcr:primaryType="nt:unstructured"
+                timestamp="{Long}1320327103367"
+                type="REQUEST"
+                user="admin"/>
+            <admin_1320327103440
+                jcr:primaryType="nt:unstructured"
+                timestamp="{Long}1320327103440"
+                type="REQUEST"
+                user="admin"/>
+            <admin_1320327103578
+                jcr:primaryType="nt:unstructured"
+                timestamp="{Long}1320327103578"
+                type="REQUEST"
+                user="admin"/>
+            <admin_1320327103644
+                jcr:primaryType="nt:unstructured"
+                timestamp="{Long}1320327103643"
+                type="REQUEST"
+                user="admin"/>
+        </activity>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

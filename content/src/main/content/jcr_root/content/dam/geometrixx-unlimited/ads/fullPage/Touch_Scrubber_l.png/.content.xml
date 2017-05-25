@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b765476f-7560-4f20-a960-af23d15a5187">
+    <jcr:content
+        cq:name="Touch_Scrubber_l.png"
+        cq:parentPath="/content/dam/geometrixx-unlimited/ads/fullPage"
+        jcr:lastModified="{Date}2012-11-19T10:44:27.972-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2012-11-19T10:44:29.462-05:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Double}2.305267333984375"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Double}3.069060802459717"
+            dam:Progressive="no"
+            dam:sha1="f7ae5b73f98bd458ad3da5bb725f57f71ec9ee9c"
+            dc:format="image/png"
+            dc:modified="{Date}2012-11-19T10:44:27.974-05:00"
+            jcr:lastModified="{Date}2012-11-19T10:44:27.967-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}166"
+            tiff:ImageWidth="{Long}221"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

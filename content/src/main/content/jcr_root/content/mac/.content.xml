@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[mix:lockable,rep:AccessControllable,sling:VanityPath]"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="marketing.adobe.com"
+    sling:resourceType="mac/components/redirect"
+    sling:vanityOrder="{Long}100"
+    sling:vanityPath="/cloud"
+    hidden="{Boolean}true"
+    hideInNav="true"
+    redirectType="HOMEPAGE">
+    <default/>
+    <geometrixx/>
+    <rep:policy/>
+</jcr:root>

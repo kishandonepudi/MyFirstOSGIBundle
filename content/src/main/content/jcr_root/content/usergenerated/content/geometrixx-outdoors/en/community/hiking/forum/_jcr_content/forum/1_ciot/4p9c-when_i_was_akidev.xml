@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T12:02:30.959+01:00"
+    cq:lastModifiedBy="aaron.mcdonald@mailinator.com"
+    jcr:description="When I was a kid, everyone hated wearing flannel. It was uncomfortable and no one liked the print. Now, every one and their dog (literally, I’ve seen it) seem to be wearing flannel on the trail. I don’t get fashion."
+    jcr:primaryType="cq:Comment"
+    jcr:title="What’s the deal with flannel?"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T11:57:24.543+01:00"
+    authorizableId="aaron.mcdonald@mailinator.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}4"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.html"
+    sentiment="{Long}5"
+    submit="Submit"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="aaron.mcdonald@mailinator.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="6eafd398-05cc-44f2-b3a3-50e2c96d1cef">
+        <flannel.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T08:59:58.750+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="0fb63403-946e-457f-a3bd-b4a7c76f90f6"/>
+        </flannel.jpg>
+    </attachments>
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <nhwg-aaron_you_rejustj
+            jcr:description="Aaron, you’re just jealous you haven’t jumped on the flannel wagon yet"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T12:02:30.865+01:00"
+            authorizableId="boyd.larsen@dodgit.com"
+            email="boyd.larsen@dodgit.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.forum__4p9c-when_i_was_akidev__s3eo-funny_you_saythat._s_1_tosp.html/forum__4p9c-when_i_was_akidev.html"
+            sentiment="{Long}3"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="boyd.larsen@dodgit.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="9573f8c6-703e-4fa1-9897-b452b60c891e">
+                <iStock_000010029680Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.733+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="debda025-2d8f-4b77-806e-e753c6c31fb5"/>
+                </iStock_000010029680Small.jpg>
+            </attachments>
+        </nhwg-aaron_you_rejustj>
+        <s3eo-funny_you_saythat
+            jcr:description="Funny you say that. My son is all about getting a bunch of flannel for our upcoming trip. Must be the new trend. Better than the saggy jeans business."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T12:01:00.533+01:00"
+            authorizableId="josh.bradley@pookmail.com"
+            email="josh.bradley@pookmail.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}2"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.forum__4p9c-when_i_was_akidev__se5s-fashion_flannelha._s_1_tosp.html/forum__4p9c-when_i_was_akidev.html"
+            sentiment="{Long}5"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="josh.bradley@pookmail.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="e96306d6-31bb-465d-b2e5-07e7468fe538">
+                <iStock_000017784982Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.749+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="8541e919-8b41-4e0b-b05c-16d82b14e511"/>
+                </iStock_000017784982Small.jpg>
+            </attachments>
+        </s3eo-funny_you_saythat>
+        <se5s-fashion_flannelha
+            jcr:description="Fashion flannel! Ha ha, yeah its been coming back into style around my neighborhood, too."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:59:27.847+01:00"
+            authorizableId="aparker@geometrixx.info"
+            email="weston.mccall@dodgit.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__4p9c-when_i_was_akidev.html"
+            sentiment="{Long}5"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aparker@geometrixx.info">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="2788b243-1df7-4dc8-9717-43d3ca8ad756">
+                <iStock_000014463230Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.717+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="8a19423f-9c34-448d-9447-3396f46c27af"/>
+                </iStock_000014463230Small.jpg>
+            </attachments>
+        </se5s-fashion_flannelha>
+    </_x0031__tosp>
+</jcr:root>

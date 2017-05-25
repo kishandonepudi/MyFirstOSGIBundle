@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-08T00:45:01.352Z"
+        cq:lastModifiedBy="admin"
+        cq:tags="[marketing:interest/business,marketing:interest/investor]"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Management Team"
+        sling:resourceType="geometrixx/components/contentpage"
+        analyticsProvider="undefined">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:lastModified="{Date}2010-11-08T00:40:26.281Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Jane Doe, CEO"
+                sling:resourceType="geometrixx/components/title"/>
+            <john_doe_ceo
+                jcr:lastModified="{Date}2010-11-08T00:43:02.748Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/textimage"
+                text="&lt;p>Jane Doe is a Classical Greek philosopher, mathematician, writer of philosophical dialogues, and founder of the Academy in Athens, the first institution of higher learning in the Western world. She joined Geometrixx in 302 BC and has lead the organization ever since. Jane has two children and lives in the Bay Area. In her spare time she enjoys creating the foundations of all modern western thought and skydiving.&lt;/p>&#xa;"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2010-11-08T00:43:02.748Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/geometrixx/portraits/jane_doe.jpg"
+                    imageCrop="127,0,850,480"
+                    imageRotate="0"
+                    width="160"/>
+            </john_doe_ceo>
+            <title2
+                jcr:lastModified="{Date}2010-11-08T00:39:16.045Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Carlene Avery, CTO"
+                sling:resourceType="geometrixx/components/title"/>
+            <james_doe_cto
+                jcr:lastModified="{Date}2010-11-08T00:44:21.829Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/textimage"
+                text="&lt;p>Carlene Avery is one of the leading geometers in the world. Her development of the famous Pythagorean Theorem led to the founding of Geometrixx in 545 BC. She moved from the position of CEO to lead the technical team when Jane came on board in 302 BC. Avery lives on top of a mountain in western Greece, in a cave.&lt;/p>&#xa;"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2010-11-08T00:44:21.829Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/geometrixx/portraits/carlene_avery.jpg"
+                    imageCrop="200,293,566,529"
+                    imageRotate="0"
+                    width="160"/>
+            </james_doe_cto>
+            <title3
+                jcr:lastModified="{Date}2010-11-08T00:45:01.350Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Jack Doe, CMO"
+                sling:resourceType="geometrixx/components/title"/>
+            <jimmy_doe_chief_scie
+                jcr:lastModified="{Date}2010-11-08T00:44:50.279Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/textimage"
+                text="&lt;p>Doe joined the Geometrixx team in 290 BC to lead our global marketing efforts. He has overseen a number of successful product roll outs including Rhombus 98 BC and Dodecahrodron 7. In his spare time he enjoys metaphysics, epistemology and windsurfing.&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2010-11-08T00:44:50.279Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/geometrixx/portraits/jack_doe.jpg"
+                    imageCrop="210,76,811,473"
+                    imageRotate="0"
+                    width="160"/>
+            </jimmy_doe_chief_scie>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+        <title
+            jcr:lastModified="{Date}2010-08-25T17:59:55.670+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx/components/title"/>
+    </jcr:content>
+</jcr:root>

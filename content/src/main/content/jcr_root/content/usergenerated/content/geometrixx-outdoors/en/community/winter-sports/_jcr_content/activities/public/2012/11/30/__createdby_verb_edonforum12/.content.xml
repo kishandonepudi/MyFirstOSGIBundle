@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:52.963-05:00"
+    jcr:createdBy="emily.andrews@mailinator.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="Has anyone else out there heard of the electric boots that are starting to hit the shelves? Apparently they have different heat settings and are supposed to be able to keep your feet warm for hours at a time. I am wondering if it’s a gimmick or the real deal."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/winter-sports/forum/jcr:content/forum/1_ciot/ospg-has_anyone_elseout"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/topic"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/winter-sports/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

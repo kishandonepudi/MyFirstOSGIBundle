@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-05-01T13:07:48.657+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/centillion/templates/first_templates"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Centillion_Networks"
+        sling:resourceType="centillion/components/page/first_component"/>
+    <home/>
+    <services/>
+    <products/>
+    <people/>
+    <join-us/>
+    <we-care/>
+    <reach-us/>
+    <search/>
+</jcr:root>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <photo-frontpage-drone-sunset-city.jpg/>
+    <Software_mini.jpg/>
+    <robotics_mini.jpg/>
+    <Drone.jpg/>
+    <robotic_drone_mini.jpg/>
+    <Engineering.jpg/>
+    <roboti_drone.jpg/>
+    <robotics.jpg/>
+    <Software.jpg/>
+    <SDC12001.jpg/>
+    <pfs_wall.jpg/>
+    <gsmarena_012.jpg/>
+</jcr:root>

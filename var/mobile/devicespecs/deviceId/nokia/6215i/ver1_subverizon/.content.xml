@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    columns="15"
+    CQ5_UserAgentRadical="nok6215v1"
+    fall_back="nokia_6215i_ver1"
+    max_image_height="100"
+    model_extra_info="Verizon Wireless"
+    model_name="6215i"
+    oma_v_1_0_forwardlock="true"
+    preferred_markup="wml_1_1"
+    resolution_height="128"
+    streaming_real_media="none"
+    user_agent="nok6215v1"
+    xhtml_support_level="-1"/>

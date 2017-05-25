@@ -1,0 +1,127 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+/* Layout */
+
+body.page-sidebar-right .page-par.left {
+    float: left;
+    width: 680px;
+}
+
+body.page-sidebar-right .page-aside.right {
+    float: right;
+    border-radius: 5px;
+    padding: 19px 11px;
+}
+
+body.page-sidebar-right .colctrl-2c-c0, body.page-sidebar-right .colctrl-2c-c1 {
+    width: 330px;
+}
+
+body.page-sidebar-right form .form_field_text {
+    width: 300px;
+}
+
+body.page-sidebar-right form .form_field_select {
+    width: 312px;
+}
+
+body.page-sidebar-right form input.form_address_zip {
+    width: 80px;
+}
+
+body.page-sidebar-right form input.form_address_state {
+    width: 175px;
+}
+
+body.page-sidebar-right form input.form_cc_expiry_month,
+body.page-sidebar-right form input.form_cc_expiry_year {
+    width: 40px;
+}
+body.page-sidebar-right form input.form_cc_ccv {
+    width: 70px;
+}
+
+/* Sidebar */
+
+body.page-sidebar-right .page-aside.right {
+    background: #fcfcfc; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #fcfcfc 0%, #dbdcdd 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fcfcfc), color-stop(100%,#dbdcdd)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #fcfcfc 0%,#dbdcdd 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #fcfcfc 0%,#dbdcdd 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #fcfcfc 0%,#dbdcdd 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #fcfcfc 0%,#dbdcdd 100%); /* W3C */
+}
+
+.page-aside.right input[type=text] {
+    width: 140px;
+}
+
+.page-aside.right .cq-cart-total.post_tax,
+.page-aside.right .cq-cart-total.order {
+    font-weight: bold;
+}
+
+.page-aside.right .cq-checkout {
+    text-align: center;
+}
+
+/* Cart-specific */
+.cart .page-aside {
+    margin-top: 70px;
+}
+
+/* Checkout-specific */
+.checkout .colctrl-2csidebar,
+.order .colctrl-2csidebar {
+    border-top: solid 1px #d9d9d9;
+    border-bottom: solid 1px #d9d9d9;
+}
+.checkout .colctrl-2csidebar-c0,
+.order .colctrl-2csidebar-c0 {
+    border-right: solid 1px #d9d9d9;
+    margin-right: -1px;
+}
+.checkout .colctrl-2csidebar-c1,
+.order .colctrl-2csidebar-c1 {
+    border-left: solid 1px #d9d9d9;
+    padding-left: 19px;
+}
+
+.checkout form h3 {
+    margin-bottom: 0;
+}
+
+/* order specific */
+
+.order .colctrl-2csidebar {
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+
+.order .colctrl-2csidebar .title {
+    padding-bottom: 0;
+}
+
+.order .colctrl-2csidebar h3 {
+    margin-bottom: 0;
+}
+
+.order form .address .form_row {
+    line-height: normal;
+}

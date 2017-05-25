@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Skin 
+	xmlns:fx="http://ns.adobe.com/mxml/2009" 
+	xmlns:s="library://ns.adobe.com/flex/spark" 
+    xmlns:fb="http://ns.adobe.com/flashbuilder/2009" xmlns:skins="com.adobe.cq.foundation.skins.*"
+>
+	<fx:Metadata>
+		[HostComponent("com.adobe.cq.foundation.components.Title")]
+	</fx:Metadata>
+
+    <s:states>
+		<s:State name="normal"/>
+		<s:State name="disabled"/>
+		<s:State name="dragOver"/>
+		<s:State name="inlineEdit"/>
+    </s:states>
+	<s:Group width="100%" height="100%">
+		<s:layout>
+			<s:VerticalLayout paddingLeft="20" paddingRight="20" paddingTop="10"/>
+		</s:layout>
+		<s:Label id="titleLabel"
+				 includeIn="normal,dragOver"
+				 width="100%" 
+				 text="{hostComponent.title}" 
+				 paddingTop="8"
+				 paddingBottom="8"
+				 />
+		<s:TextInput id="titleInput"
+					 borderVisible="false"
+					 includeIn="inlineEdit"
+					 width="100%" 
+					 paddingTop="8"
+					 paddingBottom="8"
+					 
+					 />
+	</s:Group>
+
+</s:Skin>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark">
+
+	<fx:Script>
+		<![CDATA[
+			[Bindable]
+			public var data:Object;
+			
+			[Bindable]
+			[Embed("/assets/up.png")]
+			protected var iconUp:Class;
+			
+			[Bindable]
+			[Embed("/assets/down.png")]
+			protected var iconDown:Class;
+			
+			[Bindable] protected var netWorth:Number = 161984;
+			[Bindable] protected var lastMonth:Number = 165915;
+			[Bindable] protected var sixMonthsAgo:Number = 145962;
+			[Bindable] protected var lastYear:Number = 138972;
+
+
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<s:CurrencyFormatter id="cf" useCurrencySymbol="true" fractionalDigits="0" />
+		<s:NumberFormatter id="nf" fractionalDigits="2" />
+	</fx:Declarations>
+
+	<s:layout>
+		<s:VerticalLayout gap="1"/>
+	</s:layout>
+	
+	<s:Group height="40">
+		<s:Rect left="0" top="0" bottom="0" width="140">
+			<s:fill>
+				<s:SolidColor color="#F0F0F0"/>
+			</s:fill>
+		</s:Rect>
+
+		<s:Rect left="141" top="0" bottom="0" width="120">
+			<s:fill>
+				<s:SolidColor color="#F0F0F0"/>
+			</s:fill>
+		</s:Rect>
+
+		<s:Label text="{cf.format(netWorth)}" textAlign="right"  top="10" bottom="10" left="8" width="120"/>
+		<s:Label text="{netWorth>lastMonth?'+':''}{nf.format(netWorth/lastMonth*100-100)}%" textAlign="right" width="100" left="134" top="10" bottom="10"
+				 color="{netWorth>lastMonth?0x006600:0xFF0000}"/>
+		<s:Image source="{netWorth>lastMonth?iconUp:iconDown}" right="0" left="234" top="12"/>
+	</s:Group>
+	
+	<s:Group height="40">
+		<s:Rect left="0" top="0" bottom="0" width="140">
+			<s:fill>
+				<s:SolidColor color="#F0F0F0"/>
+			</s:fill>
+		</s:Rect>
+		
+		<s:Rect left="141" top="0" bottom="0" width="120">
+			<s:fill>
+				<s:SolidColor color="#F0F0F0"/>
+			</s:fill>
+		</s:Rect>
+		
+		<s:Label text="{cf.format(lastMonth)}" textAlign="right" top="10" bottom="10" left="8" width="120"/>
+		<s:Label text="{netWorth>sixMonthsAgo?'+':''}{nf.format(netWorth/sixMonthsAgo*100-100)}%" textAlign="right" width="100" left="134" top="10" bottom="10"
+				 color="{netWorth>sixMonthsAgo?0x006600:0xFF0000}"/>
+		<s:Image source="{netWorth>sixMonthsAgo?iconUp:iconDown}" right="0" left="234" top="12"/>
+	</s:Group>
+	
+	<s:Group height="40">
+		<s:Rect left="0" top="0" bottom="0" width="140">
+			<s:fill>
+				<s:SolidColor color="#F0F0F0"/>
+			</s:fill>
+		</s:Rect>
+		<s:Rect left="141" top="0" bottom="0" width="120">
+			<s:fill>
+				<s:SolidColor color="#F0F0F0"/>
+			</s:fill>
+		</s:Rect>
+		<s:Label text="{cf.format(sixMonthsAgo)}" textAlign="right"  top="10" bottom="10" left="8" width="120"/>
+		<s:Label text="{netWorth>lastYear?'+':''}{nf.format(netWorth/lastYear*100-100)}%" textAlign="right" width="100" left="134" top="10" bottom="10"
+				 color="{netWorth>lastYear?0x006600:0xFF0000}"/>
+		<s:Image source="{netWorth>lastYear?iconUp:iconDown}" right="0" left="234" top="12"/>
+	</s:Group>
+	
+	<s:Group height="40">
+		<s:Rect left="0" top="0" bottom="0" width="140">
+			<s:fill>
+				<s:SolidColor color="#F0F0F0"/>
+			</s:fill>
+		</s:Rect>
+		<s:Rect left="141" top="0" bottom="0" width="120">
+			<s:fill>
+				<s:SolidColor color="#F0F0F0"/>
+			</s:fill>
+		</s:Rect>
+		<s:Label text="{cf.format(lastYear)}" textAlign="right"  top="10" bottom="10" left="8" width="120"/>
+	</s:Group>
+
+</s:Group>

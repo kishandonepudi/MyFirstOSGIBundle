@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <sparrow-call-to-action/>
+    <article/>
+    <article-mobile/>
+    <jcr:content
+        cq:lastModified="{Date}2011-12-08T17:49:49.170+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Generic"
+        jcr:uuid="3c355a63-1880-4774-86ee-2f84b066f289"
+        sling:resourceType="cq/personalization/components/experiencepage">
+        <image
+            jcr:lastModified="{Date}2011-11-03T20:57:30.256+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/articles/12-travel-tips.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

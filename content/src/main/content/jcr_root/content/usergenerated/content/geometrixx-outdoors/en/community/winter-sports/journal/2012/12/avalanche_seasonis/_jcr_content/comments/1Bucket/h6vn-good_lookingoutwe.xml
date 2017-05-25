@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastReplicated="{Date}2012-12-04T15:05:20.701+01:00"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:description="Good looking out. We all need to be aware when it comes to avalanches."
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="cq:Comment"
+    sling:resourceType="social/commons/components/comments/comment"
+    activityCreated="true"
+    added="{Date}2012-12-04T15:05:20.292+01:00"
+    approved="{Boolean}true"
+    authorizableId="aaron.mcdonald@mailinator.com"
+    email="aaron.mcdonald@mailinator.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/journal/2012/12/avalanche_seasonis.html"
+    sentiment="{Long}3"
+    url=""
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="aaron.mcdonald@mailinator.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="255ed9b2-5caf-4092-bdb9-717f5401c28f">
+        <iStock_000005331672Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T08:59:58.592+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="ed60a83b-57dd-40e8-8ed9-dd0ef244e16a"/>
+        </iStock_000005331672Small.jpg>
+    </attachments>
+</jcr:root>

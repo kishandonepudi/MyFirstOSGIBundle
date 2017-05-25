@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T11:12:29.771+01:00"
+    cq:lastModifiedBy="felicia.carter@trashymail.com"
+    jcr:description="My family and I are vacationing up in Yellowstone next month, and I am looking for some really good hikes to take them on. We are a small group of five. Our three kids are all grown and in college, and they love a challenge. My husband and I are experienced hikers, so something a little more challenging would be great. Thanks!"
+    jcr:primaryType="cq:Comment"
+    jcr:title="Does anyone know of any good Yellowstone hikes?"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T11:02:12.378+01:00"
+    authorizableId="felicia.carter@trashymail.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}4"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.html"
+    sentiment="{Long}5"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="felicia.carter@trashymail.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <_x0030_zmt-i_have_spentaloto
+            jcr:description="I have spent a lot of time hiking in Yellowstone, and I’m a big fan of Lava Creek. Its about four miles, but it is fairly strenuous. I think it usually takes me four hours and I move kinda quick. I also like Bunsen Peak and Sepulcher Mountain."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:05:43.813+01:00"
+            authorizableId="matt.monroe@mailinator.com"
+            email="matt.monroe@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__sjca-my_family_andiare.html"
+            sentiment="{Long}5"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="matt.monroe@mailinator.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="65c8c19a-a06a-4096-9df4-ce064a5884e3">
+                <iStock_000015568913Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.813+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="ab2c324d-e01e-4a63-8d9b-144fe25e7f9d"/>
+                </iStock_000015568913Small.jpg>
+            </attachments>
+        </_x0030_zmt-i_have_spentaloto>
+        <nubw-rescue_creekosprey
+            jcr:description="Rescue Creek, Osprey Falls, and Beaver Ponds."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:08:12.613+01:00"
+            authorizableId="ryan.palmer@spambob.com"
+            email="ryan.palmer@spambob.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.forum__sjca-my_family_andiare__0zmt-i_have_spentaloto._s_1_tosp.html/forum__sjca-my_family_andiare.html"
+            sentiment="{Long}3"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="ryan.palmer@spambob.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="1503cf1a-3d75-4021-80ee-5fa6b247767a">
+                <iStock_000018404985Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.813+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="d5d4ed45-b3a2-4538-8cd1-389420bb6eaa"/>
+                </iStock_000018404985Small.jpg>
+            </attachments>
+        </nubw-rescue_creekosprey>
+        <unlk-oh_come_on_bearmac
+            jcr:description="Oh come on. Bear mace? That’s just a gimmick. It doesn’t really work. If a bear wants to get you, the bear is going to get you. End of story."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:11:16.138+01:00"
+            authorizableId="aaron.mcdonald@mailinator.com"
+            email="aaron.mcdonald@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.forum__sjca-my_family_andiare__nubw-rescue_creekosprey._s_1_tosp.html/forum__sjca-my_family_andiare.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aaron.mcdonald@mailinator.com"/>
+        <wpoc-aaron_bear_macewor
+            jcr:description="Aaron, bear mace works. It is tested and proven effective. A bear will literally turn and run away from you if you use mace. I recommend that everyone who ventures out into bear country keep some with them at all times, whether hiking or sleeping. It is also proven to work with moose, wolves, and mountain lions."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:12:29.694+01:00"
+            authorizableId="matt.monroe@mailinator.com"
+            email="matt.monroe@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.forum__sjca-my_family_andiare__nubw-rescue_creekosprey._s_1_tosp.html/forum__sjca-my_family_andiare.html"
+            sentiment="{Long}5"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="matt.monroe@mailinator.com"/>
+        <ywwt-don_t_forgettobrin
+            jcr:description="Don’t forget to bring your bear mace!"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:09:59.510+01:00"
+            authorizableId="ashley.thompson@spambob.com"
+            email="ashley.thompson@spambob.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.forum__sjca-my_family_andiare__nubw-rescue_creekosprey._s_1_tosp.html/forum__sjca-my_family_andiare.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="ashley.thompson@spambob.com"/>
+    </_x0031__tosp>
+</jcr:root>

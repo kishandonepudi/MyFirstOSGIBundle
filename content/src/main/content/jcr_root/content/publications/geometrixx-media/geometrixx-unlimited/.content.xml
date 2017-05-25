@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Unlimited"/>
+    <_x0032_013/>
+    <feeds jcr:primaryType="nt:unstructured">
+        <twitter
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Twitter"
+            icon="/etc/designs/geometrixx-unlimited/feeds/images/Twitter_24.png"
+            url="https://twitter.com/geometrixx"/>
+        <facebook
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Facebook"
+            icon="/etc/designs/geometrixx-unlimited/feeds/images/Facebook_24.png"
+            url="https://www.facebook.com/Geometrixx"/>
+    </feeds>
+</jcr:root>

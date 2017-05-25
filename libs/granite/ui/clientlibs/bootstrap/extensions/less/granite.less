@@ -1,0 +1,55 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+//    margin: 0;
+//    padding: 0;
+//    border: 0;
+//    /*font-weight: inherit;*/
+//    font-style: inherit;
+//    xfont-size: 100%;
+//    font-family: "AdobeCleanLight", "Helvetica Neue", "Myriad Pro", sans-serif;
+//    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html,body {
+    min-height: 100%;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: @grayBody /* Old browsers */
+}
+
+.listview {
+  background-color: @grayLightest;
+}
+
+.toolbar {
+    list-style: none;
+    height: 45px;
+    padding-right: 10px;
+}
+
+.toolbar li {
+    float:left;
+    /*width: 60px;*/
+    height: 40px;
+    margin-top: 4px;
+    padding: 2px;
+    text-align: center;
+}
+.toolbar li.no_separator {
+    background: none !important;
+}
+.toolbar li.right {
+    float: right !important;
+}
+
+.toolbar li span {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    cursor: pointer;
+}

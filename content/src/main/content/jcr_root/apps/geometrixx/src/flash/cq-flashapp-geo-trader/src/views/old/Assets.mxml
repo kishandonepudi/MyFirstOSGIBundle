@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" xmlns:charts="charts.*" xmlns:views="views.*"
+		destructionPolicy="never">
+	
+	<fx:Script>
+		<![CDATA[
+			import mx.core.FlexGlobals;
+
+			override public function setCurrentState(stateName:String, playTransition:Boolean=true):void
+			{
+				if (stateName == "landscape")
+				{
+					if (FlexGlobals.topLevelApplication.height<500)
+						super.setCurrentState("landscapeSmall", playTransition);
+					else if (FlexGlobals.topLevelApplication.height<600)
+						super.setCurrentState("landscapeMedium", playTransition);
+					else
+						super.setCurrentState("landscapeLarge", playTransition);
+				}
+				else
+				{
+					super.setCurrentState(stateName, playTransition);
+				}
+			}
+			
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<s:CurrencyFormatter id="cf" useCurrencySymbol="true" fractionalDigits="0" />
+		<s:NumberFormatter id="nf" fractionalDigits="2" />
+	</fx:Declarations>
+
+	<s:states>
+		<s:State name="portrait"/>
+		<s:State name="landscape"/>
+		<s:State name="landscapeLarge"/>
+		<s:State name="landscapeMedium"/>
+		<s:State name="landscapeSmall"/>
+		<s:State name="landscapeHistory"/>
+	</s:states>
+	<s:titleContent>
+		<s:Image source="@Embed('assets/logo.png')"/>
+	</s:titleContent>
+	
+	<s:Label text="Summary" top="16" left="20" fontSize="24" excludeFrom="landscapeMedium"
+			 color="#646464" 
+			 color.landscapeHistory="#999999"
+			 click.landscapeHistory="currentState='landscapeSmall'"/>
+
+	<s:Group id="summaryTable" top="50" top.landscapeMedium="16" left="20" excludeFrom="landscapeHistory">
+		
+		<s:layout>
+			<s:VerticalLayout gap="1"/>
+		</s:layout>
+		
+		<s:Group height="40">
+			<s:Rect left="0" top="0" bottom="0" width="4">
+				<s:fill>
+					<s:SolidColor color="#FF5900"/>
+				</s:fill>
+			</s:Rect>
+			<s:Rect left="4" top="0" bottom="0" width="160">
+				<s:fill>
+					<s:SolidColor color="#919191"/>
+				</s:fill>
+			</s:Rect>
+			<s:Label text="Net worth:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+		</s:Group>
+
+		<s:Group height="40">
+			<s:Rect left="0" top="0" bottom="0" width="4">
+				<s:fill>
+					<s:SolidColor color="#FF5900"/>
+				</s:fill>
+			</s:Rect>
+			<s:Rect left="4" top="0" bottom="0" width="160">
+				<s:fill>
+					<s:SolidColor color="#919191"/>
+				</s:fill>
+			</s:Rect>
+			<s:Label text="Last Month:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+		</s:Group>
+		
+		<s:Group height="40">
+			<s:Rect left="0" top="0" bottom="0" width="4">
+				<s:fill>
+					<s:SolidColor color="#FF5900"/>
+				</s:fill>
+			</s:Rect>
+			<s:Rect left="4" top="0" bottom="0" width="160">
+				<s:fill>
+					<s:SolidColor color="#919191"/>
+				</s:fill>
+			</s:Rect>
+			<s:Label text="6 Months Ago:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+		</s:Group>
+		
+		<s:Group height="40">
+			<s:Rect left="0" top="0" bottom="0" width="4">
+				<s:fill>
+					<s:SolidColor color="#FF5900"/>
+				</s:fill>
+			</s:Rect>
+			<s:Rect left="4" top="0" bottom="0" width="160">
+				<s:fill>
+					<s:SolidColor color="#919191"/>
+				</s:fill>
+			</s:Rect>
+			<s:Label text="Last Year:" width="150" textAlign="right" top="10" bottom="10" left="10"/>
+		</s:Group>
+
+	</s:Group>
+
+	<views:AssetsSummary id="assetsSummary" top="50" top.landscapeMedium="16" left="186" right="20" height="{summaryTable.height}" excludeFrom="landscapeHistory"/>
+
+	<s:Label text="Performance History" top="240" left="20" fontSize="24" excludeFrom="landscapeMedium"
+			 color="#646464"
+			 color.landscapeSmall="#999999"
+			 mouseDown.landscapeSmall="currentState='landscapeHistory'"
+			 top.landscapeSmall="16" left.landscapeSmall="170" 
+			 top.landscapeHistory="16" left.landscapeHistory="170" />
+	
+	<charts:PortfolioChart id="chart" top="280" top.landscapeMedium="200" left="20" right="20" bottom="28" 
+						   excludeFrom="landscapeSmall" top.landscapeHistory="50" bottom.landscapeMedium="10"/>
+
+	<s:Label bottom="4" text="Swipe/zoom to navigate chart. Rotate device for bigger chart" fontSize="16" color="#AAAAAA" horizontalCenter="0" includeIn="portrait"/>
+	<s:Label bottom="4" text="Swipe/zoom to navigate chart." fontSize="16" color="#AAAAAA" horizontalCenter="0" includeIn="landscapeLarge,landscapeHistory"/>
+	<s:Label bottom="4" text="Rotate device for combined view." fontSize="16" color="#AAAAAA" horizontalCenter="0" includeIn="landscapeSmall"/>
+	
+</s:View>

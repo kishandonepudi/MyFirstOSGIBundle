@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    brand_name="Motorola"
+    CQ5_UserAgentRadical="mozilla-linux-android-update1-droidx-build-vzw-apple-web-kit-525-10-khtml-like-gecko-version-mobile-safari-523-12"
+    fall_back="generic_android_ver2_1"
+    has_qwerty_keyboard="false"
+    max_image_height="800"
+    max_image_width="460"
+    model_extra_info="Verizon"
+    model_name="DroidX"
+    physical_screen_height="95"
+    physical_screen_width="53"
+    release_date="2010_july"
+    resolution_height="854"
+    resolution_width="480"
+    user_agent="Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; DROIDX Build/VZW) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+    xhtml_file_upload="supported"/>

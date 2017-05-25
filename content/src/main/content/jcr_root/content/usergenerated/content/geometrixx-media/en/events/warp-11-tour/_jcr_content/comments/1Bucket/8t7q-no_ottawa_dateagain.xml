@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastReplicated="{Date}2012-11-28T19:46:30.479-08:00"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:description="No Ottawa date AGAIN this year? :("
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="cq:Comment"
+    sling:resourceType="social/commons/components/comments/comment"
+    added="{Date}2012-11-28T19:46:29.710-08:00"
+    approved="{Boolean}true"
+    authorizableId="Alison Parker"
+    email="aparker@geometrixx.info"
+    ip="0:0:0:0:0:0:0:1%0"
+    referer="http://localhost:4502/content/geometrixx-media/en/events/warp-11-tour.html?cq_ck=1354160741227"
+    url=""
+    userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.91 Safari/537.11"
+    userIdentifier="Alison Parker"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="mozilla-symbian-series60-nokia6290-06-profile-midp-configuration-cldc-apple-web-kit-413-khtml-like-gecko-safari-413"
+    fall_back="nokia_6290_ver1"
+    nokia_edition="3"
+    nokia_feature_pack="1"
+    user_agent="Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Nokia6290/3.06; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"/>

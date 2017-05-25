@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-29T15:41:39.385+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Calendar"
+        sling:resourceType="geometrixx-outdoors/components/page_calendar">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <calendar
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/calendar">
+                <events jcr:primaryType="nt:unstructured">
+                    <weekly_run_group
+                        jcr:description="This week we will begin our run at the Sausalito Harbor. I plan on taking us across the bridge and into the Mission District before heading back. This is a long day, so total run should be about 14 miles."
+                        jcr:lastModified="{Date}2012-11-29T14:31:47.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Weekly run group"
+                        end="{Date}2012-12-01T07:00:00.000Z"
+                        location="Sausalito Harbor"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:31:47.000Z"
+                        start="{Date}2012-12-01T07:00:00.000Z"
+                        uid="914A71F4-B721-49DE-94C2-2AFFE3DACEDC"/>
+                    <monthly_social
+                        jcr:description="Okay everyone, this month it’s all on me. I’m not going to tell you what we’re doing, but we’ll hang out at my place for a few drinks before we go out for a bit, so bring warm clothes!"
+                        jcr:lastModified="{Date}2012-11-29T14:40:01.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Monthly social"
+                        end="{Date}2012-12-05T22:00:00.000Z"
+                        location="James’ house"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:40:01.000Z"
+                        start="{Date}2012-12-05T20:00:00.000Z"
+                        uid="943B4EF5-30D0-4CA7-9DE9-1D1F888EFEB6"/>
+                    <weekly_run_group_0
+                        jcr:description="This week is a short run, so we will stay in the park and put in four miles."
+                        jcr:lastModified="{Date}2012-11-29T14:33:21.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Weekly run group"
+                        end="{Date}2012-12-08T08:00:00.000Z"
+                        location="John McLaren Park"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:33:21.000Z"
+                        start="{Date}2012-12-08T07:00:00.000Z"
+                        uid="1EF6484A-8029-483F-9234-2CF98540E053"/>
+                    <run_with_me_in_the_n
+                        jcr:description="I know it’s a bit of a drive to get there, but I figured we could carpool and the proceeds of the race go to charity so I think its worth going out for. Get in touch if you’re interested."
+                        jcr:lastModified="{Date}2012-11-29T14:38:40.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Run with me in the Napa Valley 5k"
+                        end="{Date}2012-12-11T07:00:00.000Z"
+                        location="Napa Valley"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:38:40.000Z"
+                        start="{Date}2012-12-11T06:00:00.000Z"
+                        uid="30DF0350-E487-41EF-B5C5-058BDF7D7A9F"/>
+                    <wildcat_canyon
+                        jcr:description="This week is a short run, so we will meet at the south entrance on the edge of Berkeley and run north to Tilden and back for about six miles."
+                        jcr:lastModified="{Date}2012-11-29T14:34:36.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Wildcat Canyon"
+                        end="{Date}2012-12-15T08:00:00.000Z"
+                        location="John McLaren Park"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:34:36.000Z"
+                        start="{Date}2012-12-15T07:00:00.000Z"
+                        uid="571DA548-D6D8-4461-9F11-251ED09A8AA6"/>
+                    <christmas_food_bank
+                        jcr:description="Come down to the Warf with me to help the food bank. Bring some cans of food, and stick around to help sort items for delivery. Afterward we can all get some dinner and drinks."
+                        jcr:lastModified="{Date}2012-11-29T14:41:39.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Christmas Food Bank"
+                        end="{Date}2012-12-20T16:00:00.000Z"
+                        location="Fisherman’s Warf"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:41:39.000Z"
+                        start="{Date}2012-12-20T16:00:00.000Z"
+                        uid="CDF60AFD-48A5-4058-B52A-7954EE82E3F4"/>
+                    <run_group_christmas_
+                        jcr:description="Happy holidays! Take a break and enjoy it while it lasts! Meet at my place for wine and snacks. You don’t have to bring anything, but you are more than welcome to if you would like."
+                        jcr:lastModified="{Date}2012-11-29T14:36:15.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Run Group Christmas Party!"
+                        end="{Date}2012-12-22T22:00:00.000Z"
+                        location="Rebekah’s house"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:36:15.000Z"
+                        start="{Date}2012-12-22T19:00:00.000Z"
+                        uid="012DEC95-5E6B-4278-8673-9931955DB02C"/>
+                    <weekly_run_group_1
+                        jcr:description="Time to work off the holidays! We’re back in action for nine miles around the park. Let’s all meet where Market turn to Guadalupe."
+                        jcr:lastModified="{Date}2012-11-29T14:37:29.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Weekly run group"
+                        end="{Date}2012-12-29T08:00:00.000Z"
+                        location="San Bruno Park"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:37:29.000Z"
+                        start="{Date}2012-12-29T07:00:00.000Z"
+                        uid="3D8D528C-8ECF-4B13-8987-572599D117DF"/>
+                </events>
+            </calendar>
+        </par>
+    </jcr:content>
+    <eventeditor/>
+</jcr:root>

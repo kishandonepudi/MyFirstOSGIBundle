@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-09-27T14:21:45.090+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/mobiletraderpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Watchlist"
+        sling:resourceType="geometrixx/components/mobiletrader/page">
+        <par jcr:primaryType="nt:unstructured">
+            <_x0031_5_1317126105088
+                jcr:lastModified="{Date}2011-09-27T14:21:45.089+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx/components/mobiletrader/watchlist"/>
+        </par>
+    </jcr:content>
+</jcr:root>

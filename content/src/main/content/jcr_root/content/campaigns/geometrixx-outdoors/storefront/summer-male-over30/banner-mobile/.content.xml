@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-10-31T20:35:25.963Z"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2012-10-31T20:35:26.001Z"
+        cq:lastRolledoutBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="Journey Banner"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveSync,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Banner Mobile"
+        jcr:uuid="742caac5-2a92-45f9-adc6-74d0ddf5e51f"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="banner-mobile">
+        <par
+            cq:lastRolledout="{Date}2012-10-31T20:35:25.993Z"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                cq:lastRolledout="{Date}2012-10-31T20:35:25.995Z"
+                cq:lastRolledoutBy="admin"
+                jcr:created="{Date}2011-11-03T17:36:02.554+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-12-08T15:31:53.461+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx-outdoors/banners_mobile/journey.jpg"
+                imageRotate="0"
+                linkURL="/content/geometrixx-outdoors-mobile/en/equipment/hiking">
+                <file
+                    cq:lastRolledout="{Date}2012-10-31T20:35:25.997Z"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured">
+                    <jcr:content.undoblob.save.json
+                        cq:lastRolledout="{Date}2012-10-31T20:35:25.999Z"
+                        cq:lastRolledoutBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"/>
+                </file>
+            </image>
+        </par>
+        <image
+            cq:lastRolledout="{Date}2012-10-31T20:35:26.000Z"
+            cq:lastRolledoutBy="admin"
+            jcr:lastModified="{Date}2011-11-03T19:05:50.434+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/campaigns/geometrixx-outdoors/storefront/summer-male-over30/banner"
+            cq:rolloutConfigs="[/etc/msm/rolloutconfigs/geometrixx-outdoors-teaser]"
+            jcr:primaryType="cq:LiveSyncConfig"/>
+    </jcr:content>
+</jcr:root>

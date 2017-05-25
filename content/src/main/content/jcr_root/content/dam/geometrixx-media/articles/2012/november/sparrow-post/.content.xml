@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2012-12-05T11:35:08.363-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2012-12-05T11:35:08.061-05:00"
+            dam:sha1="4cae6df486d1d25e815e9dd6cfc9ea9d513741a4"
+            dam:WordCount="{Long}606"
+            dc:format="text/plain"
+            dc:modified="{Date}2012-12-05T11:19:16.261-05:00"
+            dc:title="Sparrow post"
+            jcr:lastModified="{Date}2012-12-05T11:35:08.363-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <assignment
+            jcr:primaryType="nt:unstructured"
+            brief="This is copy that can be used to demonstrate the concept of editorial style content related to the experience driven commerce"
+            editor="admin"
+            startDate="{Date}2012-12-05T11:19:15.000-05:00"
+            status="Assigned"
+            writer="larry.a.spiller@pookmail.com"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

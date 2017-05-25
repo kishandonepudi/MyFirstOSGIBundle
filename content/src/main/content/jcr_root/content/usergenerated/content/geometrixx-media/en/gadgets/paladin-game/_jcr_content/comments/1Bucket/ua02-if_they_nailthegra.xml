@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastReplicated="{Date}2012-11-28T19:43:57.704-08:00"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:description="If they nail the graphics like they did on the show this game will be a smash hit."
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="cq:Comment"
+    sling:resourceType="social/commons/components/comments/comment"
+    added="{Date}2012-11-28T19:43:57.151-08:00"
+    approved="{Boolean}true"
+    authorizableId="Iris Mccoy"
+    email="Iris.R.Mccoy@mailinator.com"
+    ip="0:0:0:0:0:0:0:1%0"
+    referer="http://localhost:4502/content/geometrixx-media/en/gadgets/paladin-game.html?cq_ck=1354160444029"
+    url=""
+    userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.91 Safari/537.11"
+    userIdentifier="Iris Mccoy"/>

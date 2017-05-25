@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:54.824-05:00"
+    jcr:createdBy="matt.monroe@mailinator.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="My friends and I were hiking a few miles outside Jackson and came across two girls from Israel who looked like they had just taken a dip. We asked them what they were up to since the Snake River was way too cold to run around in, and they let us know about the Granite Hot Springs at the base of a series of trailheads. &#xd;&#xa;&#xd;&#xa;Seriously, go there. There is nothing better than coming back down from a hike and soaking in mineral-rich, natural hot springs. Plus, it’s only a few dollars for unlimited use for a day."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/forum/jcr:content/forum/1_ciot/qhyr-my_friends_andiwer"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/topic"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/hiking/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:48.541-05:00"
+    jcr:createdBy="aaron.mcdonald@mailinator.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Journal"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Welcome&#xd;&#xa;to my surfing community, where the water is always warm and…okay. I&#xd;&#xa;burned myself out on the whole creative writing gig with the&#xd;&#xa;community “about” page. I love surfing as much as anything else&#xd;&#xa;on this planet, and I look forward to sharing my adventures with you.&#xd;&#xa;If you haven’t ever surfed, get on a board. All of you floating&#xd;&#xa;around out there in the communities who are down to ski, snowboard,&#xd;&#xa;skateboard, or longboard should definitely catch a wave any chance&#xd;&#xa;you can get. The transition isn’t that difficult as long as you&#xd;&#xa;have the core/balance that it takes to carve the side of a mountain&#xd;&#xa;at a decently high speed. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Why&#xd;&#xa;do I love November? I’ll tell you why: the North Shore. This is&#xd;&#xa;when Oahu becomes the premier surf spot in the world. The waves don’t&#xd;&#xa;get better than the stretch of beaches (about 7 miles) on the North&#xd;&#xa;Shore in November and usually through February, but November through&#xd;&#xa;December is definitely prime. Santa got it wrong by posting up in the&#xd;&#xa;North Pole. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Anyway,&#xd;&#xa;I booked my ticket to leave right after Christmas. Can’t wait!&lt;/font>&lt;/p>"
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/surfing/journal/jcr:content/entrycomments/1Bucket/fqsv-_p_cl"
+        objectType="comment"
+        subType="social/journal/components/entrytext"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Journal"
+        id="/content/geometrixx-outdoors/en/community/surfing/journal"
+        objectType="geometrixx-outdoors/components/journal/page"/>
+</jcr:root>

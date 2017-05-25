@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <social-profile/>
+    <jcr:content
+        cq:lastModified="{Date}2012-06-05T16:36:39.749+01:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2012-06-05T16:36:47.272+01:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page_mobile"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="User"
+        jcr:uuid="7acb9101-564e-4dae-8b4b-a531a6532855"
+        sling:resourceType="geometrixx-outdoors/components/page_mobile"
+        hideInNav="true"/>
+    <sign-in/>
+    <register/>
+    <cart/>
+    <checkout/>
+    <profile/>
+</jcr:root>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="15a2389a-615a-463a-8e20-006db3cf793c">
+    <jcr:content
+        cq:name="warp11_adobe.jpg"
+        cq:parentPath="/content/dam/geometrixx-media/articles"
+        jcr:lastModified="{Date}2012-11-23T08:00:49.158-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2012-11-23T08:00:47.080-05:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Double}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Double}-1.0"
+            dam:Progressive="no"
+            dam:sha1="e62bf54dd3ee4188affc89d7fa2c09da2174e005"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2012-02-17T03:43:33.000-05:00"
+            jcr:lastModified="{Date}2012-11-23T08:00:49.158-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}296"
+            tiff:ImageWidth="{Long}640"
+            xmp:CreatorTool="Adobe Photoshop CS5 Macintosh"
+            xmpMM:DocumentID="xmp.did:E37EDB46356B11E28321922B0C315B22"
+            xmpMM:InstanceID="xmp.iid:E37EDB45356B11E28321922B0C315B22"
+            xmpMM:OriginalDocumentID="xmp.did:0F56FD6A092168119109D55341769100">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:40182E0E50F411E1B2B5E441E3CE95D4"
+                stRef:instanceID="xmp.iid:40182E0D50F411E1B2B5E441E3CE95D4"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

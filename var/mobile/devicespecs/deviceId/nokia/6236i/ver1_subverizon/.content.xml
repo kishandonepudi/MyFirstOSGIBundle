@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nok6236v1"
+    fall_back="nokia_6236i_ver1_subusa"
+    model_extra_info="Verizon Wireless"
+    model_name="6236i"
+    nokia_ringtone="false"
+    ringtone_amr="false"
+    ringtone_mp3="true"
+    streaming_real_media="none"
+    user_agent="nok6236v1"/>

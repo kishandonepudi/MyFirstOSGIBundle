@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-12-12T22:43:21.824+01:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2012-12-12T22:43:21.825+01:00"
+        cq:lastRolledoutBy="admin"
+        cq:tags="[geometrixx-outdoors:season/winter,geometrixx-outdoors:apparel/scarf]"
+        cq:template="/apps/geometrixx-outdoors/templates/page_product_mobile"
+        jcr:description="Scarf"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sherbrooke Winter"
+        jcr:uuid="4f4b4616-ddb4-490e-a633-76bdc0d42806"
+        sling:resourceType="geometrixx-outdoors/components/page_product_mobile">
+        <par
+            cq:lastRolledout="{Date}2012-12-12T22:43:21.815+01:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <product
+                cq:commerceProvider="geometrixx"
+                cq:commerceType="product"
+                cq:lastRolledout="{Date}2012-12-12T22:43:21.820+01:00"
+                cq:lastRolledoutBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/product_mobile"
+                productData="/etc/commerce/products/geometrixx-outdoors/seasonal/winter/apparel/scarves/sherbrooke-winter">
+                <_x0033_948567
+                    cq:commerceType="variant"
+                    cq:lastRolledout="{Date}2012-12-12T22:43:21.822+01:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="geometrixx-outdoors/components/product_mobile"
+                    productData="/etc/commerce/products/geometrixx-outdoors/seasonal/winter/apparel/scarves/sherbrooke-winter"/>
+            </product>
+            <tabs
+                cq:lastRolledout="{Date}2012-12-12T22:43:21.822+01:00"
+                cq:lastRolledoutBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/product_tabs"
+                tabs="[summary=Product Summary,features=Features]">
+                <ratings
+                    cq:lastRolledout="{Date}2012-12-12T22:43:21.824+01:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="geometrixx-outdoors/components/reviews"
+                    displayOnly="true"/>
+            </tabs>
+        </par>
+        <image
+            cq:lastRolledout="{Date}2012-12-12T22:43:21.825+01:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/products/scarf/Sherbrooke.jpg"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    node0_currentCount="{Long}0"
+    node0_totalCount="{Long}36"
+    node0_totalTime="{Long}1688"
+    node1_currentCount="{Long}36"/>

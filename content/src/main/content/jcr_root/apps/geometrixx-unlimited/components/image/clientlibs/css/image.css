@@ -1,0 +1,91 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+.image-caption, 
+.image-caption-open-button{
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    
+    transition-property: transform;
+    transition-duration:1s;
+    -webkit-transition-property:transform;
+    -webkit-transition-duration:1s;
+}
+
+.image-caption{
+    display:inline-block;
+    position:absolute;
+    bottom:0em;
+    right:0em;
+    background:url(/etc/designs/geometrixx-unlimited/images/caption/caption_box.png) no-repeat;
+    background-size: 100%;
+    width:40%;
+    max-width:400px;
+    min-width:200px;
+    font-size:1.1em;
+}
+
+.image-caption-aspect-enforcer{
+    padding-bottom:100%;
+}
+
+.image-caption-box{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+
+.image-caption-title{
+    margin:20% 22% 0% 10%;
+    font-weight:bold;
+    text-align:center;
+    font-size:1.5em;
+}
+
+.image-caption-content{
+    margin:0.5em 20% 10% 10%;
+    line-height:1em;
+}
+
+.image-caption-open-button{
+    position:absolute;
+    bottom: 1em;
+    right: 1em;
+    width: 68px;
+    height: 55px;
+    margin:0.5em;
+    background-image:url(/etc/designs/geometrixx-unlimited/images/caption/caption_button.png);
+}
+
+.image-caption-close-button{
+    position:absolute;
+    top: 10%;
+    right: 2%;
+    width: 20%;
+    height: 20%;
+}
+
+.image-caption-open-button-hidden, .image-caption-hidden{
+    -webkit-transform:scale(0);
+    transform:scale(0);
+}
+
+.image-base{
+    position:relative;
+}

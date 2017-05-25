@@ -1,0 +1,29 @@
+/* Copyright 2011 Adobe Systems Incorporated. */
+/* All Rights Reserved. */
+
+.ui-progressbar {
+	height: 2em;
+	text-align: left;
+}
+
+.ui-progressbar .ui-progressbar-value {
+	margin: -1px;
+	height: 100%;
+}
+
+.ui-progressbar {
+	background: #999999;
+}
+
+.ui-progressbar .ui-progressbar-value {
+	background: #297ACE;
+}
+
+#backup-list .ui-progressbar {
+	margin: 0.5em 0;
+	height: 1em;
+}
+
+#backup-list .ui-btn-active .ui-progressbar .ui-progressbar-value {
+	background: #FFF;
+}

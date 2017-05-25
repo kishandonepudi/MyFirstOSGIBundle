@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="mozilla-linux-android-nexus-build-gri34-apple-web-kit-533-khtml-like-gecko-version-mobile-safari-533"
+    fall_back="samsung_nexus_s_ver1"
+    user_agent="Mozilla/5.0 (Linux; U; Android 2.3.3; es-es; Nexus S Build/GRI34) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyFirstOSGIBundle.iml" filepath="$PROJECT_DIR$/MyFirstOSGIBundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle/MyFirstOSGIBundle-bundle.iml" filepath="$PROJECT_DIR$/bundle/MyFirstOSGIBundle-bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/content/MyFirstOSGIBundle-content.iml" filepath="$PROJECT_DIR$/content/MyFirstOSGIBundle-content.iml" />
+    </modules>
+  </component>
+</project>

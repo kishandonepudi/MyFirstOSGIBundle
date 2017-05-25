@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Template"
+    jcr:title="Question and Answer Forum"
+    allowedPaths="[/content/geometrixx-outdoors/[^/]+/community(/.*)?,/content/geometrixx-outdoors/[^/]+/support(/.*)?]">
+    <jcr:content
+        cq:lastModified="{Date}2012-03-08T11:08:01.439-05:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Q&amp;A"
+        sling:resourceType="geometrixx-outdoors/components/page">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <colctrl_938a
+                jcr:created="{Date}2012-03-07T15:36:10.712-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-03-07T15:36:24.983-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/colctrl"
+                layout="2;colctrl-2c"/>
+            <title
+                jcr:lastModified="{Date}2012-03-07T15:37:56.806-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/title"
+                type="medium"/>
+            <col_break13311525849860
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/colctrl"
+                controlType="break"/>
+            <col_end13311525707140
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/colctrl"
+                controlType="end"/>
+            <askquestionbox_c0ad
+                jcr:created="{Date}2012-03-07T14:25:09.244-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-03-08T10:34:33.236-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="This is a question asdfsf safd aa"
+                sling:resourceType="collab/qna/components/askquestionbox"
+                composerPage=""
+                submit="Submit"/>
+            <forum_fa48
+                jcr:created="{Date}2012-03-07T10:28:55.476-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-03-07T13:13:22.496-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="collab/qna/components/forum"/>
+        </par>
+    </jcr:content>
+</jcr:root>

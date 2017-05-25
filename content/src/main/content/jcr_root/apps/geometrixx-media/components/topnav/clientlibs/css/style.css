@@ -1,0 +1,79 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+
+header {
+    margin-top: 30px;
+}
+
+header .topnav .banner {
+    margin-bottom: 55px;
+}
+
+header .topnav nav {
+    float: left;
+    background: url(/etc/designs/geometrixx-media/images/navbar.png) repeat 0 0;
+    height: auto;
+}
+
+header .topnav .banner {
+    margin-bottom: 55px;
+}
+
+header .topnav nav ul.searchmode { width: 1010px; }
+header .topnav nav #globalsearch.searchmode { width: 143px; }
+
+header .topnav nav {
+    position: relative;
+    float: left;
+    background: url(/etc/designs/geometrixx-media/images/navbar.png) repeat 0 0;
+    height: 36px;
+    width: 100%;
+}
+
+header .topnav nav ul {
+    display: table;
+    table-layout: fixed;
+    width: 1120px;
+    list-style: none outside;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+header .topnav nav ul li {
+    display: table-cell;
+    border-right: 1px solid #ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+
+header .topnav nav ul li a {
+    text-decoration: none;
+    color:#FFFFFF;
+    line-height: 36px;
+    font-size: 1.0em;
+    letter-spacing: 0.2em;
+}
+
+header .topnav nav ul li.current-page {
+    background-color: #1E1E1E;
+}
+
+header .topnav nav ul li.current-page a {
+    color: #FFF;
+}

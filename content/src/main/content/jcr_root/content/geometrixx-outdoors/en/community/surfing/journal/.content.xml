@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-10-11T14:03:59.202-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/social/journal/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Journal"
+        jcr:uuid="49564d38-8f12-4037-912c-7c2b09c18c03"
+        sling:resourceType="geometrixx-outdoors/components/journal/page"
+        editForm="/content/geometrixx-outdoors/en/community/surfing/journal/editjournalform">
+        <journal jcr:primaryType="nt:unstructured">
+            <entries
+                jcr:lastModified="{Date}2012-08-20T22:43:04.490-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/journal/components/entrylist"
+                editForm="/content/geometrixx-outdoors/en/community/surfing/journal/editjournalform"
+                limit="10"
+                pageMax="4"/>
+        </journal>
+        <par jcr:primaryType="nt:unstructured">
+            <entrycomments
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/comments"/>
+        </par>
+    </jcr:content>
+    <editjournalform/>
+    <newjournalform/>
+    <_x0032_012/>
+</jcr:root>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <cluster jcr:primaryType="nt:unstructured">
+        <e1f0d2e5-5852-4af6-8243-27327c8fd5fa
+            jcr:primaryType="nt:unstructured"
+            lastModified="{Long}1494584574710"/>
+    </cluster>
+    <timed-jobs/>
+    <jobs/>
+</jcr:root>

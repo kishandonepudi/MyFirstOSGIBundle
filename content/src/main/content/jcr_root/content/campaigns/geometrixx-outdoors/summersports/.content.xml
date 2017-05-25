@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-06-27T15:52:47.998+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/campaign"
+        jcr:description="Sample Test and Target campaign."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Summer Sports"
+        jcr:uuid="c16ebf5f-5bbb-4706-a5c0-4a0a72eaa609"
+        sling:resourceType="cq/personalization/components/campaignpage"/>
+    <female-under30/>
+    <female-over30/>
+    <_x0035_0_percent_chance/>
+</jcr:root>

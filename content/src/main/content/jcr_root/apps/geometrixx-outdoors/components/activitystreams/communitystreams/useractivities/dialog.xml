@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        xtype="tabpanel">
+        <items
+            jcr:primaryType="nt:unstructured"
+            title="Community Activities"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./title"
+                    xtype="textfield"/>
+                <caption
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Caption"
+                    name="./caption"
+                    xtype="textfield"/>
+                <max
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Max number of activities"
+                    name="./maxNbActivities"
+                    xtype="numberfield"/>
+            </items>
+        </items>
+    </items>
+</jcr:root>

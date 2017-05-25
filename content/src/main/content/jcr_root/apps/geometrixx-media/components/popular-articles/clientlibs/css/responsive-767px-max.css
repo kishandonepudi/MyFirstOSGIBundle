@@ -1,0 +1,110 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+/* phone landscape */
+@media (max-width: 767px) {
+
+    .popular-articles {
+        clear: both;
+    }
+
+    .popular-articles .article-summary-image {
+        float: left;
+        width: 220px;
+    }
+
+    .popular-articles .article-summary-description {
+        width: auto;
+        margin-left: 220px;
+    }
+
+    .popular-articles .article-summary-description h4 {
+        padding-left: 10px;
+    }
+
+    .popular-articles .article-summary-text {
+        margin-left: 127px;
+        min-height: 122px;
+        top: 0;
+    }
+
+    .popular-articles .social {
+        top: 0;
+        right: 10px;
+        height: 0px;
+    }
+
+    .popular-articles article {
+        border-bottom: 1px solid #bababa;
+        padding: 20px 0px 20px 20px;
+        width: auto;
+        margin-bottom: 0px;
+    }
+
+    .popular-articles:last-child {
+        margin-bottom: 20px;
+    }
+
+    .popular-articles span.floating-tag {
+        color: #69AFC7;
+        background: none;
+        background-repeat: no-repeat;
+        height: 26px;
+        top: 0px;
+        left: 0px;
+        position: relative;
+        float: none;
+    }
+
+    .popular-articles span.floating-tag>span {
+        background-color: inherit;
+        background-image: none;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .popular-articles h4 {
+        font-size: 1.2em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .popular-articles .article-summary-text {
+        border-top: 1px solid #efefea;
+        margin-left: 127px;
+        min-height: 122px;
+        background-color: white;
+        top: 0px;
+        padding-top: 5px;
+        clear: none;
+    }
+
+    .popular-articles .article-summary-text h4 {
+        margin: 0;
+        font-size: 1.2em;
+        float: none;
+        padding-left: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .popular-articles .article-summary-text span {
+        color: #27B2C8;
+        padding-left: 10px;
+        font-size: 1.2em;
+    }
+}

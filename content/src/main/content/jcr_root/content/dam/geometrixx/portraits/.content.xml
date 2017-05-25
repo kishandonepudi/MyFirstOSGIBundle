@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="Portraits">
+    <scott_reynolds.jpg/>
+    <yolanda_huggins.jpg/>
+    <larry_spiller.jpg/>
+    <ivan_parrino.jpg/>
+    <alison_parker.jpg/>
+    <john_doe.jpg/>
+    <laura_richardson.jpg/>
+    <iris_mccoy.jpg/>
+    <carlene_avery.jpg/>
+    <jack_doe.jpg/>
+    <jane_doe.jpg/>
+    <janet_doe.jpg/>
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T17:36:08.175+01:00"
+    cq:lastModifiedBy="emily.andrews@mailinator.com"
+    jcr:description="I would am interested in buying the M2121 pedals, but I need to know what type of cleats they pair with first. Any help?"
+    jcr:primaryType="cq:Comment"
+    jcr:title="I would am interested..."
+    sling:resourceType="geometrixx-outdoors/components/qna/topic"
+    _charset_="UTF-8"
+    added="{Date}2012-11-29T17:34:57.751+01:00"
+    authorizableId="emily.andrews@mailinator.com"
+    helpful="0"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notHelpful="0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.html"
+    sentiment="{Long}3"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="emily.andrews@mailinator.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <uqek-the_m2121_pedalstak
+            jcr:description="The M2121 pedals take a standard MTB cleat. Fortunately, you don’t even have to worry about any of that. The pedals are actually packaged with the cleats! All you need to do is buy these pedals and then some MTB compatible shoes. Sometimes, the shoes will come with the cleats as well, depending on the brand. This is handy because you will wear the cleats out. I have the M2121 and this is a picture of my setup."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:36:08.135+01:00"
+            authorizableId="aparker@geometrixx.info"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__inai-i_would_am_intereste.html"
+            sentiment="{Long}5"
+            submit="Post Answer"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aparker@geometrixx.info">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="03f2d7cf-0490-4174-a8eb-baa0587a9f44">
+                <iStock_000010857602Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T09:00:01.158+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="693af9ac-6eba-4e38-8110-7e19f9da56f7"/>
+                </iStock_000010857602Small.jpg>
+            </attachments>
+        </uqek-the_m2121_pedalstak>
+    </_x0031__tosp>
+</jcr:root>

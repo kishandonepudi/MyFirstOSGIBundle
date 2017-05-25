@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-11T16:34:16.174+01:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[marketing:interest/business,marketing:interest/investor]"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Company"
+        sling:resourceType="geometrixx/components/contentpage"
+        analyticsProvider="undefined"
+        subtitle="who we are">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text_2
+                jcr:created="{Date}2010-11-05T14:41:15.120Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T14:41:36.785Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;span class=&quot;large&quot;>Geometrixx was founded in 545 BC by Pythagoras of Samos. Since then we have expanded from our ancient Greek origins to become a worldwide geometry and topology provider. We now have offices in Boston, Los Angeles, Basel and Singapore.&lt;/span>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2010-11-11T16:20:39.301+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-11T16:34:16.172+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/offices/geo_hq.jpg"
+                imageCrop="0,0,700,270"
+                imageRotate="0"/>
+            <colctrl
+                jcr:created="{Date}2010-11-02T03:21:25.095Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T03:21:25.095Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="2;cq-colctrl-lt0"/>
+            <title
+                jcr:lastModified="{Date}2010-11-05T14:42:25.409Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="industry leader"
+                sling:resourceType="geometrixx/components/title"/>
+            <text
+                jcr:created="{Date}2010-11-02T03:21:37.103Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T03:22:18.053Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Since 545 BC, Geometrixx has cemented its role as an industry thought leader, initiating and leading an industry-wide initiative to define and implement the standard for accessing shape repositories.&lt;/p>&#xa;&lt;p>That standard is BH 90210 - The Shape Repository Protocol (SRP). SRP is designed to overcome the challenge of proprietary shape repositories, helping companies to dramatically reduce costs, while increasing the efficiency and accessibility of their existing shapes.&lt;/p>&#xa;&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>&lt;/p>&#xa;"/>
+            <col_break12886680850970
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <title_2
+                jcr:created="{Date}2010-11-05T14:42:42.771Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T14:43:38.701Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Standard defining"
+                sling:resourceType="geometrixx/components/title"/>
+            <text_0
+                jcr:created="{Date}2010-11-02T03:23:25.235Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T03:24:22.439Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Geometrixx is now helping to define industry standards as an expert group member of phase 2 of SRP, BH 90210 (The Sequel). Developed in 2007, BH 90210 is under the continued leadership of Geometrixx’s co-founder Pythagoras of Samos, and in recent months has successfully completed the Public Review process.&lt;/p>&#xa;&lt;p>Pythagoras is also an active committee member of the working group drafting the Shape Management Interoperability Specification (SMIS), a new proposed standard submitted to compliment to SRP.&lt;/p>&#xa;&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>&lt;/p>&#xa;"/>
+            <col_end12886680850981
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+            <title_4
+                jcr:created="{Date}2010-11-10T17:21:26.300+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-10T17:21:44.647+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title=" "
+                sling:resourceType="geometrixx/components/title"
+                type="large"/>
+            <_x0031__1219086271395
+                jcr:lastModified="{Date}2010-08-25T10:26:45.291+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                layout="3;cq-colctrl-lt1"/>
+            <_x0033__1219086936652
+                jcr:lastModified="{Date}2010-10-06T21:33:04.502+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="Picture 1.png"
+                fileReference="/content/dam/geometrixx/offices/basel meetingroom.jpg"
+                width="220"/>
+            <title1
+                jcr:lastModified="{Date}2010-08-25T17:56:45.442+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Our Management Team"
+                sling:resourceType="geometrixx/components/title"/>
+            <our_management_team
+                jcr:lastModified="{Date}2010-11-05T14:55:20.295Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>At Geometrixx our management team includes people who have been in the geometry business from the very beginning. Really, they invented geometry.&lt;/p>&#xa;&lt;p>Our CTO Pythagoras of Samos leads our engineering team, while high level guidance is provided by our CEO Plato and our CMO Aristotle. Our board is chaired by Socrates of Athens.&lt;/p>&#xa;&lt;p>This history, prestige and combined neural capacity has made Geometrixx the juggernaut it is today. The secret to our continued success (beyond the apparent immortality of the management team) is the large amount of hands-on involvement in many aspects of the business by management.&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_break12190862715760
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <_x0037__1219086980445
+                jcr:lastModified="{Date}2010-10-06T21:12:29.106+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="Picture 3.png"
+                fileReference="/content/dam/geometrixx/offices/basel roof.jpg"
+                width="220"/>
+            <title2
+                jcr:lastModified="{Date}2010-08-25T17:56:53.234+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Our Vision"
+                sling:resourceType="geometrixx/components/title"/>
+            <our_vision
+                jcr:lastModified="{Date}2010-11-02T03:28:54.468Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Our long term vision is to make geometry accessible, easy to use, and affordable for everyone. This goal informs every decision that we make here at Geometrixx.&amp;nbsp;&lt;/p>&#xa;&lt;p>Economic uncertainty, increasing competitive pressures and rising demands for quality services are among the reasons why we need to address the value and return on your shape investments—as well as improve service management capabilities. While better management of your shape services may be a priority, you might not know where to start. &lt;/p>&#xa;&lt;p>Geometrixx can help you in understanding where to invest capital and resources and how to install the right mix of business-focused technology and processes that can support higher-value outcomes.&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_break12190862715761
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <_x0034__1219086954882
+                jcr:lastModified="{Date}2010-10-06T21:13:02.780+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="Picture 2.png"
+                fileReference="/content/dam/geometrixx/offices/basel serverroom.jpg"
+                imageCrop="0,237,334,460"
+                imageRotate="0"
+                width="220"/>
+            <title3
+                jcr:lastModified="{Date}2010-08-25T17:57:00.845+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Our Values"
+                sling:resourceType="geometrixx/components/title"/>
+            <our_values
+                jcr:lastModified="{Date}2010-10-31T21:19:45.943Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>As an employer we believe in empowering our employees, allowing them to use their own initiative find solutions to your geometric problems.&amp;nbsp;&lt;/p>&#xa;&lt;p>As a corporate citizen we are committed to ethical and environmentally responsible geometry. &lt;/p>&#xa;&lt;p>Our shapes have been awarded top marks from the Leadership in Energy and Environmental Design (LEED) Shape Rating System and we continue to pursue research into new green shape technology.&lt;/p>&#xa;&lt;p>1% of our global after-tax profit is re-invested in children's charities through our &amp;quot;Trapezoids for Tots&amp;quot; program.&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_end12190862715772
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+            <title_3
+                jcr:created="{Date}2010-11-05T14:57:00.927Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T14:57:19.023Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Our Philosophy"
+                sling:resourceType="geometrixx/components/title"
+                type="large"/>
+            <_x0039__1219087654164
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                layout="2;cq-colctrl-lt0"/>
+            <title_1
+                jcr:created="{Date}2010-10-31T22:09:14.365Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-10-31T22:09:55.746Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Postulates"
+                sling:resourceType="geometrixx/components/title"
+                type="small"/>
+            <_x0031_0_1219087776839
+                jcr:lastModified="{Date}2010-10-31T22:08:17.626Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;ol>&#xa;&lt;li>&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 12px;&quot;>A straight line segment can be drawn joining any two points.&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 12px;&quot;>&lt;/span>&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 12px;&quot;>Any straight line segment can be extended indefinitely in a straight line.&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 12px;&quot;>&lt;/span>&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 12px;&quot;>Given any straight line segment, a circle can be drawn having the segment as radius and one endpoint as center.&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 12px;&quot;>&lt;/span>&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 12px;&quot;>All right angles are congruent.&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 12px;&quot;>&lt;/span>&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 12px;&quot;>If two lines are drawn which intersect a third in such a way that the sum of the inner angles on one side is less than two right angles, then the two lines inevitably must intersect each other on that side if extended far enough. This postulate is equivalent to what is known as the parallel postulate.&lt;/span>&lt;/li>&#xa;&lt;/ol>&#xa;&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_break12190876543280
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <title_0
+                jcr:created="{Date}2010-10-31T22:09:10.861Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T10:59:34.347Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Common Notions"
+                sling:resourceType="geometrixx/components/title"/>
+            <text_1
+                jcr:created="{Date}2010-11-02T03:35:26.839Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T10:57:21.241Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;ol>&#xa;&lt;li>Things that equal the same thing also equal one another.&lt;/li>&#xa;&lt;li>If equals are added to equals, then the wholes are equal.&lt;/li>&#xa;&lt;li>If equals are subtracted from equals, then the remainders are equal.&lt;/li>&#xa;&lt;li>Things that coincide with one another equal one another.&lt;/li>&#xa;&lt;li>The whole is greater than the part.&lt;/li>&#xa;&lt;/ol>&#xa;&lt;p style=&quot;font-family: tahoma,arial,helvetica,sans-serif; font-size: 12px;&quot;>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_end12190876543281
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+            <title
+                jcr:created="{Date}2010-08-23T22:58:09.639+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-10-07T12:13:01.764+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Geometrixx Events"
+                sling:resourceType="geometrixx/components/title"/>
+            <list
+                jcr:created="{Date}2010-08-23T22:58:26.216+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-10-07T12:00:22.516+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx/components/list"
+                displayAs="news"
+                listFrom="children"
+                parentPage="/content/geometrixx/en/events"/>
+            <title_0
+                jcr:created="{Date}2010-08-23T23:33:29.158+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T10:23:06.484Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="News Archive"
+                sling:resourceType="geometrixx/components/title"
+                href="/content/geometrixx/en/company/news.html"
+                type="link"/>
+        </rightpar>
+        <title
+            jcr:lastModified="{Date}2010-08-25T10:39:05.373+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx/components/title"/>
+    </jcr:content>
+    <discover_geometrixx/>
+    <management/>
+    <bod/>
+    <news/>
+    <press/>
+</jcr:root>

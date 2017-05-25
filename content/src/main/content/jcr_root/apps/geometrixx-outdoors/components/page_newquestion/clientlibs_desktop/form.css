@@ -1,0 +1,165 @@
+/*-FORMS- copied from /etc/designs/geometrixx/static.css */
+
+body, img, a, div, td, th, input, textarea, .x-form-field, .x-combo-list-item {
+    font-size: 11px !important;
+    font-family:Tahoma;
+}
+
+form .form_leftcol label {
+    line-height: 18px;
+}
+
+.input input, .ta{
+    height:18px;
+    padding:2px 0 0 0;
+    margin:0 0 0 0;
+    border:none;
+    background:#8EBFD3;
+    color:#373737;
+}
+.ta {
+    height:111px;
+    overflow:auto;
+    padding:5px 0 0 0;
+    margin:0 0 20px 0;
+}
+.eq_height {
+    height:31px;
+}
+
+div.element {
+    margin-bottom: 2px;
+}
+
+form .form_1 {
+    border-top:1px solid #D9D9D9;
+    background:#F0F0F0;
+    padding:17px 34px 16px 8px;
+}
+form .form_1 .link_1 {
+    background:url(images/bullet1.gif) 0 0 no-repeat;
+    padding:0 0 0 10px;
+    color:#14729E;
+    font:normal 10px Tahoma;
+}
+form .form_1 input {
+    border:1px solid #A1A1A1;
+    width:180px;
+    height:17px;
+    margin:0 0 13px 0;
+}
+form .form_row {
+    text-align: left;
+    line-height:normal;
+    clear: both;
+    width: 100%;
+    padding-top: 10px;
+}
+
+form .form_leftcol {
+    padding-left: 9px;
+    float: left;
+    width: 95px;
+}
+
+form .form_leftcollabel {
+    font-weight: normal;
+    float: left;
+    color:black;
+    width: 85px;
+}
+form .form_leftcolmark {
+    float: right;
+    padding-left: 0px;
+    font-weight: normal;
+    width: 10px;
+}
+
+form .form_rightcol {
+    clear: none;
+    margin-left: 109px;
+}
+
+form .form_rightcol_left {
+    float: left;
+    width: 105px;
+}
+
+form .form_rightcol_middle {
+    float: left;
+    width:23px;
+}
+
+form .form_rightcol_right {
+    float: left;
+    width: 105px;
+}
+
+form .form_rightcol .form-readonly {
+    line-height: 18px;
+}
+
+div.form_captchatimer {
+    float: left;
+    border: 1px solid #CCCCCC;
+}
+
+div.form_captchatimer_bar {
+    float: left;
+    background-color:#CCCCCC;
+    height: 8px;
+}
+
+div.form_captcha_input {
+    float: left;
+    vertical-align: baseline;
+    padding-top: 4px;
+}
+
+div.form_captcha_img {
+    float: left;
+    vertical-align: baseline;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+div.form_captcha_refresh {
+    float: left;
+    padding-top: 4px;
+}
+
+form .form_field_text, form .form_field_textarea {
+    width:auto;
+    background-image:none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color:black;
+    border-color:#C1C1C1;
+    font-family:Tahoma;
+    margin:0;
+    padding:2px;
+}
+
+form .form_field_text{
+    background-image:url(/libs/cq/ui/widgets/themes/default/ext/form/text-bg.gif);
+}
+
+form .form_field_textarea {
+    padding-right: 0px;
+    resize:none;
+}
+
+input[type="button"]:disable, input[type="submit"]:disable, input[type="reset"]:disable, input[type="file"]:disable::-webkit-file-upload-button {
+    color:graytext;
+    cursor:default;
+}
+
+/*-Comments-*/
+div.comment-body {
+    text-align: left;
+}
+
+/*-Top Nav -*/
+.topnav h1 {
+    padding-top: 0px;
+}

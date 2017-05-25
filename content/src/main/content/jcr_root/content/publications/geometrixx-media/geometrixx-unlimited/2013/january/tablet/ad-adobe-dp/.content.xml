@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-unlimited"
+        cq:lastModified="{Date}2012-11-19T15:42:23.824-05:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[geometrixx-media:entertainment/movies,properties:orientation/landscape,properties:orientation/portrait,properties:style/color]"
+        cq:template="/apps/geometrixx-unlimited/templates/adpage"
+        jcr:description="Adobe &amp; Digital Publishing"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Adobe Digital Publishing"
+        sling:resourceType="geometrixx-unlimited/components/pages/adpage"
+        dps-isAdvertisement="true"
+        dps-isHiddenFromTOC="true"
+        dps-kicker="Adobe"
+        dps-resourceType="dps:Article">
+        <scrubber-p
+            jcr:lastModified="{Date}2012-11-19T15:42:23.805-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/DP_Scrubber_v.png"
+            imageRotate="0"/>
+        <scrubber-l
+            jcr:lastModified="{Date}2012-11-19T15:42:23.805-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/DP_Scrubber_l.png"
+            imageRotate="0"/>
+        <adLandscapePar
+            jcr:lastModified="{Date}2012-11-19T15:37:49.796-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx-unlimited/components/advertisement-landscape"
+            fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/DP_Horizontal.jpg"/>
+        <adPortraitPar
+            jcr:lastModified="{Date}2012-11-19T15:37:47.051-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx-unlimited/components/advertisement-portrait"
+            fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/DP_Vertical.jpg"/>
+        <image
+            jcr:lastModified="{Date}2012-11-19T15:42:23.805-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/DP_TOC.png"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

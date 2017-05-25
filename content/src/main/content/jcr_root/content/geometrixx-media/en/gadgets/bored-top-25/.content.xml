@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-media"
+        cq:lastModified="{Date}2012-12-14T16:25:39.761-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-media/templates/media-article-page"
+        jcr:description="The top 25 gadgets that will help you stay cool."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bored? Check out these cool things to do on hot summer days"
+        sling:resourceType="geometrixx-media/components/page/article"
+        subtitle="GADGETS">
+        <image
+            jcr:lastModified="{Date}2012-11-21T10:27:27.000-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-media/articles/bored.jpeg"
+            imageRotate="0"/>
+        <right-panel-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <section_header
+                jcr:created="{Date}2012-10-17T16:56:40.794-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-10-17T16:57:02.561-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-media/components/section-header"
+                sectionHeaderText="most popular"/>
+            <popular_articles
+                jcr:created="{Date}2012-10-17T16:57:06.585-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-10-17T16:58:17.065-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-media/components/popular-articles"
+                firstDefault="/content/geometrixx-media/en/gadgets/bored-top-25"
+                secondDefault="/content/geometrixx-media/en/gadgets/paladin-game"
+                thirdDefault="/content/geometrixx-media/en/events/warp-11-tour"
+                topLevelPage="/content/geometrixx-media/en"/>
+        </right-panel-par>
+        <article-content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <adaptive_image
+                jcr:created="{Date}2012-11-22T17:42:30.985-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-22T17:42:35.102-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-media/components/adaptive-image"
+                fileReference="/content/dam/geometrixx-media/articles/bored.jpeg"/>
+            <comments
+                jcr:created="{Date}2012-11-28T19:22:54.922-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-28T19:22:54.922-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/comments"/>
+        </article-content-par>
+        <author-summary
+            jcr:lastModified="{Date}2012-12-14T16:25:39.758-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx-media/components/author-summary"
+            articleAuthor="/home/users/geometrixx/kerri.g.saner@dodgit.com"
+            publishedDate="{Date}2012-11-24T00:00:00.000-05:00"/>
+    </jcr:content>
+</jcr:root>

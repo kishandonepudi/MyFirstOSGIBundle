@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <jcr:content
+        cq:lastModified="{Date}2013-01-08T17:32:19.798-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page"
+        jcr:description="Whether your last ride was crackin’ or you spent the whole day caught in a fish net, come on in, take a load off, and share your stories."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Surfing"
+        sling:resourceType="geometrixx-outdoors/components/page_community"
+        admingroup="/home/groups/geometrixx/communities/surfing-admins"
+        detailDescription="For those who surf, there’s nowhere we would rather be than icing an epic wave. But sometimes you find yourself out of the water and in front of a computer. Why not take that time to connect with fellow surfers in this t-shirts-optional community? There’s a place for everyone in this community, regardless of experience or ability. While we all know that the most peaceful place on the planet is about a quarter mile off shore with your board, we also understand how difficult and sometimes stressful it can be to master the art of surfing. That’s why there’s a forum where you can ask as many questions as you have and a journal for you to tell us all about your adventures. You can also upload your favorite pics and vids, just in case we have a hard time believing you when you say, 'it was this big!'"
+        landingPageContent="journal"
+        membergroup=" /home/groups/geometrixx/communities/surfing-members"
+        pageTitle="Surfing">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+        <statustoggle
+            jcr:created="{Date}2010-11-30T09:53:36.661+01:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2012-08-29T15:03:00.221-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="social/commons/components/toggle"
+            confirmationMessageToggle="&lt;p>Your request have been successfully sent.&lt;br>&#xa;&lt;/p>&#xa;"
+            confirmationMessageUntoggle="&lt;p>Your request have been successfully sent.&lt;br>&#xa;&lt;/p>&#xa;"
+            stateProvider="/libs/social/group/components/stateproviders/join"
+            toggleLabel="Leave"
+            toggleWorkflowModel="/etc/workflow/models/social/group/join-community/jcr:content/model"
+            transitionLabel="Leave/Join in progress"
+            untoggleLabel="Join"
+            untoggleWorkflowModel="/etc/workflow/models/social/group/leave-community/jcr:content/model"/>
+        <sidebar
+            jcr:lastModified="{Date}2012-12-17T12:36:17.401+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys"
+            inheritance="cancel">
+            <topforumtopics_cf8f
+                jcr:created="{Date}2012-12-17T12:34:48.321+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-17T12:34:48.321+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/social/analytics/components/topforumtopics"
+                requesttype="synchronous"
+                title="Top Forum Topics">
+                <report jcr:primaryType="nt:unstructured">
+                    <thirtyday/>
+                </report>
+            </topforumtopics_cf8f>
+            <upcomingevents_886a
+                jcr:created="{Date}2012-12-17T18:45:16.310+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-17T18:47:48.371+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/social/calendar/components/upcomingevents"
+                calendarPagePath="/content/geometrixx-outdoors/en/community/surfing/calendar"
+                maxEvents="3"
+                title="Upcoming Events"/>
+            <useractivities_684
+                jcr:created="{Date}2013-01-08T17:31:57.401-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-01-08T17:32:11.896-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/activitystreams/communitystreams/useractivities"
+                maxNbActivities="3"
+                title="ACTIVITY STREAM"/>
+            <topusers_f5ef
+                jcr:created="{Date}2012-12-17T12:35:39.358+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-17T12:35:49.935+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/social/analytics/components/topusers"
+                requesttype="synchronous"
+                title="Top Members">
+                <report
+                    jcr:primaryType="nt:unstructured"
+                    interval="{Long}3600"
+                    source="screport:default">
+                    <thirtyday/>
+                </report>
+            </topusers_f5ef>
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </sidebar>
+    </jcr:content>
+    <journal/>
+    <forum/>
+    <calendar/>
+    <activity/>
+    <members/>
+    <about/>
+    <photos/>
+</jcr:root>

@@ -1,0 +1,104 @@
+/* Copyright 2011 Adobe Systems Incorporated. */
+/* All Rights Reserved. */
+BODY {
+	font-family: Myriad, Lucida Grande, Lucida Sans Unicode, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+
+.g-uppercase {
+	text-transform: uppercase;
+}
+
+.g-grey {
+	color: #737373;
+}
+
+.g-bold {
+	font-weight: bold;
+}
+
+.g-linespacing {
+    line-height:1.5;
+}
+
+.g-margin-top {
+    margin-top:0.6em;
+}
+
+.g-tb-title {
+	color: #4c4c4c;
+	text-transform: uppercase;
+}
+
+.g-big {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.g-hidden {
+	display: none;
+}
+
+.ui-input-desc {
+	margin: .3em 0 0;
+	color: #737373;
+    font-size: 11px;
+}
+
+/* no links in left column of list views (todo: better solution) */
+.g-li-nolink.ui-btn-hover-c {
+    cursor: default;
+    background-color:#F2F2F2;
+}
+.g-li-nolink.ui-btn-hover-c a.ui-link-inherit {
+    color: #A9A9A9;
+}
+
+.g-list .ui-icon-checkbox-off,
+.g-list .ui-icon-checkbox-on {
+    -moz-border-radius: 				3px;
+    -webkit-border-radius: 				3px;
+    border-radius: 						3px;
+    background-color: 					#666;
+    background-color: 					rgba(0,0,0,.4);
+    margin-top: -11px;
+}
+
+.g-list .ui-li-link-alt .ui-btn,
+.ui-input-search .ui-btn {
+    border: 0;
+    background: transparent;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    z-index: auto; /*Fixing #39275*/
+}
+
+.g-list .ui-li-link-alt {
+    background-color: transparent;
+    border-left-color: transparent;
+}
+
+
+
+.ui-input-search .ui-btn {
+    padding-top: 2px;
+    padding-right: 2px;
+}
+
+
+
+@media all and (min-width: 450px) {
+	.ui-input-desc {
+		margin-left: 22%;
+		padding-left: 12px;
+	}
+	.ui-btn .ui-input-desc {
+		margin: -0.3em 0 0;
+		padding: 0 0 0.3em 45px;
+		font-weight: normal;
+	}
+}

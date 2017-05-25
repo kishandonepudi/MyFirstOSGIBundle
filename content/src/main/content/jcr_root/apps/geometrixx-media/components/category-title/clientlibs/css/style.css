@@ -1,0 +1,42 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+.category-title {
+    padding-top: 5em;
+    font-family: old-standard, serif;
+    font-style: italic;
+    color: #000000;
+}
+
+.category-title span.title {
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.category-title span.subtitle {
+    font-size: 2em;
+    line-height: 40px;
+    font-family: quattrocento-sans, serif;
+    font-weight: 500;
+    color: #666666;
+    text-align: right;
+}
+
+.category-title .stripeHr {
+    margin-top: 0.5em;
+    bottom: 0;
+    margin-bottom: 0;
+}

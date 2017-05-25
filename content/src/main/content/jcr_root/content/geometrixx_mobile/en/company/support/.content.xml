@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-08T13:24:00.426Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/mobilecontentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Support"
+        sling:resourceType="geometrixx/components/mobilecontentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <mobiletextimage
+                jcr:created="{Date}2010-11-02T23:48:31.182Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-08T13:24:00.423Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/mobiletextimage"
+                text="&lt;p>Need Help? Call 1-800-GO-SHAPE.&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2010-11-08T13:24:00.423Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/geometrixx/shapes/07.jpg"
+                    imageRotate="0"/>
+            </mobiletextimage>
+        </par>
+    </jcr:content>
+</jcr:root>

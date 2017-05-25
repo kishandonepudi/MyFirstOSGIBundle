@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Unlimited cover page template"
+    jcr:primaryType="cq:Template"
+    jcr:title="Unlimited Cover Page"
+    allowedParents="[/apps/geometrixx-unlimited/templates/issue]"
+    allowedPaths="[/content/publications(/.*)?]"
+    ranking="{Long}5">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-unlimited"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="geometrixx-unlimited/components/pages/coverpage"
+        dps-isHiddenFromTOC="{Boolean}true"
+        dps-resourceType="dps:Article">
+        <scrubber-p
+            jcr:lastModified="{Date}2012-11-14T16:23:09.345-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"/>
+        <scrubber-l
+            jcr:lastModified="{Date}2012-11-14T16:23:09.345-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"/>
+    </jcr:content>
+</jcr:root>

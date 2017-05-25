@@ -1,0 +1,89 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+.article-list ul {
+    padding: 0;
+}
+
+.article-list li {
+    clear: both;
+    display: block;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+.category-item {
+    background-color: #ffffff;
+    display: table-row;
+}
+.image-box {
+    display: table-cell;
+    min-width: 256px;
+}
+
+.image-box img {
+    vertical-align: bottom;
+}
+
+.article-description-box {
+    width: 5000px;
+    min-height: 127px;
+    display: table-cell;
+    vertical-align: top;
+    position: relative;
+    padding-bottom: 2.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.article-description-box .bottom {
+    height: 1.5em;
+    position: absolute;
+    bottom: 5px;
+    left: 0.5em;
+    right: 0.5em;
+}
+
+.article-description-box .bottom .left {
+    float: left;
+}
+
+.article-description-box .bottom .right {
+    float: right;
+}​
+
+.article-list .article-description span {
+     font-size: 1.3em;
+     color: #666666;
+     font-weight: normal;
+     font-family:  quattrocento-sans, serif;
+ }
+
+.article-description-box .article-title h2 {
+    margin-top: 0.5em;
+    line-height: 1.2em;
+    font-size: 1.7em;
+    font-style: normal;
+    background-image: none;
+    text-align: left;
+}
+
+.article-list .read-more {
+    font-family: quattrocento-sans, serif;
+    font-size: 1.3em;
+    font-weight: 500;
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia6208c-04-52-profile-midp-configuration-cldc"
+    fall_back="nokia_6208c_ver1"
+    user_agent="Nokia6208c/2.0 (04.52) Profile/MIDP-2.1 Configuration/CLDC-1.1"/>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark"
+		destructionPolicy="never"
+		backgroundColor="#000000">
+	<fx:Script>
+		<![CDATA[
+			import mx.controls.Alert;
+			
+			public function onOk():void {
+				this.parentApplication.appURL = host.text;
+				//navigator.popView();
+			}
+
+		]]>
+	</fx:Script>
+	<s:titleContent>
+		<s:Image source="@Embed('/assets/logo.png')"/>
+	</s:titleContent>
+	<s:layout>
+		<s:VerticalLayout gap="5" horizontalAlign="center"/>
+	</s:layout>
+	<s:TextInput id="host" prompt="enter application url" text="{(parentApplication as MobileTrader).appURL}" />
+	<s:Button label="Ok" click="onOk()"/>
+</s:View>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:51.818-05:00"
+    jcr:createdBy="aparker@geometrixx.info"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Q&amp;A"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="I was told that I over pronate, and was recommended that I get a specific type of running shoe. I am currently running with the Mombassa Runners, and they are amazing. Jason, I know that doesn’t help you much unless you want to wear women’s shoes, but I hope you find what you’re looking for  Maybe take a look at the Nairobi Runners."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/running/questions/jcr:content/forum_fa48/1_ciot/6yxh-the_reason_iamwond/1_tosp/6hld-i_was_told_thatiov"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/qna/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Q&amp;A"
+        id="/content/geometrixx-outdoors/en/community/running/questions"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-30T12:06:56.185+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="Summer Travel Survival Guide"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Article Mobile"
+        jcr:uuid="bc4521e5-65a9-46a4-97f4-41c9ee2cf3d6"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="article-mobile">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <recommend_article
+                jcr:created="{Date}2011-11-29T17:09:01.275+01:00"
+                jcr:createdBy="admin"
+                jcr:description="Our top tips and tricks to make your vacation even better."
+                jcr:lastModified="{Date}2011-12-08T17:49:49.169+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Summer Travel Survival Guide"
+                sling:resourceType="geometrixx-outdoors/components/recommend/recommend_article"
+                image="/content/dam/geometrixx-outdoors/articles/summer-travel-survival-guide.jpg"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2011-11-30T12:06:56.184+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/articles/summer-travel-survival-guide.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

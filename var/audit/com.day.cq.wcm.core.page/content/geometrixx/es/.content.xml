@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <services/>
+    <events/>
+    <support/>
+    <company/>
+    <products/>
+    <community/>
+    <_x0031_3906ec7-fd87-4e69-91a5-e51fc15e17ba/>
+    <_x0036_1de0006-ed89-4b75-bb02-251ca82c1571/>
+</jcr:root>

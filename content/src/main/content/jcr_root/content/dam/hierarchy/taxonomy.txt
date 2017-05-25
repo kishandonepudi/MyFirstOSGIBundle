@@ -1,0 +1,486 @@
+Standard Tags:
+Facebook:
+	Work
+		Employer
+			ADT Security Services
+			Adobe Systems
+		Location
+			San Jose, California
+		Position
+			Builder
+	Inspirational People
+		Helen of Troy
+	Education
+		School
+			Abraham Lincoln High School
+			Stanford University
+	Favorite Teams
+		San Francisco 49ers
+		San Francisco Giants
+	Favorite Athletes
+		Robby Thompson
+	likes
+		Product service
+			286
+				471
+					728
+						036
+							410
+								Adobe Creative Cloud
+			354
+				946
+					061
+						190
+							251
+								Men's Striped Pique Polos | Old Navy
+		Company
+			763
+				608
+					384
+						Supercross
+			130
+				517
+					143
+						683
+							707
+								Fab.com
+		Software
+			614
+				723
+					968
+						Adobe Photoshop
+		Retail and consumer merchandise
+			301
+				912
+					319
+						845
+							964
+								GeometrixxOutdoors
+		Musician band
+			787
+				260
+					944
+						Buddy Guy
+			110
+				554
+					268
+						964
+							822
+								Mozzart
+			135
+				388
+					936
+						479
+							828
+								John Lennon
+		Travel leisure
+			110
+				818
+					907
+						Disneyland
+		Book
+			107
+				825
+					249
+						240
+							945
+								Twilight
+			111
+				155
+					405
+						573
+							220
+								Harry Potter series
+			109
+				846
+					352
+						378
+							269
+								Devil in the White City
+		Games toys
+			137
+				786
+					459
+						581
+							883
+								Football
+			109
+				477
+					855
+						744
+							886
+								Rugby
+		Tv show
+			780
+				742
+					227
+						How I Met Your Mother
+			225
+				779
+					045
+						FRIENDS (TV Show)
+			215
+				318
+					098
+						Criminal Minds
+			229
+				346
+					846
+						The Big Bang Theory
+		Movie
+			290
+				487
+					762
+						729
+							Mission  Impossible
+			967
+				871
+					266
+						Alice in Wonderland
+			195
+				843
+					020
+						454
+							275
+								The Matrix
+			105
+				530
+					562
+						813
+							877
+								Romancing the Stone
+		Professional sports team
+			112
+				852
+					666
+						874
+							San Francisco 49ers
+			432
+				255
+					418
+						San Francisco Giants
+		Community
+			219
+				630
+					081
+						387
+							913
+								Unfair Taxes
+			113
+				979
+					428
+						717
+							071
+								JJ. Esquire Gifts & Home
+			329
+				235
+					963
+						760
+							604
+								JJ. Esquire Apparel
+		Health beauty
+			245
+				866
+					598
+						793
+							453
+								Philips Self-Expression
+		Interest
+			108
+				361
+					865
+						854
+							194
+								Shuffleboard
+			106
+				202
+					929
+						410
+							335
+								Pinochle
+		Athlete
+			113
+				676
+					348
+						642
+							642
+								Robby Thompson
+		Sport
+			103
+				780
+					659
+						661
+							402
+								Skiing
+		Public figure
+			141
+				590
+					190
+						018
+							Helen of Troy
+		Internet software
+			720
+				494
+					186
+						Context Optional
+		Aerospace defense
+			149
+				359
+					061
+						826
+							550
+								The Ahi Maguro Cause
+Forum:
+	Topic
+		Hot
+		Answered
+		Unanswered
+		Chosen Answer
+Asset Properties:
+	Orientation
+		Portrait
+		Landscape
+		Square
+	Style
+		Color
+		Monochrome
+			Grayscale
+Workflow:
+	System
+	Collab
+	WCM
+		Translation
+	DAM
+	Misc
+	Campaigns
+	Social
+Marketing:
+	Interest
+		Business
+		Investor
+		Product
+		Services
+		Employment
+Stock Photography:
+	Animals
+		Amphibians
+		Animal Backgrounds
+		Baby Animals
+		Birds
+		Cats
+		Dogs
+		Farm Animals
+		Insects
+		Mammals
+		Reptiles
+		Sea Life
+		Wild Animals
+	Architecture And Buildings
+		Architectural Detail
+		Architecture Abstract
+		Architecture Backgrounds
+		Churches
+		Homes
+		Monuments
+		Office Buildings
+	Arts And Entertainment
+		Arts Abstract
+		Arts Backgrounds
+		Arts Symbols
+		Celebrities
+		Cinema
+		Dance
+		Music
+		Opera
+		Theatre
+		Visual Art
+		Writing
+	Business
+		Business Abstract
+		Business Backgrounds
+		Business Concepts
+		Business Meetings
+		Business People
+		Business Symbols Metaphors
+		Business Teams
+		Business Travel
+	Celebrations & Holidays
+		Birthdays
+		Christmas
+		Easter
+		Halloween
+		Holiday Backgrounds
+		Holiday Symbols
+		New Years
+		Thanksgiving
+		Weddings
+	Concepts And Ideas
+		Character Traits
+		Communication
+		Consumerism
+		Emotions
+		Failure
+		Frustration
+		Healthy Lifestyle
+		Modern Life
+		Power
+		Religion
+		Seduction
+		Success
+		Teamwork
+		Time
+	Food And Drink
+		Alcohol
+		Baking
+		Cooking
+		Dairy Products
+		Drinks
+		Eating
+		Food Backgrounds
+		Fruits And Vegetables
+		Grain And Cereal Products
+		Junk Food Fast Food
+		Kitchen Equipment
+		Meat And Alternatives
+		Raw Food
+		Studio Isolated
+	Health And Beauty
+		Alternative Medicine
+		Bathroom
+		Body
+		Exercise
+		Fashion
+		Health Backgrounds
+		Health Symbols Metaphors
+		Makeup Cosmetics
+		Massage
+		Medicine
+		Sexuality
+	Industry
+		Agriculture
+		Construction
+		Education
+		Government
+		Health Care
+		Heavy Industry
+		Law Enforcement And Crime
+		Manufacturing
+		Retail Service Industry
+	Isolated Objects
+		Isolated-Background Objects
+		Objects with Clipping Paths
+	Lifestyle
+		Adults
+		Children
+		Families
+		Gay
+		Lifestyle Backgrounds
+		Relationships
+		Seniors
+		Teens
+		Young Adults
+	Locations And Travel
+		Air Travel
+		Beaches
+		Holidays
+		Landmarks
+		Railway
+		Subway
+		Travel Backgrounds
+	Nature
+		Bodies Of Water
+		Fall
+		Flowers
+		Gardens
+		Geological Feature
+		Landscapes
+		Nature Abstract
+		Nature Backgrounds
+		Nature Symbols Metaphors
+		Panoramas
+		Plants
+		Spring
+		Summer
+		Winter
+	Objects Equipment
+		Household Objects Equipment
+		Industrial Objects Equipment
+	Science And Medicine
+		Dental
+		Drugs Pills
+		Equipment
+		Medical
+		Optometry
+		Personnel
+		Recreational Drugs
+		Research
+		Science Abstract
+		Science Backgrounds
+		Science Symbols Metaphors
+	Sports And Leisure
+		Competition
+		Extreme Sports
+		Fitness
+		Golf
+		Individual Sports
+		Sports Backgrounds
+		Sports Symbols Metaphors
+		Team Sports
+		Water
+	Technology
+		Communications Technology
+		Telecom
+		Computers
+		Electronics
+		Technology Abstract
+		Technology Backgrounds
+		Technology Symbols Metaphors
+	Illustrations Vectors
+		Vector Backgrounds
+		Vector Cartoons
+		Vector Florals
+		Vector Icons
+		Vector Ornaments
+Geometrixx Media:
+	Entertainment
+		Music
+		Movies
+	Gadgets
+		Phones
+		Games
+		Computers
+		Film
+		Cars
+	Events
+		Concerts
+		Festivals
+		Premieres
+		Parties
+	Insiders
+Geometrixx Outdoors:
+	Activity
+		Biking
+		Hiking
+		Running
+		Skiing
+		Surfing
+		Swimming
+	Apparel
+		Coat
+		Footwear
+		Glasses
+		Gloves
+		Hat
+		Helmet
+		Pancho
+		Pants
+		Scarf
+		Shirt
+		Shorts
+	Gender
+		Women
+		Men
+		Unisex
+	Season
+		Summer
+		Winter

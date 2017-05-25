@@ -1,0 +1,3294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="de"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="nt:folder">
+    <_x0025_2A_x0020_package_x0020_definition_x0020_has_x0020_changed_x0020_since_x0020_last
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="* package definition has changed since last ((Complete sentence: * package definition has changed since last build))"
+        sling:message="* Paketdefinition hat sich geändert seit letzter/letztem"/>
+    <_x0025_2A_x0020_package_x0020_definition_x0020_has_x0020_changed_x0020_since_x0020_last_x0020_build
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="* package definition has changed since last build"
+        sling:message="* Paketdefinition hat sich seit dem letzten Build geändert"/>
+    <_x0025_2A_x0020_package_x0020_definition_x0020_has_x0020_changed_x0020_since_x0020_last_x0020_instal
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="* package definition has changed since last install"
+        sling:message="* Paketdefinition hat sich seit der letzten Installation geändert"/>
+    <_x0026_copy_x003b__x0020_2013_x0020_Adobe_x0020_Systems_x0020_Incorporated._x0020_All_x0020_Rights
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="&amp;copy; 2013 Adobe Systems Incorporated. All Rights Reserved. ((login))"
+        sling:message="&amp;copy; 2013 Adobe Systems Incorporated. All Rights Reserved."/>
+    <_x0028_sign_x0020_out_x0029_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="(sign out) ((welcome screen))"
+        sling:message="(abmelden)"/>
+    <_b_Unauthorized_x0020_-_x0020_Login_x0020_...__b_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="&lt;b>Unauthorized - Login ...&lt;/b>"
+        sling:message="&lt;b>Nicht autorisiert – Anmelden...&lt;/b>"/>
+    <Abstract
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Abstract ((Abstract privilege column header))"
+        sling:message="Abstrakt"/>
+    <Abstract0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Abstract ((Abstract privilege))"
+        sling:message="Abstrakt"/>
+    <AC_x0020_Handling
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="AC Handling ((Form field))"
+        sling:message="AC-Verwaltung"/>
+    <Accept
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Annehmen"/>
+    <Access_x0020_Control
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Access Control ((Access Control tab))"
+        sling:message="Zugriffssteuerung"/>
+    <Access_x0020_Control_x0020_-_x0020_Repository
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Zugriffssteuerung - Repository"/>
+    <Access_x0020_Control_x0020_-_x0020__x007b_0_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Zugriffssteuerung - {0}"/>
+    <Access_x0020_Control_x0020_Handling
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Access Control Handling ((Form field))"
+        sling:message="Verwaltung der Zugriffssteuerung"/>
+    <Access_x0020_Control_x0020_List
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Zugriffssteuerungsliste"/>
+    <Access_x0020_Control_x0020_Test
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Access Control Test ((Tab title))"
+        sling:message="Zugriffssteuerungstest"/>
+    <Account
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Konto"/>
+    <ACL
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="ACL"/>
+    <Activity_x0020_Log
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Aktivitätsprotokoll"/>
+    <Add
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Add ((Add property action))"
+        sling:message="Hinzufügen"/>
+    <Add_x0020_entry
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Eintrag hinzufügen"/>
+    <Add_x0020_filter
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Add filter ((Add filter button))"
+        sling:message="Filter hinzufügen"/>
+    <Add_x0020_New_x0020_Entry
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Neuen Eintrag hinzufügen"/>
+    <Add_x0020_rule
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Add rule ((Form field))"
+        sling:message="Regel hinzufügen"/>
+    <Add0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Add ((Add action))"
+        sling:message="Hinzufügen"/>
+    <Admin
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Admin ((Checkbox label))"
+        sling:message="Admin"/>
+    <Adobe
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Adobe"/>
+    <Adobe_x0020_Developer_x0020_Connection
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Adobe Developer Connection"/>
+    <Adobe_x0020_Marketing_x0020_Cloud
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Adobe Marketing Cloud"/>
+    <Advanced
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Advanced ((Title))"
+        sling:message="Erweitert"/>
+    <Advanced_x0020_Component_x0020_Settings
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Advanced Component Settings ((Form field))"
+        sling:message="Erweiterte Komponenteneinstellungen"/>
+    <Advanced_x0020_JCR_x0020_features_x0020_like_x0020_versioning_x0020_and_x0020_security
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Erweiterte JCR-Funktionen wie Versionserstellung und Sicherheit"/>
+    <Advanced_x0020_Settings
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Advanced Settings ((Title))"
+        sling:message="Erweiterte Einstellungen"/>
+    <Advanced0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Advanced ((Panel title))"
+        sling:message="Erweitert"/>
+    <Aggregate
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Aggregate ((Aggregate privilege column header))"
+        sling:message="Zusammenfassen"/>
+    <All_x0020_packages
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="All packages ((Combo item))"
+        sling:message="Alle Pakete"/>
+    <All_x0020_packages0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="All packages ((Title))"
+        sling:message="Alle Pakete"/>
+    <All_x0020_the_x0020_tools_x0020_you_x0020_need_x0020_to_x0020_solve_x0020_these_x0020_complex_x0020_digi
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="All the tools you need to solve these complex digital business challenges. ((login))"
+        sling:message="Alle Tools, die Sie benötigen, um diese komplexen Herausforderungen der digitalen Geschäftswelt  u meistern."/>
+    <All_x0020_the_x0020_tools_x0020_you_x0020_need_x0020_to_x0020_solve_x0020_these_x0020_complex_x0020_digi0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="All the tools you need to solve these complex digital business challenges."
+        sling:message="Alle Tools, die Sie benötigen, um diese komplexen Herausforderungen der digitalen Geschäftswelt  u meistern."/>
+    <Allow
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Zulassen"/>
+    <Allow_x0020_update
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Allow update ((Field label))"
+        sling:message="Aktualisierung zulassen"/>
+    <Allowed_x0020_Children
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Allowed Children ((Form field))"
+        sling:message="Zugelassene untergeordnete Elemente"/>
+    <Allowed_x0020_Parents
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Allowed Parents ((Form field))"
+        sling:message="Zugelassene übergeordnete Elemente"/>
+    <Allowed_x0020_Paths
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Allowed Paths ((Form field))"
+        sling:message="Zugelassene Pfade"/>
+    <Applicable_x0020_Access_x0020_Control_x0020_Policy
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Gültige Richtlinie für die Zugriffssteuerung"/>
+    <Auto_x0020_Created
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Auto Created ((JCR property attribute))"
+        sling:message="Automatisch erstellt"/>
+    <Back
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Zurück"/>
+    <Back_x0020_Home
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Back Home ((welcome screen))"
+        sling:message="Zurück zur Startseite"/>
+    <Back_x0020_Home0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Back Home ((Tooltip title))"
+        sling:message="Zurück zur Startseite"/>
+    <Binary_x0020_property_x0020_is_x0020_only_x0020_editable_x0020_after_x0020_saving
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Binäreigenschaft kann nach dem Speichern nicht mehr bearbeitet werden"/>
+    <Browse...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Durchsuchen..."/>
+    <Build
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Build ((Build button))"
+        sling:message="Build"/>
+    <Build_x0020_Bundle
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Build Bundle ((Build bundle action))"
+        sling:message="Bundle erstellen"/>
+    <Build_x0020_Info
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Build Info ((Title))"
+        sling:message="Build-Informationen"/>
+    <Build_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Build Package ((Title))"
+        sling:message="Paket erstellen"/>
+    <Build_x0020_this_x0020_package_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Paket erstellen?"/>
+    <Build0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="build ((Complete sentence: * package definition has changed since last build))"
+        sling:message="Erstellen"/>
+    <Build_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Build:"
+        sling:message="Build:"/>
+    <Building_x0020__x007b_0_x007d_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="\{0} wird erstellt..."/>
+    <Built_x0020_with
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Built with ((Form field))"
+        sling:message="Erstellt mit"/>
+    <Bundle
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Bundle ((Tooltip title))"
+        sling:message="Bundle"/>
+    <Campaigns
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Kampagnen"/>
+    <Cancel
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Abbrechen"/>
+    <Cancel0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Cancel ((Cancel button))"
+        sling:message="Abbrechen"/>
+    <Carry_x0020_out_x0020_maintenance_x0020_and_x0020_administration_x0020_tasks
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Wartungs- und Verwaltungsaufgaben durchführen"/>
+    <Category
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Category ((Principal category field))"
+        sling:message="Kategorie"/>
+    <Cell_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Cell Name ((Form field))"
+        sling:message="Zellenname"/>
+    <Change_x0020_group_x0020_to_x0020_move_x0020_package.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Change group to move package. ((Description))"
+        sling:message="Gruppe ändern, um Paket zu verschieben."/>
+    <Check_x0020_to_x0020_overwrite_x0020_existing_x0020_packages.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Aktivieren, um vorhandene Pakete zu überschreiben."/>
+    <Check_x0020_what_x0020_this_x0020_package_x0020_requires_x0020_upon_x0020_installation
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Check what this package requires upon installation."
+        sling:message="Überprüfen Sie, was für dieses Paket bei der Installation erforderlich ist."/>
+    <Checkout
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Checkout ((Dialog title))"
+        sling:message="Auschecken"/>
+    <Checkout_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Checkout ... ((Check out action))"
+        sling:message="Auschecken..."/>
+    <Children
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Untergeordnete Elemente"/>
+    <Children0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Children ((Child privileges column header))"
+        sling:message="Untergeordnete Elemente"/>
+    <Clear
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Clear ((Clear property action))"
+        sling:message="Löschen"/>
+    <Clear_x0020_all_x0020_messages
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Alle Nachrichten löschen"/>
+    <Clear_x0020_all_x0020_messages0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Clear all messages ((Tooltip message))"
+        sling:message="Alle Nachrichten löschen"/>
+    <Clear_x0020_Console
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Clear Console ((Tooltip title))"
+        sling:message="Konsole löschen"/>
+    <Clear_x0020_log
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Clear log ((Tooltip))"
+        sling:message="Protokoll löschen"/>
+    <Clear0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Clear ((Combo item))"
+        sling:message="Löschen"/>
+    <Click_x0020_to_x0020_build_x0020_the_x0020_package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Click to build the package ((Tooltip))"
+        sling:message="Klicken Sie hier, um das Paket zu erstellen."/>
+    <Click_x0020_to_x0020_install_x0020_the_x0020_package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Click to install the package ((Tooltip))"
+        sling:message="Klicken Sie hier, um das Paket zu installieren."/>
+    <Click_x0020_to_x0020_rebuild_x0020_the_x0020_package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Click to rebuild the package ((Tooltip))"
+        sling:message="Klicken Sie hier, um das Paket neu zu erstellen."/>
+    <Click_x0020_to_x0020_update_x0020_the_x0020_package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Click to update the package ((Tooltip))"
+        sling:message="Klicken Sie hier, um das Paket zu aktualisieren"/>
+    <Close
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Close ((Close button))"
+        sling:message="Schließen"/>
+    <Close0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Close"
+        sling:message="Schließen"/>
+    <Clustering
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Clustering"/>
+    <Commit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Commit ((Form field))"
+        sling:message="Bestätigen"/>
+    <Commit_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Commit ... ((Commit action))"
+        sling:message="Bestätigen..."/>
+    <Community
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Community"/>
+    <Company
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Company ((Form field))"
+        sling:message="Unternehmen"/>
+    <Compile
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Compile ((Compile action))"
+        sling:message="Kompilieren"/>
+    <Compile0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Compile ((Tooltip title))"
+        sling:message="Kompilieren"/>
+    <Component_x0020_Extractor_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Component Extractor ... ((Component extractor action))"
+        sling:message="Komponentenextrahierung..."/>
+    <Configure_x0020_and_x0020_manage_x0020_the_x0020_application_x0020_platform
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Anwendungsplattform konfigurieren und verwalten"/>
+    <Connecting_x0020_to_x0020_Package_x0020_Share...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Verbindung zur Paketfreigabe wird hergestellt..."/>
+    <Console
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Console ((Console tab))"
+        sling:message="Konsole"/>
+    <Content_x0020_Explorer
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Content Explorer"/>
+    <Contents
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Contents ((Contents button))"
+        sling:message="Inhalt"/>
+    <Copy
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Copy ((Copy action))"
+        sling:message="Kopieren"/>
+    <Copy_x0020_Node
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Copy Node ((Shortcut name))"
+        sling:message="Knoten kopieren"/>
+    <Copy_x0020_of_x0020__x007b_0_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Copy of {0} ((The name of copied node. e.g Copy of home))"
+        sling:message="\{0}-Kopie"/>
+    <Copy0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Copy ((Copy property action))"
+        sling:message="Kopieren"/>
+    <Copying...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Copying... ((Progress bar))"
+        sling:message="Wird kopiert..."/>
+    <Core
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Core"/>
+    <Correspondence_x0020_Management
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Correspondence Management"/>
+    <Could_x0020_not_x0020_compile_x0020_source._x0020_Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029_._x0020_Plea
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Could not compile source. Received {0} ({1}). Please check that all necessary bundles are installed!"
+        sling:message="Quelle konnte nicht kompiliert werden. {0} ({1}) empfangen. Überprüfen Sie, ob alle erforderlichen Bundles installiert wurden."/>
+    <Could_x0020_not_x0020_connect_x0020_to_x0020_server
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Verbindung zum Server konnte nicht hergestellt werden"/>
+    <Could_x0020_not_x0020_copy_x0020_node._x0020_Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029_.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Knoten konnte nicht kopiert werden. {0} ({1}) empfangen."/>
+    <Could_x0020_not_x0020_copy_x0020_node._x0020_Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029_._x0020__x007b_2_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Knoten konnte nicht kopiert werden. {0} ({1}) empfangen. {2}"/>
+    <Could_x0020_not_x0020_create_x0020_bundle._x0020_Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029_._x0020_Pleas
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Could not create bundle. Received {0} ({1}). Please check that all necessary bundles are installed!"
+        sling:message="Bundle konnte nicht erstellt werden. {0} ({1}) empfangen. Überprüfen Sie, ob alle erforderlichen Bundles installiert wurden."/>
+    <Could_x0020_not_x0020_create_x0020_project
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Could not create project ((Message title))"
+        sling:message="Projekt konnte nicht erstellt werden."/>
+    <Could_x0020_not_x0020_load_x0020_data._x0020_Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029_._x0020__x007b_2_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Daten konnten nicht geladen werden. {0} ({1}) empfangen. {2}"/>
+    <Could_x0020_not_x0020_load_x0020_file_x0020_content
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Dateiinhalt konnte nicht geladen werden."/>
+    <Could_x0020_not_x0020_modify_x0020_package.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Paket konnte nicht modifiziert werden."/>
+    <Could_x0020_not_x0020_modify_x0020_package.0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Could not modify package. "
+        sling:message="Paket konnte nicht modifiziert werden. "/>
+    <Could_x0020_not_x0020_move_x0020_node._x0020_Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029_._x0020__x007b_2_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Knoten konnte nicht verschoben werden. {0} ({1}) empfangen. {2}"/>
+    <Could_x0020_not_x0020_retrieve_x0020_log_x0020_messages._x0020_Please_x0020_check_x0020_that
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Could not retrieve log messages. Please check that CRXDE support is installed properly!"
+        sling:message="Protokollmeldungen konnten nicht abgerufen werden. Überprüfen Sie, ob CRXDE-Support ordnungsgemäß installiert ist."/>
+    <Could_x0020_not_x0020_save_x0020_changes._x0020_Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029__x0020_for_x0020_sav
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Could not save changes. Received {0} ({1}) for saving changes in workspace {2}. {3}"
+        sling:message="Änderungen konnten nicht gespeichert werden. {0} ({1}) zum Speichern der Änderungen im Arbeitsbereich {2} empfangen. {3}"/>
+    <Could_x0020_not_x0020_save_x0020_changes._x0020_Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029_._x0020__x007b_2_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Änderungen konnten nicht gespeichert werden. {0} ({1}) empfangen. {2}"/>
+    <Could_x0020_not_x0020_save_x0020_data._x0020_Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029_.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Daten konnten nicht gespeichert werden. {0} ({1}) empfangen."/>
+    <Could_x0020_not_x0020_save_x0020_data._x0020_Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029_._x0020__x007b_2_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Daten  konnten nicht gespeichert werden. {0} ({1}) empfangen.{2}"/>
+    <Could_x0020_not_x0020__x007b_0_x007d__br__br__x0026_quot_x003b__x007b_1_x007d__x0026_quot_x003b_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Could not {0}&lt;br>&lt;br>&amp;quot;{1}&amp;quot;"
+        sling:message="Konnte nicht {0}&lt;br>&lt;br>&amp;quot;{1}&amp;quot;"/>
+    <Coverage
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Coverage ((Coverage button))"
+        sling:message="Abdeckung"/>
+    <Create
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create ((Button))"
+        sling:message="Erstellen"/>
+    <Create_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Erstellen..."/>
+    <Create_x0020_...0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create ... ((Open create node dialog action))"
+        sling:message="Erstellen..."/>
+    <Create_x0020_and_x0020_manage_x0020_correspondence_x0020_assets_x0020_and_x0020_letter
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create and manage correspondence assets and letter templates as part of the Correspondence Management solution"
+        sling:message="Korrespondenzelemente und Briefvorlagen als Teil von Correspondence Management Solution erstellen und verwalten"/>
+    <Create_x0020_and_x0020_manage_x0020_multiple_x0020_websites
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Mehrere Websites erstellen und verwalten"/>
+    <Create_x0020_and_x0020_manage_x0020_multiple_x0020_websites.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Erstellen Sie mehrere Websites und verwalten Sie sie."/>
+    <Create_x0020_and_x0020_monitor_x0020_custom_x0020_reports
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Benutzerdefinierte Berichte erstellen und überwachen"/>
+    <Create_x0020_Bundle
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Bundle ((Dialog title))"
+        sling:message="Bundle erstellen"/>
+    <Create_x0020_Bundle_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Bundle ... ((Create bundle action))"
+        sling:message="Bundle erstellen..."/>
+    <Create_x0020_Component
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Component ((Dialog title))"
+        sling:message="Komponente erstellen"/>
+    <Create_x0020_Component_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Component ... ((Create component action))"
+        sling:message="Komponente erstellen..."/>
+    <Create_x0020_Dialog
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Dialog ((Dialog title))"
+        sling:message="Dialogfeld erstellen"/>
+    <Create_x0020_Dialog_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Dialog ... ((Create dialog action))"
+        sling:message="Dialogfeld erstellen..."/>
+    <Create_x0020_File
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create File ((Dialog title))"
+        sling:message="Datei erstellen"/>
+    <Create_x0020_File_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Datei erstellen..."/>
+    <Create_x0020_File0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create File ((Shortcut name))"
+        sling:message="Datei erstellen"/>
+    <Create_x0020_Folder
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Folder ((Dialog title))"
+        sling:message="Ordner erstellen"/>
+    <Create_x0020_Folder_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Ordner erstellen ..."/>
+    <Create_x0020_Node
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Node ((Message title))"
+        sling:message="Knoten erstellen"/>
+    <Create_x0020_Node_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Knoten erstellen..."/>
+    <Create_x0020_Node0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Node ((Shortcut name))"
+        sling:message="Knoten erstellen"/>
+    <Create_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Package ((Create package button))"
+        sling:message="Paket erstellen"/>
+    <Create_x0020_Project
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Project ((Dialog title))"
+        sling:message="Projekt erstellen"/>
+    <Create_x0020_Project_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Project ... ((Create project action))"
+        sling:message="Projekt erstellen..."/>
+    <Create_x0020_Template
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Template ((Dialog title))"
+        sling:message="Vorlage erstellen"/>
+    <Create_x0020_Template_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Create Template ... ((Create template action))"
+        sling:message="Vorlage erstellen..."/>
+    <Creates_x0020_a_x0020_new_x0020_project_x0020_under_x0020__apps_x002c__x0020_a_x0020_new_x0020_site_x0020_unde
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Creates a new project under /apps, a new site under /content and a package wrapping all project content."
+        sling:message="Erstellt ein neues Projekt unter /apps, eine neue Site unter /content und ein Paket, das alle Projektinhalte eingliedert."/>
+    <Creating_x0020_package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Creating package ((Progress bar))"
+        sling:message="Paket wird erstellt"/>
+    <Creative_x0020_Suite_x0020_Task_x0020_List_x0020_Extension_x0020_for_x0020_Integrated_x0025_20
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Creative Suite Task List Extension for Integrated Content Review"
+        sling:message="Creative Suite Task List Extension für Integrated Content Review"/>
+    <CRXDE_x0020_Lite
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="CRXDE Lite"/>
+    <Current_x0020_Path
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Aktueller Pfad"/>
+    <Current_x0020_search_x0020_has_x0020_no_x0020_results
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Aktuelle Suche ergab keine Ergebnisse"/>
+    <Custom_x0020_version_x0020_string_x0020_for_x0020_this_x0020_package._x0020_Separate_x0020_b
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Custom version string for this package. Separate build count will be increased automatically on each build."
+        sling:message="Versionsstrings für dieses Paket anpassen. Separate Buildanzahl wird auf jedem Build automatisch erhöht."/>
+    <Customer_x0020_Communications_x0020_solution
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Customer Communications Solution"/>
+    <D_x0026_D_x0020_File_x0020_Upload_x0020_not_x0020_supported
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="D&amp;D-Datei-Upload wird nicht unterstützt."/>
+    <Date_x0020_Picker
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Datumsauswahl"/>
+    <Delete
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Delete ((Delete action))"
+        sling:message="Löschen"/>
+    <Delete_x0020_this_x0020_package_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Paket löschen?"/>
+    <Delete0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Delete ((Delete button))"
+        sling:message="Löschen"/>
+    <Delete1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Delete ((Delete property action))"
+        sling:message="Löschen"/>
+    <Deleting_x0020_package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Deleting package ((Title))"
+        sling:message="Paket wird gelöscht"/>
+    <Deny
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Ablehnen"/>
+    <Dependencies
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Dependencies ((Title))"
+        sling:message="Abhängigkeiten"/>
+    <Dependencies_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Dependencies:"
+        sling:message="Abhängigkeiten:"/>
+    <Depends_x0020_on
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Depends on ((Form field))"
+        sling:message="Abhängig von"/>
+    <Description
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Description ((Form field))"
+        sling:message="Beschreibung"/>
+    <Description0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Description ((ACL column header))"
+        sling:message="Beschreibung"/>
+    <Details_x0020_View
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Details View ((Tooltip title))"
+        sling:message="Detailansicht"/>
+    <Deutsch
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Deutsch"/>
+    <Develop
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Develop ((Tooltip title))"
+        sling:message="Entwickeln"/>
+    <Develop_x0020_applications_x0020_with_x0020_a_x0020_web-based_x0020_IDE
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Anwendungen mit einer webbasierten IDE entwickeln"/>
+    <Developer_x0020_Blog
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Developer Blog ((List item))"
+        sling:message="Entwickler-Blog"/>
+    <Developer_x0020_Resources
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Developer Resources ((Title))"
+        sling:message="Entwicklerressourcen"/>
+    <Developer_x0020_resources_x0020_and_x0020_downloads
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Entwicklerressourcen und Downloads"/>
+    <Dialog_x0020_Path
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Dialog Path ((Form field))"
+        sling:message="Dialogpfad"/>
+    <Digital_x0020_Assets
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Digitale Elemente"/>
+    <Disable_x0020_Console
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Disable Console ((Tooltip title))"
+        sling:message="Konsole deaktivieren"/>
+    <Do_x0020_you_x0020_really_x0020_want_x0020_to_x0020_install_x0020_this_x0020_package_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Möchten Sie dieses Paket wirklich installieren?"/>
+    <Do_x0020_you_x0020_really_x0020_want_x0020_to_x0020_share_x0020_this_x0020_package_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Möchten Sie dieses Paket wirklich freigeben?"/>
+    <Documentation
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Documentation ((List item))"
+        sling:message="Dokumentation"/>
+    <Done
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Done ((Done button))"
+        sling:message="Fertig"/>
+    <Done.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Fertig."/>
+    <Download
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Download ((Download button))"
+        sling:message="Herunterladen"/>
+    <Download_x0020_applications_x0020_from_x0020_Adobe_x0020_and_x0020_the_x0020_community
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Anwendungen von Adobe und der Community herunterladen"/>
+    <Download_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Download:"
+        sling:message="Herunterladen:"/>
+    <Drag_x0020_this_x0020_link__x0020__a_x0020_title_x003d__x0022_Debug_x0020_Tracking_x0022__x0020_href_x003d__x0022__x007b_0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Drag this link: &lt;a title=&quot;Debug Tracking&quot; href=&quot;{0}&quot;>Debug Tracking&lt;/a> to Bookmarks Bar."
+        sling:message="Folgenden Link in Lesezeichenleiste ziehen: &lt;a title=&quot;Debugging-Verfolgung&quot; href=&quot;{0}&quot;>Debugging-Verfolgung&lt;/a>."/>
+    <Drag_x0020_this_x0020_link__x0020__a_x0020_title_x003d__x0022_Debug_x0020_Tracking_x0022__x0020_href_x003d__x0022__x007b_00
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Drag this link: &lt;a title=&quot;Debug Tracking&quot; href=&quot;{0}&quot;>Debug Tracking&lt;/a> to Bookmarks Toolbar."
+        sling:message="Folgenden Link in Lesezeichenleiste ziehen: &lt;a title=&quot;Debugging-Verfolgung&quot; href=&quot;{0}&quot;>Debugging-Verfolgung&lt;/a>."/>
+    <Edit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Edit ((Edit button))"
+        sling:message="Bearbeiten"/>
+    <Edit_x0020_Mixins
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Edit Mixins ((Message title))"
+        sling:message="Mixins bearbeiten"/>
+    <Edit_x0020_Mixins0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Edit Mixins ((Tooltip title))"
+        sling:message="Mixins bearbeiten"/>
+    <Edit_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Edit Package ((Title))"
+        sling:message="Paket bearbeiten"/>
+    <Edit_x0020__x007b_0_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Edit {0} ((Dialog title))"
+        sling:message="\{0} bearbeiten"/>
+    <Effective
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Effective ((ACL column header))"
+        sling:message="Effektiv"/>
+    <Effective_x0020_Access_x0020_Control_x0020_Policies
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Gültige Richtlinien zur Zugriffssteuerung"/>
+    <English
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="English ((login))"
+        sling:message="Englisch"/>
+    <English0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="English"
+        sling:message="Englisch"/>
+    <Enter_x0020_brief_x0020_description_x0020_of_x0020_what_x0020_you_x0020_did.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie eine kurze Beschreibung Ihres Vorgehens ein."/>
+    <Enter_x0020_destination_x0020_of_x0020_the_x0020_move_x0020_operation.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie das Ziel des Verschiebevorgangs ein."/>
+    <Enter_x0020_filter_x0020_expression
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Filterausdruck eingeben"/>
+    <Enter_x0020_line_x0020_number_x0020__x0028_1.._x007b_0_x007d__x0029__
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Enter line number (1..{0}):"
+        sling:message="Zeilennummer eingeben (1..{0}):"/>
+    <Enter_x0020_node_x0020_name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Knotenpfad eingeben"/>
+    <Enter_x0020_node_x0020_or_x0020_resource_x0020_type
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Knoten oder Ressourcentyp eingeben"/>
+    <Enter_x0020_search_x0020_term_x0020_to_x0020_search_x0020_the_x0020_repository
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie den Suchbegriff ein, um das Repository zu durchsuchen"/>
+    <Enter_x0020_username_x0020_and_x0020_password_x0020_and_x0020_select_x0020_the_x0020_workspa
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Enter username and password and select the workspace to login."
+        sling:message="Geben Sie Benutzernamen und Kennwort ein und wählen Sie den Arbeitsbereich, um sich anzumelden."/>
+    <Entries
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Entries ((e.g. Total 10 Entries))"
+        sling:message="Einträge"/>
+    <Entry
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Entry ((e.g. Total 1 Entry))"
+        sling:message="Eintrag"/>
+    <Error
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Error ((Message title))"
+        sling:message="Error"/>
+    <Error_x0020_importing_x0020_node_x0020_type_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Error importing node type:"
+        sling:message="Fehler beim Importieren des Knotentyps:"/>
+    <Error0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Error ((Dialog title))"
+        sling:message="Error"/>
+    <Error__x0020__x007b_0_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Error: {0}"
+        sling:message="Fehler: {0}"/>
+    <Español
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Español"/>
+    <Execute
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Execute ((Execute query button))"
+        sling:message="Ausführen"/>
+    <Executes_x0020_last_x0020_reverted_x0020_action_x0020_again
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Führt die letzte zurückgesetzte Aktion noch einmal aus"/>
+    <Executing_x0020_build...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Executing build... ((Progress bar))"
+        sling:message="Build wird ausgeführt..."/>
+    <Executing_x0020_query...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Executing query... ((Progress bar))"
+        sling:message="Abfrage wird ausgeführt..."/>
+    <Execution_x0020_Info_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Execution Info:  ((Query panel status bar))"
+        sling:message="Ausführungsinfo: "/>
+    <Explore_x0020_the_x0020_capabilities_x0020_of_x0020_the_x0020_Adobe_x0020_Digital_x0020_Ente
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Explore the capabilities of the Adobe Digital Enterprise Platform"
+        sling:message="Entdecken Sie die Funktionen von Adobe Digital Enterprise Platform"/>
+    <Export
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Export ((Dialog title))"
+        sling:message="Exportieren"/>
+    <Export_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Export ... ((Export action))"
+        sling:message="Exportieren..."/>
+    <Export_x0020_Node_x0020_Type
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Export Node Type ((Export node type action))"
+        sling:message="Knotentyp exportieren"/>
+    <Export_x0020_node_x0020_type_x0020_as_x0020_Compact_x0020_Node_x0020_Type_x0020_Definition_x0020_f
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Export node type as Compact Node Type Definition format"
+        sling:message="Knotentyp im Format &quot;Kompakte Knotentypdefinition&quot; exportieren"/>
+    <Export_x0020_Node_x0020_Type0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Export Node Type ((Tooltip title))"
+        sling:message="Knotentyp exportieren"/>
+    <Extract_x0020_Subpackages
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Extract Subpackages ((Form field))"
+        sling:message="Unterpakete extrahieren"/>
+    <File_x0020_could_x0020_not_x0020_be_x0020_uploaded.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Datei konnte nicht hochgeladen werden."/>
+    <Filter_x0020_tree
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Filterstruktur"/>
+    <Filters
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Filters ((Title))"
+        sling:message="Filter"/>
+    <Filters_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Filters:"
+        sling:message="Filter:"/>
+    <Firebug_x0020_detected_x0021_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Firebug erkannt!"/>
+    <Firebug_x0020_is_x0020_known_x0020_to_x0020_cause_x0020_performance_x0020_issues._x0020_Disa
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Firebug is known to cause performance issues. Disable Firebug if you experience performance problems during runtime."
+        sling:message="Firebug verursacht bekanntermaßen Leistungsprobleme. Deaktivieren Sie Firebug, wenn Leistungsprobleme während der Laufzeit auftreten."/>
+    <Fixed_x0020_issues
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Fixed issues ((Form field))"
+        sling:message="Gelöste Probleme"/>
+    <Fixed_x0020_issues_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Fixed issues:"
+        sling:message="Gelöste Probleme:"/>
+    <Force_x0020_Upload
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Upload erzwingen"/>
+    <Forgot_x0020_password_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Forgot password? ((login))"
+        sling:message="Kennwort vergessen?"/>
+    <Français
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Français"/>
+    <Full_x0020_Text_x0020_Searchable
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Full Text Searchable ((JCR property attribute))"
+        sling:message="Gesamter Text durchsuchbar"/>
+    <General
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="General ((Tab title))"
+        sling:message="Allgemeines"/>
+    <Generate
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Generate ((Generate query button))"
+        sling:message="Generieren"/>
+    <Get_x0020_Started
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Get Started ((login))"
+        sling:message="Erste Schritte"/>
+    <Get_x0020_the_x0020_latest_x0020_versions_x0020_of_x0020_your_x0020_packages
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Neueste Versionen der Pakete abrufen"/>
+    <Getting_x0020_Started
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Erste Schritte"/>
+    <Go_x0020_to_x0020_Line
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Go to Line ((Dialog title))"
+        sling:message="Zu Zeile wechseln"/>
+    <Goto_x0020_line_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Goto line ... ((Go to line action))"
+        sling:message="Zur Zeile..."/>
+    <Group
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Group ((Form field))"
+        sling:message="Gruppe"/>
+    <Group0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Group"
+        sling:message="Gruppe"/>
+    <Group_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Group:"
+        sling:message="Gruppe:"/>
+    <Groups
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Gruppen"/>
+    <Groups0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Groups ((Title))"
+        sling:message="Gruppen"/>
+    <Help
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Help ((login))"
+        sling:message="Hilfe"/>
+    <Help0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Help"
+        sling:message="Hilfe"/>
+    <Home
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Home ((Home tab))"
+        sling:message="Startseite"/>
+    <Homepage
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Homepage ((List item))"
+        sling:message="Homepage"/>
+    <ICR
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="ICR"/>
+    <Ignore
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Ignore ((Combo item))"
+        sling:message="Ignorieren"/>
+    <Impersonate_x0020_as_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Impersonate as:"
+        sling:message="Identität annehmen als:"/>
+    <Import
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Import ((Dialog title))"
+        sling:message="Importieren"/>
+    <Import_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Import ... ((Import action))"
+        sling:message="Importieren..."/>
+    <Import_x0020_Node_x0020_Type
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Import Node Type ((Panel title))"
+        sling:message="Knotentyp importieren"/>
+    <Import_x0020_Node_x0020_Type_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Import Node Type ... ((Open import node type dialog action))"
+        sling:message="Knotentyp importieren ..."/>
+    <Import_x0020_Node_x0020_Type0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Import Node Type ((Tooltip title))"
+        sling:message="Knotentyp importieren"/>
+    <Import_x0020_Site_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Import Site ... ((Import site action))"
+        sling:message="Site wird importiert..."/>
+    <Import0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Import ((Import button))"
+        sling:message="Importieren"/>
+    <Inbox
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Posteingang"/>
+    <Install
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Install ((Install button))"
+        sling:message="Installieren"/>
+    <Install_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Install Package ((Title))"
+        sling:message="Paket installieren"/>
+    <Install_x0020_SiteCatalyst_x0020_Debugger
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Install SiteCatalyst Debugger ((Dialog title))"
+        sling:message="SiteCatalyst Debugger installieren"/>
+    <Install_x0020_SiteCatalyst_x0020_Debugger_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="SiteCatalyst Debugger installieren ..."/>
+    <Install0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="install ((Complete sentence: * package definition has changed since last install))"
+        sling:message="Installieren"/>
+    <Installation_x0020_date
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Installation date ((Combo item))"
+        sling:message="Installationsdatum"/>
+    <Installed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Installiert"/>
+    <Installed_x0020_on_x0020__x007b_0_x007d__x0020_by_x0020__x007b_1_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Installiert am {0} von {1}"/>
+    <Installed_Built
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Installed/Built ((Combo item))"
+        sling:message="Installiert/Erstellt"/>
+    <Installing_x0020_content...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Inhalt wird installiert..."/>
+    <Installing_x0020_package...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Paket wird installiert..."/>
+    <Installing_x0020_the_x0020_Creative_x0020_Suite_x0020_Task_x0020_List_x0020_Extension
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Installieren der Creative Suite Task List Extension"/>
+    <Integrated_x0020_Content_x0020_Review_x0020_Solution
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Integrated Content Review Solution"/>
+    <Interactive_x0020_Statements
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Interactive Statements"/>
+    <Invalid_x0020_action
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Ungültige Aktion"/>
+    <Is_x0020_Container
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Is Container ((Checkbox))"
+        sling:message="Ist Container"/>
+    <IST
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="IST"/>
+    <Italiano
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Italiano"/>
+    <Items
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Elemente"/>
+    <Java_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Java Package ((Form field))"
+        sling:message="Java-Paket"/>
+    <Knowledge_x0020_Base
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Knowledge Base ((List item))"
+        sling:message="Knowledge Base"/>
+    <Label
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Label ((Form field))"
+        sling:message="Label"/>
+    <Language
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Sprache"/>
+    <Language0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Language ((login))"
+        sling:message="Sprache"/>
+    <Last_x0020_build_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Last build: ((Last build status))"
+        sling:message="Letztes Build:"/>
+    <Last_x0020_built
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Zuletzt erstellt"/>
+    <Last_x0020_installed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Zuletzt installiert"/>
+    <Last_x0020_modified
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Zuletzt geändert"/>
+    <Last_x0020_modified0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Last modified ((Combo item))"
+        sling:message="Zuletzt geändert"/>
+    <Last_x0020_used
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Last used ((Combo item))"
+        sling:message="Zuletzt verwendet"/>
+    <Learn_x0020_about_x0020_Correspondence_x0020_Management
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Weitere Informationen zu Correspondence Management"/>
+    <Learn_x0020_about_x0020_Experience_x0020_Services
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Informationenen zu Experience Services"/>
+    <Learn_x0020_about_x0020_Integrated_x0020_Content_x0020_Review
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Weitere Informationen zu Integrated Content Review"/>
+    <Learn_x0020_about_x0020_Interactive_x0020_Statements
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Weitere Informationen zu Interactive Statements"/>
+    <Learn_x0020_about_x0020_Web_x0020_Experience_x0020_Management
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Weitere Informationen zu Web Experience Management"/>
+    <Learn_x0020_More
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Learn More ((login))"
+        sling:message="Weitere Informationen"/>
+    <Learn_x0020_More0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Learn More"
+        sling:message="Weitere Informationen"/>
+    <License_x0020_Information
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Lizenzinformationen"/>
+    <Line
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Line ((Column header))"
+        sling:message="Zeile"/>
+    <Link
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Link ((URL link, form field))"
+        sling:message="Link"/>
+    <List_x0020_of_x0020_dependencies_x0020_in_x0020_the_x0020_form__x0020_groupId_name_ver
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="List of dependencies in the form: groupId:name:version"
+        sling:message="Liste von Abhängigkeiten in folgender Form: Gruppen-ID:Name:Version"/>
+    <List_x0020_of_x0020_fixed_x0020_bugs_x0020_or_x0020_issues._x0020_1_x0020_per_x0020_line
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Liste korrigierter Bugs bzw. Probleme. 1 pro Zeile"/>
+    <List_x0020_of_x0020_replaced_x0020_earlier_x0020_packages_x0020_in_x0020_the_x0020_form__x0020_gro
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="List of replaced earlier packages in the form: groupId:name:version"
+        sling:message="Liste früherer ersetzter Pakete in folgender Form: Gruppen-ID:Name:Version"/>
+    <Loading_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Loading ... ((Progress bar))"
+        sling:message="Wird geladen..."/>
+    <Loading_x0020_packages...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Loading packages... ((Progress bar))"
+        sling:message="Pakete werden geladen..."/>
+    <Loading...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Loading... ((Progress bar))"
+        sling:message="Wird geladen..."/>
+    <Local
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Local ((ACL column header))"
+        sling:message="Lokal"/>
+    <Local_x0020_Access_x0020_Control_x0020_Policies
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Richtlinien zur lokalen Zugriffssteuerung"/>
+    <Logged_x0020_in_x0020_Package_x0020_Share_x0020_as_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Logged in Package Share as:"
+        sling:message="Bei Paketfreigabe angemeldet als:"/>
+    <Logging_x0020_Configuration
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Logging Configuration ((Tooltip title))"
+        sling:message="Protokollierungskonfiguration"/>
+    <Login
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Login ((Dialog title))"
+        sling:message="Anmelden"/>
+    <Login_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Login ... ((Login action))"
+        sling:message="Anmelden..."/>
+    <Login_x0020_Failed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Login Failed ((Message title))"
+        sling:message="Anmeldung fehlgeschlagen"/>
+    <Login_x0020_required
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Login required ((Dialog title))"
+        sling:message="Anmeldung erforderlich"/>
+    <Login_x0020_to_x0020_package_x0020_share
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Login to package share ((Title))"
+        sling:message="Bei Paketfreigabe anmelden"/>
+    <Login0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Login ((Login button))"
+        sling:message="Anmelden"/>
+    <Login1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Login ((Tooltip title))"
+        sling:message="Anmelden"/>
+    <Logout
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Logout ((Logout action))"
+        sling:message="Abmelden"/>
+    <Logout_x0020_current_x0020_user
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Aktuellen Benutzer abmelden"/>
+    <Logout0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Logout ((Logout button))"
+        sling:message="Abmelden"/>
+    <Logout1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Logout ((Tooltip title))"
+        sling:message="Abmelden"/>
+    <Maintain_x0020_and_x0020_configure_x0020_your_x0020_system
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="System verwalten und konfigurieren"/>
+    <Make_x0020_sure_x0020_the_x0020__x0022_Bookmarks_x0020_Bar_x0022__x0020_is_x0020_visible._x0020_If_x0020_it_x0020_is
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Make sure the &quot;Bookmarks Bar&quot; is visible. If it is not, click menu Tools > Bookmarks > Always show bookmarks bar."
+        sling:message="Stellen Sie sicher, dass die &quot;Lesezeichenleiste&quot; sichtbar ist. Wenn dies nicht der Fall ist, klicken Sie auf &quot;Tools > Lesezeichen > Lesezeichenleiste immer einblenden&quot;."/>
+    <Make_x0020_sure_x0020_the_x0020__x0022_Bookmarks_x0020_Bar_x0022__x0020_is_x0020_visible._x0020_If_x0020_it_x0020_is0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Make sure the &quot;Bookmarks Bar&quot; is visible. If it is not, click menu View > Show Bookmarks Bar."
+        sling:message="Stellen Sie sicher, dass die &quot;Lesezeichenleiste&quot; sichtbar ist. Wenn dies nicht der Fall ist, klicken Sie auf &quot;Ansicht > Lesezeichenleiste anzeigen&quot;."/>
+    <Make_x0020_sure_x0020_the_x0020__x0022_Bookmarks_x0020_Toolbar_x0022__x0020_is_x0020_visible.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Stellen Sie sicher, dass die &quot;Lesezeichenleiste&quot; sichtbar ist."/>
+    <Make_x0020_sure_x0020_the_x0020__x0022_Bookmarks_x0020_Toolbar_x0022__x0020_is_x0020_visible._x0020_If_x0020_i
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Make sure the &quot;Bookmarks Toolbar&quot; is visible. If it is not, click menu View > Toolbars > Bookmarks Toolbar."
+        sling:message="Stellen Sie sicher, dass die &quot;Lesezeichenleiste&quot; sichtbar ist. Wenn dies nicht der Fall ist, klicken Sie auf &quot;Ansicht > Lesezeichen > Lesezeichenleiste&quot;."/>
+    <Make_x0020_sure_x0020_the_x0020__x0022_Links_x0020_Toolbar_x0022__x0020_is_x0020_visible._x0020_If_x0020_it_x0020_is
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Make sure the &quot;Links Toolbar&quot; is visible. If it is not, right click on any part of the menu bar and check &quot;Links&quot;."
+        sling:message="Stellen Sie sicher, dass die &quot;Lesezeichenleiste&quot; sichtbar ist. Wenn dies nicht der Fall ist, klicken Sie mit der rechten Maustaste auf eine beliebige Stelle in der Menüleiste und aktivieren Sie &quot;Links&quot;."/>
+    <Manage_x0020_clustered_x0020_deployments
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Cluster-Bereitstellungen verwalten"/>
+    <Manage_x0020_tasks_x0020_and_x0020_submit_x0020_content_x0020_to_x0020_the_x0020_Integrated_x0025_20
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Manage tasks and submit content to the Integrated Content Review server from Creative Suite 5 and 5.5"
+        sling:message="Aufgaben verwalten und Inhalt von Creative Suite 5 und 5.5 an den Integrated Content Review-Server senden"/>
+    <Manage_x0020_your_x0020_groups
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Gruppen verwalten"/>
+    <Manage_x0020_your_x0020_inbox_x0020_items
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Posteingang verwalten"/>
+    <Manage_x0020_your_x0020_marketing_x0020_campaigns
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Marketing-Kampagnen verwalten"/>
+    <Manage_x0020_your_x0020_projects_x002c__x0020_assign_x0020_schedules_x002c__x0020_and_x0020_report
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Manage your projects, assign schedules, and report on status using the Integrated Content Review solution"
+        sling:message="Projekte verwalten, Zeitpläne zuweisen und Status mithilfe von Integrated Content Review Solution melden"/>
+    <Manage_x0020_your_x0020_users
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Benutzer verwalten"/>
+    <Manage_x0020_your_x0020_users_x0020_and_x0020_groups
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Benutzer und Gruppen verwalten"/>
+    <Mandatory
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Mandatory ((JCR property attribute))"
+        sling:message="Obligatorisch"/>
+    <Mark_x0020_this_x0020_checkbox_x0020_to_x0020_enable_x0020_automatic_x0020_extraction_x0025_20
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Mark this checkbox to enable automatic extraction of sub packages."
+        sling:message="Aktivieren Sie dieses Kontrollkästchen, um automatische Entnahme von Unterpaketen zu aktivieren."/>
+    <Merge
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Merge ((Combo item))"
+        sling:message="Zusammenführen"/>
+    <MergePreserve
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="MergePreserve ((Combo item))"
+        sling:message="Zusammenführung beibehalten"/>
+    <Message
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Message ((Column header))"
+        sling:message="Nachricht"/>
+    <Message0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Message ((Form field))"
+        sling:message="Nachricht"/>
+    <Mixins_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Mixins ... ((Edit mixins action))"
+        sling:message="Mixins..."/>
+    <Model_x0020_and_x0020_manage_x0020_workflows
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Workflows entwickeln und verwalten"/>
+    <Moderate_x0020_content_x0020_from_x0020_your_x0020_social_x0020_network
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Inhalt vom sozialen Netzwerk moderieren"/>
+    <Modified
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geändert"/>
+    <Modified_x0020_on_x0020__x007b_0_x007d__x0020_by_x0020__x007b_1_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geändert am {0} von {1}"/>
+    <More
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="More ((More button))"
+        sling:message="Mehr"/>
+    <Move_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Move ... ((Move action))"
+        sling:message="Verschieben..."/>
+    <Move_x0020_Node
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Move Node ((Dialog title))"
+        sling:message="Knoten verschieben"/>
+    <Move_x0020_Node0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Move Node ((Tooltip title))"
+        sling:message="Knoten verschieben"/>
+    <Move_x0020_Node1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Move Node ((Shortcut name))"
+        sling:message="Knoten verschieben"/>
+    <Moves_x0020_a_x0020_node_x0020_in_x0020_the_x0020_tree_x0020_to_x0020_a_x0020_new_x0020_location
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Verschiebt einen Knoten in der Struktur an einen neuen Speicherort"/>
+    <Moving...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Moving... ((Progress bar))"
+        sling:message="Wird verschoben..."/>
+    <Multi
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Multi ((JCR multiple values))"
+        sling:message="Multi"/>
+    <Multiple
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Multiple ((JCR property attribute))"
+        sling:message="Mehrere"/>
+    <Multiple_x0020_Windows_x0020__x0028_Default_x0029_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Mehrere Fenster (Standard)"/>
+    <N_A
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="N/A"
+        sling:message="Nicht zutreffend"/>
+    <Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name ((Combo item))"
+        sling:message="Name"/>
+    <Name_x0020_of_x0020_the_x0020_provider._x0020_eg__x0020__x007b_0_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name of the provider. eg: {0}"
+        sling:message="Name des Anbieters, z. B. {0}"/>
+    <Name0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name ((Form field))"
+        sling:message="Name"/>
+    <Name1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name ((JCR Name))"
+        sling:message="Name"/>
+    <Name2
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name ((JCR name))"
+        sling:message="Name"/>
+    <Name3
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name ((Package name))"
+        sling:message="Name"/>
+    <Name4
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name ((Username))"
+        sling:message="Name"/>
+    <Name5
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name"
+        sling:message="Name"/>
+    <Name6
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name ((ACL column header))"
+        sling:message="Name"/>
+    <Name7
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name ((Principal name column header))"
+        sling:message="Name"/>
+    <Name8
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name ((Principal name field))"
+        sling:message="Name"/>
+    <Name9
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Name ((Privilege name column header))"
+        sling:message="Name"/>
+    <Named_x0020_Access_x0020_Control_x0020_Policy
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Benannte Richtlinie zur Zugriffssteuerung"/>
+    <Never_x0020_built
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Nie erstellt"/>
+    <new
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Neu"/>
+    <New_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="New Package ((Form field))"
+        sling:message="Neues Paket"/>
+    <New_x0020_packages
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="New packages ((Combo item))"
+        sling:message="Neue Pakete"/>
+    <Next
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Weiter"/>
+    <Next0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Next ((Next button))"
+        sling:message="Weiter"/>
+    <No_x0020_Decoration
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="No Decoration ((Checkbox))"
+        sling:message="Keine Auszeichnung"/>
+    <No_x0020_matching_x0020_property_x0020_definition_x0020_found.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Keine passende Eigenschaftsdefinition gefunden."/>
+    <No_x0020_packages_x0020_found.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Keine Pakete gefunden."/>
+    <No_x0020_results_x0020_to_x0020_display
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="No results to display ((Query result message))"
+        sling:message="Keine anzuzeigenden Ergebnisse."/>
+    <Node_x0020_type_x0020_registered__x0020__x007b_0_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Node type registered: {0}"
+        sling:message="Registrierter Knotentyp: {0}"/>
+    <Not_x0020_a_x0020_valid_x0020_JCR_x0020_name.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Kein gültiger JCR-Name."/>
+    <Not_x0020_a_x0020_valid_x0020_JCR_x0020_path.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Kein gültiger JCR-Pfad."/>
+    <Not_x0020_a_x0020_valid_x0020_JCR_x0020_relative_x0020_path.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Kein gültiger relativer JCR-Pfad."/>
+    <Not_x0020_a_x0020_valid_x0020_package_x0020_name.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Kein gültiger Paketname."/>
+    <Not_x0020_installed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Nicht installiert"/>
+    <Not_x0020_modified_x0020_since_x0020_last_x0020_build
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Seit dem letzten Build nicht verändert"/>
+    <Number_x0020_of_x0020_transient_x0020_nodes_x0020_until_x0020_automatic_x0020_saving_x0020_i
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Number of transient nodes until automatic saving is triggered. Increase if you encounter concurrent modification exceptions."
+        sling:message="Anzahl der temporären Knoten bis zur automatischen Speicherung wird ausgelöst. Erhöhen Sie sie, wenn gleichzeitige Änderungsausnahmen auftreten."/>
+    <OK
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="OK"/>
+    <Older_x0020_Versions
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Older Versions ((Older Version button))"
+        sling:message="Ältere Versionen"/>
+    <Older_x0020_Versions0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Older Versions ((Title))"
+        sling:message="Ältere Versionen"/>
+    <Only_x0020_append_x0020_is_x0020_supported_x0020_for_x0020_copying_x0020_nodes.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Beim Kopieren von Knoten wird nur Anhängen unterstützt."/>
+    <Open
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Open ((Shortcut name))"
+        sling:message="Öffnen"/>
+    <Open_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Open ... ((Open action))"
+        sling:message="Öffnen..."/>
+    <Open_x0020_...0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Open ... ((Open dialog action))"
+        sling:message="Öffnen..."/>
+    <Open_x0020_dialog_x0020_for_x0020_editing_x0020_mixins
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Dialogfeld für die Bearbeitung von Mixins öffnen"/>
+    <Open_x0020_logging_x0020_configuration
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Protokollierungskonfiguration öffnen"/>
+    <Open_x0020_login_x0020_dialog
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Anmeldedialogfeld öffnen"/>
+    <Open_x0020_panel_x0020_to_x0020_test_x0020_access_x0020_control
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Feld öffnen, um Zugriffssteuerung zu testen"/>
+    <Open_x0020_preferences_x0020_dialog
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Voreinstellungen-Dialogfeld öffnen"/>
+    <Open_x0020_privileges_x0020_editor
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Berechtigungs-Editor öffnen"/>
+    <Open_x0020_Server_x0020_Config
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Open Server Config ((Tooltip title))"
+        sling:message="Serverkonfiguration öffnen"/>
+    <Opens_x0020_import_x0020_node_x0020_type_x0020_tool
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Öffnet das Tool für den Importknotentyp"/>
+    <Opens_x0020_server_x0020_configuration
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Öffnet Serverkonfiguration"/>
+    <Opens_x0020_the_x0020_query_x0020_tool
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Öffnet das Abfragetool"/>
+    <Optional_x0020_Java_x0020_package_x0020_name_x0020_prefix._br_Final_x0020_name_x0020_w
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Optional Java package name prefix.&lt;br>Final name will be '{0}'."
+        sling:message="Optionales Präfix für Java-Paketname.&lt;br>Endgültiger Name lautet '{0}'."/>
+    <Organize_x0020_your_x0020_digital_x0020_assets
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Digitale Elemente organisieren"/>
+    <Organize_x0020_your_x0020_tags_x0020_and_x0020_their_x0020_namespaces
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Tags und Namespaces organisieren"/>
+    <OSGi_x0020_Console
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="OSGi Console"/>
+    <Overwrite
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Overwrite ((Combo item))"
+        sling:message="Überschreiben"/>
+    <Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Paket"/>
+    <Package_x0020_and_x0020_share_x0020_applications
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Paket- und Freigabeanwendungen"/>
+    <Package_x0020_Coverage_x0020_Preview
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Package Coverage Preview ((Title))"
+        sling:message="Vorschau für Paketabdeckung"/>
+    <Package_x0020_created_x0020_in_x0020__x0025_25dms._x0025_25n
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Package created in %dms.%n"
+        sling:message="Paket in %dms.%n erstellt"/>
+    <Package_x0020_installed_x0020_in_x0020__x0025_25dms._x0025_25n
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Package installed in %dms.%n"
+        sling:message="Paket in %dms.%n installiert"/>
+    <Package_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Package Name ((Form field))"
+        sling:message="Paketname"/>
+    <Package_x0020_Share
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Paketfreigabe"/>
+    <Package_x0020_Share_x0020_login
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Package Share login ((Title))"
+        sling:message="Anmeldeinformationen für die Paketfreigabe"/>
+    <Package_x0020_specific_x0020_link_x0020_to_x0020_a_x0020_provider_x0020_page._x0020_eg__x0020__x007b_0_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Package specific link to a provider page. eg: {0}"
+        sling:message="Paketspezifischer Link zu einer Anbieterseite, z. B. {0}"/>
+    <Package_x0020_uninstalled_x0020_in_x0020__x0025_25dms._x0025_25n
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Package uninstalled in %dms.%n"
+        sling:message="Paket in %dms.%n deinstalliert"/>
+    <Package_x0020_updated_x0020_successfully
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Paket wurde erfolgreich aktualisiert"/>
+    <Package0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Package ((Form field))"
+        sling:message="Paket"/>
+    <Package1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Package ((Tooltip title))"
+        sling:message="Paket"/>
+    <Package_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Package:"
+        sling:message="Paket:"/>
+    <Packages
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Pakete"/>
+    <Packaging_x0020_content......
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Inhalt wird verpackt..."/>
+    <Parsing_x0020_of_x0020_definition_x0020_completed_x0020_successfully.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Analyse der Definition erfolgreich abgeschlossen."/>
+    <Password
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Kennwort"/>
+    <Password0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Password"
+        sling:message="Kennwort"/>
+    <Password1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Password ((login))"
+        sling:message="Kennwort"/>
+    <Paste
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Paste ((Paste action))"
+        sling:message="Einfügen"/>
+    <Paste_x0020_Node
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Paste Node ((Shortcut name))"
+        sling:message="Knoten einfügen"/>
+    <Paste0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Paste ((Paste property action))"
+        sling:message="Einfügen"/>
+    <Path
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Path ((ACL column header))"
+        sling:message="Pfad"/>
+    <Path0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Path ((JCR path))"
+        sling:message="Pfad"/>
+    <Path_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Path: ((JCR path))"
+        sling:message="Pfad:"/>
+    <Path_0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Path: ((JCR Path))"
+        sling:message="Pfad:"/>
+    <Pin_x0020_at_x0020_current_x0020_scroll_x0020_position
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="An aktueller Bildlaufposition fixieren"/>
+    <Pin_x0020_Console
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Pin Console ((Tooltip title))"
+        sling:message="Konsole fixieren"/>
+    <Please_x0020_confirm
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Please confirm ((Message title))"
+        sling:message="Bitte bestätigen."/>
+    <Please_x0020_enter_x0020_bundle_x0020_information.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie die Bundleinformationen ein."/>
+    <Please_x0020_enter_x0020_commit_x0020_message.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie die Bestätigungsmeldung ein."/>
+    <Please_x0020_enter_x0020_dialog_x0020_information.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie die Dialoginformationen ein."/>
+    <Please_x0020_enter_x0020_filename.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie den Dateinamen ein."/>
+    <Please_x0020_enter_x0020_folder_x0020_name_x0020_and_x0020_title.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie den Ordnernamen und -titel ein."/>
+    <Please_x0020_enter_x0020_information_x0020_for_x0020_checkout.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie Informationen für das Auschecken ein."/>
+    <Please_x0020_enter_x0020_information_x0020_for_x0020_export.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie Informationen für den Export ein."/>
+    <Please_x0020_enter_x0020_information_x0020_for_x0020_import.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie Informationen für den Import ein."/>
+    <Please_x0020_enter_x0020_node_x0020_name_x0020_and_x0020_select_x0020_type.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie den Knotennamen ein und wählen Sie den Typ."/>
+    <Please_x0020_enter_x0020_required_x0020_component_x0020_information.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie die erforderlichen Komponenteninformationen ein."/>
+    <Please_x0020_enter_x0020_required_x0020_template_x0020_information.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie die erforderlichen Vorlageinformationen ein."/>
+    <Please_x0020_enter_x0020_username_x0020_and_x0020_password.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Geben Sie Benutzernamen und Kennwort ein."/>
+    <Please_x0020_wait_x0020_until_x0020_files_x0020_are_x0020_uploaded.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Bitte warten. Dateien werden hochgeladen."/>
+    <Please_x0020_wait_x0020_until_x0020_your_x0020_changes_x0020_are_x0020_saved.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Bitte warten. Änderungen werden gespeichert."/>
+    <Please_x0020_wait_x0020_while_x0020_login...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Bitte warten. Anmeldung wird ausgeführt..."/>
+    <Policy
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Richtlinie"/>
+    <Position
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Position ((Column header))"
+        sling:message="Position"/>
+    <Preferences
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Preferences ((Dialog title))"
+        sling:message="Voreinstellungen"/>
+    <Preferences_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Preferences ... ((Preferences action))"
+        sling:message="Voreinstellungen..."/>
+    <Preferences0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Preferences ((Tooltip title))"
+        sling:message="Voreinstellungen"/>
+    <Previous
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Vorige"/>
+    <Previous0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Previous ((Previous button))"
+        sling:message="Vorige"/>
+    <Principal
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Principal ((ACL column header))"
+        sling:message="Prinzipal"/>
+    <Principal_x0020_is_x0020_not_x0020_found
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Prinzipal nicht gefunden"/>
+    <Principal0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Principal"
+        sling:message="Prinzipal"/>
+    <Principal_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Principal:"
+        sling:message="Prinzipal:"/>
+    <Privacy_x0020_Policy_x0020_and_x0020_Cookies
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Privacy Policy and Cookies ((login))"
+        sling:message="Datenschutzrichtlinie und Cookies"/>
+    <Privacy_x0020_Policy_x0020_and_x0020_Cookies0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Privacy Policy and Cookies"
+        sling:message="Datenschutzrichtlinie und Cookies"/>
+    <Privilege
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Privilege ((ACL column header))"
+        sling:message="Berechtigung"/>
+    <Privilege_x0020_is_x0020_required.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Berechtigung ist obligatorisch."/>
+    <Privileges
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Privileges ((ACL column header))"
+        sling:message="Berechtigungen"/>
+    <Privileges_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Privileges ... ((Open privileges panel action))"
+        sling:message="Berechtigungen ..."/>
+    <Privileges0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Privileges"
+        sling:message="Berechtigungen"/>
+    <Privileges1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Privileges ((Tooltip title))"
+        sling:message="Berechtigungen"/>
+    <Product_x0020_name_x0020_and_x0020_version_x0020_this_x0020_package_x0020_is_x0020_targeted_x0025_20
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Product name and version this package is targeted for or is compatible with. eg: CQ 5.3"
+        sling:message="Produktname und -version für den/die dieses Paket vorgesehen ist oder mit dem/der es kompatibel ist, z. B. CQ 5.3"/>
+    <Project_x0020_Management_x0020_Interface
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Project Management-Benutzeroberfläche"/>
+    <Project_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Project Name ((Form field))"
+        sling:message="Projektname"/>
+    <Properties
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Properties ((Properties tab))"
+        sling:message="Eigenschaften"/>
+    <Property_x0020_must_x0020_be_x0020_of_x0020_type_x0020__x007b_0_x007d_.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Eigenschaft muss vom Typ {0} sein."/>
+    <Property_x0020_with_x0020_this_x0020_name_x0020_already_x0020_exist.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Eigenschaft mit diesem Namen bereits vorhanden."/>
+    <Protected
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Protected ((JCR property attribute))"
+        sling:message="Geschützt"/>
+    <Provided_x0020_username_x0020_and_x0020_password_x0020_do_x0020_not_x0020_match.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Angegebener Benutzername und angegebenes Kennwort stimmen nicht überein."/>
+    <Put_x0020_the_x0020_node_x0020_type_x0020_to_x0020_be_x0020_imported_x0020_in_x0020__a_x0020_href_x003d__x0027_http_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Put the node type to be imported in &lt;a href='http://www.day.com/specs/jcr/2.0/25_Appendix.html#25.2%20Compact%20Node%20Type%20Definition%20Notation' target='_blank'>Compact Node Type Definition&lt;/a> format here:"
+        sling:message="Geben Sie hier den Knotentyp an, der in das Format &lt;a href='http://www.day.com/specs/jcr/2.0/25_Appendix.html#25.2%20Compact%20Node%20Type%20Definition%20Notation' target='_blank'>Kompakte Knotentypdefinition&lt;/a> importiert werden soll:"/>
+    <Query
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Query ((Panel title))"
+        sling:message="Abfrage"/>
+    <Query_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Query ... ((Open query dialog action))"
+        sling:message="Abfrage..."/>
+    <Query_x0020_execution_x0020_resulted_x0020_in_x0020_an_x0020_error_x0021_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Bei der Abfrageausführung ist ein Fehler aufgetreten!"/>
+    <Query_x0020_Orderable
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Query Orderable ((JCR property attribute))"
+        sling:message="Abfrage anforderbar"/>
+    <Query_x0020_servlet_x0020_not_x0020_available.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Abfrageservlet nicht verfügbar."/>
+    <Query0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Query ((Tooltip title))"
+        sling:message="Abfrage"/>
+    <Query_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Query: ((Field label))"
+        sling:message="Abfrage:"/>
+    <Ranking
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Ranking ((Form field))"
+        sling:message="Rangfolge"/>
+    <Rebuild
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Rebuild ((Rebuild button))"
+        sling:message="Neu erstellen"/>
+    <Received_x0020__x007b_0_x007d__x0020__x0028__x007b_1_x007d__x0029_._x0020_Please_x0020_check_x0020_that_x0020_all_x0020_necessar
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Received {0} ({1}). Please check that all necessary bundles are installed!"
+        sling:message="\{0} ({1}) empfangen. Überprüfen Sie, ob alle erforderlichen Bundles installiert sind."/>
+    <Recently_x0020_added
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Recently added ((Combo item))"
+        sling:message="Zuletzt hinzugefügt"/>
+    <Recursive_x0020_Status
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Recursive Status ((Status action))"
+        sling:message="Rekursiver Status"/>
+    <Redo
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Redo ((Tooltip title))"
+        sling:message="Wiederherstellen"/>
+    <Redraw
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Redraw ((Tooltip title))"
+        sling:message="Aktualisieren"/>
+    <Redraw_x0020_editor_x0020_to_x0020_fix_x0020_highlight_x0020_problems
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Aktualisieren Sie den Editor, um Hervorhebungsprobleme zu beheben."/>
+    <Refresh
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Refresh ((Refresh action))"
+        sling:message="Aktualisieren"/>
+    <Refresh0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Refresh ((Tooltip title))"
+        sling:message="Aktualisieren"/>
+    <Refresh1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Refresh ((Shortcut name))"
+        sling:message="Aktualisieren"/>
+    <Refreshs_x0020_current_x0020_selection
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Aktualisiert aktuelle Auswahl"/>
+    <Register_x0020_Privilege
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Berechtigung registrieren"/>
+    <Register_x0020_Privilege0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Register privilege"
+        sling:message="Berechtigung registrieren"/>
+    <Registering_x0020_node_x0020_types...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Knotentypen registrieren ..."/>
+    <Reinstall
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Reinstall ((Reinstall button))"
+        sling:message="Neu installieren"/>
+    <Reload_x0020_the_x0020_replication_x0020_status_x0020_of_x0020_the_x0020_current_x0020_node
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Replikationsstatus des aktuellen Knoten erneut laden"/>
+    <Remember_x0020_me
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Remember me ((login))"
+        sling:message="Angaben speichern"/>
+    <Remove
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Remove ((Remove action))"
+        sling:message="Entfernen"/>
+    <Remove_x0020_this_x0020_policy
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Diese Richtlinie entfernen"/>
+    <Rename_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Rename ... ((Rename action))"
+        sling:message="Umbenennen..."/>
+    <Rename_x0020_a_x0020_node_x0020_in_x0020_the_x0020_repository
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Einen Knoten im Repository umbenennen"/>
+    <Rename_x0020_node
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Rename node ((Tooltip title))"
+        sling:message="Knoten umbenennen"/>
+    <Replaces
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Replaces ((Form field))"
+        sling:message="Ersetzt"/>
+    <Replicate
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Replicate ((Replicate button))"
+        sling:message="Replizieren"/>
+    <Replicate_x0020_Delete
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Replicate Delete ((Replicate Delete button))"
+        sling:message="Löschen replizieren"/>
+    <Replicate_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Replicate Package ((Title))"
+        sling:message="Paket replizieren"/>
+    <Replicate_x0020_this_x0020_package_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Paket replizieren?"/>
+    <Replication
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Replikation"/>
+    <Replication0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Replication ((Replication tab))"
+        sling:message="Replikation"/>
+    <Reports
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Berichte"/>
+    <Repository
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Repository"/>
+    <Repository_x0020_Information
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Repository Information ((Title))"
+        sling:message="Repositoryinformationen"/>
+    <Repository_x0020_Level
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Repository-Ebene"/>
+    <Repository_x0020_Maintenance
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Repository-Wartung"/>
+    <Requires
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Requires ((Form field))"
+        sling:message="Erfordert"/>
+    <Requires_x0020_admin
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Requires admin ((Checkbox))"
+        sling:message="Admin erforderlich"/>
+    <Requires_x0020_restart
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Requires restart ((Checkbox))"
+        sling:message="Neustart erforderlich"/>
+    <Reset
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Reset ((Reset button))"
+        sling:message="Zurücksetzen"/>
+    <Resource
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Resource ((Column header))"
+        sling:message="Ressource"/>
+    <Resource_x0020_Type
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Resource Type ((Form field))"
+        sling:message="Ressourcentyp"/>
+    <Restart
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Restart ((Checkbox label))"
+        sling:message="Neu starten"/>
+    <Restore
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Wiederherstellen"/>
+    <Restrictions
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Restrictions ((ACL column header))"
+        sling:message="Einschränkungen"/>
+    <Result_x0020_Page_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Result Page:"
+        sling:message="Ergebnisseite:"/>
+    <Results_x0020__b__x007b_0_x007d___b__x0020_-_x0020__b__x007b_1_x007d___b__x0020_of_x0020_about_x0020__b__x007b_2_x007d___b
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Results &lt;b>{0}&lt;/b> - &lt;b>{1}&lt;/b> of about &lt;b>{2}&lt;/b> for &lt;b>{3}&lt;/b>. (&lt;b>{4}&lt;/b> seconds)"
+        sling:message="Ergebnisse &lt;b>{0}&lt;/b>–&lt;b>{1}&lt;/b> von ungefähr &lt;b>{2}&lt;/b> für &lt;b>{3}&lt;/b>. (&lt;b>{4}&lt;/b> Sekunden)"/>
+    <Revert
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Revert ((Revert action))"
+        sling:message="Zurück zur letzten Version"/>
+    <Revert_x0020_All
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Revert All ((Revert all action))"
+        sling:message="Alle zurücksetzen"/>
+    <Revert_x0020_to_x0020_self
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Sich selbst wiederherstellen"/>
+    <Revert0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Revert ((Revert property action))"
+        sling:message="Zurück zur letzten Version"/>
+    <Reverts_x0020_last_x0020_editor_x0020_action
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Setzt die letzte Editoraktion zurück"/>
+    <Rewrap
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Rewrap ((Rewrap button))"
+        sling:message="Erneut verpacken"/>
+    <Rewrap_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Rewrap Package ((Title))"
+        sling:message="Paket neu eingliedern"/>
+    <Rewrap_x0020_this_x0020_package_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Dieses Paket eingliedern?"/>
+    <Right_x0020_click_x0020__a_x0020_title_x003d__x0022_Debug_x0020_Tracking_x0022__x0020_href_x003d__x0022__x007b_0_x007d__x0022__D
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Right click &lt;a title=&quot;Debug Tracking&quot; href=&quot;{0}&quot;>Debug Tracking&lt;/a> and click &quot;Add to Favorites&quot;."
+        sling:message="Klicken Sie mit der rechten Maustaste auf  &lt;a title=&quot;Debugging-Verfolgung&quot; href=&quot;{0}&quot;>Debugging-Verfolgung&lt;/a> und klicken Sie anschließend auf &quot;Zu Favoriten hinzufügen&quot;."/>
+    <Root
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Root ((Title))"
+        sling:message="Stamm"/>
+    <Root_x0020_path
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Root path ((Form field))"
+        sling:message="Stammpfad"/>
+    <Rules
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Rules ((Form field))"
+        sling:message="Regeln"/>
+    <Same_x0020_name_x0020_siblings_x0020_is_x0020_not_x0020_supported
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Gleichgeordnete Elemente mit identischen Namen werden nicht unterstützt"/>
+    <Save
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Save ((Save button))"
+        sling:message="Speichern"/>
+    <Save_x0020_All
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Save All ((Save all action))"
+        sling:message="Alle speichern"/>
+    <Save_x0020_All0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Save All ((Shortcut name))"
+        sling:message="Alle speichern"/>
+    <Save_x0020_Threshold
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Save Threshold ((Form field))"
+        sling:message="Schwellenwert speichern"/>
+    <Saving_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Saving ... ((Progress bar))"
+        sling:message="Wird gespeichert..."/>
+    <Saving_x0020_changes
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Saving changes ((Message title))"
+        sling:message="Änderungen werden gespeichert"/>
+    <Saving...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Saving... ((Progress bar))"
+        sling:message="Wird gespeichert..."/>
+    <Screenshots
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Screenshots ((Title))"
+        sling:message="Screenshots"/>
+    <Search
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Search ((welcome screen))"
+        sling:message="Suchen"/>
+    <Search_x0020_packages
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Pakete suchen"/>
+    <Search0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Search ((Search button))"
+        sling:message="Suchen"/>
+    <Search1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Search ((Shortcut name))"
+        sling:message="Suchen"/>
+    <Search_Replace_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Search/Replace ... ((Search action))"
+        sling:message="Suchen/Ersetzen..."/>
+    <Searching...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Searching... ((Progress bar))"
+        sling:message="Durchsuchen..."/>
+    <Select_x0020_Path
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Pfad auswählen"/>
+    <Select_x0020_Principal
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Prinzipal auswählen"/>
+    <Selects_x0020_the_x0020_underlying_x0020_resource_x0020_of_x0020_this_x0020_editor_x0020_ins
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Selects the underlying resource of this editor instance in the tree"
+        sling:message="Wählt die zugrunde liegende Ressource dieser Editorinstanz in der Struktur aus"/>
+    <Server_x0020_Config_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Server Config ... ((Open server config action))"
+        sling:message="Serverkonfiguration..."/>
+    <Server_x0020_Logs
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Server Logs ((Title))"
+        sling:message="Serverprotokolle"/>
+    <Share
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Share ((Share button))"
+        sling:message="Freigeben"/>
+    <Share_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Share Package ((Message title))"
+        sling:message="Paket freigeben"/>
+    <Share_x0020_Package0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Share Package ((Title))"
+        sling:message="Paket freigeben"/>
+    <Share0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Share ((Title))"
+        sling:message="Freigeben"/>
+    <Share1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Share ((Tooltip title))"
+        sling:message="Freigeben"/>
+    <Short_x0020_description._x0020_HTML_x0020_is_x0020_allowed.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Kurze Beschreibung. HTML ist zulässig."/>
+    <Shortcuts
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Tastaturbefehle"/>
+    <Show
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Show ((Title))"
+        sling:message="Einblenden"/>
+    <Show_x0020_in_x0020_tree
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Show in tree ((Tooltip title))"
+        sling:message="In Struktur anzeigen"/>
+    <Show_x0020_Package_x0020_Contents
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Show Package Contents ((Title))"
+        sling:message="Paketinhalt anzeigen"/>
+    <Show_x0020_result
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Show result ((Checkbox label))"
+        sling:message="Ergebnis anzeigen"/>
+    <Show_x0020_titles
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Show titles ((Checkbox))"
+        sling:message="Titel anzeigen"/>
+    <Sign_x0020_In
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Anmelden"/>
+    <Sign_x0020_In0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Sign In ((login, button))"
+        sling:message="Anmelden"/>
+    <Sign_x0020_In1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Sign in ((login))"
+        sling:message="Anmelden"/>
+    <Sign_x0020_In2
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Sign in"
+        sling:message="Anmelden"/>
+    <Sign_x0020_Out
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Abmelden"/>
+    <Single_x0020_Window
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Einfaches Fenster"/>
+    <Some_x0020_files_x0020_are_x0020_still_x0020_open_x0020_in_x0020_an_x0020_editor._x0020_Do_x0020_you_x0020_rea
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Some files are still open in an editor. Do you really want to delete them?"
+        sling:message="Einige Dateien sind noch in einem Editor offen. Möchten Sie sie wirklich löschen?"/>
+    <Sort_x0020_by
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Sort by ((Title))"
+        sling:message="Sortieren nach"/>
+    <Specify_x0020_how_x0020_access_x0020_control_x0020_information_x0020_is_x0020_handled_x0025_20
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Specify how access control information is handled during import."
+        sling:message="Legen Sie fest, wie Zugriffssteuerungsinformationen beim Import verarbeitet werden."/>
+    <Starts_x0020_creation_x0020_of_x0020_a_x0020_bundle
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Beginnt mit der Erstellung eines Bundles"/>
+    <Starts_x0020_remote_x0020_compilation_x0020_of_x0020_Java_x0020_sources
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Startet Remote-Kompilierung von Java-Quellen"/>
+    <Status
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Status ((Status action))"
+        sling:message="Status"/>
+    <Stop_x0020_displaying_x0020_new_x0020_messages
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Keine neuen Nachrichten mehr anzeigen"/>
+    <Super_x0020_Type
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Super Type ((Form field))"
+        sling:message="Supertyp"/>
+    <Support
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Support ((Title))"
+        sling:message="Support"/>
+    <Support_x0020_Center
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Support Center ((List item))"
+        sling:message="Support Center"/>
+    <Symbolic_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Symbolic Name ((Form field))"
+        sling:message="Symbolischer Name"/>
+    <Tab_x0020_1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Tab 1 ((Tab title))"
+        sling:message="Tab 1"/>
+    <Tagging
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Tags"/>
+    <Target_x0020_node_x0020_is_x0020_in_x0020_transient_x0020_state._x0020_Please_x0020_save_x0020_fir
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Target node is in transient state. Please save first."
+        sling:message="Zielknoten befindet sich im Übergangsstatus. Speichern Sie ihn zunächst."/>
+    <Team
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Team ((Team menu))"
+        sling:message="Team"/>
+    <Terms_x0020_of_x0020_Use
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Terms of Use ((login))"
+        sling:message="Nutzungsbedingungen"/>
+    <Terms_x0020_of_x0020_Use0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Terms of Use"
+        sling:message="Nutzungsbedingungen"/>
+    <Test
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Test ((Test button))"
+        sling:message="Testen"/>
+    <Test_x0020_Access_x0020_Control
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Test Access Control ((Tooltip title))"
+        sling:message="Zugriffssteuerung testen"/>
+    <Test_x0020_Access_x0020_Control_x0020_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Test Access Control ... ((Open access control test panel action))"
+        sling:message="Zugriffssteuerung testen ..."/>
+    <Test_x0020_Install
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Test Install ((Test install button))"
+        sling:message="Installation testen"/>
+    <Test_x0020_Install_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Test Install Package ((Title))"
+        sling:message="Installationspaket testen"/>
+    <Tested_x0020_with
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Tested with ((Form field))"
+        sling:message="Getestet mit"/>
+    <Text_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Text: ((Field label))"
+        sling:message="Text:"/>
+    <The_x0020_policy_x0020_does_x0020_not_x0020_support_x0020_reordering_x0020_entry
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Die Richtlinie unterstützt keine Neusortierung des Eintrags"/>
+    <The_x0020_repository_x0020_does_x0020_not_x0020_support_x0020_managing_x0020_privilege
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="The repository does not support managing privileges"
+        sling:message="Das Repository unterstützt keine Verwaltungsberechtigungen"/>
+    <The_x0020_repository_x0020_does_x0020_not_x0020_support_x0020_principal
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Prinzipal wird vom Repository nicht unterstützt"/>
+    <The_x0020_value_x0020_must_x0020_conform_x0020_to_x0020_the_x0020_rules_x0020_in_x0020_java.math.B
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="The value must conform to the rules in java.math.BigDecimal(String)"
+        sling:message="Der Wert muss den Regeln in java.math.BigDecimal(String) entsprechen"/>
+    <This_x0020_action_x0020_is_x0020_only_x0020_applicable_x0020_for_x0020_ACL_x0020_policy
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Diese Aktion gilt nur für die ACL-Richtlinie"/>
+    <This_x0020_field_x0020_should_x0020_be_x0020_a_x0020_URL_x0020_in_x0020_the_x0020_format_x0020__x0022_protocol
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="This field should be a URL in the format &quot;protocol://path|domain&quot;"
+        sling:message="Dieses Feld muss eine URL im folgenden Format sein: &quot;protocol://path|domain&quot;"/>
+    <This_x0020_parent_x0020_of_x0020_target_x0020_node_x0020_doesn_x0027_t_x0020_support_x0020_orderab
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="This parent of target node doesn't support orderable child nodes."
+        sling:message="Dieses übergeordnete Element des Zielknotens unterstützt keine sortierbaren untergeordneten Knoten."/>
+    <Thumbnail
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Thumbnail ((Form field))"
+        sling:message="Kleinbildansicht"/>
+    <Title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Title ((Form field))"
+        sling:message="Titel"/>
+    <Title0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Title ((ACL column header))"
+        sling:message="Titel"/>
+    <To_x0020_install_x0020_SiteCatalyst_x0020_Debugger_x0020_bookmarklet_x002c__x0020_plea
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="To install SiteCatalyst Debugger bookmarklet, please follow these instructions:"
+        sling:message="Gehen Sie wie folgt vor, um das Bookmarklet SiteCatalyst Debugger zu installieren:"/>
+    <Tools
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Werkzeuge"/>
+    <Tools0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Tools ((Tools action))"
+        sling:message="Werkzeuge"/>
+    <Tools00
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Tools ((Tools button))"
+        sling:message="Werkzeuge"/>
+    <Type
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Type ((JCR node type))"
+        sling:message="Typ"/>
+    <Type_x0020__x0022_Debug_x0020_Tracking_x0022__x0020_for_x0020_the_x0020_name_x0020_of_x0020_the_x0020_bookmark
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Type &quot;Debug Tracking&quot; for the name of the bookmark when prompted."
+        sling:message="Geben Sie bei entsprechender Aufforderung als Lesezeichennamen &quot;Debugging-Verfolgung&quot; ein."/>
+    <Type0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Type ((JCR type))"
+        sling:message="Typ"/>
+    <Type1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Type ((ACL column header))"
+        sling:message="Typ"/>
+    <Type2
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Type ((Principal type column header))"
+        sling:message="Typ"/>
+    <Type_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Type: ((Query type: xpath, sql, sql2))"
+        sling:message="Typ:"/>
+    <Unable_x0020_to_x0020_login_x0020_to_x0020_package_x0020_share_x0020_due_x0020_to_x0020_an_x0020_unknown
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Unable to login to package share due to an unknown problem."
+        sling:message="Anmeldung bei Paketfreigabe aufgrund eines unbekannten Problems nicht möglich."/>
+    <Unauthorized_x002c__x0020_please_x0020_login_x0020_first.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Nicht autorisiert. Bitte zuerst anmelden."/>
+    <Undo
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Undo ((Tooltip title))"
+        sling:message="Rückgängig"/>
+    <Uninstall
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Uninstall ((Uninstall button))"
+        sling:message="Deinstallieren"/>
+    <Uninstall_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Uninstall Package ((Title))"
+        sling:message="Paket deinstallieren"/>
+    <Uninstall_x0020_this_x0020_package_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Paket deinstallieren?"/>
+    <Uninstalling_x0020_content...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Inhalt wird deinstalliert..."/>
+    <Unknown_x0020_principal__x0020__x007b_0_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Unknown principal: {0}"
+        sling:message="Unbekanntes Prinzipal: {0}"/>
+    <Unknown_x0020_server_x0020_error
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Unbekannter Serverfehler"/>
+    <Update
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Update ((Update action))"
+        sling:message="Aktualisieren"/>
+    <Update0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Update ((Update button))"
+        sling:message="Aktualisieren"/>
+    <Updates
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Aktualisierungen"/>
+    <Updating_x0020_package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Updating package ((Progress bar))"
+        sling:message="Paket wird aktualisiert"/>
+    <Upload_x0020_Package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Upload Package ((Message title))"
+        sling:message="Paket hochladen"/>
+    <Upload_x0020_Package0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Upload Package ((Upload package button))"
+        sling:message="Paket hochladen"/>
+    <Uploading_x0020_files
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Dateien werden hochgeladen"/>
+    <Uploading_x0020_package
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Uploading package ((Progress bar))"
+        sling:message="Paket wird hochgeladen"/>
+    <Uploading_x0020__x007b_0_x007d_...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="\{0} wird hochgeladen..."/>
+    <Uploading...
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Hochladen..."/>
+    <URL
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="URL"/>
+    <URL_x0020_of_x0020_the_x0020_provider._x0020_eg__x0020__x007b_0_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="URL of the provider. eg: {0}"
+        sling:message="URL des Anbieters, z. B. {0}"/>
+    <Use_x0020_the_x0020_solution_x0020_portal_x0020_to_x0020_demonstrate_x0020_the_x0020_feature
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Use the solution portal to demonstrate the features and functionality available with the Interactive Statements solution"
+        sling:message="Lösungsportal zum Veranschaulichen von verfügbaren Funktionen in Interactive Statements Solution"/>
+    <User
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="User ((Form field))"
+        sling:message="Benutzer"/>
+    <User_x0020_Id
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="User Id ((Form field))"
+        sling:message="Benutzer-ID"/>
+    <User_x0020_name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Benutzername"/>
+    <User_x0020_name_x0020_and_x0020_password_x0020_do_x0020_not_x0020_match
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Benutzername und Kennwort stimmen nicht überein"/>
+    <User_x0020_name_x0020_and_x0020_password_x0020_no_x0020_not_x0020_match
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="User name and password no not match ((login))"
+        sling:message="Benutzername und Kennwort stimmen nicht überein"/>
+    <User_x0020_name_x0020_and_x0020_password_x0020_no_x0020_not_x0020_match0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="User name and password no not match"
+        sling:message="Benutzername und Kennwort stimmen nicht überein"/>
+    <User_x0020_name0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="User Name ((Form field))"
+        sling:message="Benutzername"/>
+    <User_x0020_name1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="User name ((login))"
+        sling:message="Benutzername"/>
+    <User_x0020_Preferences
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Benutzereinstellungen"/>
+    <User_x0020_Properties
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Benutzereigenschaften"/>
+    <User0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="User"
+        sling:message="Benutzer"/>
+    <Users
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Benutzer"/>
+    <Users_x0020__x0026__x0020_Groups
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Benutzer und Gruppen"/>
+    <Validation_x0020_Failed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Validation Failed ((Message title))"
+        sling:message="Fehler bei der Überprüfung."/>
+    <Value
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Value ((JCR value))"
+        sling:message="Wert"/>
+    <Verify_x0020_the_x0020_values_x0020_of_x0020_the_x0020_marked_x0020_fields.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Prüfen Sie die Werte der markierten Felder."/>
+    <Version
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Version ((Form field))"
+        sling:message="Version"/>
+    <Version_x0020_Control
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Version Control ((Title))"
+        sling:message="Versionssteuerung"/>
+    <Version_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Version:"
+        sling:message="Version:"/>
+    <View_x0020_more_x0020_details_x0020_of_x0020_access_x0020_control_x0020_of_x0020_the_x0020_node
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Weitere Details zur Zugriffssteuerung des Knotens anzeigen"/>
+    <View_x0020_path_x0020_in_x0020_CRXDE_x0020_Lite
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Pfad in CRXDE Lite anzeigen"/>
+    <View_x0020_the_x0020_Correspondence_x0020_Management_x0020_documentation
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Correspondence Management-Dokumentation anzeigen"/>
+    <View_x0020_the_x0020_Experience_x0020_Services_x0020_documentation
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Dokumentation zu Experience Services anzeigen"/>
+    <View_x0020_the_x0020_installation_x0020_notes_x0020_for_x0020_the_x0020_Creative_x0020_Suite
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="View the installation notes for the Creative Suite Task List Extension"
+        sling:message="Installationshinweise für Creative Suite Task List Extension anzeigen"/>
+    <View_x0020_the_x0020_Integrated_x0020_Content_x0020_Review_x0020_documentation
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Integrated Content Review-Dokumentation anzeigen"/>
+    <View_x0020_the_x0020_Interactive_x0020_Statements_x0020_documentation
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Interactive Statements-Dokumentation anzeigen"/>
+    <View_x0020_the_x0020_Web_x0020_Experience_x0020_Management_x0020_documentation
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Web Experience Management-Dokumentation anzeigen"/>
+    <Warning
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Warning ((Message title))"
+        sling:message="Warnung"/>
+    <Web_x0020_Experience_x0020_Management_x0020_Solution
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Web Experience Management Solution"/>
+    <Websites
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Websites"/>
+    <Welcome_x0020_to_x0020_the_x0020_Adobe_x0020_Marketing_x0020_Cloud
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Welcome to the Adobe Marketing Cloud ((login))"
+        sling:message="Willkommen bei der Adobe Marketing Cloud"/>
+    <Welcome_x0020_to_x0020_the_x0020_Adobe_x0026_reg_x003b__x0020_Digital_x0020_Enterprise_x0020_Platf
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Welcome to the Adobe&amp;reg; Digital Enterprise Platform"
+        sling:message="Willkommen bei Adobe&amp;reg; Digital Enterprise Platform"/>
+    <Welcome_x0020_to_x0020_the_x0020_AdobeÂ_x00ae__x0020_Marketing_x0020_Cloud
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Willkommen bei der Adobe ® Marketing Cloud"/>
+    <Welcome_x002c__x0020__x007b_0_x007d_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Welcome, {0} ((welcome screen))"
+        sling:message="Willkommen {0}"/>
+    <WEM
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="WEM"/>
+    <When_x0020_the_x0020_bookmarklet_x0020_is_x0020_clicked_x002c__x0020_the_x0020_debugger_x0020_wind
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="When the bookmarklet is clicked, the debugger window will open as shown in the screenshot below."
+        sling:message="Wenn Sie auf das Bookmarklet klicken, wird das Debugger-Fenster geöffnet, wie im Screenshot unten zu sehen."/>
+    <Window_x0020_Management
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Fensterverwaltung"/>
+    <Workflows
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Workflows"/>
+    <Workspace
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Workspace ((JCR workspace))"
+        sling:message="Arbeitsbereich"/>
+    <You_x0020_are_x0020_not_x0020_allowed_x0020_to_x0020_edit_x0020_this_x0020_package.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Dieses Paket kann nicht bearbeitet werden."/>
+    <You_x0020_are_x0020_trying_x0020_to_x0020_revert_x0020_a_x0020_node_x0020_whose_x0020_contents_x0020_are
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="You are trying to revert a node whose contents are still open in an editor. Do you really want to revert? All changes will be lost."
+        sling:message="Sie versuchen, einen Knoten zurückzusetzen, dessen Inhalte noch in einem Editor geöffnet sind. Möchten Sie wirklich zurücksetzen? Dabei gehen alle Änderungen verloren."/>
+    <You_x0020_are_x0020_trying_x0020_to_x0020_revert_x0020_a_x0020_node_x0020_whose_x0020_contents_x0020_are0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="You are trying to revert a node whose contents are still open in an editor. Do you really want to revert? All unsaved changes will be lost."
+        sling:message="Sie versuchen, einen Knoten zurückzusetzen, dessen Inhalte noch in einem Editor geöffnet sind. Möchten Sie wirklich zurücksetzen? Dabei gehen alle nicht gespeicherten Änderungen verloren."/>
+    <You_x0020_either_x0020_need_x0020_a_x0020_browser_x0020_that_x0020_supports_x0020_HTML_x0020_5_x0020_or_x0025_20
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="You either need a browser that supports HTML 5 or &lt;a href=&quot;http://gears.google.com/&quot;>Google Gears&lt;/a> installed to upload files via drag&amp;drop."
+        sling:message="Sie benötigen entweder einen Browser, der HTML 5 unterstützt, oder Sie müssen &lt;a href=&quot;http://gears.google.com/&quot;>Google Gears&lt;/a> installieren, um Dateien per Drag&amp;Drop hochzuladen."/>
+    <You_x0020_have_x0020_unsaved_x0020_changes_x0021__x0020_Those_x0020_changes_x0020_will_x0020_be_x0020_lo
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="You have unsaved changes! Those changes will be lost if you reload or leave this page. Do you really want to continue?"
+        sling:message="Es liegen nicht gespeicherte Änderungen vor! Diese Änderungen gehen verloren, wenn Sie diese Seite erneut laden oder verlassen. Möchten Sie wirklich fortfahren?"/>
+    <_x007b_0_x007d__x0020_finished_x0020_successfully.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="\{0} finished successfully. ((Message title))"
+        sling:message="\{0} wurde erfolgreich abgeschlossen."/>
+    <_x007b_0_x007d__x0020_selected
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="\{0} ausgewählt"/>
+    <_x00a9__x0020_2013_x0020_Adobe_x0020_Systems_x0020_Incorporated._x0020_All_x0020_Rights_x0020_Rese
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="© 2013 Adobe Systems Incorporated. All Rights Reserved."
+        sling:message="© 2013 Adobe Systems Incorporated. All Rights Reserved."/>
+    <日本語
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="日本語"/>
+    <简体中文
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="简体中文"/>
+    <한국어
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="한국어"/>
+</jcr:root>

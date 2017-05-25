@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-12-06T00:51:37.098+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="Adventure Banner"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Banner"
+        jcr:uuid="7184d48e-9a65-43d1-9573-8d8e8fb416f0"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="banner">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2011-11-03T17:40:00.622+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-12-06T00:51:37.096+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx-outdoors/banners/adventure.jpg"
+                imageRotate="0"
+                linkURL="/content/geometrixx-outdoors/en/equipment">
+                <file jcr:primaryType="nt:unstructured">
+                    <jcr:content.undoblob.save.json jcr:primaryType="nt:unstructured"/>
+                </file>
+            </image>
+        </par>
+    </jcr:content>
+</jcr:root>

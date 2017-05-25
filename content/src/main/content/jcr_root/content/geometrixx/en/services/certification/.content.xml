@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-11T17:48:13.981+01:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[marketing:interest/services]"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed consetetur sadipscing elitr ..."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Certification Services"
+        sling:resourceType="geometrixx/components/contentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text_2
+                cq:cssClass=" spacer_after"
+                jcr:created="{Date}2010-11-05T13:43:33.324Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-11T17:48:13.979+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;span class=&quot;large&quot;>Whether you're a recent graduate constructing a right angle or a seasoned professional tracing a geodesic through a curved Hilbert-space, you know that having the right skills is the key to ensuring high quality results.&lt;/span>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <title_0
+                jcr:created="{Date}2010-11-05T14:32:55.455Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T14:33:22.729Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Courses"
+                sling:resourceType="geometrixx/components/title"
+                type="large"/>
+            <technology_matters_i
+                jcr:lastModified="{Date}2010-11-05T14:36:21.416Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Our trainers are fully licensed teachers who also happen to be on the core team of shape development. There are always two trainers for each ten-person class, ensuring direct, one-to-one interaction. Those who go through every training course are eligible for the trainer''s course, which give them the tools and knowledge to enable teaching their own colleagues and saving a dime in the process.&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <colctrl_0
+                jcr:created="{Date}2010-11-05T13:40:06.517Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T13:40:34.976Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                layout="3;cq-colctrl-lt1"/>
+            <text_4
+                jcr:created="{Date}2010-11-05T14:34:26.751Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T14:36:00.371Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&amp;nbsp;&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2010-11-05T13:45:44.429Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-08T06:52:55.088Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/travel/airport_escalator_3.jpg"/>
+            <col_break12889644349790
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <title
+                jcr:created="{Date}2010-11-05T13:45:06.759Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T14:34:43.370Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="MOST POPULAR COURSES"
+                sling:resourceType="geometrixx/components/title"/>
+            <text_0
+                jcr:created="{Date}2010-11-05T13:40:54.577Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T13:44:41.625Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>That's why Geometrixx offers education and certification services in a number of areas. Some of our most popular courses include:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Circle or Square?: Shape Identification for Managers&lt;/li>&#xa;&lt;li>Non-Reimannian Differential Equations for Interns&lt;/li>&#xa;&lt;li>Turn it to Eleven: An Introduction to the Positive Integers.&lt;/li>&#xa;&lt;li>Origami&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+            <col_break12889644349801
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <title2
+                jcr:lastModified="{Date}2010-10-27T15:13:31.512-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Training Services"
+                sling:resourceType="geometrixx/components/title"/>
+            <text_1
+                jcr:created="{Date}2010-11-05T13:41:18.494Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T13:42:31.655Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Our training courses are offered in the following locations&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Boston, MA&lt;/li>&#xa;&lt;li>Los Angeles, CA&lt;/li>&#xa;&lt;li>Basel, Switzerland&lt;/li>&#xa;&lt;li>Singapore&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+            <col_end12889644065190
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+            <table
+                jcr:lastModified="{Date}2010-11-05T11:09:59.382Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/table"
+                tableData="&lt;table width=&quot;476&quot; height=&quot;144&quot; cellspacing=&quot;0&quot; cellpadding=&quot;1&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;th>Course&amp;nbsp;&lt;/th>&#xa;&lt;th>Duration (days)&lt;/th>&#xa;&lt;th>Price (USD/student)&lt;/th>&#xa;&lt;/tr>&lt;tr>&lt;td>Circle or Square&lt;/td>&#xa;&lt;td>7&lt;/td>&#xa;&lt;td>5000&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Differential Equations&lt;/td>&#xa;&lt;td>3&lt;/td>&#xa;&lt;td>500&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Positive Integers&lt;/td>&#xa;&lt;td>1&lt;/td>&#xa;&lt;td>500&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Origami&lt;/td>&#xa;&lt;td>5&lt;/td>&#xa;&lt;td>2000 + supplies&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;"/>
+            <title3
+                jcr:lastModified="{Date}2010-11-05T13:56:47.617Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Certification Services "
+                sling:resourceType="geometrixx/components/title"
+                type="large"/>
+            <text
+                jcr:created="{Date}2010-11-05T13:50:15.220Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T13:59:54.326Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Geometrixx certification services ensure that your processes comply with the best practices of the geometry industry. We currently offer three ceritification streams:&lt;/p>&#xa;&lt;p>&lt;b>ShapeTranslation&lt;/b> will help you develop strategies for moving your shapes from 3-sided to 4-sided and beyond.&lt;b> Rotation&lt;/b> maps the varied techniques for axis location and control of rotation speed. Topping off the certification skill set is the complex but rewarding practice of &lt;b>Shape Zooming&lt;/b>.&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <table_0
+                jcr:lastModified="{Date}2010-10-27T15:20:51.209-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/table"
+                tableData="&lt;table cellpadding=&quot;1&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; width=&quot;400&quot;>&#xa;&lt;tbody>&lt;tr>&lt;th>&lt;br>&#xa;&lt;/th>&#xa;&lt;th>Price (USD/100 employees)&lt;/th>&#xa;&lt;/tr>&lt;tr>&lt;th>Translation&lt;/th>&#xa;&lt;td>10000&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;th>Rotation&lt;/th>&#xa;&lt;td>15000&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;th>Zooming&amp;nbsp;&lt;/th>&#xa;&lt;td>20000&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;"/>
+            <title4
+                jcr:lastModified="{Date}2010-11-05T13:55:35.911Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Setup and Installation"
+                sling:resourceType="geometrixx/components/title"
+                type="large"/>
+            <text_3
+                jcr:created="{Date}2010-11-05T13:52:33.120Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-05T13:53:04.126Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Having the best shapes in the world is useless unless they are correctly installed. Our setup and installation service will come to your place of business and install with minimum infrastructure alterations. We offer the following installation services.&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <table_1
+                jcr:created="{Date}2010-10-27T15:24:51.704-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-10-27T15:26:26.922-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/table"
+                tableData="&lt;table cellpadding=&quot;1&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; width=&quot;400&quot;>&#xa;&lt;tbody>&lt;tr>&lt;th>&lt;br>&#xa;&lt;/th>&#xa;&lt;th>Price &amp;nbsp;(USD/shape)&lt;/th>&#xa;&lt;/tr>&lt;tr>&lt;th>Isoceles Triangle Uprightness Check&lt;/th>&#xa;&lt;td>1000&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;th>Rhombus Lean Assessment&lt;/th>&#xa;&lt;td>1500&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;th>Trapezoid Stability Audit&lt;/th>&#xa;&lt;td>2000&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;"/>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+        <image
+            jcr:lastModified="{Date}2010-08-24T09:57:24.874+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <title
+            jcr:lastModified="{Date}2010-10-27T15:32:32.405-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Certification and Training"
+            sling:resourceType="geometrixx/components/title"/>
+    </jcr:content>
+</jcr:root>

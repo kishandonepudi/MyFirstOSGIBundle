@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-12-06T00:46:47.588+01:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="/etc/segmentation/geometrixx-outdoors/winter-male"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Winter Male"
+        jcr:uuid="bb0036ab-3bd6-4810-aabf-12bfe63fe096"
+        sling:resourceType="cq/personalization/components/experiencepage">
+        <image
+            jcr:lastModified="{Date}2011-11-03T18:37:38.509+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/banners/carving-fun.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+    <banner/>
+    <banner-mobile/>
+</jcr:root>

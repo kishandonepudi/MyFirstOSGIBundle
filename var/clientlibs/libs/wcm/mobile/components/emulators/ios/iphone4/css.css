@@ -1,0 +1,108 @@
+/*
+ * Copyright 1997-2009 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+#cq-emulator.iphone4.vertical {
+    background: url("resources/bg.png") no-repeat;
+    height: 480px;
+    padding: 154px 0 112px;
+    width: 388px;
+}
+
+#cq-emulator.iphone4.horizontal {
+    background: url("resources/bg_horizontal.png") no-repeat;
+    height: 320px;
+    padding: 54px 0 10px;
+    width: 744px;
+}
+
+#cq-emulator-content.iphone4 {
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#cq-emulator-content.iphone4.vertical {
+    height: 461px;
+    width: 320px;
+}
+
+#cq-emulator-content.iphone4.horizontal {
+    height: 301px;
+    width: 480px;
+}
+
+#cq-emulator-rotate.iphone4 {
+    text-indent: -10000px;
+    height: 32px;
+    width: 32px;
+}
+
+#cq-emulator-rotate.iphone4.vertical {
+    background: url("resources/rotate_to_horizontal.png") no-repeat;
+    right: 34px;
+    top: 57px;
+}
+
+#cq-emulator-rotate.iphone4.horizontal {
+    background: url("resources/rotate_to_vertical.png") no-repeat;
+    right: 58px;
+    top: 310px;
+}
+
+#cq-touchscrolling-trackercontainer.iphone4 {
+    position: absolute;
+    background-color: #aaa;
+    opacity: 0.5;
+    width: 5px;
+    z-index: 100;
+}
+
+#cq-touchscrolling-trackercontainer.iphone4 #cq-touchscrolling-tracker {
+    background-color: #000;
+    opacity: 0.6;
+    width: 5px;
+}
+
+#cq-touchscrolling-trackercontainer.iphone4.vertical {
+    height: 457px;
+    right: 36px;
+    top: 156px;
+}
+
+#cq-touchscrolling-trackercontainer.iphone4.horizontal {
+    height: 297px;
+    right: 135px;
+    top: 56px;
+}
+
+#cq-emulator-browserui-header.iphone4.vertical {
+    background: url("resources/bg_browserui_header_vertical.png") no-repeat;
+    height: 60px;
+    width: 320px;
+}
+
+#cq-emulator-browserui-footer.iphone4.vertical {
+    background: url("resources/bg_browserui_footer_vertical.png") no-repeat;
+    height: 44px;
+    width: 320px;
+}
+
+#cq-emulator-browserui-header.iphone4.horizontal {
+    background: url("resources/bg_browserui_header_horizontal.png") no-repeat;
+    height: 60px;
+    width: 480px;
+}
+
+#cq-emulator-browserui-footer.iphone4.horizontal {
+    background: url("resources/bg_browserui_footer_horizontal.png") no-repeat;
+    height: 32px;
+    width: 480px;
+}

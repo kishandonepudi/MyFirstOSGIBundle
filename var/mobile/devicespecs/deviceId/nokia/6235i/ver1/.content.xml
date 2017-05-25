@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia6235i"
+    fall_back="nokia_6235_ver1"
+    j2me_cldc_1_1="true"
+    model_name="6235i"
+    streaming_real_media="none"
+    user_agent="Nokia6235i"/>

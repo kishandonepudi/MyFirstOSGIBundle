@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="not-match-browser-webkit-generic"
+    fall_back="browser_root"
+    user_agent="DO_NOT_MATCH_BROWSER_WEBKIT_GENERIC"/>

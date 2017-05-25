@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" xmlns:charts="charts.*"
+		mouseDown="rotateContent()" currentState="grid" xmlns:views="views.*"
+		creationComplete="completeHandler()">
+
+	<fx:Script>
+		<![CDATA[
+			import mx.core.FlexGlobals;
+			
+			protected function completeHandler():void
+			{
+				currentState = FlexGlobals.topLevelApplication.width < 600 ? "grid" : "gridAndLine";
+			}
+			
+			public function checkCurrentState():void
+			{
+				if (FlexGlobals.topLevelApplication.width < 600)
+				{
+					if (currentState == "gridAndLine" || currentState == "gridAndBar" ) 
+						currentState = "grid";
+				}
+				else
+				{
+					if (currentState == "grid" || currentState == "line")
+					{
+						currentState = "gridAndLine";
+						line.left = 262;
+					}
+					else if  (currentState == "bar")
+					{
+						currentState = "gridAndBar";
+						bar.left = 262;
+					}
+				}
+			}
+			
+			protected function rotateContent():void
+			{
+				if (currentState == "grid")
+				{
+					currentState = "line";
+					line.left = 0;
+				}
+				else if (currentState == "line")
+				{
+					currentState = "bar";
+					bar.left = 0;
+				}
+				else if (currentState == "bar")
+				{
+					currentState = "grid";
+				}
+				else if (currentState == "gridAndLine")
+				{
+					currentState = "gridAndBar";
+					bar.left = 262;
+				}
+				else if (currentState == "gridAndBar")
+				{
+					currentState = "gridAndLine";
+					line.left = 262;
+				}
+			}
+			
+			protected function set applicationWidth(w:Number):void
+			{
+				if (w < 600)
+				{
+					if (currentState == "gridAndLine" || currentState == "gridAndBar" ) 
+						currentState = "grid";
+				}
+				else
+				{
+					if (currentState == "grid" || currentState == "line")
+					{
+						currentState = "gridAndLine";
+						line.left = 262;
+					}
+					else if  (currentState == "bar")
+					{
+						currentState = "gridAndBar";
+						bar.left = 262;
+					}
+				}
+			}
+			
+		]]>
+	</fx:Script>
+	
+	<fx:Binding source="{FlexGlobals.topLevelApplication.width}" destination="applicationWidth"/>
+	
+	<s:states>
+		<s:State name="grid" />
+		<s:State name="line" />
+		<s:State name="bar" />
+		<s:State name="gridAndLine" />
+		<s:State name="gridAndBar" />
+	</s:states>
+	
+	<s:transitions>
+		<s:Transition fromState="gridAndLine" toState="gridAndBar" autoReverse="true">
+			<s:Parallel>
+				<s:Rotate3D target="{line}" angleXFrom="0" angleXTo="0" angleZFrom="0" duration="350" autoCenterTransform="true" angleYTo="180" angleYFrom="0" autoCenterProjection="true" angleZTo="0"/>
+				<s:Fade target="{line}" startDelay="200" duration="50"/>
+				<s:Fade target="{bar}" startDelay="250" duration="100"/>
+			</s:Parallel>
+		</s:Transition>
+		<s:Transition fromState="gridAndBar" toState="gridAndLine" autoReverse="true">
+			<s:Parallel>
+				<s:Rotate3D target="{bar}" angleXFrom="0" angleXTo="0" angleZFrom="0" duration="350" autoCenterTransform="true" angleYTo="180" angleYFrom="0" autoCenterProjection="true" angleZTo="0"/>
+				<s:Fade target="{bar}" startDelay="200" duration="50"/>
+				<s:Fade target="{line}" startDelay="250" duration="100"/>
+			</s:Parallel>
+		</s:Transition>
+		<s:Transition fromState="grid" toState="line" autoReverse="true">
+			<s:Parallel>
+				<s:Rotate3D target="{grid}" angleXFrom="0" angleXTo="0" angleZFrom="0" duration="350" autoCenterTransform="true" angleYTo="180" angleYFrom="0" autoCenterProjection="true" angleZTo="0"/>
+				<s:Fade target="{grid}" startDelay="200" duration="50"/>
+				<s:Fade target="{line}" startDelay="250" duration="100"/>
+			</s:Parallel>
+		</s:Transition>
+		<s:Transition fromState="line" toState="bar" autoReverse="true">
+			<s:Parallel>
+				<s:Rotate3D target="{line}" angleXFrom="0" angleXTo="0" angleZFrom="0" duration="350" autoCenterTransform="true" angleYTo="180" angleYFrom="0" autoCenterProjection="true" angleZTo="0"/>
+				<s:Fade target="{line}" startDelay="200" duration="50"/>
+				<s:Fade target="{bar}" startDelay="250" duration="100"/>
+			</s:Parallel>
+		</s:Transition>
+		<s:Transition fromState="bar" toState="grid" autoReverse="true">
+			<s:Parallel>
+				<s:Rotate3D target="{bar}" angleXFrom="0" angleXTo="0" angleZFrom="0" duration="350" autoCenterTransform="true" angleYTo="180" angleYFrom="0" autoCenterProjection="true" angleZTo="0"/>
+				<s:Fade target="{bar}" startDelay="200" duration="50"/>
+				<s:Fade target="{grid}" startDelay="250" duration="100"/>
+			</s:Parallel>
+		</s:Transition>
+	</s:transitions>
+	
+	<views:SummaryValues id="grid" includeIn="grid,gridAndLine,gridAndBar" x="0" top="0" bottom="0"/>
+	<charts:SummaryChart id="line" includeIn="line,gridAndLine" left="262" right="0" top="0" bottom="0"/>
+	<charts:BarChart id="bar" includeIn="bar,gridAndBar" left="262" right="0" top="0" bottom="0"/>
+	
+</s:Group>

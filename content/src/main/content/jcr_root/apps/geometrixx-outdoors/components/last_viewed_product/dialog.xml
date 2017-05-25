@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Last-Viewed Product Offer"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <heading
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Heading"
+            name="./heading"
+            xtype="textfield"/>
+        <message
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Occurrences of '{1}' will be replaced by the last-viewed product name."
+            fieldLabel="Message"
+            name="./message"
+            xtype="textfield"/>
+        <default-product
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Default Product"
+            name="./defaultProductPagePath"
+            rootPath="/content/geometrixx-outdoors"
+            xtype="pathfield"/>
+        <call-to-action
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Button Label"
+            name="./calltoaction"
+            xtype="textfield"/>
+        <background-image
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Background Image"
+            name="./backgroundImage"
+            rootPath="/content/dam/geometrixx-outdoors"
+            xtype="pathfield"/>
+    </items>
+</jcr:root>

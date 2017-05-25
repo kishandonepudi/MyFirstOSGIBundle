@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-12-12T22:42:34.985+01:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2012-12-12T22:42:52.291+01:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page_mobile"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sign-In"
+        jcr:uuid="43b3cfd9-d98e-49bb-bb79-b64c703baba0"
+        sling:resourceType="geometrixx-outdoors/components/page_mobile">
+        <par
+            cq:lastRolledout="{Date}2012-12-12T22:42:52.285+01:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <login
+                cq:lastRolledout="{Date}2012-12-12T22:42:52.291+01:00"
+                cq:lastRolledoutBy="admin"
+                jcr:created="{Date}2011-11-10T15:08:26.676+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-12T22:42:34.985+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/login"
+                loginLabel="Sign In"
+                sectionLabel="Please Sign In:"/>
+        </par>
+    </jcr:content>
+</jcr:root>

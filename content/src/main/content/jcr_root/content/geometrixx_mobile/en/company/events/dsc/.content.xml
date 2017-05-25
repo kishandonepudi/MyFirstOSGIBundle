@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-02-07T17:57:17.488+01:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[marketing:interest/business]"
+        cq:template="/apps/geometrixx/templates/mobilecontentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="DSC Berlin"
+        sling:resourceType="geometrixx/components/mobilecontentpage">
+        <image
+            jcr:lastModified="{Date}2011-02-07T17:57:17.485+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <mobiletextimage
+                jcr:created="{Date}2010-11-02T23:21:05.241Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-11T17:07:46.969+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/textimage"
+                text="&lt;p>Geometrixx welcomes you to the Developers Shape Conference in Berlin!&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2010-11-11T17:07:46.969+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/geometrixx/banners/dsc.jpg"/>
+            </mobiletextimage>
+            <table
+                jcr:created="{Date}2010-11-02T23:22:11.609Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T23:26:22.066Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/table"
+                tableData="&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;1&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td>&lt;b>Level&lt;/b>&lt;/td>&#xa;&lt;td>&lt;b>Gets you&lt;/b>&lt;/td>&#xa;&lt;td>&lt;b>Costs you&lt;/b>&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Basic&lt;/td>&#xa;&lt;td>Keynote and 4 seminar sessions of your choice&lt;/td>&#xa;&lt;td>$200&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Premium&lt;/td>&#xa;&lt;td>Basic + 4 more seminars&lt;/td>&#xa;&lt;td>$400&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Superfantastic&lt;/td>&#xa;&lt;td>Premium + &amp;quot;free&amp;quot; coffee mug&lt;/td>&#xa;&lt;td>$1000&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;"/>
+        </par>
+    </jcr:content>
+</jcr:root>

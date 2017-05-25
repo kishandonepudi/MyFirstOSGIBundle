@@ -1,0 +1,11 @@
+@media (max-width: 480px) {
+
+    .carousel-caption {
+        display: none;
+    }
+    
+    .carousel-control {
+        top: 50%;
+    }
+
+}

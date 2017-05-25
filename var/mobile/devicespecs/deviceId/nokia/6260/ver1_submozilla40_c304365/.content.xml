@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="mozilla-compatible-msie-symbian-nokia-6260-0436-5ch-1657-opera-60"
+    fall_back="nokia_6260_ver1"
+    user_agent="Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6260/3.0436.5ch; 1657) Opera 8.60 [en]"/>

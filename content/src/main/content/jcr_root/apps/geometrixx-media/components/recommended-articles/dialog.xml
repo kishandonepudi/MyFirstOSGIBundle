@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Recommended Articles"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <rootPage
+            jcr:primaryType="cq:Widget"
+            title="Root page"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <topLevelPage
+                    jcr:primaryType="nt:unstructured"
+                    fieldDescription="Begin searching for recommendations at this node"
+                    fieldLabel="Top level page"
+                    name="./topLevelPage"
+                    xtype="pathfield"/>
+            </items>
+        </rootPage>
+        <defaults
+            jcr:primaryType="cq:Widget"
+            title="Defaults"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <firstDefault
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="First Default"
+                    name="./firstDefault"
+                    xtype="pathfield"/>
+                <secondDefault
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Second default"
+                    name="./secondDefault"
+                    xtype="pathfield"/>
+                <thirdDefault
+                    jcr:primaryType="nt:unstructured"
+                    fieldDescription="In the absence of any real recommendations the preceding three pages will be shown"
+                    fieldLabel="Third default"
+                    name="./thirdDefault"
+                    xtype="pathfield"/>
+            </items>
+        </defaults>
+    </items>
+</jcr:root>

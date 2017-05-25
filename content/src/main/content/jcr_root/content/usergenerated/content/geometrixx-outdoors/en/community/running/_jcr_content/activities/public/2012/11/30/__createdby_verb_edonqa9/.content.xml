@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:53.703-05:00"
+    jcr:createdBy="ashley.thompson@spambob.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Q&amp;A"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="Thanks Alison! That’s really great to know. I was thinking about getting the shoes with the Bora Bora tank to match."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/running/questions/jcr:content/forum_fa48/1_ciot/epiq-i_absolutelyloveth/1_tosp/soxw-thanks_alisonthat"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/qna/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Q&amp;A"
+        id="/content/geometrixx-outdoors/en/community/running/questions"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

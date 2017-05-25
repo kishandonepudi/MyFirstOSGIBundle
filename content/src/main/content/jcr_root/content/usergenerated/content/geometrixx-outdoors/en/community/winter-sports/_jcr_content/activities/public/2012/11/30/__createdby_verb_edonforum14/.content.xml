@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:54.215-05:00"
+    jcr:createdBy="matt.monroe@mailinator.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="Not a gimmick, people. They work. I was concerned enough about my toes to buy some when I hiked Kilimanjaro last year (Josh I hope you’re reading this). You generally begin your summit hike from the highest base camp around midnight so that you summit at sunrise. The air is a little easier to breathe at night so there is a method to the madness. Anyway, it can actually get below zero, so I snagged some electrics. I was by far the most comfortable hiker at 4:00am when it got really cold. I had them on high and ran through the battery in four hours, but the warmth stuck around for another few hours which was perfect because then the sun started coming up by then."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/winter-sports/forum/jcr:content/forum/1_ciot/ospg-has_anyone_elseout/1_tosp/2tcz-not_a_gimmickpeopl"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/winter-sports/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

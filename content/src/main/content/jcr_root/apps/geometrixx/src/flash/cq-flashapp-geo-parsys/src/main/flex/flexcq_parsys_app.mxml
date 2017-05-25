@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:ns1="*"
+			   creationComplete="initApp();">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.cq.foundation.WCM;
+			import com.adobe.cq.foundation.core.MetadataComponentResolver;
+			import com.adobe.cq.foundation.dd.ExternalDDAdapter;
+			import com.adobe.jcr.Session;
+			
+			import mx.core.FlexGlobals;
+
+        private function initApp():void {
+            // initialize the external DragDrop adapter
+            ExternalDDAdapter.init();
+            WCM.init();
+            WCM.setCurrentPage(page);
+
+            // register Geometrixx components - todo: dynamic loading of "tiles"
+            MetadataComponentResolver.register(GeometrixxTitle);
+            
+            var pagePath:String = FlexGlobals.topLevelApplication.parameters.currentPagePath;
+			var s:Session = new Session();
+            if (pagePath) {
+                page.loadContent(s, pagePath);
+            }
+        }
+        ]]>
+	</fx:Script>
+	<ns1:DefaultPage id="page" x="0" y="0" width="100%" height="100%" color="#112233" />
+</s:Application>

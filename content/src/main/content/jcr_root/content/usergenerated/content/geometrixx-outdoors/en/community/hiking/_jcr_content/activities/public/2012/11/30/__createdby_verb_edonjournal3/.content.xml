@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:55.710-05:00"
+    jcr:createdBy="andrew.schaeffer@trashymail.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Journal"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>I&#xd;&#xa;remember visiting the redwood forests in Northern California as a kid&#xd;&#xa;with my family, but I got the sudden urge to go back and see them for&#xd;&#xa;myself, the way I want to see them…hiking! &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>I&#xd;&#xa;have got to say, if you haven’t ever done this before, you need to&#xd;&#xa;make the trip. The trees are incredible. They make you feel almost&#xd;&#xa;like you’re on a different planet. I decided that if I went I&#xd;&#xa;wanted to see the granddaddy of them all—the Hyperion. This is the&#xd;&#xa;tallest tree in the world, and stands at 379’. It’s quite a hike.&#xd;&#xa;I think it ended up being about 16 miles round trip, so it ends up&#xd;&#xa;being a camping hike unless you’re an animal. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Anyway,&#xd;&#xa;I’ve stood at the base of the Empire State Building and the Sears&#xd;&#xa;Tower, and nothing compares to standing next to this tree.&lt;/font>&lt;/p>"
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/journal/jcr:content/entrycomments/1Bucket/58v9-_p_cl"
+        objectType="comment"
+        subType="social/journal/components/entrytext"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Journal"
+        id="/content/geometrixx-outdoors/en/community/hiking/journal"
+        objectType="geometrixx-outdoors/components/journal/page"/>
+</jcr:root>

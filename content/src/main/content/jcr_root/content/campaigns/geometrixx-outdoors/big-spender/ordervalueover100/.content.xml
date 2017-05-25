@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-12-02T15:11:25.638+01:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="[/etc/segmentation/geometrixx-outdoors/ordervalueover100]"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Order Value Over $100"
+        jcr:uuid="dcfd39de-295a-4f04-bbfa-d666f59f01c7"
+        sling:resourceType="cq/personalization/components/experiencepage"/>
+    <free-shipping/>
+</jcr:root>

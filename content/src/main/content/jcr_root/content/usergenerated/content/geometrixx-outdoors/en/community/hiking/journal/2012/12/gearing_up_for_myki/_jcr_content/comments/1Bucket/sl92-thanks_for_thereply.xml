@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastReplicated="{Date}2012-12-04T14:17:39.569+01:00"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:description="Thanks for the reply, Don. That is good advice. Yes, I have a comprehensive list of items to bring. They even have “comfort food” on the list. Ha ha."
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="cq:Comment"
+    sling:resourceType="social/commons/components/comments/comment"
+    activityCreated="true"
+    added="{Date}2012-12-04T14:17:39.336+01:00"
+    approved="{Boolean}true"
+    authorizableId="josh.bradley@pookmail.com"
+    email="josh.bradley@pookmail.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/journal/2012/12/gearing_up_for_myki.html?cq_ck=1354626937750"
+    sentiment="{Long}3"
+    url=""
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="josh.bradley@pookmail.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="5b5abcd2-f4be-4d91-a1ab-037e84249939">
+        <iStock_000021716747Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T09:00:00.986+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="20686644-dc41-49cc-a115-54140b873822"/>
+        </iStock_000021716747Small.jpg>
+    </attachments>
+</jcr:root>

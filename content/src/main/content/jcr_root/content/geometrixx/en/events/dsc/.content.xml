@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-02-07T17:42:12.092+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="DSC Berlin"
+        sling:resourceType="geometrixx/components/contentpage"
+        subtitle="2011-11-02">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2010-10-06T13:52:52.044+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-10-06T13:57:28.830+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/banners/dsc.jpg"
+                imageRotate="0"
+                width="700"/>
+            <event
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="collab/calendar/components/event">
+                <event
+                    cq:distribute="{Boolean}true"
+                    jcr:lastModified="{Date}2011-02-07T16:42:12.000Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="cq:CalendarEvent"
+                    jcr:title="DSC Berlin"
+                    end="{Date}2011-11-03T00:00:00.000Z"
+                    isDate="{Boolean}true"
+                    sequence="{Long}2"
+                    stamp="{Date}2009-10-09T08:54:34.000Z"
+                    start="{Date}2011-11-02T00:00:00.000Z"
+                    uid="F7553DAA-A081-4196-8A65-4DDFF2247AF4"
+                    url="/content/geometrixx/en/events/dsc"/>
+            </event>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+        <image
+            jcr:lastModified="{Date}2011-02-07T17:39:58.131+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx/banners/dsc.jpg"
+            imageRotate="0"/>
+        <title
+            jcr:lastModified="{Date}2011-02-07T17:40:06.999+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Developers Shape Conference in Berlin"
+            sling:resourceType="geometrixx/components/title"/>
+    </jcr:content>
+</jcr:root>

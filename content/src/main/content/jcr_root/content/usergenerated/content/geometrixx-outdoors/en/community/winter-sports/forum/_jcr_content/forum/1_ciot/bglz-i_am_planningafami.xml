@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T13:52:54.849+01:00"
+    cq:lastModifiedBy="weston.mccall@dodgit.com"
+    jcr:description="I am planning a family reunion style ski/snowboard trip and am having a hard time deciding between Utah and Colorado. Thoughts???"
+    jcr:primaryType="cq:Comment"
+    jcr:title="Utah or Colorado?"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T13:46:13.514+01:00"
+    authorizableId="donna.billups@pookmail.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}2"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.html"
+    sentiment="{Long}5"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="donna.billups@pookmail.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <b40m-if_you_wantastraig
+            jcr:description="If you want a straight up answer, I would say pick Utah. Between Big and Little Cottonwood Canyons, and Park City you have a ton of choices and the powder is sooooo nice."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T13:51:46.738+01:00"
+            authorizableId="aaron.mcdonald@mailinator.com"
+            email="aaron.mcdonald@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.forum__bglz-i_am_planningafami__vtuo-donna_i_havehadto._s_1_tosp.html/forum__bglz-i_am_planningafami.html"
+            sentiment="{Long}5"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aaron.mcdonald@mailinator.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="3e36b369-0169-4f83-936d-0237ecc59316">
+                <iStock_000015790689Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.467+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="c7dbe598-63ce-49b6-8bcd-3d6b3c2d64d3"/>
+                </iStock_000015790689Small.jpg>
+            </attachments>
+        </b40m-if_you_wantastraig>
+        <peua-i_personallylikeva
+            jcr:description="I personally like Vail more than Park City, but not so much for the skiing as the town itself."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T13:52:54.759+01:00"
+            authorizableId="ashley.thompson@spambob.com"
+            email="ashley.thompson@spambob.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.forum__bglz-i_am_planningafami__b40m-if_you_wantastraig._s_1_tosp.html/forum__bglz-i_am_planningafami.html"
+            sentiment="{Long}3"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="ashley.thompson@spambob.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="fd81a281-3a03-4611-9b20-05a5843b849a">
+                <iStock_000009733915Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.452+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="50b8ddef-4d00-4f8c-a46d-5a8192963368"/>
+                </iStock_000009733915Small.jpg>
+            </attachments>
+        </peua-i_personallylikeva>
+        <qyba-not_on_a_budget
+            jcr:description="Not on a budget."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T13:49:47.603+01:00"
+            authorizableId="donna.billups@pookmail.com"
+            email="donna.billups@pookmail.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.forum__bglz-i_am_planningafami__vtuo-donna_i_havehadto._s_1_tosp.html/forum__bglz-i_am_planningafami.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="donna.billups@pookmail.com"/>
+        <vtuo-donna_i_havehadto
+            jcr:description="Donna, I have had to make this exact same decision. The answer depends on what you’re looking for. Do you want to spend a little extra or are you looking to do this on a budget (if you don’t mind my asking). &#xd;&#xa;&#xd;&#xa;If you are on a budget, it is probably best to skip Vail and Park City. The Utah resorts on the Salt Lake Valley side are great choices because you can usually find a good deal on a hotel that is only half an hour from the resorts, and the public transit will get you up to the lifts if you don’t want to drive."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T13:48:33.921+01:00"
+            authorizableId="james.devore@spambob.com"
+            email="james.devore@spambob.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}2"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.html/forum__bglz-i_am_planningafami.html"
+            sentiment="{Long}5"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="james.devore@spambob.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="7f502574-a0ba-4b12-a7c4-456257b59569">
+                <iStock_000001250549Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.436+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="69a42669-5ddb-419a-9c58-70d001b77274"/>
+                </iStock_000001250549Small.jpg>
+            </attachments>
+        </vtuo-donna_i_havehadto>
+    </_x0031__tosp>
+</jcr:root>

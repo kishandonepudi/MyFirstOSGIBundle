@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <article/>
+    <article-mobile/>
+    <jcr:content
+        cq:lastModified="{Date}2011-11-29T23:09:40.335+01:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="/etc/segmentation/geometrixx-outdoors/winter-female"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Winter Female"
+        jcr:uuid="07a4bd34-abcd-40e5-af6e-efcdf42690a3"
+        sling:resourceType="cq/personalization/components/experiencepage">
+        <image
+            jcr:lastModified="{Date}2011-11-03T20:56:34.681+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/articles/find-your-fitness-mojo-in-any-season.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastModified="{Date}2012-11-29T17:20:58.138+01:00"
+    cq:lastModifiedBy="rebekah.larsen@trashymail.com"
+    jcr:description="Does anyone know if the Aqua Force GPS monitor can log multiple runs?"
+    jcr:primaryType="cq:Comment"
+    jcr:title="Does anyone know if..."
+    sling:resourceType="geometrixx-outdoors/components/qna/topic"
+    _charset_="UTF-8"
+    added="{Date}2012-11-29T17:19:38.225+01:00"
+    authorizableId="rebekah.larsen@trashymail.com"
+    helpful="0"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notHelpful="0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.html"
+    sentiment="{Long}3"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="rebekah.larsen@trashymail.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <ooey-yes_the_aquaforce
+            jcr:description="Yes. The Aqua Force is capable of storing four runs at a time. Your runs logged will detail the time of the run, distance traveled, and elevation gained or lost. It’s a pretty handy little function that I use all the time."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:20:58.108+01:00"
+            authorizableId="josh.bradley@pookmail.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}2"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__6qqb-does_anyoneknowif.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="josh.bradley@pookmail.com"/>
+    </_x0031__tosp>
+</jcr:root>

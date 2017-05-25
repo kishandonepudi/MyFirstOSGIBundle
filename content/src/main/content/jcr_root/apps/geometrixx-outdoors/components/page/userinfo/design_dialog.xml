@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="User Info (Design)"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <loginPage
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Page where the user can log in."
+            fieldLabel="Login Page"
+            name="./loginPage"
+            xtype="pathfield"/>
+        <signupPage
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Page where a user can register for a new account."
+            fieldLabel="Sign Up Page"
+            name="./signupPage"
+            xtype="pathfield"/>
+        <profilePage
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Page where a logged-in user can manage his/her profile."
+            fieldLabel="Profile Page"
+            name="./profilePage"
+            xtype="pathfield"/>
+        <cartPage
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Page where the user can see his shopping cart."
+            fieldLabel="Cart Page"
+            name="./cartPage"
+            xtype="pathfield"/>
+        <productNotFoundPage
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Page where the user is redirected when a product is not found."
+            fieldLabel="Product Not Found Page"
+            name="./productNotFoundPage"
+            xtype="pathfield"/>
+    </items>
+</jcr:root>

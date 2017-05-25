@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:47.246-05:00"
+    jcr:createdBy="james.devore@spambob.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    id="/content/usergenerated/content/geometrixx-outdoors/en/community/winter-sports/jcr:content/activities/public/2012/11/30/_createdby_verb_edonforum"
+    verb="POST">
+    <object
+        jcr:description="Donna, I have had to make this exact same decision. The answer depends on what you’re looking for. Do you want to spend a little extra or are you looking to do this on a budget (if you don’t mind my asking). &#xd;&#xa;&#xd;&#xa;If you are on a budget, it is probably best to skip Vail and Park City. The Utah resorts on the Salt Lake Valley side are great choices because you can usually find a good deal on a hotel that is only half an hour from the resorts, and the public transit will get you up to the lifts if you don’t want to drive."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/winter-sports/forum/jcr:content/forum/1_ciot/bglz-i_am_planningafami/1_tosp/vtuo-donna_i_havehadto"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/winter-sports/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

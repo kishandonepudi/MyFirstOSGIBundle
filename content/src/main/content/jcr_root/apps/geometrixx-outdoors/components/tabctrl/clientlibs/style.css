@@ -1,0 +1,78 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+/* Tab Header */
+
+.tabctrl-header {
+    display: none;
+}
+.js .tabctrl-header {
+    display: block;
+}
+.tabctrl-header ul {
+    overflow: hidden;
+    padding: 0;
+    border-bottom: 2px solid #007bb9;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.tabctrl-header ul li {
+    float: left;
+    list-style: none;
+}
+.tabctrl-header ul li a {
+    float: left;
+    margin-right: -1px;
+    padding: 5px;
+    border-right: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    color: #777;
+    text-decoration: none;
+}
+.tabctrl-header ul li a:hover {
+    color: #000;
+}
+.tabctrl-header ul li.active a,
+.tabctrl-header ul li.active a:hover {
+    border-color: #007bb9;
+    color: #fff;
+    background: #007bb9;
+}
+
+/* Tab Content */
+
+.js .tabctrl-container {
+    position: relative;
+    overflow: hidden;
+}
+.js .tabctrl-container .tabctrl-content .tabctrl-title {
+    position: absolute;
+    text-indent: -1000em;
+}
+.tabctrl-container .tabctrl-content {
+    overflow: hidden;
+}
+.js .tabctrl-container .tabctrl-content {
+    position: absolute;
+    width: 100%;
+}
+.js .cq-wcm-edit .tabctrl-container .tabctrl-content {
+    position: relative;
+}
+.js .tabctrl-container .tabctrl-content:nth-child(n+2) {
+    display: none;
+}

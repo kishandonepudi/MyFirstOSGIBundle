@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <mandelbrot/>
+    <circle/>
+    <triangle/>
+    <square/>
+    <eaf12bf9-1807-41e0-9ca2-ca66f43f0f4b/>
+    <_x0039_a596ed2-13d8-494f-95a5-de25b3307dbb/>
+</jcr:root>

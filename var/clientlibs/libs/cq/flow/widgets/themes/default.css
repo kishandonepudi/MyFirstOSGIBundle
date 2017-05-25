@@ -1,0 +1,337 @@
+/* general stuff */
+
+body {
+    background: white;
+    color: black;
+}
+
+body, img, a, div, td, th {
+    font:normal 11px Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0;
+}
+
+body.model.flow {
+    padding: 10px;
+}
+
+body a       { color:#4F960F; }
+body b a     { font:bold 11px Tahoma, Geneva, Arial, Helvetica, sans-serif; color:#4F960F; }
+body a:hover { text-decoration:none; }
+body span    { color:#8F8F8F; font-size:10px }
+body b       { font:bold 11px Tahoma, Geneva, Arial, Helvetica, sans-serif; color:#0D5FA5; font-style:inherit; }
+body strong  { font:bold 11px Tahoma, Geneva, Arial, Helvetica, sans-serif; color:#0D5FA5; }
+
+div#header {
+    display: none;
+}
+
+div.content {
+    margin-bottom: 20px;
+}
+
+div.content > h2 {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+div.model-desc {
+    padding: 3px 0px 3px 0px;
+}
+
+div.center {
+    margin:0 auto;
+}
+
+/* helper div for clearing floats */
+div.clear {
+    clear: both;
+}
+
+.cq-wcm-preview .hideInPreview {
+    display:none;
+}
+
+/* parsys component */
+div.par {
+    clear: both;
+}
+
+div.section {
+    /* Property added to avoid IE hasLayout issue on paragraphs
+       see #20817 - IE6: div around Drag Components image not big enough
+    */
+    zoom: 1;
+}
+
+#CQ .cq-editrollover-insert-message {
+    font-size:13px;
+}
+
+/* flow control */
+
+div.ctl-col {
+    float:left;
+    
+    width:48%;
+    min-height:1px;
+}
+
+div.ctl-col-spacer {
+    float:left;
+    
+    width:4%;
+    min-height:1px;
+}
+
+div.ctl-edge {
+    height:32px;
+}
+
+div.ctl-edge div.ctl-icon {
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    position:relative;
+    height:32px;
+    top:-32px;
+}
+
+
+div.ctl-spacer-edge {
+    border-right:1px solid #BBBBBB;
+    
+    height:100%;
+    width:50%;
+}
+
+
+/* top */
+
+div.ctl-top-left {
+    -moz-border-radius-topleft:3px;
+    -webkit-border-top-left-radius:3px 3px;
+    
+    border-top:1px solid #BBBBBB;
+    border-left:1px solid #BBBBBB;
+    
+    position:relative;
+    
+    top:50%;
+    left:50%;
+    
+    height:50%;
+    width:50%;
+}
+
+div.ctl-top-right {
+    -moz-border-radius-topright:3px;
+    -webkit-border-top-right-radius:3px 3px;
+    
+    border-top:1px solid #BBBBBB;
+    border-right:1px solid #BBBBBB;
+    
+    position:relative;
+    top:50%;
+    
+    height:50%;
+    width:50%;
+}
+
+div.ctl-top-middle {
+    border-top:1px solid #BBBBBB;
+    
+    height:50%;
+}
+
+div.ctl-top-in {
+    border-right:1px solid #BBBBBB;
+    position:relative;
+    
+    height:50%;
+    width:50%;
+}
+
+div.ctl-spacer-border {
+    height:50%;
+    border-bottom:1px solid #BBBBBB;
+}
+
+div.ctl-spacer-in {
+    border-right:1px solid #BBBBBB;
+    height:50%;
+    width:50%;
+}
+
+/* bottom */
+
+div.ctl-bottom-left {
+    -moz-border-radius-bottomleft:3px;
+    -webkit-border-bottom-left-radius:3px 3px;
+    
+    border-bottom:1px solid #BBBBBB;
+    border-left:1px solid #BBBBBB;
+    
+    position:relative;
+    left:50%;
+    
+    height:50%;
+    width:50%;
+}
+
+div.ctl-bottom-right {
+    -moz-border-radius-bottomright:3px;
+    -webkit-border-bottom-right-radius:3px 3px;
+    
+    border-bottom:1px solid #BBBBBB;
+    border-right:1px solid #BBBBBB;
+    
+    height:50%;
+    width:50%;
+}
+
+div.ctl-bottom-middle {
+    border-bottom:1px solid #BBBBBB;
+    
+    height:50%;
+}
+
+div.ctl-bottom-out {
+    border-right:1px solid #BBBBBB;
+    position:relative;
+    
+    height:50%;
+    width:50%;
+}
+
+div.ctl-spacer-out {
+    border-right:1px solid #BBBBBB;
+
+    height:50%;
+    width:50%;
+    
+    position:relative;
+    top:-50%;
+}
+
+/* loops */
+
+div.ctl-top div.loop-icon{
+    background-image:url("default/resources/loop.png");
+}
+
+div.loop-condition {
+    display:none;
+    padding:4px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+/* icons */
+
+div.ctl-edge div.split-icon-or {
+    background-image:url("default/resources/flow-or.png");
+}
+
+div.ctl-top div.split-icon-and {
+    background-image:url("default/resources/flow-and-in.png");
+}
+
+div.ctl-bottom div.split-icon-and {
+    background-image:url("default/resources/flow-and-out.png");
+}
+
+/* branches */
+
+div.split-top-in-odd {
+    height:100% !important;
+}
+
+div.split-top-middle-odd {
+    position:relative;
+    top:-50%;
+}
+
+div.split-icon-odd {
+   top:-48px !important;
+}
+
+div.split-bottom-out-odd {
+   height:100% !important;
+   top:-50%;
+}
+
+/* steps */
+
+div.flow-step, div.flow-start, div.flow-end {
+    -moz-border-radius:3px 3px 3px 3px;
+    background:-moz-linear-gradient(center top , #F9F9F9, #E3E3E3) repeat scroll 0 0 transparent;
+
+    -webkit-border-radius:3px 3px;
+    background: -webkit-gradient(linear, 0 40%, 0 70%, from(rgb(249, 249, 249)), to(rgb(227, 227, 227)));
+    
+    border:1px solid #BBBBBB;
+    color:#000000;
+
+    padding:4px 8px;
+    text-align:center;
+    vertical-align:middle;
+    white-space:nowrap;
+    
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.flow-step, div.flow-start, div.flow-end div {
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+div.title {
+    font-weight:bold;
+    visibility:hidden;
+}
+
+div.description {
+    visibility:hidden;
+}
+
+div.details {
+    margin-top:4px;
+}
+
+span.step-details {
+    color: #000;
+    visibility:hidden;
+}
+
+div.step-edge {
+    height:6px;
+}
+
+div.step-edge-inner {
+    border-right:1px solid #BBBBBB;
+    
+    height:100%;
+    width:50%;
+}
+
+/* overrides for certain editbase style */
+div.flow-step-wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+div.new, div.section.step, div.end {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.cq-editcomponent-placeholder {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+

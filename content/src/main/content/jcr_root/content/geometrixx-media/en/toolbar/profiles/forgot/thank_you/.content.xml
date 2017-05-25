@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-09-15T12:22:18.043+02:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Thank You"
+        sling:resourceType="geometrixx-media/components/page/profile"
+        hideInNav="{Boolean}true">
+        <title-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:created="{Date}2012-11-01T14:55:40.886-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-01T14:58:58.910-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/title"/>
+            <text
+                jcr:lastModified="{Date}2010-09-15T12:22:18.038+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>We received your request to reset your password.&lt;/p>&#xa;&lt;p>You will soon receive an e-mail containing instructions on how to reset your password.&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </title-par>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T14:06:38.875+01:00"
+    cq:lastModifiedBy="andrew.schaeffer@trashymail.com"
+    jcr:description="I know this may sound a bit cheesy and maybe I’m still just a kid at heart, but I love sledding! There is finally enough snow in a bowl up the canyon close to where I live that it’s worth it to make the trip.&#xd;&#xa;  &#xd;&#xa;Anyway, Josh, think I have found the perfect use for snowshoes. Back behind this bowl there are a bunch of snowshoe trails, and some of them get pretty steep. The great thing about the trails, though, is that they are giant one-way loops so you never face oncoming people. One of the trails gets really steep going downhill toward the end. I just got a little rocket sled that I can strap to my backpack so I can snowshoe to the top of this hill, take off my snowshoes and strap them on my backpack, and then sled down. I know. It’s pretty much the greatest thing you’ve ever heard."
+    jcr:primaryType="cq:Comment"
+    jcr:title="Time to break out the sled! (Josh, you should read)"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T14:04:57.633+01:00"
+    authorizableId="andrew.schaeffer@trashymail.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}9"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.error.html"
+    sentiment="{Long}5"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="andrew.schaeffer@trashymail.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <i1gl-that_sound_amazing
+            jcr:description="That sound amazing! Be sure to post some pics or a video…I want to see this."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T14:06:38.780+01:00"
+            authorizableId="josh.bradley@pookmail.com"
+            email="josh.bradley@pookmail.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}2"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.html/forum__wqja-i_know_thismaysoun.html"
+            sentiment="{Long}5"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="josh.bradley@pookmail.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="fc10678c-66f6-4a6f-bda1-d515e6afaabc">
+                <iStock_000014341360Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.530+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="419de0c8-b823-4a1b-863c-04a81e32ab8a"/>
+                </iStock_000014341360Small.jpg>
+            </attachments>
+        </i1gl-that_sound_amazing>
+    </_x0031__tosp>
+</jcr:root>

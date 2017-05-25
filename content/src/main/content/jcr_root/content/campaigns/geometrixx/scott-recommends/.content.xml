@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-02-02T16:46:52.932+01:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="/etc/segmentation/geometrixx/male"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Scott Recommends"
+        sling:resourceType="cq/personalization/components/teaserpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2011-02-02T11:46:42.526+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-02-02T16:37:18.093+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/portraits/scott_reynolds.jpg"
+                imageCrop="156,124,718,557"
+                imageRotate="0"
+                width="220"/>
+            <text
+                jcr:created="{Date}2011-02-02T11:47:07.053+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-02-02T16:46:52.929+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;b>Scott Reynolds recommends:&lt;/b> &amp;quot;Don't be square, try our new &lt;a href=&quot;/content/geometrixx/en/products/circle.html&quot;>GeoMetrixx Circles&lt;/a>!&amp;quot;&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2011-02-02T11:49:13.804+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,108 @@
+/*
+ * Copyright 1997-2009 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+#cq-emulator.iphone3gs.vertical {
+    background: url("resources/bg.png") no-repeat;
+    height: 460px;
+    padding: 141px 0 200px;
+    width: 466px;
+}
+
+#cq-emulator.iphone3gs.horizontal {
+    background: url("resources/bg_horizontal.png") no-repeat;
+    height: 301px;
+    padding: 56px 0 100px;
+    width: 796px;
+}
+
+#cq-emulator-content.iphone3gs {
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#cq-emulator-content.iphone3gs.vertical {
+    height: 459px;
+    width: 320px;
+}
+
+#cq-emulator-content.iphone3gs.horizontal {
+    height: 301px;
+    width: 480px;
+}
+
+#cq-emulator-rotate.iphone3gs {
+    text-indent: -10000px;
+    height: 32px;
+    width: 32px;
+}
+
+#cq-emulator-rotate.iphone3gs.vertical {
+    background: url("resources/rotate_to_horizontal.png") no-repeat;
+    right: 80px;
+    top: 56px;
+}
+
+#cq-emulator-rotate.iphone3gs.horizontal {
+    background: url("resources/rotate_to_vertical.png") no-repeat;
+    right: 90px;
+    top: 317px;
+}
+
+#cq-touchscrolling-trackercontainer.iphone3gs {
+    position: absolute;
+    background-color: #aaa;
+    opacity: 0.5;
+    width: 5px;
+    z-index: 100;
+}
+
+#cq-touchscrolling-trackercontainer.iphone3gs #cq-touchscrolling-tracker {
+    background-color: #000;
+    opacity: 0.6;
+    width: 5px;
+}
+
+#cq-touchscrolling-trackercontainer.iphone3gs.vertical {
+    height: 455px;
+    right: 74px;
+    top: 143px;
+}
+
+#cq-touchscrolling-trackercontainer.iphone3gs.horizontal {
+    height: 297px;
+    right: 160px;
+    top: 58px;
+}
+
+#cq-emulator-browserui-header.iphone3gs.vertical {
+    background: url("resources/bg_browserui_header_vertical.png") no-repeat;
+    height: 60px;
+    width: 320px;
+}
+
+#cq-emulator-browserui-footer.iphone3gs.vertical {
+    background: url("resources/bg_browserui_footer_vertical.png") no-repeat;
+    height: 44px;
+    width: 320px;
+}
+
+#cq-emulator-browserui-header.iphone3gs.horizontal {
+    background: url("resources/bg_browserui_header_horizontal.png") no-repeat;
+    height: 60px;
+    width: 480px;
+}
+
+#cq-emulator-browserui-footer.iphone3gs.horizontal {
+    background: url("resources/bg_browserui_footer_horizontal.png") no-repeat;
+    height: 32px;
+    width: 480px;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-08T00:02:59.220Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/commerce/templates/section"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2012-11-08T00:02:59.218Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Winter Equipment"
+        jcr:uuid="3d8c99f5-6420-4b8b-b94e-86239197a35c"
+        sling:resourceType="commerce/components/section">
+        <target
+            jcr:primaryType="nt:unstructured"
+            jcr_title="Equipment">
+            <par jcr:primaryType="nt:unstructured">
+                <banner
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/geometrixx-outdoors/banners/snowboard-action.jpg"/>
+            </par>
+        </target>
+        <filter
+            jcr:primaryType="nt:unstructured"
+            matchTags="[]"
+            search="/jcr:root/etc/commerce/products/geometrixx-outdoors//element(*, cq:Taggable)[@cq:tags = 'geometrixx-outdoors:season/winter' and jcr:like(@cq:tags, 'geometrixx-outdoors:activity/%') and not(@cq:tags = 'geometrixx-outdoors:apparel/hat') and not(@cq:tags = 'geometrixx-outdoors:apparel/scarf')]"
+            searchType="xpath"/>
+        <templates jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx"
+        cq:lastModified="{Date}2011-10-03T15:17:07.990+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="IDML Extraction (created: Mon Oct 03 15:17:07 CEST 2011)"
+        sling:resourceType="geometrixx/components/contentpage">
+        <par
+            jcr:created="{Date}2011-10-03T15:17:07.994+02:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2011-10-03T15:17:07.994+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text_u2f3
+                jcr:created="{Date}2011-10-03T15:17:07.995+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.995+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;br/>&lt;/p>"
+                textIsRich="true"/>
+            <image_u263
+                jcr:created="{Date}2011-10-03T15:17:07.995+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.995+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/documents/GeoMetrixx_Banking.indd/subassets/building1.jpg"/>
+            <text_ud1
+                jcr:created="{Date}2011-10-03T15:17:07.995+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.995+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Geometrixx&lt;br/>&lt;/p>"
+                textIsRich="true"/>
+            <text_u167
+                jcr:created="{Date}2011-10-03T15:17:07.996+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.996+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Geometrixx offers an infinite variety of integrated and differentiated geometric banking services. &#xa;Our banking practice ranges from retail orthogonal banking for customers with right triangle and other pythagorean investments to advanced euclidean and non-euclidean services for customers with complex (and imaginary) needs.&#xa;&lt;br/>&lt;/p>"
+                textIsRich="true"/>
+            <text_uf0
+                jcr:created="{Date}2011-10-03T15:17:07.996+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.996+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p> Banking Services&#xa;Security and Risk from Orthogonal to Euclidean Banking&lt;br/>&lt;/p>"
+                textIsRich="true"/>
+            <text_u321
+                jcr:created="{Date}2011-10-03T15:17:07.996+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.996+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;br/>&lt;/p>"
+                textIsRich="true"/>
+            <image_u186
+                jcr:created="{Date}2011-10-03T15:17:07.997+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.997+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/documents/GeoMetrixx_Banking.indd/subassets/orthogonal.jpg"/>
+            <image_u18a
+                jcr:created="{Date}2011-10-03T15:17:07.997+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.997+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/documents/GeoMetrixx_Banking.indd/subassets/euclidian.jpg"/>
+            <image_u18d
+                jcr:created="{Date}2011-10-03T15:17:07.997+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.997+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/documents/GeoMetrixx_Banking.indd/subassets/non-euclidian.jpg"/>
+            <text_u198
+                jcr:created="{Date}2011-10-03T15:17:07.998+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.998+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Find the matrix that is right for you!&lt;br/>&lt;/p>"
+                textIsRich="true"/>
+            <text_u1b0
+                jcr:created="{Date}2011-10-03T15:17:07.998+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.998+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>ORTHOGONAL BANKING&#xa;Our orthogonal banking services are targeted at investors whose priority  is protecting the shape assets  they already own, and ensuring steady geometrix growth.&#xa;&#xa;&#xa;EUCLIDEAN BANKING&#xa;Euclidean banking services from Geometrixx are focused on the sophisticated long-term investor who is looking for knowledgeable advice from our seasoned banking team.&#xa;&#xa;&#xa;NON-EUCLIDEAN BANKING&#xa;Geometrixx non-euclidean banking service is at the leading edge  of international geometric investment strategy. For the investor with a taste  for risk, the returns can be astronomical. &#xa;Our most recently released fractal fund has achieved exponential growth in 7 of the last 8 quarters!&lt;br/>&lt;/p>"
+                textIsRich="true"/>
+            <image_u26a
+                jcr:created="{Date}2011-10-03T15:17:07.998+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.998+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/documents/GeoMetrixx_Banking.indd/subassets/building1.jpg"/>
+            <text_u22e
+                jcr:created="{Date}2011-10-03T15:17:07.999+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.999+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>GeoMetrixx&lt;br/>&lt;/p>"
+                textIsRich="true"/>
+            <text_u246
+                jcr:created="{Date}2011-10-03T15:17:07.999+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:07.999+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Creating Shapes for Centuries&lt;br/>&lt;/p>"
+                textIsRich="true"/>
+            <text_u271
+                jcr:created="{Date}2011-10-03T15:17:08.000+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-10-03T15:17:08.000+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>The World Leader in Applied Geometry.&#xa;Geometrixx has been selling and servicing shapes for over 2000 years. From our beginnings as a small vendor of squares and rectangles we have grown our business into a leading global provider of platonic solids and fractals. Join us as we lead geometry into the future.&#xa;&#xa;© 2011 GEOMETRIXX INC.&#xa;&lt;br/>&lt;/p>"
+                textIsRich="true"/>
+        </par>
+        <title
+            jcr:created="{Date}2011-10-03T15:17:08.000+02:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2011-10-03T15:17:08.000+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="IDML Extraction (created: Mon Oct 03 15:17:07 CEST 2011)"
+            sling:resourceType="foundation/components/title"/>
+    </jcr:content>
+</jcr:root>

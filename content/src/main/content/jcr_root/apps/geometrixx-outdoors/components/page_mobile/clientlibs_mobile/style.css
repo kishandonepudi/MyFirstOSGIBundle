@@ -1,0 +1,154 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+/* Page */
+
+html,
+body.page-mobile {
+    height: 100%;
+}
+body.page-mobile {
+    color: #4c4c4c;
+    background: #fff;
+}
+body.page-mobile .page-main {
+    position: relative;
+    min-height: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+body.page-mobile .page-header {
+    background: #2e2e2e url(../../../../../etc/designs/geometrixx-outdoors/images/page_mobile/bg.png) repeat-x;
+}
+body.page-mobile .page-header .nav-buttons {
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 8px;
+}
+.narrow body.page-mobile .page-header .nav-buttons {
+    top: 58px;
+}
+body.page-mobile .page-header .nav-buttons a {
+    float: left;
+    padding: 8px;
+    text-decoration: none;
+    outline: none;
+}
+body.page-mobile .page-header .nav-buttons a span {
+    overflow: hidden;
+    display: block;
+    width: 22px;
+    height: 21px;
+    text-indent: -1000em;
+    background: #cacccd url(../../../../../etc/designs/geometrixx-outdoors/images/page_mobile/buttons.png) no-repeat;
+    box-shadow: 0 0 8px #000;
+}
+body.page-mobile .page-header .nav-buttons a#nav-button-search span {
+    background-position: -22px 0;
+}
+body.page-mobile .page-header .nav-buttons a.open#nav-button-search span {
+    background-position: -22px -21px;
+    box-shadow: 0 0 8px #888;
+}
+body.page-mobile .page-header .nav-buttons a.open#nav-button-userinfo span {
+    background-position: 0 -21px;
+    box-shadow: 0 0 8px #888;
+}
+
+/* Content */
+
+body.page-mobile .page-content {
+    overflow: hidden;
+    padding: 10px 10px 20px;
+    background: #fff;
+}
+
+/* Footer */
+
+body.page-mobile .page-footer footer {
+    overflow: hidden;
+    font-size: 11px;
+    color: #808080;
+    background: #4d4d4d;
+    text-indent: 1000em;
+}
+.js body.page-mobile .page-footer footer {
+    /*todo: removed for demo*/
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+}
+body.page-mobile .page-footer a {
+    color: #fff;
+    text-decoration: none;
+    text-indent: 0;
+}
+
+body.page-mobile .page-footer .toolbar {
+    overflow: hidden;
+    margin: 5px;
+}
+body.page-mobile .page-footer .toolbar a {
+    float: left;
+    margin-right: 5px;
+    padding: 5px;
+}
+.narrow body.page-mobile .page-footer .toolbar a {
+    float: none;
+    display: block;
+}
+
+body.page-mobile .page-footer .copyright {
+    margin: 10px;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+
+/* Checkout Button */
+
+.cq-checkout a,
+a.cq-checkout,
+form input.cq-checkout[type="button"],
+form input.cq-checkout[type="submit"] {
+    background: transparent url(../../../../../etc/designs/geometrixx-outdoors/images/product/checkout_button.png) 100% 0 no-repeat;
+    display: inline-block;
+    border: none;
+    padding: 7px 18px 0 12px;
+    height: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+form input.cq-checkout[type="button"],
+form input.cq-checkout[type="submit"] {
+    /* buttons generally use border-box sizing, so this is required */
+    height: 29px;
+    padding-top: 2px;
+}
+
+.cq-checkout a:hover,
+a.cq-checkout:hover,
+form input.cq-checkout[type="button"]:hover,
+form input.cq-checkout[type="submit"]:hover {
+    background-position: 100% -29px;
+}

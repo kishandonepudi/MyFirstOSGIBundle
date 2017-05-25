@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastReplicated="{Date}2012-12-04T14:35:55.921+01:00"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:description="Andrew I’m jealous! I have always wanted to do that since they discovered the tree in 2006. You are my motivation…I will try to do that next summer."
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="cq:Comment"
+    sling:resourceType="social/commons/components/comments/comment"
+    activityCreated="true"
+    added="{Date}2012-12-04T14:35:55.728+01:00"
+    approved="{Boolean}true"
+    authorizableId="ashley.thompson@spambob.com"
+    email="ashley.thompson@spambob.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/journal/2012/12/enjoying_the_redwood.html"
+    sentiment="{Long}3"
+    url=""
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="ashley.thompson@spambob.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="f91693ec-1e10-42c0-a3ec-b7aa1804bfa2">
+        <iStock_000008274917Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T09:00:01.064+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="48922cde-50c0-4403-81d2-5c2d0ed7d2c0"/>
+        </iStock_000008274917Small.jpg>
+    </attachments>
+</jcr:root>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:55.913-05:00"
+    jcr:createdBy="felicia.carter@trashymail.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Journal"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>My&#xd;&#xa;family and I just returned from a trip up to Yellowstone National&#xd;&#xa;Park. A family that hikes together stays together  All our kids&#xd;&#xa;are grown now, so we can do some of the more strenuous hikes. We&#xd;&#xa;decided to take on Sepulcher Mountain, an 11-mile, all-day hike with&#xd;&#xa;a 9,600’ summit. This was my first time on this trail, and I can’t&#xd;&#xa;even begin to tell you how beautiful it was.&lt;/font>&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>We&#xd;&#xa;definitely chose to go at the right time of year. The leaves are&#xd;&#xa;absolutely incredible, and the fire season is far enough behind us&#xd;&#xa;that the air up there is crisp and clear as can be. Has anyone else&#xd;&#xa;hiked Sepulcher? If you are interested or have any questions about&#xd;&#xa;the hike, I would be happy to chat with you. One thing to consider:&#xd;&#xa;this is a &lt;/font>&lt;font color=&quot;#000000&quot;>&lt;em>cold &lt;/em>&lt;/font>&lt;font color=&quot;#000000&quot;>hike.&lt;/font>&lt;/p>"
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/journal/jcr:content/entrycomments/1Bucket/ecv3-_p_cl"
+        objectType="comment"
+        subType="social/journal/components/entrytext"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Journal"
+        id="/content/geometrixx-outdoors/en/community/hiking/journal"
+        objectType="geometrixx-outdoors/components/journal/page"/>
+</jcr:root>

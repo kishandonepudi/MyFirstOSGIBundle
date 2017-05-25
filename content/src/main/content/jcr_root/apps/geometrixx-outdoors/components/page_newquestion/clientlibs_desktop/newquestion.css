@@ -1,0 +1,19 @@
+div.new-question-title {
+    border-bottom: 3px solid #BE4B16;
+    width: 640px;
+}
+
+div.new-question-title text#newQuestion {
+    font-size: 18px;
+}
+
+div.new-question-title text#communityGuidelines {
+    font-size: 18px;
+    color: red;
+    float: right;
+}
+
+div.checkbox div.form_row div.form_rightcol input[type="checkbox"] {
+    margin-left: 0px;
+    height: 13px;
+}

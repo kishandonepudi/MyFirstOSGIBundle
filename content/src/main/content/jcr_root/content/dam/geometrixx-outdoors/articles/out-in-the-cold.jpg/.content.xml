@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2011-12-15T03:12:00.667-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2011-12-08T17:26:27.829+01:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Double}4.416666507720947"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Double}4.19444465637207"
+            dam:Progressive="no"
+            dam:sha1="c823ee09caa1a349f853248ab3fe257420a5cc66"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2011-11-29T02:57:59.694+01:00"
+            jcr:lastModified="{Date}2011-12-08T17:26:29.792+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}318"
+            tiff:ImageWidth="{Long}302"
+            xmp:CreatorTool="Adobe Photoshop CS5 Macintosh"
+            xmpMM:DocumentID="xmp.did:62A51ADF124611E1A1BBB924B9303C4E"
+            xmpMM:InstanceID="xmp.iid:62A51ADE124611E1A1BBB924B9303C4E"
+            xmpMM:OriginalDocumentID="xmp.did:814839BDF7206811963EAC508E2739FF">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef_x0025_3AdocumentID="xmp.did:814839BDF7206811963EAC508E2739FF"
+                stRef_x0025_3AinstanceID="xmp.iid:1314A3F23E20681194578AF279266457"/>
+        </metadata>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

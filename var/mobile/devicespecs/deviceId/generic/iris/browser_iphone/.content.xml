@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="mozilla-mobile-phone-ppc-320x320-apple-web-kit-525-18-khtml-like-gecko-wm5-iris-version-mobile-a345-safari-525-20"
+    device_os="Windows Mobile OS"
+    device_os_version="5"
+    fall_back="generic_iris_browser"
+    user_agent="Mozilla/5.0 (U; Mobile; iPhone; PPC; en; 320x320) AppleWebKit/525.18.1 (KHTML, like Gecko) WM5 Iris/1.1.6 Version/3.1.1 Mobile/5A345 Safari/525.20"/>

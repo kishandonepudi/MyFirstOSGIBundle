@@ -1,0 +1,52 @@
+<?xml version="1.0"?><!--
+  Copyright 1997-2009 Day Management AG
+  Barfuesserplatz 6, 4001 Basel, Switzerland
+  All Rights Reserved.
+
+  This software is the confidential and proprietary information of
+  Day Management AG, ("Confidential Information"). You shall not
+  disclose such Confidential Information and shall use it only in
+  accordance with the terms of the license agreement you entered into
+  with Day.
+ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- ======================================================================= -->
+    <!-- P A R E N T                                                             -->
+    <!-- ======================================================================= -->
+    <parent>
+        <groupId>com.day</groupId>
+        <artifactId>day</artifactId>
+        <version>14</version>
+    </parent>
+
+    <!-- ======================================================================= -->
+    <!-- P R O J E C T                                                           -->
+    <!-- ======================================================================= -->
+    <groupId>com.day.cq.wcm</groupId>
+    <artifactId>cq-flashapp-geo-reactor</artifactId>
+    <packaging>pom</packaging>
+    <name>CQ Composite Flash App - Geometrixx Reactor</name>
+    <version>1.0.1-SNAPSHOT</version>
+
+    <scm>
+      <connection>scm:git:git@git.corp.adobe.com:CQ5/cq5.git</connection>
+      <developerConnection>scm:git:git@git.corp.adobe.com:CQ5/cq5.git</developerConnection>
+      <url>https://git.corp.adobe.com/CQ5/cq5/tree/master/content/jcr_root/apps/geometrixx/src/flash</url>
+    </scm>
+
+    <!-- ======================================================================= -->
+    <!-- M O D U L E S                                                           -->
+    <!-- ======================================================================= -->
+    <modules>
+        <module>cq-flashapp-geo-title</module>
+        <module>cq-flashapp-geo-parsys</module>
+        <module>cq-flashapp-geo-mobile</module>
+	<!--
+	not activated yet since flexmojos have problem compiling the air app
+        <module>cq-flashapp-geo-mobile</module>
+	-->
+
+    </modules>
+
+</project>

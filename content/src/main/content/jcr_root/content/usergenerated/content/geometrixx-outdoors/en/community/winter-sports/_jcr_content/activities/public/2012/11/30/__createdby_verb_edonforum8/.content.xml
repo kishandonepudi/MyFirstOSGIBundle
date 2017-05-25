@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:51.570-05:00"
+    jcr:createdBy="andrew.schaeffer@trashymail.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="I know this may sound a bit cheesy and maybe I’m still just a kid at heart, but I love sledding! There is finally enough snow in a bowl up the canyon close to where I live that it’s worth it to make the trip.&#xd;&#xa;  &#xd;&#xa;Anyway, Josh, think I have found the perfect use for snowshoes. Back behind this bowl there are a bunch of snowshoe trails, and some of them get pretty steep. The great thing about the trails, though, is that they are giant one-way loops so you never face oncoming people. One of the trails gets really steep going downhill toward the end. I just got a little rocket sled that I can strap to my backpack so I can snowshoe to the top of this hill, take off my snowshoes and strap them on my backpack, and then sled down. I know. It’s pretty much the greatest thing you’ve ever heard."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/winter-sports/forum/jcr:content/forum/1_ciot/wqja-i_know_thismaysoun"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/topic"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/winter-sports/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

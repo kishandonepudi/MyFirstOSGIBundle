@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-19T13:38:35.973+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Q&amp;A"
+        sling:resourceType="geometrixx-outdoors/components/page_no_sidebar">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <forum_fa48
+                jcr:created="{Date}2012-03-07T10:28:55.476-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-19T13:38:35.966+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/qna/qnaforum"
+                allowFileUploads="true"
+                composerpage="/content/geometrixx-outdoors/en/community/running/questions/newquestion"
+                editanswerform="/content/geometrixx-outdoors/en/community/running/questions/editanswer"
+                editquestionform="/content/geometrixx-outdoors/en/community/running/questions/editquestion"
+                maxPerPage="100"
+                Submit="Submit"/>
+            <toggle
+                jcr:created="{Date}2010-11-30T09:53:36.661+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-30T10:30:23.198+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/forum/components/toggle"
+                confirmationMessageToggle="&lt;p>You've been successfully subscribed to this forum topic.&lt;br>&#xa;&lt;/p>&#xa;"
+                confirmationMessageUntoggle="&lt;p>You've been successfully unsubscribed from this forum topic.&lt;br>&#xa;&lt;/p>&#xa;"
+                stateProvider="/libs/social/qna/components/stateproviders/subscribe"
+                toggleLabel="Unsubscribe"
+                toggleWorkflowModel="/etc/workflow/models/social/forum_topic_subscription/jcr:content/model"
+                transitionLabel="Un-/Subscription in progress"
+                untoggleLabel="Subscribe"
+                untoggleWorkflowModel="/etc/workflow/models/social/forum_topic_unsubscription/jcr:content/model"/>
+        </par>
+        <badge
+            jcr:lastModified="{Date}2012-07-13T01:18:41.158-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="social/scoring/components/badgelist"
+            height="30"
+            mappings="[/etc/segmentation/badges/gold#/content/geometrixx-outdoors/en/badges/gold,/etc/segmentation/badges/silver#/content/geometrixx-outdoors/en/badges/silver,/etc/segmentation/badges/bronze#/content/geometrixx-outdoors/en/badges/bronze]"
+            width="30"/>
+    </jcr:content>
+    <editanswer/>
+    <editquestion/>
+    <newquestion/>
+</jcr:root>

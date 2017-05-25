@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Journal"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <props
+            jcr:primaryType="cq:Panel"
+            title="Journal">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <basic
+                    jcr:primaryType="cq:Widget"
+                    collapsed="{Boolean}false"
+                    collapsible="{Boolean}false"
+                    xtype="dialogfieldset">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <titletext
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Journal Title"
+                            name="./jcr:title"
+                            xtype="textfield"/>
+                        <description
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Journal Description"
+                            name="./jcr:description"
+                            xtype="textfield"/>
+                        <hideinnav
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Hide Page in Navigation"
+                            inputValue="true"
+                            name="./hideInNav"
+                            type="checkbox"
+                            xtype="selection"/>
+                    </items>
+                </basic>
+                <onofftime
+                    jcr:primaryType="cq:Widget"
+                    collapsed="{Boolean}true"
+                    collapsible="{Boolean}true"
+                    id="cq-pageprops-more-onofftime"
+                    title="On/Off Time"
+                    xtype="dialogfieldset">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <ontime
+                            jcr:primaryType="cq:Widget"
+                            ctCls="cq-propsdialog-ontime"
+                            fieldLabel="On Time"
+                            name="./onTime"
+                            xtype="datetime"/>
+                        <offtime
+                            jcr:primaryType="cq:Widget"
+                            ctCls="cq-propsdialog-offtime"
+                            fieldLabel="Off Time"
+                            name="./offTime"
+                            xtype="datetime"/>
+                        <onTimeHint
+                            jcr:primaryType="cq:Widget"
+                            ignoreData="{Boolean}true"
+                            name="./onTime@TypeHint"
+                            value="Date"
+                            xtype="hidden"/>
+                        <offTimeHint
+                            jcr:primaryType="cq:Widget"
+                            ignoreData="{Boolean}true"
+                            name="./offTime@TypeHint"
+                            value="Date"
+                            xtype="hidden"/>
+                    </items>
+                </onofftime>
+                <vanity
+                    jcr:primaryType="cq:Widget"
+                    collapsed="{Boolean}true"
+                    collapsible="{Boolean}true"
+                    id="cq-pageprops-vanity-url"
+                    title="Vanity URL"
+                    xtype="dialogfieldset">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <vanityPath
+                            jcr:primaryType="cq:Widget"
+                            cls="cq-propsdialog-vanityurl"
+                            fieldLabel="Vanity URL"
+                            name="./sling:vanityPath"
+                            xtype="multifield">
+                            <fieldConfig
+                                jcr:primaryType="nt:unstructured"
+                                allowBlank="{Boolean}false"
+                                regex="/^\\/((.+?)\\/)*[a-zA-Z0-9]+$/"
+                                regexText="Vanity URL must start with a slash and should not contain an extension like .html."
+                                xtype="textfield"/>
+                        </vanityPath>
+                        <vanityPathRedirect
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Redirect Vanity URL"
+                            name="./sling:redirect"
+                            type="checkbox"
+                            xtype="selection"/>
+                    </items>
+                </vanity>
+            </items>
+        </props>
+        <advanced
+            jcr:primaryType="cq:Panel"
+            title="Advanced">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <advanced
+                    jcr:primaryType="cq:Widget"
+                    collapsed="{Boolean}false"
+                    collapsible="{Boolean}false"
+                    xtype="dialogfieldset">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <designpath
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Theme"
+                            name="./cq:designPath"
+                            predicate="hierarchyNotFile"
+                            rootPath="/etc/designs/journal"
+                            xtype="pathfield"/>
+                        <language
+                            jcr:primaryType="cq:Widget"
+                            cls="cq-propsdialog-pagelanguage"
+                            fieldLabel="Language"
+                            name="./jcr:language"
+                            optionsProvider="CQ.utils.WCM.getLanguageOptions"
+                            type="select"
+                            xtype="selection"/>
+                        <dateFormat
+                            jcr:primaryType="cq:Widget"
+                            emptyText_noI18n="E MMM dd HH:mm:ss z yyyy"
+                            fieldDescription="&lt;a href=&quot;http://download.oracle.com/javase/6/docs/api/java/text/SimpleDateFormat.html&quot; target=&quot;_blank&quot; style=&quot;cursor: pointer;&quot;>Date format&lt;/a> used by this specific journal entry.&lt;br/>Sample: E MMM dd yyyy for Tue Aug 31 2010"
+                            fieldLabel="Date format"
+                            name="./dateFormat"
+                            xtype="textfield"/>
+                        <alias
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Alias"
+                            name="./sling:alias"
+                            xtype="textfield"/>
+                    </items>
+                </advanced>
+                <analytics
+                    jcr:primaryType="cq:Widget"
+                    collapsed="{Boolean}true"
+                    collapsible="{Boolean}true"
+                    id="cq-pageprops-analytics"
+                    title="Analytics"
+                    xtype="dialogfieldset">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <provider
+                            jcr:primaryType="cq:Widget"
+                            allowEmpty="true"
+                            cls="cq-propsdialog-externalprovider"
+                            fieldLabel="External Provider"
+                            name="./analyticsProvider"
+                            type="select"
+                            xtype="selection">
+                            <options jcr:primaryType="cq:WidgetCollection">
+                                <empty
+                                    jcr:primaryType="nt:unstructured"
+                                    text="&amp;nbsp;"
+                                    value=""/>
+                                <google
+                                    jcr:primaryType="nt:unstructured"
+                                    text="Google Analytics"
+                                    value="google"/>
+                                <omniture
+                                    jcr:primaryType="nt:unstructured"
+                                    text="Omniture SiteCatalyst"
+                                    value="omniture"/>
+                                <visualsciences
+                                    jcr:primaryType="nt:unstructured"
+                                    text="VisualSciences HBX Analytics"
+                                    value="visualsciences"/>
+                                <webtrends
+                                    jcr:primaryType="nt:unstructured"
+                                    text="WebTrends Analytics 8"
+                                    value="webtrends"/>
+                                <other
+                                    jcr:primaryType="nt:unstructured"
+                                    text="Other..."
+                                    value="other"/>
+                            </options>
+                        </provider>
+                        <snippet
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="ID / Snippet"
+                            name="./analyticsSnippet"
+                            xtype="textarea"/>
+                    </items>
+                </analytics>
+            </items>
+        </advanced>
+        <cloudservices
+            jcr:primaryType="cq:Widget"
+            path="/libs/foundation/components/page/tab_cloudservices.infinity.json"
+            xtype="cqinclude"/>
+    </items>
+</jcr:root>

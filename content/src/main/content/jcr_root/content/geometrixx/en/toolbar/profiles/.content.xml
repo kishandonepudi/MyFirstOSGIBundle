@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2009-11-05T20:27:13.273+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Profiles"
+        sling:resourceType="geometrixx/components/contentpage"
+        hideInNav="{Boolean}true">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <textimage
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/textimage"/>
+            <mygadgets
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/personalization/components/mygadgets"
+                gadgets="http://customer.meteogroup.de/meteogroup/gadgets/wetter24.xml&#xa;http://germanweatherradar.googlecode.com/svn/trunk/german-weather-radar.xml&#xa;http://www.digitalpowered.info/gadget/ski.pictures.xml&#xa;http://www.canbuffi.de/gadgets/clock/clock.xml"/>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+    </jcr:content>
+    <edit/>
+    <forgot/>
+    <view/>
+    <passwordchange/>
+</jcr:root>

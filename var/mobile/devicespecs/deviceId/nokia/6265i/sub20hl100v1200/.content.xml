@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    accept_third_party_cookie="false"
+    CQ5_UserAgentRadical="nokia6265i-hl100-v1200-nep-browser-mmp"
+    fall_back="nokia_6265i_ver1"
+    user_agent="Nokia6265i/2.0 (HL100V1200.nep) UP.Browser/6.2.3.8 MMP/2.0"/>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastModified="{Date}2012-11-29T14:11:26.954+01:00"
+    cq:lastModifiedBy="ashley.thompson@spambob.com"
+    jcr:description="I hate to be the pesky person that tells you to wear your helmet, but I unfortunately know someone who spent a lot of time in the hospital due to a skiing accident. She absolutely could have come out of the whole thing in a lot better shape if she had worn a helmet."
+    jcr:primaryType="cq:Comment"
+    jcr:title="Remember to protect your head!"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T14:10:30.642+01:00"
+    authorizableId="ashley.thompson@spambob.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}2"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.error.html"
+    sentiment="{Long}5"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="ashley.thompson@spambob.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <civd-good_call_ashleyt
+            jcr:description="Good call, Ashley. Thanks for the reminder."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T14:11:26.900+01:00"
+            authorizableId="boyd.larsen@dodgit.com"
+            email="boyd.larsen@dodgit.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.html/forum__racs-i_hate_to_bethepes.html"
+            sentiment="{Long}5"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="boyd.larsen@dodgit.com"/>
+    </_x0031__tosp>
+</jcr:root>

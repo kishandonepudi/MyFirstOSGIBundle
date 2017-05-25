@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2013-01-22T11:10:51.513+01:00"
+    jcr:createdBy="kelly.creative@geometrixx.info"
+    jcr:description="Paladin"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="share">
+    <object
+        jcr:primaryType="nt:unstructured"
+        displayName="paladin_trailer.jpg"
+        id="/content/dam/geometrixx-media/articles/paladin_trailer.jpg"
+        objectType="image"
+        product="AEM DAM"
+        summary="Asset Preview"
+        url="/content/dam/geometrixx-media/articles/paladin_trailer.jpg">
+        <image
+            jcr:primaryType="nt:unstructured"
+            url="/content/dam/geometrixx-media/articles/paladin_trailer.jpg"/>
+    </object>
+</jcr:root>

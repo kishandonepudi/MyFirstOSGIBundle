@@ -1,0 +1,61 @@
+.balloon {
+    color: black;
+    display:none;
+    font-weight: normal;
+    cursor: auto;
+    position: fixed;
+    background-color: white;
+    z-index:200000 !important;
+    border: 5px solid #222222;
+}
+
+.balloon > .header {
+    font-size: 13px;
+    margin: 0;
+    padding: 16px 20px 10px;
+    text-align: left;
+    color: #30302c;
+}
+
+.balloon > .header h2 {
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 0 3px;
+    padding: 0;
+}
+
+.balloon > .header p {
+    margin: 0;
+}
+
+.balloon > .content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding:0 9 7px;
+    min-width: 290px;
+}
+
+.balloon > .content .ui-btn {
+    margin-bottom: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.balloon > .content .ui-li.ui-btn {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.balloon-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 150000;
+}
+
+.ui-popup-screen {
+    opacity: 0;
+}

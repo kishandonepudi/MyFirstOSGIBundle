@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T17:17:40.679+01:00"
+    cq:lastModifiedBy="felicia.carter@trashymail.com"
+    jcr:description="I would like to know the materials used in the Pufferfish fins. Unfortunately, I am allergic to silicone and need to make sure the skirt and strap around the ankle won’t be a problem for me."
+    jcr:primaryType="cq:Comment"
+    jcr:title="I would like to..."
+    sling:resourceType="geometrixx-outdoors/components/qna/topic"
+    _charset_="UTF-8"
+    added="{Date}2012-11-29T17:06:26.991+01:00"
+    authorizableId="felicia.carter@trashymail.com"
+    helpful="0"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notHelpful="0"
+    positive="{Long}1"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.html"
+    sentiment="{Long}5"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="felicia.carter@trashymail.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <fcwo-josh_thanksforthe
+            jcr:description="Josh, thanks for the reply. I will definitely look into getting SCUBA fins. I’ve already accepted the fact that I will have to pay extra on a few things here and there because of my allergy, and this option doesn’t sound unreasonable at all. I’m wondering if I can just buy the booties and wear them with silicone snorkeling fins since my skin wouldn’t come in contact with the fins at all. Maybe that would save me some money….."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:16:36.046+01:00"
+            authorizableId="felicia.carter@trashymail.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.forum__zabn-i_would_liketoknow__vb3a-one_of_my_kidshasa._s_1_tosp.html/forum__zabn-i_would_liketoknow.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="felicia.carter@trashymail.com"/>
+        <ianb-felicia_unfortunate
+            jcr:description="Felicia, unfortunately that will not work. Snorkeling fins are generally too narrow around the ball of your foot to allow for a bootie. It would be pretty uncomfortable if it were even possible, in my opinion."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:17:40.634+01:00"
+            authorizableId="josh.bradley@pookmail.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.forum__zabn-i_would_liketoknow__vb3a-one_of_my_kidshasa._s_1_tosp.html/forum__zabn-i_would_liketoknow.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="josh.bradley@pookmail.com"/>
+        <vb3a-one_of_my_kidshasa
+            jcr:description="One of my kids has a silicone allergy, so fortunately for you I have already done the research on this! If you are out there looking for snorkeling fins, you won’t find much in the silicone free department. However, if you look around for SCUBA fins, you will find a pretty decent selection. The SCUBA fins will offer a heel strap that clicks to tighten, and is made entirely of plastic. The only drawback: you will need to wear neoprene dive boots. They are quite comfy and keep your feet warm, but it is another expense."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:15:33.487+01:00"
+            authorizableId="josh.bradley@pookmail.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}3"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.html/forum__zabn-i_would_liketoknow.html"
+            sentiment="{Long}5"
+            submit="Post Answer"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="josh.bradley@pookmail.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="c7e47f88-e020-4e79-8f84-cc3689d1248e">
+                <iStock_000017623596Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T09:00:01.189+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="f4305698-9675-4ed1-b404-7c71b5a6ab93"/>
+                </iStock_000017623596Small.jpg>
+            </attachments>
+        </vb3a-one_of_my_kidshasa>
+        <wh8r-the_pufferfishfins
+            jcr:description="The Pufferfish fins do use silicone, so if you have a silicone allergy then we recommend not purchasing this product. We currently do not have a silicone free fin set, but your question has been forwarded to our procurement department so that we can hopefully offer you an alternative in the future."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:13:12.585+01:00"
+            authorizableId="sean.smith@geometrixxoutdoors.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.html/forum__zabn-i_would_liketoknow.html"
+            sentiment="{Long}3"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="sean.smith@geometrixxoutdoors.com"/>
+    </_x0031__tosp>
+</jcr:root>

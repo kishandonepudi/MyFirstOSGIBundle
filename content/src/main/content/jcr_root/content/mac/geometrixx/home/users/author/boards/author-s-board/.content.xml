@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-01-20T18:25:16.332+01:00"
+        cq:lastModifiedBy="author"
+        cq:template="/libs/mac/templates/boardpage"
+        jcr:lastModified="{Date}2013-01-20T18:31:37.058+01:00"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Author's Board"
+        sling:resourceType="mac/components/boardpage">
+        <cards
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <card2
+                jcr:description="by author"
+                jcr:lastModified="{Date}2013-01-20T18:31:37.044+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[mix:lastModified,mix:referenceable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="BS_Horizontal.jpg"
+                jcr:uuid="206a70f2-38e2-4766-b995-f06955804f4a"
+                sling:resourceType="mac/components/cards/generic"
+                refAddedTo="{Long}1358703097044"
+                sharedBy="author">
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/BS_Horizontal.jpg"/>
+            </card2>
+            <card1
+                jcr:description="by author"
+                jcr:lastModified="{Date}2013-01-20T18:31:15.737+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[mix:lastModified,mix:referenceable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="DP_Vertical.jpg"
+                jcr:uuid="1c27d401-f9b8-4495-aca4-e8c81b1cb68e"
+                sling:resourceType="mac/components/cards/generic"
+                refAddedTo="{Long}1358703075737"
+                sharedBy="author">
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/DP_Vertical.jpg"/>
+            </card1>
+            <card0
+                jcr:description="by author"
+                jcr:lastModified="{Date}2013-01-20T18:30:54.316+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[mix:lastModified,mix:referenceable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Touch_Horizontal.jpg"
+                jcr:uuid="fd49710f-1e03-4b7c-98db-a29d5973f24c"
+                sling:resourceType="mac/components/cards/generic"
+                refAddedTo="{Long}1358703054316"
+                sharedBy="author">
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/Touch_Horizontal.jpg"/>
+            </card0>
+            <card
+                jcr:description="by author"
+                jcr:lastModified="{Date}2013-01-20T18:30:42.694+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[mix:lastModified,mix:referenceable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Cloud_Horizontal.jpg"
+                jcr:uuid="8ed17028-2394-412e-b55e-8c81586cd5b1"
+                sling:resourceType="mac/components/cards/generic"
+                refAddedTo="{Long}1358703042694"
+                sharedBy="author">
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/Cloud_Horizontal.jpg"/>
+            </card>
+        </cards>
+        <activities/>
+    </jcr:content>
+</jcr:root>

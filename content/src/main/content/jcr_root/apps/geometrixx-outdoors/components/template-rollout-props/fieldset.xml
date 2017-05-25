@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Widget"
+    collapsed="{Boolean}false"
+    collapsible="{Boolean}false"
+    title="Geometrixx"
+    xtype="dialogfieldset">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <banner
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Banner"
+            name="./target/par/banner/fileReference"
+            rootPath="/content/dam/geometrixx-outdoors/banners"
+            xtype="pathfield"/>
+    </items>
+</jcr:root>

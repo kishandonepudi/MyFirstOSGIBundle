@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:designPath="/etc/designs/geometrixx-unlimited"
+    jcr:description="Unlimited folio template"
+    jcr:primaryType="cq:Template"
+    jcr:title="Unlimited Tablet Folio"
+    allowedPaths="[/content/publications(/.*)?]"
+    ranking="{Long}0">
+    <jcr:content
+        jcr:description="Update description here."
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="geometrixx-unlimited/components/pages/issue"
+        dps-exportTemplate="/etc/contentsync/templates/dps-geometrixx-unlimited"
+        dps-folioIntent="Both"
+        dps-resolutionHeight="{Long}768"
+        dps-resolutionWidth="{Long}1024"
+        dps-resourceType="dps:Issue"/>
+</jcr:root>

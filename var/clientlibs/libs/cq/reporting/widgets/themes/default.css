@@ -1,0 +1,79 @@
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+#CQ .cq-reports-dt-remove .x-dd-drop-icon {
+    background-image: url(default/resources/delete.png);
+}
+
+#CQ .cq-reports-listaggregate {
+    padding-left: 17px;
+    background-position: 3px 1px;
+    background-repeat: no-repeat;
+}
+
+#CQ .cq-reports-listaggregate-collapsed {
+    background-image: url(../../../ui/widgets/themes/default/ext/grid/group-expand.gif);
+    white-space: nowrap;
+}
+
+#CQ .cq-reports-listaggregate-expanded {
+    background-image: url(../../../ui/widgets/themes/default/ext/grid/group-collapse.gif);
+    white-space: normal;
+}
+
+#CQ .cq-reports-insert-container {
+    text-align: center;
+    border: dashed 2px #cccccc;
+    z-index: 8003;
+}
+
+#CQ .cq-reports-insert-message {
+    color: #cccccc;
+    cursor: default;
+    font-family: tahoma,arial,helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    top: 20%;
+    z-index: 8003;
+}
+
+#CQ .cq-reports-chart-daterange {
+    text-align: right;
+    padding-right: 6px !important;
+    padding-top: 4px !important;
+}
+
+#CQ .cq-reports-gridview a,
+#CQ .cq-reports-gridview a:hover,
+#CQ .cq-reports-gridview a:visited,
+#CQ .cq-reports-gridview a:active {
+    text-decoration: underline;
+    color: #000;
+    cursor: pointer;
+}
+
+body.cq-reports-singleviewrender {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.cq-reports-snapshots-on {
+    background: url('../../../ui/widgets/themes/default/icons/48x48/on-slider.png') no-repeat 0 15px;
+}
+
+.cq-reports-snapshots-off {
+    background: url('../../../ui/widgets/themes/default/icons/48x48/off-slider.png') no-repeat 0 15px;
+}
+
+
+

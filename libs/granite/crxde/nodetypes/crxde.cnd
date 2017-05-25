@@ -1,0 +1,8 @@
+//----------------------------------------------------< CRXDE Integration >------
+
+<crxde = 'http://www.day.com/jcr/crxde/1.0'>
+
+[crxde:profile] mixin
+  - crxde:versions (string) multiple
+  - crxde:paths (string) multiple
+  - crxde:os (string) multiple

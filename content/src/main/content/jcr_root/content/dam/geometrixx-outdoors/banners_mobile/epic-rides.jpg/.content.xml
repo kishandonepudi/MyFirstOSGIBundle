@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:lockable]"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2011-12-15T03:15:44.853-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:ExifOffset="{Long}168"
+            dam:extracted="{Date}2011-12-08T12:44:48.197+01:00"
+            dam:Fileformat="JPEG"
+            dam:JpgFromRawLength="{Long}5162"
+            dam:JpgFromRawStart="{Long}306"
+            dam:MIMEtype="image/jpeg"
+            dam:ModifyDate="{Date}2011-11-03T14:34:44.000+01:00"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:OtherImageLength="{Long}5162"
+            dam:OtherImageStart="{Long}306"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Double}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Double}-1.0"
+            dam:PreviewImageLength="{Long}5162"
+            dam:PreviewImageStart="{Long}306"
+            dam:Progressive="yes"
+            dam:sha1="76b3fc755eea5f31d8a159f15c279f61eb82c185"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2011-11-03T14:34:47.359+01:00"
+            dc:title="For Epic Rides. – Shop men's cycling shorts, shoes, and more. – Shop Now."
+            exif:ColorSpace="{Long}1"
+            exif:PixelXDimension="{Double}72.0"
+            exif:PixelYDimension="{Double}72.0"
+            jcr:lastModified="{Date}2011-12-08T15:20:23.992+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="3"
+            photoshop:DocumentAncestors="[2DC76E84EA50C1A5D51CBC72395BD43E,uuid:E6CB35D8A1AADD11812FC178535CFC1A]"
+            photoshop:ICCProfile="sRGB IEC61966-2.1"
+            photoshop:TextLayers="[Shop now  >,Shop men's cycling shorts\,  shoes\, and more.,For epic rides,]"
+            tiff:Compression="{Long}6"
+            tiff:ImageLength="{Long}200"
+            tiff:ImageWidth="{Long}320"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="{Double}72.0"
+            tiff:YResolution="{Double}72.0"
+            xmp:CreateDate="{Date}2011-10-20T18:15:49.000+02:00"
+            xmp:CreatorTool="Adobe Photoshop CS5 Macintosh"
+            xmp:MetadataDate="{Date}2011-11-03T14:34:44.000+01:00"
+            xmp:ModifyDate="{Date}2011-11-03T14:34:44.000+01:00"
+            xmpMM:DocumentID="xmp.did:ED6B139619B511E19D539FC0754C35FE"
+            xmpMM:History="[created,xmp.iid:814839BDF7206811963EAC508E2739FF,Adobe Photoshop CS5 Macintosh,2011-10-20T10:15:49-06:00,saved,/,xmp.iid:824839BDF7206811963EAC508E2739FF,2011-10-28T12:20:49-06:00,xmp.iid:834839BDF7206811963EAC508E2739FF,2011-10-28T12:26:01-06:00,xmp.iid:844839BDF7206811963EAC508E2739FF,2011-10-28T12:34:16-06:00,xmp.iid:854839BDF7206811963EAC508E2739FF,2011-10-28T12:35:55-06:00,xmp.iid:864839BDF7206811963EAC508E2739FF,2011-10-28T12:39:30-06:00,xmp.iid:874839BDF7206811963EAC508E2739FF,xmp.iid:0480117407206811871F85B5EEA37CF3,2011-10-29T18:14:24-06:00,xmp.iid:0580117407206811871F85B5EEA37CF3,xmp.iid:01801174072068118F62E94ECC85A7BA,2011-10-29T18:56:12-06:00,xmp.iid:02801174072068118F62E94ECC85A7BA,2011-10-29T19:11:02-06:00,xmp.iid:0180117407206811871F8A3CEEC2688B,2011-10-29T19:13:07-06:00,xmp.iid:0280117407206811871F8A3CEEC2688B,2011-10-29T19:17:30-06:00,xmp.iid:0380117407206811871F8A3CEEC2688B,xmp.iid:0480117407206811871F8A3CEEC2688B,2011-10-29T19:23:27-06:00,xmp.iid:0580117407206811871F8A3CEEC2688B,2011-10-29T19:28:08-06:00,xmp.iid:0680117407206811871F8A3CEEC2688B,2011-10-29T20:10:54-06:00,xmp.iid:0780117407206811871F8A3CEEC2688B,2011-10-29T20:11:01-06:00,xmp.iid:0880117407206811871F8A3CEEC2688B,xmp.iid:0980117407206811871F8A3CEEC2688B,2011-10-29T20:12:25-06:00,xmp.iid:352179FC0F206811871F8A3CEEC2688B,2011-10-29T20:41:07-06:00,xmp.iid:382179FC0F206811871F8A3CEEC2688B,2011-10-29T20:43:11-06:00,xmp.iid:67A0FEEC87206811871F8A3CEEC2688B,2011-10-30T15:21:12-06:00,xmp.iid:68A0FEEC87206811871F8A3CEEC2688B,xmp.iid:69A0FEEC87206811871F8A3CEEC2688B,2011-10-30T15:37:20-06:00,xmp.iid:6AA0FEEC87206811871F8A3CEEC2688B,2011-10-30T15:38:51-06:00,xmp.iid:6BA0FEEC87206811871F8A3CEEC2688B,xmp.iid:511851CCB3206811871F8A3CEEC2688B,2011-10-30T15:54:50-06:00,xmp.iid:521851CCB3206811871F8A3CEEC2688B,2011-10-30T15:57:47-06:00,xmp.iid:531851CCB3206811871F8A3CEEC2688B,2011-10-30T15:58:59-06:00,xmp.iid:541851CCB3206811871F8A3CEEC2688B,xmp.iid:551851CCB3206811871F8A3CEEC2688B,2011-10-30T17:32:45-06:00,xmp.iid:66C15CA9D2206811871F8A3CEEC2688B,2011-10-30T19:59:42-06:00,xmp.iid:03801174072068118A6DB777017516A2,2011-10-31T10:01:14-06:00,xmp.iid:05801174072068118A6DB777017516A2,2011-10-31T10:02:12-06:00,xmp.iid:E8CA24D44520681194578AF279266457,2011-11-01T18:55:53-06:00,xmp.iid:B4B0FE817120681194578AF279266457,2011-11-02T12:54:47-06:00,xmp.iid:B5B0FE817120681194578AF279266457,xmp.iid:B6B0FE817120681194578AF279266457,2011-11-02T12:56:11-06:00,xmp.iid:B7B0FE817120681194578AF279266457,2011-11-02T12:56:27-06:00,xmp.iid:B4E989561C206811A090E45CADCA2915,Adobe Photoshop CS5.1 Macintosh,2011-11-03T14:34:44+01:00,converted,from application/vnd.adobe.photoshop to image/jpeg,derived,converted from application/vnd.adobe.photoshop to image/jpeg,xmp.iid:B5E989561C206811A090E45CADCA2915,]"
+            xmpMM:InstanceID="xmp.iid:ED6B139519B511E19D539FC0754C35FE"
+            xmpMM:OriginalDocumentID="xmp.did:814839BDF7206811963EAC508E2739FF">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef_x0025_3AdocumentID="xmp.did:814839BDF7206811963EAC508E2739FF"
+                stRef_x0025_3AinstanceID="xmp.iid:B7B0FE817120681194578AF279266457"
+                stRef_x0025_3AoriginalDocumentID="xmp.did:814839BDF7206811963EAC508E2739FF"/>
+        </metadata>
+        <activity jcr:primaryType="nt:unstructured">
+            <admin_1320327287393
+                jcr:primaryType="nt:unstructured"
+                timestamp="{Long}1320327287390"
+                type="REQUEST"
+                user="admin"/>
+        </activity>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,13 @@
+<granite = 'http://www.adobe.com/jcr/granite/1.0'>
+<sling = 'http://sling.apache.org/jcr/sling/1.0'>
+
+/**
+ * Defines a Granite component.
+ *
+ * @prop isContainer indicates if this is a container component.
+ * @node config configuration of the component (exposed to the client)
+ */
+[granite:Component] > sling:Folder, sling:ResourceSuperType
+  mixin
+  - isContainer (boolean)
+  + config (nt:unstructured)

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-12-16T14:18:14.716+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Community"
+        sling:resourceType="geometrixx/components/contentpage"
+        subtitle="share questions">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <forum
+                jcr:lastModified="{Date}2010-12-16T14:18:14.713+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/forum/components/forum"
+                feedEnabled="true"/>
+            <toggle
+                jcr:created="{Date}2010-11-30T09:53:36.661+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-30T10:30:23.198+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/toggle"
+                confirmationMessageToggle="&lt;p>You've been successfully subscribed to this forum topic.&lt;br>&#xa;&lt;/p>&#xa;"
+                confirmationMessageUntoggle="&lt;p>You've been successfully unsubscribed from this forum topic.&lt;br>&#xa;&lt;/p>&#xa;"
+                oldstateProvider="/libs/collab/forum/components/stateproviders/subscribe"
+                oldtoggleWorkflowModel="/etc/workflow/models/collab/forum_topic_subscription/jcr:content/model"
+                olduntoggleWorkflowModel="/etc/workflow/models/collab/forum_topic_unsubscription/jcr:content/model"
+                stateProvider="/libs/social/forum/components/stateproviders/subscribe"
+                toggleLabel="Unsubscribe"
+                toggleWorkflowModel="/etc/workflow/models/social/forum_topic_subscription/jcr:content/model"
+                transitionLabel="Un-/Subscription in progress"
+                untoggleLabel="Subscribe"
+                untoggleWorkflowModel="/etc/workflow/models/social/forum_topic_unsubscription/jcr:content/model"/>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+        <title
+            jcr:lastModified="{Date}2010-08-25T17:14:36.910+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx/components/title"/>
+    </jcr:content>
+    <search/>
+</jcr:root>

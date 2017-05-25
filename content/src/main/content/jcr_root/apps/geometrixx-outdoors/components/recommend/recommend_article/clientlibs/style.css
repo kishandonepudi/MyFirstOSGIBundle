@@ -1,0 +1,82 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.recommend_article {
+    position: relative;
+    overflow: hidden;
+    max-height: 400px;
+}
+.recommend_article a {
+    display: block;
+    min-height: 80px;
+    text-decoration: none;
+}
+.recommend_article img {
+    height: 318px;
+}
+.page-mobile .recommend_article img {
+    height: auto;
+    width: 100%;
+}
+.recommend_article .text {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.recommend_article .text h3,
+.recommend_article .text p {
+    position: relative;
+    z-index: 1;
+    margin: 10px 20px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+.recommend_article .text h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.recommend_article .text p.description {
+    font-size: 13px;
+    color: #e6e6e6;
+}
+.recommend_article .text p.button {
+    float: left;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+    height: 15px;
+    line-height: 15px;
+    background: #be4b16 url(../../../../../../etc/designs/geometrixx-outdoors/images/common/button.png) left top repeat-x;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+.recommend_article .text .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: #000;
+    opacity: 0.8;
+    filter: alpha(opacity = 80);
+}

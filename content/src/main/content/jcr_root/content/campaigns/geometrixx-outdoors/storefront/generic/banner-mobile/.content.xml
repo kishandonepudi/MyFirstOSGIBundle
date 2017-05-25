@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-10-31T20:43:24.408Z"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2012-10-31T20:43:24.442Z"
+        cq:lastRolledoutBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="Adventure Banner"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveSync,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Banner Mobile"
+        jcr:uuid="ae08aee7-6538-42c2-98e7-2cb837eb5b6a"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="banner-mobile">
+        <par
+            cq:lastRolledout="{Date}2012-10-31T20:43:24.435Z"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                cq:lastRolledout="{Date}2012-10-31T20:43:24.437Z"
+                cq:lastRolledoutBy="admin"
+                jcr:created="{Date}2011-11-03T17:40:00.622+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-12-06T00:51:37.096+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx-outdoors/banners_mobile/adventure.jpg"
+                imageRotate="0"
+                linkURL="/content/geometrixx-outdoors-mobile/en/equipment">
+                <file
+                    cq:lastRolledout="{Date}2012-10-31T20:43:24.440Z"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured">
+                    <jcr:content.undoblob.save.json
+                        cq:lastRolledout="{Date}2012-10-31T20:43:24.442Z"
+                        cq:lastRolledoutBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"/>
+                </file>
+            </image>
+        </par>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/campaigns/geometrixx-outdoors/storefront/generic/banner"
+            cq:rolloutConfigs="[/etc/msm/rolloutconfigs/geometrixx-outdoors-teaser]"
+            jcr:primaryType="cq:LiveSyncConfig"/>
+    </jcr:content>
+</jcr:root>

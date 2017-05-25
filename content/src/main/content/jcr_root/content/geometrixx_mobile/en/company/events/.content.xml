@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-08T13:23:34.479Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/mobilecontentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Events"
+        sling:resourceType="geometrixx/components/mobilecontentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <mobilelist
+                jcr:created="{Date}2010-11-02T23:11:23.595Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T23:11:33.896Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/mobilelist"
+                listFrom="children"/>
+            <mobiletextimage
+                jcr:created="{Date}2010-11-02T23:18:48.364Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-08T13:23:34.475Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/mobiletextimage"
+                text="&lt;p>Come join us at one of our upcoming events. You can meet other customers and partners and learne aboutthe latest in shape and geometry technology. Sign up today!&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2010-11-08T13:23:34.475Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/geometrixx/shapes/W06.jpg"
+                    imageRotate="0"/>
+            </mobiletextimage>
+        </par>
+    </jcr:content>
+    <dsc/>
+    <shapecon/>
+    <techsummit/>
+</jcr:root>

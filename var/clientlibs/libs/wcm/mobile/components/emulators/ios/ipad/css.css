@@ -1,0 +1,103 @@
+/*
+ * Copyright 1997-2009 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+#cq-emulator.ipad.vertical {
+    background: url("resources/bg.png") no-repeat;
+    height: 1024px;
+    padding: 148px 0 265px;
+    width: 1124px;
+}
+
+#cq-emulator.ipad.horizontal {
+    background: url("resources/bg_horizontal.png") no-repeat;
+    height: 768px;
+    padding: 135px 0 120px;
+    width: 1366px;
+}
+
+#cq-emulator-content.ipad {
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#cq-emulator-content.ipad.vertical {
+    width: 768px;
+    height: 1002px;
+}
+
+#cq-emulator-content.ipad.horizontal {
+    width: 1024px;
+    height: 748px;
+}
+
+#cq-emulator-rotate.ipad {
+    text-indent: -10000px;
+    height: 32px;
+    width: 32px;
+}
+
+#cq-emulator-rotate.ipad.vertical {
+    background: url("resources/rotate_to_horizontal.png") no-repeat;
+    right: 106px;
+    top: 56px;
+}
+
+#cq-emulator-rotate.ipad.horizontal {
+    background: url("resources/rotate_to_vertical.png") no-repeat;
+    right: 107px;
+    top: 912px;
+}
+
+#cq-touchscrolling-trackercontainer.ipad {
+    position: absolute;
+    background-color: #aaa;
+    opacity: 0.5;
+    width: 5px;
+}
+
+#cq-touchscrolling-trackercontainer.ipad #cq-touchscrolling-tracker {
+    background-color: #000;
+    opacity: 0.6;
+    width: 5px;
+}
+
+#cq-touchscrolling-trackercontainer.ipad.vertical {
+    height: 998px;
+    right: 180px;
+    top: 150px;
+}
+
+#cq-touchscrolling-trackercontainer.ipad.horizontal {
+    height: 744px;
+    right: 173px;
+    top: 137px;
+}
+
+#cq-emulator-browserui-header.ipad.vertical {
+    background: url("resources/bg_browserui_header_vertical.png") no-repeat;
+    height: 58px;
+    width: 768px;
+}
+
+#cq-emulator-browserui-footer.ipad.vertical {
+    display: none;
+}
+
+#cq-emulator-browserui-header.ipad.horizontal {
+    background: url("resources/bg_browserui_header_horizontal.png") no-repeat;
+    height: 58px;
+    width: 1024px;
+}
+
+#cq-emulator-browserui-footer.ipad.horizontal {
+    display: none;
+}

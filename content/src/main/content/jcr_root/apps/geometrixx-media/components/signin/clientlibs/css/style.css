@@ -1,0 +1,54 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+header .signin {
+    float: right;
+    width: 100%;
+}
+
+
+.userinfo nav ul {
+    float: right;
+    list-style: none;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.userinfo ul li {
+    display: inline;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.userinfo ul li span,
+.userinfo ul li a {
+    color: #9D9999;
+    font-size: 1.0em;
+    cursor: pointer;
+}
+
+.userinfo ul li a.btn {
+    background-image: none;
+    background-color: transparent;
+    color: white;
+    text-shadow: none;
+}
+
+.userinfo ul li span {
+    cursor: auto;
+}
+

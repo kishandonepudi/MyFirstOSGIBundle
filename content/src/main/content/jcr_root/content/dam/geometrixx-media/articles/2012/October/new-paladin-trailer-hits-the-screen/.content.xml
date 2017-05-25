@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2012-10-23T14:43:47.544-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2012-10-23T14:43:47.204-04:00"
+            dam:sha1="bf59cc5121754d3c1a0e672e46bc249847486965"
+            dam:WordCount="{Long}200"
+            dc:format="text/plain"
+            dc:modified="{Date}2012-10-23T14:42:32.239-04:00"
+            dc:title="New Paladin Trailer Hits the Screen"
+            jcr:lastModified="{Date}2012-10-23T14:43:47.544-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <assignment
+            jcr:primaryType="nt:unstructured"
+            brief=""
+            editor="admin"
+            startDate="{Date}2012-10-23T14:42:31.000-04:00"
+            status="Assigned"
+            writer="aparker@geometrixx.info"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

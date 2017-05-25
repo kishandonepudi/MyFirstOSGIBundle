@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastReplicated="{Date}2012-12-04T14:28:12.540+01:00"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:description="Weston, good call on giving in to your wife and using poles. I had a similar experience a few years ago, and now I don’t go on a hike without them. Sometimes I will just have them with me and not actually use them, but they are always good to have around. It sounds like you aren’t one to hike with a daypack, but I have a pack with a place to strap my poles on the outside, so it’s not an inconvenience at all."
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="cq:Comment"
+    sling:resourceType="social/commons/components/comments/comment"
+    activityCreated="true"
+    added="{Date}2012-12-04T14:28:12.167+01:00"
+    approved="{Boolean}true"
+    authorizableId="james.devore@spambob.com"
+    email="james.devore@spambob.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/journal/2012/12/i_finally_gave_inan.html"
+    sentiment="{Long}3"
+    url=""
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="james.devore@spambob.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="5796aa11-a86f-4933-bec6-2d727bce13d1">
+        <iStock_000010408398Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T09:00:01.002+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="41feac6e-20ec-4143-a469-7509933ce7c3"/>
+        </iStock_000010408398Small.jpg>
+    </attachments>
+</jcr:root>

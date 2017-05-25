@@ -1,0 +1,9 @@
+Export-Package: com.day.cq.wcm.apps.geometrixx
+# Import-Package: *
+Private-Package: com.day.cq.wcm.apps.geometrixx.impl
+# Include-Resource: 
+Bundle-Name: Day Communique 5 WCM Geometrixx
+Bundle-Description: Contains the CQ Geometrixx example bundle
+Bundle-SymbolicName: com.day.cq.wcm.cq-wcm-geometrixx
+Bundle-Version: 5.3.0-SNAPSHOT
+Bundle-Activator: com.day.cq.wcm.apps.geometrixx.Activator

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:actions="[]"
+    jcr:primaryType="cq:EditConfig">
+    <cq:actionConfigs jcr:primaryType="nt:unstructured">
+        <edit
+            jcr:primaryType="nt:unstructured"
+            handler="function(){ CQ.wcm.EditBase.showDialog(this.getParent(), CQ.wcm.EditBase.EDIT); }"
+            text="Edit"/>
+    </cq:actionConfigs>
+    <cq:dropTargets jcr:primaryType="nt:unstructured">
+        <product
+            jcr:primaryType="cq:DropTargetConfig"
+            accept="[.*]"
+            groups="[page]"
+            propertyName="./giftProductPath"/>
+    </cq:dropTargets>
+    <cq:listeners
+        jcr:primaryType="cq:EditListenersConfig"
+        afteredit="REFRESH_PAGE"/>
+</jcr:root>

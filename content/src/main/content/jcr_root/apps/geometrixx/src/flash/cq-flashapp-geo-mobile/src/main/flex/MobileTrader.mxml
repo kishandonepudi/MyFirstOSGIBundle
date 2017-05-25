@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+								  xmlns:s="library://ns.adobe.com/flex/spark"
+								  xmlns:controller="controller.*"
+								  splashScreenImage="@Embed('/assets/splash-trader.jpg')"
+								  creationComplete="init()"
+								  width="100%"
+								  height="100%"
+								  backgroundColor="#dddddd" xmlns:views="views.*" xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:components="com.adobe.cq.foundation.components.*">
+	
+	<fx:Style source="styles.css"/>
+	
+	<fx:Declarations>
+		<controller:Feed id="feed"/>
+	</fx:Declarations> 
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.cq.foundation.WCM;
+			import com.adobe.cq.foundation.components.Page;
+			import com.adobe.cq.foundation.core.MetadataComponentResolver;
+			import com.adobe.cq.foundation.dd.ExternalDDAdapter;
+			import com.adobe.jcr.*;
+			
+			import components.Advisor;
+			import components.Alerts;
+			import components.AssetsSummary;
+			import components.MobileImage;
+			import components.PortfolioChart;
+			import components.Title;
+			import components.WatchList;
+			
+			import mx.controls.Alert;
+			import mx.core.FlexGlobals;
+			import mx.events.PropertyChangeEvent;
+			
+			
+			[Embed(source="/assets/gear_48.png")]
+			private var icon_settings:Class;
+			
+			public function init():void {
+				// initialize the external DragDrop adapter
+				ExternalDDAdapter.init();
+
+				WCM.init();
+				MetadataComponentResolver.register(AssetsSummary);
+				MetadataComponentResolver.register(PortfolioChart);
+				MetadataComponentResolver.register(WatchList);
+				MetadataComponentResolver.register(Advisor);
+				MetadataComponentResolver.register(Alerts);
+				MetadataComponentResolver.register(MobileImage);
+				MetadataComponentResolver.register(Title);
+
+				var pagePath:String = FlexGlobals.topLevelApplication.parameters.currentPagePath;
+				var s:Session = new Session();
+				//s = new Session("http://localhost:4502");
+				//pagePath = "/content/geometrixx_mobile/en/trader";
+				if (pagePath) {
+					navi.loadContent(s, pagePath);
+				}
+			}
+		]]>
+	</fx:Script>
+	<s:Group height="100%" width="100%">
+		<s:layout>
+			<s:VerticalLayout gap="0"/>
+		</s:layout>
+		<s:BorderContainer id="titleContent" width="100%" height="56" borderVisible="false">
+			<s:backgroundFill>
+				<s:BitmapFill source="@Embed('/assets/background.png')"/>
+			</s:backgroundFill>
+			<s:Image source="@Embed('/assets/logo.png')" />
+		</s:BorderContainer>
+		<components:TabbedPageNavigation id="navi" width="100%" height="100%" pageClass="{Class(DefaultPage)}"/>
+	</s:Group>
+</s:Application>

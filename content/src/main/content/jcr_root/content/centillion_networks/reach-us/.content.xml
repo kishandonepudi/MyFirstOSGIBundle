@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-04-28T07:54:00.236+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/centillion/templates/cent_templates"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Reach Us"
+        sling:resourceType="centillion/components/page/cent_component">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <colctrl
+                jcr:created="{Date}2017-04-27T10:30:26.304+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-27T10:30:26.304+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="2;cq-colctrl-lt0"/>
+            <map
+                jcr:created="{Date}2017-04-27T11:26:50.473+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-27T11:26:50.473+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="centillion/components/map"/>
+            <col_break14932692263080
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <text_0
+                jcr:created="{Date}2017-04-27T10:30:41.070+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-28T07:54:00.219+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="centillion/components/text"
+                text="&lt;p>&lt;b>&lt;u>Centillion Networks Pvt Ltd&lt;/u>&lt;/b>&lt;/p>&#xa;&lt;p>Manjeera Majestic Commercial, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;&lt;p>Office No 717, JNTU Road,&lt;/p>&#xa;&lt;p>KPHB Colony (Phase-1), Kukatpally,&lt;/p>&#xa;&lt;p>Hyderabad - 500072&lt;/p>&#xa;&lt;p>India&lt;/p>&#xa;&lt;p>Email : info@centillionnetworks.com&lt;/p>&#xa;&lt;p>Phone: +91 (40) 4220 0027 &amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_end14932692263091
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+        </par>
+        <ipar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <socialconnect
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/personalization/components/target"/>
+        </ipar>
+    </jcr:content>
+</jcr:root>

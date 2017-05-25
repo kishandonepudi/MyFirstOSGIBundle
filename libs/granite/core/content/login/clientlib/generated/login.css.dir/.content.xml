@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:file">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        dependencies="[/etc/clientlibs/granite/coralui/less/includes/config.less,/etc/clientlibs/granite/coralui/less/includes/variables.less,/etc/clientlibs/granite/coralui/less/bootstrap/variables.less,/libs/granite/core/content/login/clientlib/utilities.less]"/>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cq:Page 
+	xmlns:fx="http://ns.adobe.com/mxml/2009"
+    xmlns:s="library://ns.adobe.com/flex/spark"
+    skinClass="com.adobe.cq.foundation.skins.PageSkin"
+	xmlns:cq="com.adobe.cq.foundation.components.*"
+	creationComplete="init()" xmlns:local="*" >
+
+	<fx:Script>
+		<![CDATA[    
+			private function init():void {
+				// need to register the 'par' here
+				getContent().addComponent(par);
+			}
+			
+		]]>
+	</fx:Script>
+	<fx:Style>
+		@namespace foundation "com.adobe.cq.foundation.components.*";
+		.Page {borderColor: Red}
+	</fx:Style>
+
+	<s:Scroller width="100%" height="100%">
+		<s:Group width="100%" height="100%">
+			<s:layout>
+				<s:VerticalLayout/>
+			</s:layout>
+			<cq:ContainerComponent id="jcrContent" nodeName="jcr:content" width="100%" height="100%">
+				<cq:ParSys id="par" nodeName="par"/>
+			</cq:ContainerComponent>
+			</s:Group>
+	</s:Scroller>
+</cq:Page>

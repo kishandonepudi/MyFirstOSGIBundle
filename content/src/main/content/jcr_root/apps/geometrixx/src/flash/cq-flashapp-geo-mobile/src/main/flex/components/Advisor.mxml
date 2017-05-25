@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cq:Component xmlns:cq="com.adobe.cq.foundation.components.*"
+xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		xmlns:cs="http://ns.adobe.com/rtc"
+		width="100%"
+		height="100%"
+		xmlns:views="views.*">
+	
+	<fx:Metadata>
+		[FlexCqComponent("geometrixx/components/mobiletrader/advisor")]
+	</fx:Metadata>
+
+	<fx:Script>
+		
+		<![CDATA[
+			import com.adobe.jcr.Node;
+			
+			override public function loadContent(node:Node):void {
+				// nothing to load
+			}
+
+		]]>
+		
+	</fx:Script>
+	<views:Advisor />
+	
+</cq:Component>

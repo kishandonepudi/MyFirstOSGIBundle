@@ -1,0 +1,8 @@
+.granite-userpicker .user-entry {
+    white-space: nowrap;
+}
+.granite-userpicker .user-entry .avatar {
+    float: left;
+    background-size: cover;
+}
+

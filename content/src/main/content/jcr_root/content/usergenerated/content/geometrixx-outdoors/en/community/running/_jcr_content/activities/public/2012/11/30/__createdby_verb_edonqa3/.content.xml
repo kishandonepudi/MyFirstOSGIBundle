@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:49.688-05:00"
+    jcr:createdBy="aparker@geometrixx.info"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Q&amp;A"
+    sling:resourceType="granite/activitystreams/components/activity"
+    id="/content/usergenerated/content/geometrixx-outdoors/en/community/running/jcr:content/activities/public/2012/11/30/_createdby_verb_edonqa2"
+    verb="POST">
+    <object
+        jcr:description="So was I! We better not cross paths when we’re running, unless you want to see your twin! Maybe I’ll get the Devi shirt instead…it looks really comfortable."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/running/questions/jcr:content/forum_fa48/1_ciot/epiq-i_absolutelyloveth/1_tosp/mai7-so_was_i_webetter"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/qna/post"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Q&amp;A"
+        id="/content/geometrixx-outdoors/en/community/running/questions"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

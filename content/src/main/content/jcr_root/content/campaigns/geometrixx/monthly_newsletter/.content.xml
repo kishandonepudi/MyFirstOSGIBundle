@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/default"
+        cq:lastModified="{Date}2010-11-11T16:38:42.865+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/newsletter"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="New Monthly Newsletter"
+        sling:resourceType="geometrixx/components/newsletterpage"
+        defaultRecipientList="/home/groups/geometrixx/dsc">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <colctrl_0
+                jcr:lastModified="{Date}2010-05-28T17:40:26.200+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/parsys/colctrl"
+                layout="2;310,28,192"/>
+            <heading
+                jcr:lastModified="{Date}2010-10-08T10:30:23.420+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Tuesday, October 13 | Published by Geometrixx"
+                sling:resourceType="mcm/components/newsletter/heading"
+                textIsRich="true"/>
+            <heading_1
+                jcr:lastModified="{Date}2010-11-11T16:38:25.654+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Say Hello to the new monthly Geometrixx newsletter."
+                sling:resourceType="mcm/components/newsletter/heading"
+                textIsRich="true"
+                type="large"/>
+            <text
+                jcr:lastModified="{Date}2010-10-08T10:29:54.854+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/text"
+                text="&lt;p>Cras purus. Nunc rhoncus. Pellentesque semper. Donec imperdiet accCras purus. Nunc rhoncus. Pellentesque semper. Donec imperdiet accumsan felis. Proin eget mi. Sed at est.umsan felis. Proin eget mi. Sed at est.&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;&lt;p>Nunc rhoncus. Pellentesque semper. Donec imperdiet accumsan felis. Proin eget mi. Sed at est.umsan felis. Proin eget mi. Sed at es.&lt;/p>&#xa;&lt;p>&lt;a href=&quot;http://www.geometrixx.info&quot; style=&quot;color: rgb(23, 128, 185);&quot;>Read more&lt;/a>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <heading_3
+                jcr:lastModified="{Date}2010-06-01T14:42:06.266+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Donce Imperiat Accumsan Felis"
+                sling:resourceType="mcm/components/newsletter/heading"
+                textIsRich="true"
+                type="large"/>
+            <image
+                jcr:lastModified="{Date}2010-11-11T16:36:26.102+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/offices/geo_hq.jpg"/>
+            <text_1
+                jcr:lastModified="{Date}2010-06-02T14:14:03.537+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/text"
+                text="&lt;p>Fermentum quam. Donec imperdiet, nibh sit amet pharetra placerat--tortor purus condimentum lectus.&lt;/p>&#xa;&lt;p>&lt;a href=&quot;http://www.geometrixx.info&quot; style=&quot;color: rgb(23, 128, 185);&quot;>Read more&lt;/a>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <heading_4
+                jcr:lastModified="{Date}2010-06-01T14:10:34.548+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Aliquam lectus orci, adipiscing"
+                sling:resourceType="mcm/components/newsletter/heading"
+                type="large"/>
+            <text_2
+                jcr:lastModified="{Date}2010-06-02T14:14:23.692+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/text"
+                text="&lt;p>Cras purus. Nunc rhoncus. Pellentesque semper. Donec imperdiet accumsan felis. Proin eget mi. Sed at est.&lt;/p>&#xa;&lt;p>&lt;a href=&quot;http://www.geometrixx.info&quot; style=&quot;color: rgb(23, 128, 185);&quot;>Read more&lt;/a>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <heading_5
+                jcr:lastModified="{Date}2010-06-01T14:14:32.606+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Fermentum quam donec imperde"
+                sling:resourceType="mcm/components/newsletter/heading"
+                type="large"/>
+            <image_0
+                jcr:lastModified="{Date}2010-11-11T16:37:48.196+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx/offices/basel kitchen.jpg"/>
+            <text_3
+                jcr:lastModified="{Date}2010-06-02T14:15:17.803+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/text"
+                text="&lt;p>Fermentum quam. Donec imperdiet, nibh sit amet pharetra placerat--tortorCras purus. Nunc rhoncus. Pellentesque semper. Donec imperdiet accumsan felis. Proin eget mi. Sed at est. purus condimentum lectus.&lt;/p>&#xa;&lt;p>&lt;a href=&quot;http://www.geometrixx.info&quot; style=&quot;color: rgb(23, 128, 185);&quot;>Read more&lt;/a>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_break12750612262020
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <heading_0
+                jcr:lastModified="{Date}2010-06-01T16:04:29.210+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Recent Updates"
+                sling:resourceType="mcm/components/newsletter/heading"
+                textIsRich="true"/>
+            <heading_2
+                jcr:lastModified="{Date}2010-06-01T16:22:56.298+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="MAIN FEATURES"
+                sling:resourceType="mcm/components/newsletter/heading"
+                textIsRich="true"
+                type="small"/>
+            <text_0
+                jcr:lastModified="{Date}2010-06-01T14:15:31.780+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/text"
+                text="&lt;ul>&#xa;&lt;li>Works on all major email systems like Outlook, Lotus, Gmail, Postbox, and more.&lt;/li>&#xa;&lt;li>The design won't break.&lt;/li>&#xa;&lt;li>Include your own content, easy!&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+            <heading_6
+                jcr:lastModified="{Date}2010-06-01T17:13:36.461+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="In Other News"
+                sling:resourceType="mcm/components/newsletter/heading"
+                textIsRich="true"
+                type="small"/>
+            <heading_7
+                jcr:lastModified="{Date}2010-06-01T17:21:49.104+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Proin sagittis tincidunuris. Ali quam erat."
+                sling:resourceType="mcm/components/newsletter/heading"
+                type="sub"/>
+            <text_5
+                jcr:lastModified="{Date}2010-06-01T17:22:00.678+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/text"
+                text="&lt;p>Nunc ipsum metus, iaculis sit amet, interdum at. Donce imperiat ccumsan felis.&lt;/p>&#xa;&lt;p>Cras sed ante. Phasellus in massa. Curabitur dolor eros, gravidacras sed ante. Phasellus in massa.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <heading_8
+                jcr:lastModified="{Date}2010-06-01T17:22:33.904+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Ali quam erat."
+                sling:resourceType="mcm/components/newsletter/heading"
+                type="sub"/>
+            <text_6
+                jcr:lastModified="{Date}2010-06-01T17:22:51.748+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/text"
+                text="&lt;p>Cras sed ante. Phasellus in massa.Curabitur dolor eros, gravidacras sed ante. Phasellus in massa.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_end12750612262031
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+        </par>
+        <header
+            jcr:lastModified="{Date}2010-06-01T14:08:11.783+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Newest Infos in Your Mailbox"
+            sling:resourceType="mcm/components/newsletter/header">
+            <file/>
+        </header>
+        <copyright
+            jcr:lastModified="{Date}2010-11-11T16:38:42.861+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mcm/components/newsletter/copyright"
+            text="This message and its content is &amp;copy; Geometrixx Inc."/>
+        <footer
+            jcr:lastModified="{Date}2010-10-08T08:42:17.366+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mcm/components/newsletter/footer"
+            text="&lt;p>You're receiving this newsletter because you registered ${email} with us.&lt;br>&#xa;Not interested anymore? &lt;a href=&quot;${special:unsubscribeLink}&quot; style=&quot;color: rgb(255, 255, 255);&quot;>Unsubscribe Instantly.&lt;/a>&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <image
+            jcr:lastModified="{Date}2010-09-23T11:06:02.312+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

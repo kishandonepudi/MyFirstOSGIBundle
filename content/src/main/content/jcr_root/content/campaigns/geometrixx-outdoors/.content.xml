@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:commerceProvider="geometrixx"
+        cq:designPath="/etc/designs/geometrixx-outdoors"
+        cq:lastModified="{Date}2011-12-09T15:43:45.951+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/mcm/templates/brand"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en_US"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Geometrixx Outdoors"
+        jcr:uuid="730baafb-f28b-4c04-b944-1ac1a372d1ef"
+        sling:resourceType="mcm/components/brandpage">
+        <image
+            jcr:lastModified="{Date}2011-12-09T15:43:45.950+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/logo.png"
+            imageRotate="0"/>
+    </jcr:content>
+    <article/>
+    <big-spender/>
+    <color/>
+    <cosy-up-to-winter/>
+    <e-mails/>
+    <storefront/>
+    <summersports/>
+</jcr:root>

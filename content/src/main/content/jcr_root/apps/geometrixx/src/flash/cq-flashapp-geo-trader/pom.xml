@@ -1,0 +1,123 @@
+<?xml version="1.0"?><!--
+  Copyright 1997-2009 Day Management AG
+  Barfuesserplatz 6, 4001 Basel, Switzerland
+  All Rights Reserved.
+
+  This software is the confidential and proprietary information of
+  Day Management AG, ("Confidential Information"). You shall not
+  disclose such Confidential Information and shall use it only in
+  accordance with the terms of the license agreement you entered into
+  with Day.
+ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- ======================================================================= -->
+    <!-- P A R E N T                                                             -->
+    <!-- ======================================================================= -->
+    <parent>
+        <groupId>com.day.cq.flash</groupId>
+        <artifactId>flash-parent</artifactId>
+        <version>5.6.0-SNAPSHOT</version>
+        <relativePath>../../../../../libs/wcm/flash/src/parent/pom.xml</relativePath>
+    </parent>
+
+    <!-- ======================================================================= -->
+    <!-- P R O J E C T                                                           -->
+    <!-- ======================================================================= -->
+    <groupId>com.day.cq.wcm</groupId>
+    <artifactId>cq-flashapp-geo-mobile-trader</artifactId>
+    <packaging>air</packaging>
+    <name>CQ Composite Flash App - Geometrixx MobileTrader (air)</name>
+    <version>5.6.0-SNAPSHOT</version>
+
+    <build>
+<!--        <sourceDirectory>src/main/flex</sourceDirectory> -->
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.sonatype.flexmojos</groupId>
+                <artifactId>flexmojos-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <sourceFile>MobileTrader.mxml</sourceFile>
+                    <debug>true</debug>
+                    <themes>
+	<!--
+                        <theme>
+                            ${settings.localRepository}/com/adobe/flex/framework/spark/${flex.sdk.version}/mobile-${flex.sdk.version}-theme.css
+                        </theme>
+-->
+                    </themes>
+                    <localesCompiled>
+                        <compiled>en_US</compiled>
+                    </localesCompiled>
+					<keystore>${basedir}/demo.p12</keystore>
+					      <storepass>demo</storepass>
+					<descriptorTemplate>${basedir}/src/MobileTrader-app.xml</descriptorTemplate>
+					<flexBuilderCompatibility>true</flexBuilderCompatibility>
+					<includeFileSets>
+			            <fileSet>
+			              <directory>src</directory>
+			              <includes>
+			                 <include>*.*</include>
+			              </includes>
+			            </fileSet>
+			      </includeFileSets>
+                </configuration>
+			<dependencies>
+			<dependency>
+			<groupId>com.adobe.flex.compiler</groupId>
+			<artifactId>adt</artifactId>
+			<version>${flex.sdk.version}</version>
+			<scope>compile</scope>
+			</dependency>
+			</dependencies>
+        </plugin>
+			        </plugins>
+    </build>
+
+    <!-- ======================================================================= -->
+    <!-- D E P E N D E N C I E S                                                 -->
+    <!-- ======================================================================= -->
+    <dependencies>
+        <dependency>
+            <groupId>com.adobe.flex</groupId>
+            <artifactId>lccs</artifactId>
+            <version>10.3.0</version>
+            <type>swc</type>
+            <scope>internal</scope>
+        </dependency>
+                               <dependency>
+            <groupId>com.adobe.jcr</groupId>
+            <artifactId>asjax</artifactId>
+            <version>5.6.0-SNAPSHOT</version>
+            <type>swc</type>
+            <scope>internal</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.adobe.flex.framework</groupId>
+            <artifactId>airglobal</artifactId>
+            <type>swc</type>
+        </dependency>
+		<dependency>
+	            <groupId>com.adobe.flex.framework</groupId>
+	            <artifactId>mobile</artifactId>
+	            <version>${flex.sdk.version}</version>
+	            <type>swc</type>
+	            <scope>theme</scope>
+        </dependency>
+	    <dependency>
+	      <groupId>com.adobe.flex.framework</groupId>
+	      <artifactId>mobilecomponents</artifactId>
+	      <version>${flex.sdk.version}</version>
+	      <type>swc</type>
+	    </dependency>
+        <dependency>
+            <groupId>com.adobe.flex.framework</groupId>
+            <artifactId>flex-framework</artifactId>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+</project>

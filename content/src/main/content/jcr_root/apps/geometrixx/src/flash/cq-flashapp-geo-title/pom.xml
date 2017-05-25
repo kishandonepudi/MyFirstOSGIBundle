@@ -1,0 +1,89 @@
+<?xml version="1.0"?><!--
+  Copyright 1997-2009 Day Management AG
+  Barfuesserplatz 6, 4001 Basel, Switzerland
+  All Rights Reserved.
+
+  This software is the confidential and proprietary information of
+  Day Management AG, ("Confidential Information"). You shall not
+  disclose such Confidential Information and shall use it only in
+  accordance with the terms of the license agreement you entered into
+  with Day.
+ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- ======================================================================= -->
+    <!-- P A R E N T                                                             -->
+    <!-- ======================================================================= -->
+    <parent>
+        <groupId>com.day.cq.flash</groupId>
+        <artifactId>flash-parent</artifactId>
+        <version>5.5.0</version>
+        <relativePath>../../../../../libs/wcm/flash/src/parent/pom.xml</relativePath>
+    </parent>
+
+    <scm>
+      <connection>scm:git:git@git.corp.adobe.com:CQ5/cq5.git</connection>
+      <developerConnection>scm:git:git@git.corp.adobe.com:CQ5/cq5.git</developerConnection>
+      <url>https://git.corp.adobe.com/CQ5/cq5/tree/master/content/jcr_root/apps/geometrixx/src/flash/cq-flashapp-geo-title</url>
+    </scm>
+
+    <!-- ======================================================================= -->
+    <!-- P R O J E C T                                                           -->
+    <!-- ======================================================================= -->
+    <groupId>com.day.cq.wcm</groupId>
+    <artifactId>cq-flashapp-geo-title</artifactId>
+    <packaging>swc</packaging>
+    <name>CQ Composite Flash App - Geometrixx Title</name>
+    <version>5.6.0-SNAPSHOT</version>
+
+    <build>
+        <sourceDirectory>src/main/flex</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.sonatype.flexmojos</groupId>
+                <artifactId>flexmojos-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <debug>true</debug>
+                    <keepAs3Metadatas>
+                        <keepAs3Metadata>FlexCqComponent</keepAs3Metadata>
+                    </keepAs3Metadatas>
+                    <localesCompiled>
+                        <compiled>en_US</compiled>
+                    </localesCompiled>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!-- ======================================================================= -->
+    <!-- D E P E N D E N C I E S                                                 -->
+    <!-- ======================================================================= -->
+    <dependencies>
+        <dependency>
+            <groupId>com.day.cq.wcm</groupId>
+            <artifactId>cq-flashapp</artifactId>
+            <version>5.5.0</version>
+            <type>swc</type>
+            <scope>external</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.jcr</groupId>
+            <artifactId>asjax</artifactId>
+            <version>5.5.0</version>
+            <type>swc</type>
+            <scope>external</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.adobe.flex.framework</groupId>
+            <artifactId>playerglobal</artifactId>
+            <type>swc</type>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.flex.framework</groupId>
+            <artifactId>flex-framework</artifactId>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+</project>

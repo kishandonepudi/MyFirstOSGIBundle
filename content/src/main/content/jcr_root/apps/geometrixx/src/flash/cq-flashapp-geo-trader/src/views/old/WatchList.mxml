@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark"
+		xmlns:charts="charts.*" 
+		width="100%" height="100%" destructionPolicy="never"
+		backgroundColor="#F0F0F0"
+		creationComplete="creationComplete()">
+
+	<fx:Script>
+		<![CDATA[
+			import controller.Feed;
+			
+			import mx.core.FlexGlobals;
+			
+			import spark.events.ViewNavigatorEvent;
+			
+			public var feed:Feed;
+			
+			protected function creationComplete():void 
+			{
+				feed = FlexGlobals.topLevelApplication.feed;
+				list.dataProvider = feed.stockList;
+				addEventListener(ViewNavigatorEvent.VIEW_ACTIVATE, activateHandler);
+				addEventListener(ViewNavigatorEvent.VIEW_DEACTIVATE, deactivateHandler);
+				feed.subscribe();
+			}
+
+			protected function activateHandler(event:Event):void 
+			{
+				feed.subscribe();
+			}
+			
+			protected function deactivateHandler(event:ViewNavigatorEvent):void 
+			{
+				feed.unsubscribe();
+			}
+			
+			protected function listChange():void
+			{
+				feed.unsubscribe();
+				navigator.pushView(StockDetails, list.selectedItem);
+				list.selectedIndex = -1;
+			}
+			
+		]]>
+	</fx:Script>
+	<s:titleContent>
+		<s:Image source="@Embed('assets/logo.png')"/>
+	</s:titleContent>
+
+	<s:SkinnableContainer top="0" left="0" right="0" backgroundColor="#919191" height="40">
+		<s:layout>
+			<s:HorizontalLayout paddingLeft="0" paddingRight="0" paddingTop="0" gap="-1"/>
+		</s:layout>
+		<s:Button label="Stock" width="100%" height="100%" skinClass="skins.ButtonSkin" fontWeight="normal"/>
+		<s:Button label="Open" width="100%" height="100%" skinClass="skins.ButtonSkinRightAlign" fontWeight="normal"/>
+		<s:Button label="Last" width="100%" height="100%" skinClass="skins.ButtonSkinRightAlign" fontWeight="normal"/>
+		<s:Button label="High" width="100%" height="100%" skinClass="skins.ButtonSkinRightAlign" fontWeight="normal"/>
+		<s:Button label="Low" width="100%" height="100%" skinClass="skins.ButtonSkinRightAlign" fontWeight="normal"/>
+		<s:Button label="" width="60" height="100%" skinClass="skins.ButtonSkinRightAlign" fontWeight="normal"/>
+	</s:SkinnableContainer>
+		
+	<s:List id="list" itemRenderer="renderers.StockRenderer" borderVisible="false"
+			top="41" left="0" right="0" bottom="28"
+			change="listChange()"/>
+	
+	<s:Label bottom="4" text="Select stock to see real time chart" fontSize="16" color="#AAAAAA" horizontalCenter="0"/>
+	
+</s:View>

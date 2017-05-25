@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="Banners Mobile">
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+    <carving-fun.jpg/>
+    <cool-and-stylish.jpg/>
+    <dedication.jpg/>
+    <epic-rides.jpg/>
+    <nordic-walking.jpg/>
+    <snow-walking.jpg/>
+    <snowboard-action.jpg/>
+    <summer.jpg/>
+    <adventure.jpg/>
+    <journey.jpg/>
+    <best-season.jpg/>
+    <keep-your-cool.jpg/>
+    <runner.jpg/>
+    <stay-warm.jpg/>
+    <warm-and-stylish.jpg/>
+    <winter.jpg/>
+</jcr:root>

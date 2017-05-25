@@ -1,0 +1,70 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.colctrl-2c,
+.colctrl-2crc,
+.colctrl-3c {
+    overflow: hidden;
+}
+
+.colctrl-2c-c0 {
+    float: left;
+    width: 453px;
+}
+.colctrl-2c-c1 {
+    float: right;
+    width: 453px;
+}
+
+.colctrl-2crc-c0,
+.colctrl-2crc-c1 {
+    float: left;
+    min-width: 100px;
+}
+.colctrl-2crc-c0 {
+    margin-right: 10px;
+}
+
+.colctrl-3c-c0 {
+    float: left;
+    display: inline;
+    width: 302px;
+    margin-right: 10px;
+}
+.colctrl-3c-c1 {
+    float: left;
+    width: 302px;
+    margin-right: 10px;
+}
+.colctrl-3c-c2 {
+    float: left;
+    width: 302px;
+}
+
+.colctrl-2csidebar {
+    overflow: hidden;
+}
+
+.colctrl-2csidebar-c0 {
+    float: left;
+    width: 330px;
+}
+
+.colctrl-2csidebar-c1 {
+    float: right;
+    width: 330px;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <home/>
+    <feed/>
+    <boards/>
+    <jcr:content
+        cq:allowedTemplates="[/libs/mac/templates/.*]"
+        cq:designPath="/etc/designs/mac"
+        cq:lastModified="{Date}2012-11-09T13:23:44.398-08:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/mac/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Default"
+        sling:resourceType="mac/components/redirect"
+        redirectType="USER_FEED">
+        <image
+            jcr:lastModified="{Date}2012-07-16T13:08:39.298-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

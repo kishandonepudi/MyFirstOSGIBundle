@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <news/>
+    <discover_geometrixx/>
+    <press/>
+    <bod/>
+    <_x0033_489836c-d684-42ca-b5b7-84898435e0bf/>
+    <management/>
+    <_x0039_9bb4a66-d609-48f2-b63d-fb2518c3d76d/>
+</jcr:root>

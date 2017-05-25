@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    helpPath="en/cq/current/wcm/default_components.html#Title"
+    title="Recommend Header"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <title
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Title"
+            name="./jcr:title"
+            xtype="textfield"/>
+        <moreText
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="More Text"
+            name="./moreText"
+            xtype="textfield"/>
+        <moreLink
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="More Link"
+            name="./moreLink"
+            xtype="pathfield"/>
+    </items>
+</jcr:root>

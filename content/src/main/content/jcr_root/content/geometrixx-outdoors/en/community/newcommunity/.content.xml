@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-12-04T17:20:47.756+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="New Geometrixx Outdoors Community"
+        jcr:uuid="fa912a38-f83e-4cff-b79c-f8c830c45338"
+        sling:resourceType="geometrixx-outdoors/components/page_newcommunity">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <start
+                jcr:created="{Date}2012-07-21T23:26:50.069-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-21T15:19:47.679+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/group/components/form/start"
+                action="/content/usergenerated/content/geometrixx-outdoors/en/communities/newcommunity/"
+                actionType="social/group/components/form/actions/store"
+                bluePrintPath="/etc/blueprints/geometrixx-communities/content-driven"
+                clientValidation="true"
+                formid="new-community"
+                liveCopyPath="/content/geometrixx-outdoors/en/community"
+                msmChapterPages="[/etc/blueprints/geometrixx-communities/content-driven/journal,/etc/blueprints/geometrixx-communities/content-driven/forum,/etc/blueprints/geometrixx-communities/content-driven/calendar,/etc/blueprints/geometrixx-communities/content-driven/activity,/etc/blueprints/geometrixx-communities/content-driven/members,/etc/blueprints/geometrixx-communities/content-driven/about]"
+                msmMasterPages="/etc/blueprints/geometrixx-communities/content-driven"
+                msmRolloutConfigs="/etc/msm/rolloutconfigs/default"
+                redirect="/content/geometrixx-outdoors/en/community"
+                thankyou="/content/geometrixx-outdoors/en/community"
+                toggleStateApproval="{Boolean}false"
+                userGroupPath="/home/groups/geometrixx/communities"/>
+            <colctrl_410a
+                jcr:created="{Date}2012-12-04T13:55:24.733+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-04T13:55:37.697+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/parsys/colctrl"
+                layout="2;colctrl-2c"/>
+            <text_liveCopyTitle
+                jcr:created="{Date}2012-07-21T23:28:26.070-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-21T18:18:00.822+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Title:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="liveCopyTitle"
+                required="true"/>
+            <text_shortdesc
+                jcr:created="{Date}2012-07-21T23:28:26.070-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-21T18:18:07.250+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Description:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="jcr:description"
+                required="true"/>
+            <image
+                jcr:created="{Date}2012-09-17T23:34:24.140-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-04T17:20:47.751+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Image:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/image"
+                height="100"
+                name="image"
+                required="true"/>
+            <text_longdesc
+                jcr:created="{Date}2012-07-21T23:28:26.070-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-21T18:18:29.813+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="About:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                cols="60"
+                name="detailDescription"
+                rows="10"/>
+            <col_break13546257247430
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/parsys/colctrl"
+                controlType="break"/>
+            <radio_bluePrintPathSelect
+                jcr:created="{Date}2012-07-25T16:41:10.134-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-04T14:14:45.965+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Select Theme:"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/radio"
+                defaultValue="/etc/blueprints/geometrixx-communities/content-driven"
+                name="bluePrintPathSelect"
+                options="[/etc/blueprints/geometrixx-communities/content-driven=Content Driven,/etc/blueprints/geometrixx-communities/discussion-driven=Discussion Driven,/etc/blueprints/geometrixx-communities/event-driven=Event Driven]"/>
+            <textimage_contentDriven
+                jcr:created="{Date}2012-11-21T15:54:57.607+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-21T16:02:24.518+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/textimage"
+                text="&lt;div data-theme=&quot;/etc/blueprints/geometrixx-communities/content-driven&quot;>&lt;h2>Share Your Insights&lt;/h2>&lt;p>You have something to say or you have an experience or story that needs to be told. Here's your chance to share it boldly with the world.&lt;/p>&#xa;&lt;p>&lt;b>Components&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Journal&lt;/li>&#xa;&lt;li>Forum&lt;/li>&#xa;&lt;li>Calendar&lt;/li>&#xa;&lt;li>Activity&lt;/li>&#xa;&lt;li>Members&lt;/li>&lt;li>About&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/div>"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2012-11-21T16:02:24.518+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Driven Theme"
+                    sling:resourceType="foundation/components/image"
+                    alt="Content Driven Theme"
+                    imageRotate="0"/>
+            </textimage_contentDriven>
+            <textimage_discussionDriven
+                jcr:created="{Date}2012-11-21T15:54:57.607+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-21T16:21:12.784+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/textimage"
+                text="&lt;div data-theme=&quot;/etc/blueprints/geometrixx-communities/discussion-driven&quot;>&lt;h2>Start the Conversation&lt;/h2>&lt;p>You have questions. They have answers. Get massive community feedback and forge new relationships with smart, outdoor-savvy people like yourself.&lt;/p>&#xa;&lt;p>&lt;b>Components&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Forum&lt;/li>&#xa;&lt;li>Journal&lt;/li>&#xa;&lt;li>Activity&lt;/li>&#xa;&lt;li>Members&lt;/li>&lt;li>About&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/div>"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2012-11-21T16:02:24.518+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Driven Theme"
+                    sling:resourceType="foundation/components/image"
+                    alt="Content Driven Theme"
+                    imageRotate="0"/>
+            </textimage_discussionDriven>
+            <textimage_eventDriven
+                jcr:created="{Date}2012-11-21T15:54:57.607+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-04T16:01:13.701+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/textimage"
+                text="&lt;div data-theme=&quot;/etc/blueprints/geometrixx-communities/event-driven&quot;>&lt;h2>Invite Them All&lt;/h2>&#xa;&lt;p>When you have an event on the horizon here's an easy way to spread the word and ensure a good turn out.&lt;/p>&#xa;&lt;p>&lt;b>Components&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Calendar&lt;/li>&#xa;&lt;li>Q&amp;A&lt;/li>&#xa;&lt;li>Activity&lt;/li>&#xa;&lt;li>Members&lt;/li>&lt;li>About&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/div>&#xa;"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2012-11-21T16:02:24.518+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Driven Theme"
+                    sling:resourceType="foundation/components/image"
+                    alt="Content Driven Theme"
+                    imageRotate="0"/>
+            </textimage_eventDriven>
+            <col_end13546257247431
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/newsletter/parsys/colctrl"
+                controlType="end"/>
+            <form_end
+                jcr:lastModified="{Date}2012-11-21T18:17:07.235+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Create Community"
+                sling:resourceSuperType="foundation/components/form/end"
+                sling:resourceType="social/commons/components/form/end"
+                submit="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

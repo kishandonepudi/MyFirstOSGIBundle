@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:lockable]"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2011-12-15T03:15:45.034-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:ExifOffset="{Long}168"
+            dam:extracted="{Date}2011-12-08T12:44:50.841+01:00"
+            dam:Fileformat="JPEG"
+            dam:JpgFromRawLength="{Long}6661"
+            dam:JpgFromRawStart="{Long}306"
+            dam:MIMEtype="image/jpeg"
+            dam:ModifyDate="{Date}2011-11-03T14:39:49.000+01:00"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:OtherImageLength="{Long}6661"
+            dam:OtherImageStart="{Long}306"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Double}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Double}-1.0"
+            dam:PreviewImageLength="{Long}6661"
+            dam:PreviewImageStart="{Long}306"
+            dam:Progressive="yes"
+            dam:sha1="b82b1432ac829a5e6a6a3a4f0bcaf1d8b7eeff07"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2011-11-03T14:39:52.427+01:00"
+            dc:title="Get Ready for Cold Weather Fun. – Fom skiing to snowshoeing, we've got you covered. – Shop our winter gear guide."
+            exif:ColorSpace="{Long}1"
+            exif:PixelXDimension="{Double}72.0"
+            exif:PixelYDimension="{Double}72.0"
+            jcr:lastModified="{Date}2011-12-08T15:21:28.143+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="3"
+            photoshop:DocumentAncestors="[72E25217BA054A2402563787ED9FDB4D,8EEEC8082864ACC17F94E7BD7E50100F,9770BEE145D3996F2F036B30FA0FBF21,E63D2B5D5701133C96DD24E2561A22F7]"
+            photoshop:ICCProfile="sRGB IEC61966-2.1"
+            photoshop:TextLayers="[Shop our winter gear guide  >,From skiing to snowshoeing\,  we've got you covered. ,Get ready  for cold  weather fun,]"
+            tiff:Compression="{Long}6"
+            tiff:ImageLength="{Long}200"
+            tiff:ImageWidth="{Long}320"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="{Double}72.0"
+            tiff:YResolution="{Double}72.0"
+            xmp:CreateDate="{Date}2011-10-20T18:15:49.000+02:00"
+            xmp:CreatorTool="Adobe Photoshop CS5 Macintosh"
+            xmp:MetadataDate="{Date}2011-11-03T14:39:49.000+01:00"
+            xmp:ModifyDate="{Date}2011-11-03T14:39:49.000+01:00"
+            xmpMM:DocumentID="xmp.did:EF33ACD219B511E19D539FC0754C35FE"
+            xmpMM:History="[created,xmp.iid:814839BDF7206811963EAC508E2739FF,Adobe Photoshop CS5 Macintosh,2011-10-20T10:15:49-06:00,saved,/,xmp.iid:824839BDF7206811963EAC508E2739FF,2011-10-28T12:20:49-06:00,xmp.iid:834839BDF7206811963EAC508E2739FF,2011-10-28T12:26:01-06:00,xmp.iid:844839BDF7206811963EAC508E2739FF,2011-10-28T12:34:16-06:00,xmp.iid:854839BDF7206811963EAC508E2739FF,2011-10-28T12:35:55-06:00,xmp.iid:864839BDF7206811963EAC508E2739FF,2011-10-28T12:39:30-06:00,xmp.iid:874839BDF7206811963EAC508E2739FF,xmp.iid:0480117407206811871F85B5EEA37CF3,2011-10-29T18:14:24-06:00,xmp.iid:0580117407206811871F85B5EEA37CF3,xmp.iid:01801174072068118F62E94ECC85A7BA,2011-10-29T18:56:12-06:00,xmp.iid:02801174072068118F62E94ECC85A7BA,2011-10-29T19:11:02-06:00,xmp.iid:0180117407206811871F8A3CEEC2688B,2011-10-29T19:13:07-06:00,xmp.iid:342179FC0F206811871F8A3CEEC2688B,2011-10-29T20:14:12-06:00,xmp.iid:EC1BD62ED7206811871F8A3CEEC2688B,2011-10-30T20:03:16-06:00,xmp.iid:09801174072068118A6DB777017516A2,2011-10-31T10:05:49-06:00,xmp.iid:22208C8E0A20681194578AF279266457,2011-11-01T12:23:10-06:00,xmp.iid:F62CA45D1520681194578AF279266457,2011-11-01T12:23:24-06:00,xmp.iid:F72CA45D1520681194578AF279266457,xmp.iid:B847689D3820681194578AF279266457,2011-11-01T16:45:36-06:00,xmp.iid:A2A8216B6820681194578AF279266457,2011-11-02T10:42:39-06:00,xmp.iid:A3A8216B6820681194578AF279266457,2011-11-02T10:43:12-06:00,xmp.iid:57543A121D206811A090E45CADCA2915,Adobe Photoshop CS5.1 Macintosh,2011-11-03T14:39:49+01:00,converted,from application/vnd.adobe.photoshop to image/jpeg,derived,converted from application/vnd.adobe.photoshop to image/jpeg,xmp.iid:58543A121D206811A090E45CADCA2915,]"
+            xmpMM:InstanceID="xmp.iid:EF33ACD119B511E19D539FC0754C35FE"
+            xmpMM:OriginalDocumentID="xmp.did:814839BDF7206811963EAC508E2739FF">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef_x0025_3AdocumentID="xmp.did:814839BDF7206811963EAC508E2739FF"
+                stRef_x0025_3AinstanceID="xmp.iid:A3A8216B6820681194578AF279266457"
+                stRef_x0025_3AoriginalDocumentID="xmp.did:814839BDF7206811963EAC508E2739FF"/>
+        </metadata>
+        <activity jcr:primaryType="nt:unstructured">
+            <admin_1320327592462
+                jcr:primaryType="nt:unstructured"
+                timestamp="{Long}1320327592451"
+                type="REQUEST"
+                user="admin"/>
+        </activity>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

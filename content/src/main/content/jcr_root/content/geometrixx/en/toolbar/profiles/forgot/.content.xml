@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-09-14T16:30:05.269+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Forgot Password"
+        sling:resourceType="geometrixx/components/contentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text_0
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>If you have forgotten your password please submit your e-mail address below.&lt;br>You will then receive an e-mail informing you how to reset your password.&lt;/p>"
+                textIsRich="true"/>
+            <start
+                jcr:lastModified="{Date}2010-09-14T16:30:05.258+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/start"
+                actionType="foundation/components/account/actions/resetpwd"
+                changePwdPage="/content/geometrixx/en/toolbar/profiles/passwordchange"
+                formid="pwr"
+                thankyouPage="/content/geometrixx/en/toolbar/profiles/forgot/thank_you.html"/>
+            <text
+                jcr:primaryType="nt:unstructured"
+                jcr:title="E Mail"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="rep:userId"/>
+            <form_end_1236967016359
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/end"
+                name=":ignore"
+                submit="true"/>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+    </jcr:content>
+    <thank_you/>
+</jcr:root>

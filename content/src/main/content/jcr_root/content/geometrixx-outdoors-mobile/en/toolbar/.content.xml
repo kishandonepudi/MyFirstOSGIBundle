@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-12-12T22:42:08.598+01:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2012-12-12T22:42:08.599+01:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page_mobile"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Toolbar"
+        sling:resourceType="foundation/components/redirect"
+        hideInNav="{Boolean}true"
+        redirectTarget="/content/geometrixx-outdoors-mobile/en"/>
+    <about-us/>
+    <privacy-policy/>
+    <terms-of-use/>
+    <search/>
+</jcr:root>

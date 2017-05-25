@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a03ac6a4-0cb7-450c-9a96-31a6a9d73b4c">
+    <jcr:content
+        cq:name="DP_Scrubber_l.png"
+        cq:parentPath="/content/dam/geometrixx-unlimited/ads/fullPage"
+        jcr:lastModified="{Date}2012-11-19T10:44:30.785-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2012-11-19T10:44:27.665-05:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Double}2.305267333984375"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Double}3.069060802459717"
+            dam:Progressive="no"
+            dam:sha1="836313075b04359be76028d4810c8a6222990b86"
+            dc:format="image/png"
+            dc:modified="{Date}2012-11-19T10:44:27.270-05:00"
+            jcr:lastModified="{Date}2012-11-19T10:44:30.784-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}166"
+            tiff:ImageWidth="{Long}221"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

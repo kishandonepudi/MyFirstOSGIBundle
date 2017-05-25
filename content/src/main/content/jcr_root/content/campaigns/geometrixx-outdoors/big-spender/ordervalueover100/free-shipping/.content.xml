@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-09-11T10:36:09.670+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/commerce/templates/promotion"
+        jcr:description="Rewarding our big spenders."
+        jcr:lastModified="{Date}2012-09-11T10:36:09.664+02:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Free Shipping"
+        sling:resourceType="commerce/components/promotion"
+        priority="100"
+        promotionType="/libs/commerce/components/promotion/freeshipping">
+        <image
+            jcr:lastModified="{Date}2012-08-27T15:27:39.250+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

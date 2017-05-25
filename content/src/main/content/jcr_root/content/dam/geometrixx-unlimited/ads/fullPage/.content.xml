@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <Cloud_Horizontal.jpg/>
+    <Cloud_Vertical.jpg/>
+    <DP_Horizontal.jpg/>
+    <DP_Vertical.jpg/>
+    <Touch_Horizontal.jpg/>
+    <Touch_Vertical.jpg/>
+    <jcr:content
+        cq:lastModified="{Date}2012-05-23T13:54:51.311-04:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"/>
+    <Cloud_Scrubber_l.png/>
+    <Cloud_Scrubber_v.png/>
+    <DP_TOC.png/>
+    <DP_Scrubber_v.png/>
+    <Cloud_TOC.png/>
+    <DP_Scrubber_l.png/>
+    <Touch_Scrubber_v.png/>
+    <Touch_Scrubber_l.png/>
+    <Touch_TOC.png/>
+    <BS_TOC.jpg/>
+    <BS_Vertical.jpg/>
+    <BS_Scrubber_h.jpg/>
+    <BS_Horizontal.jpg/>
+    <BS_Scrubber_l.jpg/>
+</jcr:root>

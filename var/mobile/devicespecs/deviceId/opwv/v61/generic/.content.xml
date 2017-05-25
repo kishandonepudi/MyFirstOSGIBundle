@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="not-match-browser"
+    fall_back="opwv_v6_generic"
+    mobile_browser_version="6.1"
+    oma_support="true"
+    oma_v_1_0_forwardlock="true"
+    release_date="2002_august"
+    user_agent="DO_NOT_MATCH_UP.Browser/6.1"
+    xhtml_support_level="1"/>

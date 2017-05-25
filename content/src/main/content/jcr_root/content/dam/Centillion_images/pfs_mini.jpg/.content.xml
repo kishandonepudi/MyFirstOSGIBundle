@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d083a459-aa44-406c-a80a-121a89abdda4">
+    <jcr:content
+        cq:name="pfs_mini.jpg"
+        cq:parentPath="/content/dam/Centillion_images"
+        jcr:lastModified="{Date}2017-05-15T09:12:37.575+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:DateTime="{Date}2017-04-15T20:00:51.000+05:30"
+            dam:ExifOffset="{Long}164"
+            dam:extracted="{Date}2017-04-15T20:01:20.473+05:30"
+            dam:Fileformat="JPEG"
+            dam:JpgFromRawLength="{Long}4910"
+            dam:JpgFromRawStart="{Long}302"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:OtherImageLength="{Long}4910"
+            dam:OtherImageStart="{Long}302"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Double}4.166666507720947"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Double}5.972222328186035"
+            dam:Progressive="yes"
+            dam:sha1="c1f8d359d100dbb7800bf321959caf658340e459"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-04-16T18:06:06.850+05:30"
+            exif:ExifImageLength="{Long}300"
+            exif:ExifImageWidth="{Long}430"
+            exif:PixelXDimension="{Double}72.0"
+            exif:PixelYDimension="{Double}72.0"
+            jcr:lastModified="{Date}2017-05-15T09:12:37.575+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="3"
+            photoshop:ICCProfile="sRGB IEC61966-2.1"
+            tiff:Compression="{Long}6"
+            tiff:ImageLength="{Long}300"
+            tiff:ImageWidth="{Long}430"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="{Double}72.0"
+            tiff:YResolution="{Double}72.0"
+            xmp:CreateDate="{Date}2017-04-15T17:54:47.000+05:30"
+            xmp:CreatorTool="Adobe Photoshop CC (Windows)"
+            xmp:MetadataDate="{Date}2017-04-15T20:00:51.000+05:30"
+            xmp:ModifyDate="{Date}2017-04-15T20:00:51.000+05:30"
+            xmpMM:DocumentID="xmp.did:38d64218-6158-cd4c-ad84-72248e72fd88"
+            xmpMM:History="[,created,xmp.iid:38d64218-6158-cd4c-ad84-72248e72fd88,Adobe Photoshop CC (Windows),2017-04-15T17:54:47+05:30,saved,/,xmp.iid:9fd10298-fe7c-d94b-9b56-65887f6a6315,2017-04-15T20:00:51+05:30,converted,from application/vnd.adobe.photoshop to image/jpeg,derived,converted from application/vnd.adobe.photoshop to image/jpeg,xmp.iid:3f6a53c8-07de-0d47-af97-83f27e4722dd]"
+            xmpMM:InstanceID="xmp.iid:3f6a53c8-07de-0d47-af97-83f27e4722dd"
+            xmpMM:OriginalDocumentID="xmp.did:38d64218-6158-cd4c-ad84-72248e72fd88">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:38d64218-6158-cd4c-ad84-72248e72fd88"
+                stRef:instanceID="xmp.iid:9fd10298-fe7c-d94b-9b56-65887f6a6315"
+                stRef:originalDocumentID="xmp.did:38d64218-6158-cd4c-ad84-72248e72fd88"
+                newRendition="{Boolean}true"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

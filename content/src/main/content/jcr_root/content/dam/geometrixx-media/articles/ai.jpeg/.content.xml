@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="dfd726d3-c336-499f-b0cd-20deaa502c9e">
+    <jcr:content
+        cq:name="ai.jpeg"
+        cq:parentPath="/content/dam/geometrixx-media/articles"
+        jcr:lastModified="{Date}2012-11-23T08:00:48.256-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2012-11-23T08:00:45.978-05:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Double}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Double}-1.0"
+            dam:Progressive="no"
+            dam:sha1="e4e10a77c4afd80534dcbaab1495e8b5c6eed8e9"
+            dc:creator="[Colin Anderson]"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2012-11-14T13:18:49.576-05:00"
+            dc:rights="[© Corbis.  All Rights Reserved.]"
+            dc:title="[42-22561076]"
+            jcr:lastModified="{Date}2012-11-23T08:00:48.256-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}480"
+            tiff:ImageWidth="{Long}477"
+            xmp:CreatorTool="Adobe Photoshop CS6 Windows"
+            xmpMM:DocumentID="xmp.did:E1029B6B356811E2BD4EC9D4D8F393B5"
+            xmpMM:InstanceID="xmp.iid:E1029B6A356811E2BD4EC9D4D8F393B5"
+            xmpRights:Marked="True"
+            xmpRights:WebStatement="http://www.CorbisImages.com/enlargement/42-22561076.html">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="084721F53A15D401279E66C7B8B4CDF2"
+                stRef:instanceID="084721F53A15D401279E66C7B8B4CDF2"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

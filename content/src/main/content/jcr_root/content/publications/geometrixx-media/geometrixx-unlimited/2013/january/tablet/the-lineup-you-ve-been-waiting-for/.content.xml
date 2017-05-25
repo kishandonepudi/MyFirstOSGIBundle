@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-unlimited"
+        cq:lastModified="{Date}2012-11-01T15:43:44.840-04:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[geometrixx-media:events/festivals,geometrixx-media:events/concerts,geometrixx-media:entertainment/movies,geometrixx-media:events/premieres]"
+        cq:template="/apps/geometrixx-unlimited/templates/article"
+        jcr:description="Sound off on the must-see music &amp; arts festival of the season."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="The Lineup You've Been Waiting For"
+        sling:resourceType="geometrixx-unlimited/components/pages/article"
+        dps-author="by Luz Smith"
+        dps-kicker="Events"
+        dps-resourceType="dps:Article">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <article
+                jcr:lastModified="{Date}2012-10-24T14:27:29.253-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="media/articles/components/article"
+                fileReference="/content/dam/geometrixx-media/articles/2012/October/the-lineup-youve-been-waiting-for"/>
+        </par>
+        <article-title jcr:primaryType="nt:unstructured">
+            <article-author
+                jcr:lastModified="{Date}2012-10-24T14:27:58.190-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-unlimited/components/author"
+                articleAuthor="/home/users/geometrixx/carlene.j.avery@mailinator.com"
+                publishedDate="October 08, 2012"/>
+        </article-title>
+        <article-image
+            jcr:lastModified="{Date}2012-11-01T15:43:44.838-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx-unlimited/components/image"
+            fileReference="/content/dam/geometrixx-media/articles/skrillex-bluesfest.jpeg"
+            imageCrop="113,125,1143,712"
+            imageRotate="0"/>
+        <scrubber-p
+            jcr:lastModified="{Date}2012-11-14T16:23:09.345-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/issues/issue1/the-lineup-you-ve-been-waiting-for_Scrubber_v.png"
+            imageRotate="0"/>
+        <scrubber-l
+            jcr:lastModified="{Date}2012-11-14T16:23:09.345-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/issues/issue1/the-lineup-you-ve-been-waiting-for_Scrubber_l.png"
+            imageRotate="0"/>
+        <image
+            jcr:lastModified="{Date}2012-11-19T12:48:47.642-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-unlimited/issues/issue1/the-lineup-you-ve-been-waiting-for_TOC.png"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Create a Journal page."
+    jcr:primaryType="cq:Template"
+    jcr:title="Social Journal"
+    allowedPaths="[/content/geometrixx-outdoors/[^/]+/community(/.*)?]"
+    editForm="/content/geometrixx-outdoors/en/social-journal/editjournalform">
+    <jcr:content
+        cq:designPath="/etc/designs/social/journal/kubrick"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="geometrixx-outdoors/components/page_journal"
+        hideInNav="{Boolean}true">
+        <alt
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <comments
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/comments"
+                allowFileUploads="{Boolean}false"/>
+            <trackback
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/journal/components/trackback"/>
+        </alt>
+        <sidebar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text_871e
+                jcr:created="{Date}2012-06-08T10:20:21.326-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-06-08T10:21:59.018-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;b>&lt;a href=&quot;/content/geometrixx-outdoors/en/community/journal/newjournalform.html&quot;>New&amp;nbsp;Journal&lt;/a>&lt;/b>&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <search
+                jcr:lastModified="{Date}2010-01-19T16:38:37.515-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/journal/components/search"/>
+            <categories
+                jcr:lastModified="{Date}2010-01-19T16:38:44.391-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/journal/components/categories"/>
+            <authors
+                jcr:lastModified="{Date}2010-01-19T16:38:47.003-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/journal/components/authors"/>
+            <archive
+                jcr:lastModified="{Date}2010-01-19T16:38:50.039-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/journal/components/archive"/>
+        </sidebar>
+    </jcr:content>
+</jcr:root>

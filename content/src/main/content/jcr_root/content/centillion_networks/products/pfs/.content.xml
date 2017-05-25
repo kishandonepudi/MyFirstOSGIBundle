@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-05-01T14:58:13.235+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/centillion/templates/cent_templates"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PFS"
+        sling:resourceType="centillion/components/page/cent_component">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2017-04-15T20:02:57.695+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-01T14:58:13.232+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/Centillion_images/pfs_wall.jpg"
+                height="680"
+                imageRotate="0"
+                width="1330"/>
+            <text
+                jcr:created="{Date}2017-04-16T13:19:37.939+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-16T14:14:13.896+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="centillion/components/text"
+                text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>&lt;u>PAPER-LESS FIELD SURVEY&lt;/u>&lt;/b>&lt;/p>&#xa;&lt;p>The Paperless Field Survey (PFS-18) is a powerful tool for the Field Engineers to go Paper-less. &amp;nbsp;It digitally captures the existing field data, network features and also helps in preparing proposed high level designs. &amp;nbsp;PFS-18 is the perfect answer for the day to day challenges faced in the field.&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Handling large size A1/A2 papers in the field is a difficult task. PFS-18 is a completely digital tool and thus eliminates manual notes and drawing on paper. &amp;nbsp;It comes with a rugged case and is light in weight. &amp;nbsp; &amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;u>&lt;b>Highlights of PFS:&lt;/b>&lt;/u>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Powerful tool for MDU/SDU In-building drawings, Metro E Survey, As-built capture, Last mile connectivity &amp;amp; Permit Drawings&lt;/li>&#xa;&lt;li>Eliminate non-standard symbols, hand written notations, manual drawings and difficulties in interpretations  Enable the Drafter to quickly &amp;amp; accurately complete drawings with high quality&lt;/li>&#xa;&lt;li>Quickly prepare pre-engineering designs efficiently and directly from the field&lt;/li>&#xa;&lt;li>Preliminary designs can be drawn accurately over : &amp;nbsp;o Photographs taken from the built-in camera o Stored pictures from the gallery o Google earth &amp;nbsp;or Google maps backdrop o Plain or Grid layouts&lt;/li>&#xa;&lt;li>Legends, Pallet Icons, Line types &amp;amp; Colors customized to fit the requirement&lt;/li>&#xa;&lt;li>Reduce rework and minimize revisits to the site&lt;/li>&#xa;&lt;li>Transfer the files instantaneously to the Design Center over Wi-Fi/Cellular Network&lt;/li>&#xa;&lt;li>Share the completed drawings as PDF/JPEG &amp;nbsp;via mail/cloud directly from the site&lt;/li>&#xa;&lt;li>Edit, Store and Archive the drawings effortlessly &amp;nbsp; Easily collect GPS coordinates for all network elements &amp;nbsp;&lt;/li>&#xa;&lt;li>External GNSS receiver can be integrated to achieve sub-meter/sub-foot accuracy&lt;/li>&#xa;&lt;li>Export data in XML format as an input to CAD/AutoCAD/GPS platforms&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&lt;u>&lt;b>Where is PFS Usefull ?&lt;/b>&lt;/u>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>In-building survey&lt;/li>&#xa;&lt;li>Feasibility study for Designer&lt;/li>&#xa;&lt;li>Field feasibility survey&lt;/li>&#xa;&lt;li>Redline drawings preparation&lt;/li>&#xa;&lt;li>Metro E Survey&lt;/li>&#xa;&lt;li>Permit Drawings&lt;/li>&#xa;&lt;li>As-built updation&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

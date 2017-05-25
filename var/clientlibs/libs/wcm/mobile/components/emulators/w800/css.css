@@ -1,0 +1,25 @@
+/*
+ * Copyright 1997-2009 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+#cq-emulator.w800 {
+    background: url("resources/bg.png") no-repeat;
+    width: 176px;
+    height: 218px;
+    padding: 66px 61px 340px 68px;
+}
+
+#cq-emulator-content.w800 {
+    width: 176px;
+    height: 218px;
+    background: url("resources/bg.png") repeat scroll -67px -66px transparent;
+    overflow: auto;
+}
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-01T15:10:24.944-04:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Forgot Password"
+        sling:resourceType="geometrixx-media/components/page/profile/forgot">
+        <title-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:created="{Date}2012-11-01T14:55:40.886-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-01T14:58:58.910-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/title"/>
+            <text
+                jcr:created="{Date}2012-11-01T15:04:52.120-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-01T15:06:07.613-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>If you have forgotten your password please submit your e-mail address below. You will then receive an e-mail informing you how to reset your password.&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </title-par>
+        <form-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/component/parsys">
+            <start
+                jcr:lastModified="{Date}2012-11-01T15:10:18.161-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/start"
+                actionType="foundation/components/account/actions/resetpwd"
+                changePwdPage="/content/geometrixx-media/en/toolbar/profiles/passwordchange"
+                formid="pwr"
+                thankyouPage="/content/geometrixx-media/en/toolbar/profiles/forgot/thank_you.html"/>
+            <text
+                jcr:created="{Date}2012-11-01T14:53:12.166-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-01T14:53:12.166-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="E-mail"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"/>
+            <form_end_1351795972241
+                jcr:lastModified="{Date}2012-11-01T15:10:24.942-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/end"
+                submit="true"/>
+        </form-par>
+    </jcr:content>
+    <thank_you/>
+</jcr:root>

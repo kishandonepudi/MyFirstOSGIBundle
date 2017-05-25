@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:48.833-05:00"
+    jcr:createdBy="matt.monroe@mailinator.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Forum"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="I am planning a vacation, and I have gotten as far as 1) I’m getting my passport stamped and 2) I’m going to sit my butt on a warm beach. After reading up on this community, I have a sudden itch to try out surfing. &#xd;&#xa;&#xd;&#xa;Since I will be leaving the country, Hawaii is not on my list of destinations. Plus, I will be going next spring and from what I can tell the waves aren’t so fantastic then anyway. Does anyone have any suggestions as to where I should go? I’m pretty open to anything."
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/surfing/forum/jcr:content/forum/1_ciot/f1tq-i_am_planningavaca"
+        objectType="comment"
+        subType="geometrixx-outdoors/components/forum/topic"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Forum"
+        id="/content/geometrixx-outdoors/en/community/surfing/forum"
+        objectType="geometrixx-outdoors/components/page_no_sidebar"/>
+</jcr:root>

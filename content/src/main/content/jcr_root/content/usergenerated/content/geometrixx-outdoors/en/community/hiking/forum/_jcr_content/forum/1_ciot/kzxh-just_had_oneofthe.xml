@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T11:43:41.872+01:00"
+    cq:lastModifiedBy="andrew.schaeffer@trashymail.com"
+    jcr:description="Just had one of the scariest experiences of my life. I rounded a corner on the trail at about 9:30am when there were very few hikers around, and came within 10 feet of a moose that wasn’t too happy to see me and started in my direction. &#xd;&#xa;&#xd;&#xa;Remembering a ridiculously illustrated, yet informative sign post I read years ago, I ran uphill as fast as I could and got behind the first big tree I could find. I turned around to see the moose charging up the small hill right in my direction. I waved my hands from behind the tree until I heard a hard thud. &#xd;&#xa;&#xd;&#xa;Looking around the side of the tree, I saw a dejected looking moose walking slowly back down to the trail. After twenty minutes of standing frozen, I decided to call it a day."
+    jcr:primaryType="cq:Comment"
+    jcr:title="Expert advice: how to deal with a moose on the trail"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T11:40:02.796+01:00"
+    authorizableId="andrew.schaeffer@trashymail.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}5"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.html"
+    sentiment="{Long}5"
+    submit="Submit"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="andrew.schaeffer@trashymail.com">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="89d773ea-f792-4297-bd0b-a0ee3906d806">
+        <iStock_000021490553Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T08:59:58.701+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="8486737c-cb98-4477-a59a-b1e4d1d69008"/>
+        </iStock_000021490553Small.jpg>
+    </attachments>
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <_x0031_q6k-dude_that_isthecra
+            jcr:description="Dude that is the craziest thing I have ever heard! I can’t believe that worked. You are one luck guy."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:41:36.930+01:00"
+            authorizableId="aaron.mcdonald@mailinator.com"
+            email="aaron.mcdonald@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}2"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__kzxh-just_had_oneofthe.html"
+            sentiment="{Long}5"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aaron.mcdonald@mailinator.com"/>
+        <cq5x-yeah_trust_meifee
+            jcr:description="Yeah, trust me I feel lucky. It’s weird that the illustrations I always made fun of popped into my head at exactly the right moment. I guess that’s why they make them so cheesy….that way we’ll never forget! He was a small guy so I’m guessing he wasn’t too smart, either."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:42:43.527+01:00"
+            authorizableId="andrew.schaeffer@trashymail.com"
+            email="andrew.schaeffer@trashymail.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}2"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__kzxh-just_had_oneofthe.html"
+            sentiment="{Long}5"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="andrew.schaeffer@trashymail.com"/>
+        <pafd-andrew_thatmakesy
+            jcr:description="Andrew! That makes you even luckier. A small moose means a mother moose is near. How scary."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T11:43:41.809+01:00"
+            authorizableId="donna.billups@pookmail.com"
+            email="donna.billups@pookmail.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/hiking/forum.topic.html/forum__kzxh-just_had_oneofthe.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="donna.billups@pookmail.com"/>
+    </_x0031__tosp>
+</jcr:root>

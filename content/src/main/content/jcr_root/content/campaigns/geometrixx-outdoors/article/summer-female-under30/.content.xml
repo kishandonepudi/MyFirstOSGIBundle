@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <article/>
+    <article-mobile/>
+    <jcr:content
+        cq:lastModified="{Date}2011-12-09T10:48:59.597+01:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="[/etc/segmentation/geometrixx-outdoors/summer-female-under30]"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Summer Female Under 30"
+        jcr:uuid="13b8c009-0dc2-487a-a86a-048a414eafef"
+        sling:resourceType="cq/personalization/components/experiencepage">
+        <image
+            jcr:lastModified="{Date}2011-12-09T10:48:59.596+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/articles/how-i-learned-to-surf.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

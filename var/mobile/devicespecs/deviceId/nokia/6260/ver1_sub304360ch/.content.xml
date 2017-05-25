@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia6260-0436-0ch-symbian-series60-profile-midp-configuration-cldc"
+    fall_back="nokia_6260_ver1"
+    max_data_rate="40"
+    nokia_feature_pack="1"
+    user_agent="Nokia6260/2.0 (3.0436.0ch) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0"/>

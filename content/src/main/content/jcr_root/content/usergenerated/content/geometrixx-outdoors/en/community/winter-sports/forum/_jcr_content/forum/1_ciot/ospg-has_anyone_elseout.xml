@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T14:00:46.053+01:00"
+    cq:lastModifiedBy="emily.andrews@mailinator.com"
+    jcr:description="Has anyone else out there heard of the electric boots that are starting to hit the shelves? Apparently they have different heat settings and are supposed to be able to keep your feet warm for hours at a time. I am wondering if it’s a gimmick or the real deal."
+    jcr:primaryType="cq:Comment"
+    jcr:title="Electric boots"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T13:55:09.293+01:00"
+    authorizableId="emily.andrews@mailinator.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.html"
+    sentiment="{Long}3"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="emily.andrews@mailinator.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <_x0032_tcz-not_a_gimmickpeopl
+            jcr:description="Not a gimmick, people. They work. I was concerned enough about my toes to buy some when I hiked Kilimanjaro last year (Josh I hope you’re reading this). You generally begin your summit hike from the highest base camp around midnight so that you summit at sunrise. The air is a little easier to breathe at night so there is a method to the madness. Anyway, it can actually get below zero, so I snagged some electrics. I was by far the most comfortable hiker at 4:00am when it got really cold. I had them on high and ran through the battery in four hours, but the warmth stuck around for another few hours which was perfect because then the sun started coming up by then."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T14:00:45.950+01:00"
+            authorizableId="matt.monroe@mailinator.com"
+            email="matt.monroe@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.html/forum__ospg-has_anyone_elseout.html"
+            sentiment="{Long}5"
+            submit="Post Comment"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="matt.monroe@mailinator.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="a2a88ee8-ee9c-435d-92d3-fc0a56a6fa71">
+                <iStock_000021356558Small.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T08:59:58.483+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="509b1cf9-8078-41b1-8423-15f58e336d16"/>
+                </iStock_000021356558Small.jpg>
+            </attachments>
+        </_x0032_tcz-not_a_gimmickpeopl>
+        <bkbw-how_does_thiswork
+            jcr:description="How does this work? I don’t know how I feel about an electric current running through my clothes."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T13:57:10.988+01:00"
+            authorizableId="josh.bradley@pookmail.com"
+            email="josh.bradley@pookmail.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.html/forum__ospg-has_anyone_elseout.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="josh.bradley@pookmail.com"/>
+        <iuyl-josh_from_whatire
+            jcr:description="Josh, from what I read it says that there is a removable, rechargeable battery that powers it heat element, but I don’t know what it is made of."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T13:59:14.938+01:00"
+            authorizableId="emily.andrews@mailinator.com"
+            email="emily.andrews@mailinator.com"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.html/forum__ospg-has_anyone_elseout.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="emily.andrews@mailinator.com"/>
+        <rj04-ooooh_i_wantsome
+            jcr:description="Ooooh! I want some!"
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/forum/post"
+            added="{Date}2012-11-29T13:56:04.191+01:00"
+            authorizableId="aparker@geometrixx.info"
+            email="aparker@geometrixx.info"
+            id="nobot"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.topic.html/forum__ospg-has_anyone_elseout.html"
+            sentiment="{Long}3"
+            url=""
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aparker@geometrixx.info"/>
+    </_x0031__tosp>
+</jcr:root>

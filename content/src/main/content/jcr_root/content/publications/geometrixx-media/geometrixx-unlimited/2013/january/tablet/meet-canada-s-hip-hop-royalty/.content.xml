@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-unlimited"
+        cq:lastModified="{Date}2012-11-16T12:28:15.822-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-unlimited/templates/article"
+        jcr:description="Canada continues to produce musicians with a sound unique to the industry."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Meet Canada's Hip Hop Royalty"
+        sling:resourceType="geometrixx-unlimited/components/pages/article"
+        dps-author="by Yolanda Huggins"
+        dps-kicker="Entertainment"
+        dps-resourceType="dps:Article">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <article
+                jcr:lastModified="{Date}2012-11-16T12:26:14.994-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="media/articles/components/article"
+                fileReference="/content/dam/geometrixx-media/articles/2012/September/meet-canadas-hip-hop-royalty"/>
+        </par>
+        <scrubber-p
+            jcr:lastModified="{Date}2012-11-16T12:28:15.817-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/issues/issue1/meet-canada-s-hip-hop-royalty_Scrubber_v.png"
+            imageRotate="0"/>
+        <scrubber-l
+            jcr:lastModified="{Date}2012-11-16T12:28:15.817-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/issues/issue1/meet-canada-s-hip-hop-royalty_Scrubber_l.png"
+            imageRotate="0"/>
+        <article-image
+            jcr:lastModified="{Date}2012-11-16T12:25:15.112-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx-unlimited/components/image"
+            fileReference="/content/dam/geometrixx-media/articles/tomorrow-in-disguise-2.jpeg"
+            imageCrop="0,49,640,288"
+            imageRotate="0"/>
+        <article-title jcr:primaryType="nt:unstructured">
+            <article-author
+                jcr:lastModified="{Date}2012-11-16T12:26:33.754-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-unlimited/components/author"
+                articleAuthor="/home/users/geometrixx/yolanda.s.huggins@trashymail.com"/>
+        </article-title>
+        <image
+            jcr:lastModified="{Date}2012-11-16T12:28:15.817-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-unlimited/issues/issue1/meet-canada-s-hip-hop-royalty_TOC.png"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

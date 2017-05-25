@@ -1,0 +1,192 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: Georgia, serif;
+}
+
+.article-image img{
+    min-width:100%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    position:relative;
+    text-align: center;
+    background-color:#ffffff;
+}
+
+.bg,
+.title-and-author,
+.category-trim {
+    width: 95%;
+    margin: 0 auto;
+    border-left: 1px solid #708090;
+    border-right: 1px solid #708090;
+}
+
+.bg{
+    padding-bottom:2.5em; /* Height of the footer */
+    text-align: left;
+}
+
+
+a:hover, a{
+    text-decoration:none;
+}
+
+.article-author,
+.article-teaser,
+.article-primary-title{
+    text-align:center
+}
+
+.article-title {
+    margin: 0 4em 0 4em;
+}
+
+.article-title h1{
+    font-weight:normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1em 0 1em 0;
+}
+
+.footer{
+    font-size:0.8em;
+    width: 95%;
+    height: 3em;  /* Height of the footer */
+    border-top: 1px solid #708090;
+    padding-top: .6em;
+    margin: 0 auto;
+}
+
+.footer-name{
+    line-height: 24px;
+    float: right;
+}
+
+div.feeds {
+    float: left;
+}
+
+div.feeds img {
+    vertical-align: middle;
+}
+
+
+.article > p:first-of-type{
+    text-indent: 0em;
+}
+
+.article > p:first-of-type:first-letter{
+    font-size: 6em;
+    font-weight: bold;
+    font-variant:normal;
+    float:left;
+    margin-top:0em;
+    margin-right:0.1em;
+    color:#FF0000;
+    line-height:0.8em;
+}
+
+.article-content {
+    margin: 0 4em 1em 4em;
+    padding-top: 1em;
+}
+
+.category-trim {
+    border-top: 1px solid #708090;
+    z-index: -1;
+}
+
+.article {
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+.article-category {
+    position: relative;
+    top: .6em;
+    color: #121212;
+
+}
+
+.article-category span {
+    font-style:italic;
+    background-color: #FFFFFF;
+    border: 1px solid #708090;
+    padding: 0 .4em 0 .4em;
+
+}
+
+.feeds span.title {
+    margin-right: .4em;
+}
+
+/* Mobile only style */
+@media (max-width: 480px),
+(-webkit-min-device-pixel-ratio: 2) and (max-width: 640px) {
+    .bg,
+    .title-and-author,
+    .category-trim {
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .article-title,
+    .article-content {
+        margin: 0 .5em 0 .5em;
+    }
+
+    .article-content {
+        padding-top: 0;
+    }
+
+    .article-title h1 {
+        font-size: 1.3em;
+        padding: .35em 0 .35em 0;
+    }
+
+    .article > p:first-of-type:first-letter{
+        font-size: 3em;
+    }
+
+    .article-teaser,
+    .article {
+        font-size: .9em;
+    }
+
+    .article-category span {
+        border-top: 0;
+        border-bottom: 0;
+        top: .4em;
+        font-size: .85em;
+    }
+    .footer {
+        font-size: .7em;
+    }
+}

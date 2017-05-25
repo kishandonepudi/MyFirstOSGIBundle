@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-02T23:47:39.508Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/mobilecontentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Press Center"
+        sling:resourceType="geometrixx/components/mobilecontentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text
+                jcr:created="{Date}2010-11-02T23:46:23.180Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-11-02T23:46:42.204Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Get information about our company and products here.&lt;/p>&#xa;&lt;p>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <download
+                jcr:created="{Date}2010-11-02T23:46:44.964Z"
+                jcr:createdBy="admin"
+                jcr:description="Who we are and where we are heading."
+                jcr:lastModified="{Date}2010-11-02T23:47:39.505Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/download"
+                fileName="Company Profile.pdf"
+                fileReference="/content/dam/geometrixx/documents/GeoSphere_Datasheet.pdf"/>
+        </par>
+    </jcr:content>
+</jcr:root>

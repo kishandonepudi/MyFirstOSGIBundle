@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-08-19T16:38:37.558+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        cq:toolbars="[bottom]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Feedback"
+        sling:resourceType="geometrixx/components/contentpage"
+        subtitle="contact info">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:primaryType="nt:unstructured"
+                jcr:title="We want your feedback!"
+                sling:resourceType="geometrixx/components/title"/>
+            <_x0030_000
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Please leave a message&lt;/p>"
+                textIsRich="true"/>
+            <_x0030_001
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/start"
+                action="/tmp/formtest/*"
+                actionType="foundation/components/form/actions/store"/>
+            <_x0030_002
+                jcr:description=""
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Name"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                constraintMessage=""
+                constraintType=""
+                defaultValue=""
+                loadPath=""
+                multiValues=""
+                multiValuesPath=""
+                name="name"
+                required="true"
+                requiredMessage="Name is required."/>
+            <_x0030_003
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Message"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="message"
+                rows="6"/>
+            <_x0030_020
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Send"
+                sling:resourceType="foundation/components/form/end"
+                submit="{Boolean}true"/>
+        </par>
+        <rightpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </rightpar>
+    </jcr:content>
+</jcr:root>

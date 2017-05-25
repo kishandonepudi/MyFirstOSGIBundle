@@ -1,0 +1,255 @@
+/*************************************************************************
+ ADOBE CONFIDENTIAL
+ __________________
+
+ Copyright $today.year Adobe Systems Incorporated
+ All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ **************************************************************************/
+
+/* -------------------------------------------------------------------------- */
+/* panel layouts config */
+/* -------------------------------------------------------------------------- */
+
+#CQ .cq-taskeditor .cq-taskeditor-east .x-tab-panel-header .x-tab-scroller-left {
+    background-image:url(default/widgets/TaskEditor/scroll-left.gif);
+}
+#CQ .cq-taskeditor .cq-taskeditor-east .x-tab-panel-header .x-tab-scroller-right {
+    background-image:url(default/widgets/TaskEditor/scroll-right.gif);
+}
+
+/* footer of east, center and west */
+#CQ .cq-taskeditor .cq-taskeditor-west .x-panel-footer,
+#CQ .cq-taskeditor .cq-taskeditor-east .x-tab-panel-footer {
+    /*border:none;*/
+    /*padding-top:0;*/
+}
+
+#CQ .cq-taskeditor .x-toolbar.x-small-editor {
+    height:21px;
+}
+
+/* paddings */
+#CQ .cq-taskeditor .cq-taskeditor-west .x-panel-body {
+    padding:30px 0 20px 15px;
+}
+#CQ .cq-taskeditor .cq-taskeditor-center .x-panel-body {
+    padding:30px 30px 20px 20px;
+}
+#CQ .cq-taskeditor .cq-taskeditor-east .x-panel-body {
+    border-top:none;
+}
+
+/* reset padding inside inner east, center and west panels */
+#CQ .cq-taskeditor .cq-taskeditor-east .x-panel-body .x-panel-body,
+#CQ .cq-taskeditor .cq-taskeditor-center .x-panel-body .x-panel-body,
+#CQ .cq-taskeditor .cq-taskeditor-west .x-panel-body .x-panel-body {
+    padding:0;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* info panel */
+/* -------------------------------------------------------------------------- */
+
+#CQ .cq-taskeditor .cq-taskeditor-west .x-table-layout {
+    width:180px;
+}
+#CQ .cq-taskeditor .cq-taskeditor-west .x-table-layout TD {
+    vertical-align:top;
+}
+
+#CQ .cq-taskeditor .cq-taskeditor-west .cq-static.cq-taskeditor-thumbnail IMG {
+    cursor:pointer;
+}
+#CQ .cq-taskeditor .cq-taskeditor-west .cq-static.cq-taskeditor-thumbnail .ext-el-mask-msg {
+    border:none;
+    background:none;
+}
+#CQ .cq-taskeditor .cq-taskeditor-west .cq-static.cq-taskeditor-thumbnail .ext-el-mask-msg DIV {
+    border:none;
+    background-color:transparent;
+}
+#CQ .cq-taskeditor .cq-taskeditor-west .cq-taskeditor-title {
+    color:#111111;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:15px;
+    margin-top:20px;
+}
+#CQ .cq-taskeditor .cq-taskeditor-west .cq-static-small {
+    border-top:1px solid #d0d0d0;
+    margin-top:5px;
+    padding-top:1px;
+}
+#CQ .cq-taskeditor .cq-taskeditor-west .cq-static A {
+    cursor:pointer;
+    text-decoration:underline;
+    color:#15428B;
+}
+#CQ .cq-taskeditor .cq-taskeditor-west .cq-static A:active {
+    color:#8394D0;
+}
+#CQ .cq-taskeditor .cq-taskeditor-west .cq-static A:visited {
+    color:#936C88;
+}
+
+/* -------------------------------------------------------------------------- */
+/* tab panel */
+/* -------------------------------------------------------------------------- */
+
+#CQ .cq-taskeditor-renditions .x-panel-body,
+#CQ .cq-taskeditor-versions .x-panel-body,
+#CQ .cq-taskeditor-references .x-panel-body {
+    padding:15px 10px 10px 15px;
+    font-family:tahoma,arial,helvetica,sans-serif;
+    font-size:11px;
+}
+
+#CQ DIV.cq-taskeditor-substab-item,
+#CQ DIV.cq-taskeditor-renditions-item {
+    display:block;
+    margin-bottom:20px;
+    text-align:center;
+    cursor:pointer;
+    font-size:10px;
+    color:black;
+}
+#CQ .cq-taskeditor-substab-item {
+    float:left;
+    margin:15px 10px 10px 15px;
+}
+
+#CQ .cq-taskeditor TD.x-table-layout-cell {
+    white-space:normal;
+}
+
+
+/* subasset tab: thumbnail is img */
+#CQ .cq-taskeditor-substab-thumbnail {
+    height:100px;
+    margin-bottom:2px;
+    text-align:center;
+    vertical-align:top;
+}
+#CQ .cq-taskeditor-substab IMG {
+    cursor:pointer;
+}
+/* renditions tab: thumbail is bg */
+#CQ .cq-taskeditor-renditionstab-thumbnail {
+    width:192px;
+    height:192px;
+    margin-bottom:4px;
+    /*cursor:pointer;*/
+    background:none no-repeat scroll center center transparent;
+    border:solid 1px #efefef;
+}
+#CQ DIV.cq-taskeditor-renditions-item {
+    border:solid 1px #ffffff;
+    width:194px;
+    padding:3px;
+    padding-top:4px;
+}
+#CQ .cq-taskeditor-renditions-item.x-view-over {
+    border-color:#dedede;
+    background-color:#efefef;
+}
+#CQ .cq-taskeditor-renditions-item.x-view-selected {
+    border-color:#d0d0d0;
+    background-color:#dedede;
+}
+#CQ .cq-taskeditor-renditions-item.x-view-selected .cq-taskeditor-renditionstab-thumbnail {
+    border-color:#dedede;
+}
+
+
+/* versions tab */
+#CQ .cq-taskeditor-versions-item.x-view-over {
+    background:#efefef repeat-x left top;
+}
+#CQ .cq-taskeditor-versions-item.x-view-selected {
+    background:#dedede no-repeat right bottom;
+}
+
+#CQ .cq-taskeditor-versions-item {
+    border-bottom:solid 1px #d0d0d0;
+    font-family:tahoma,arial,helvetica,sans-serif;
+    font-size:11px;
+    padding:7px 7px;
+    white-space:normal;
+}
+#CQ .cq-taskeditor-versions-thumbnail {
+    float:left;
+    margin-right:10px;
+}
+#CQ .cq-taskeditor-versions-label {
+    font-weight:bold;
+    color:#111111;
+}
+#CQ .cq-taskeditor-versions-item TD {
+    vertical-align:top;
+    white-space:normal;
+}
+#CQ .cq-taskeditor-versions-comment {
+    margin-top:4px;
+}
+
+/* references tab */
+#CQ .cq-taskeditor-references-item {
+    border-bottom:solid 1px #d0d0d0;
+    font-family:tahoma,arial,helvetica,sans-serif;
+    font-size:11px;
+    padding:7px 7px;
+    white-space:normal;
+}
+#CQ .cq-taskeditor-references-item A {
+    color:#000000;
+}
+#CQ .cq-taskeditor-references-title {
+    font-weight:bold;
+    color:#111111;
+    cursor:pointer;
+}
+#CQ .cq-taskeditor-references-quantity {
+    cursor:pointer;
+}
+#CQ .cq-taskeditor-references-path {
+    display:block;
+    margin-top:2px;
+    font-size:10px;
+    cursor:pointer;
+}
+
+/*************************************************************************
+ ADOBE CONFIDENTIAL
+ __________________
+
+ Copyright $today.year Adobe Systems Incorporated
+ All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ **************************************************************************/
+
+#CQ .cq-tm-header .cq-homelink a {
+    width:240px;
+}
+
+#CQ #cq-header.cq-taskmanager-header {
+    background:url('default/widgets/TaskProjects/titlebar_taskmanagement.png');
+}
+

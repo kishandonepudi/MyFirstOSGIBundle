@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-10-07T13:59:49.960+02:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent">
+        <forum
+            cq:lastReplicated="{Date}2012-12-17T11:22:00.668-08:00"
+            cq:lastReplicatedBy="admin"
+            cq:lastReplicationAction="Activate"
+            jcr:mixinTypes="[cq:ReplicationStatus]"
+            jcr:primaryType="nt:unstructured"
+            commentsNode="/content/geometrixx/en/community/jcr:content/par/forum">
+            <_x0031__ciot/>
+        </forum>
+        <forum_index/>
+    </jcr:content>
+</jcr:root>

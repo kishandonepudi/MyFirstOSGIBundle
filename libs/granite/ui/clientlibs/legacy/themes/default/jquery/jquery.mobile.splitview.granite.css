@@ -1,0 +1,266 @@
+body {
+  visibility: hidden;
+}
+
+/* GRANITE:START */
+/* .ui-panel {
+  -moz-box-shadow: 0 0 12px rgba(0,0,0,.6);
+  -webkit-box-shadow: 0 0 12px rgba(0,0,0,.6);
+  box-shadow: 0 0 12px rgba(0,0,0,.6);
+} */
+/* GRANITE:END */
+
+div[data-id="main"] {
+  /* GRANITE:START
+  z-index: 9999;   <-- that destroys the balloon z-index bad...
+   GRANITE END */
+}
+
+.ui-mobile body {
+  visibility: visible;
+}
+
+.ui-panel-left {
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+}
+
+.ui-panel-right {
+  position:absolute;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+/* GRANITE:START */
+.ui-panel-right [data-role="page"] .ui-header {
+    border-left: 1px solid #9A9A9A;
+}
+
+.ui-panel-right [data-role="page"] .ui-footer {
+    border-left: 1px solid #2e2e2e;
+}
+
+.ui-panel-left [data-role="page"] .ui-footer .g-buttonbar {
+    padding-top: 6px;
+    padding-right: 10px;
+}
+
+.ui-panel-right [data-role="page"] .ui-footer .g-buttonbar {
+    padding-top: 6px;
+    padding-right: 22px;
+}
+
+/* space for global header */
+.panel-popover + .ui-panel {
+	position: absolute;
+	top: 58px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.ui-panel-left, .ui-panel-right {
+    top: 58px;
+}
+
+.splitview .ui-dialog .ui-header,
+.splitview .ui-dialog .ui-content, 
+.splitview .ui-dialog .ui-footer {
+    margin-top: 5%;
+}
+
+.splitview .ui-header .popover-btn + .ui-title {
+	margin-left: 75px;
+}
+/* GRANITE:END */
+
+.ui-crumbs {
+  max-width: 25%;
+}
+
+.splitview .ui-splitview-hidden {
+  display:none;
+}
+
+/* GRANITE:START */
+.splitview.ie480 body {
+    margin: 0;
+}
+
+.splitview.ie480 .ui-page {
+    bottom: 0;
+}
+
+.splitview.ie480 .ui-header {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.splitview.ie480 .ui-footer {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.splitview.ie480 .ui-content {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    z-index: 1;
+}
+/* GRANITE:END */
+
+@media (min-width:480px) {
+  .splitview body {
+    margin: 0;
+  }
+
+  .splitview .ui-page{
+    bottom: 0;
+  }
+
+  .splitview .ui-header {
+    position:absolute;
+    top:0;
+    bottom:auto;
+    left:0;
+    right:0;
+    z-index: 1000;
+  }
+
+  .splitview .ui-footer {
+    position:absolute;
+    top:auto;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:1000;
+  }
+
+  .splitview .ui-content {
+    position:absolute;
+    top:40px;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:auto;
+    z-index:1;
+  }
+}
+
+/************************************************************************************************************
+popover css for portrait orientation, modified from
+http://www.cagintranet.com/archive/create-an-ipad-like-dropdown-popover/
+************************************************************************************************************/
+.panel-popover .popover_triangle,  {left:7px;}
+
+.panel-popover {
+  color: black;
+  display:none;
+  font-weight: normal;
+  line-height: 1;
+  cursor: auto;
+  /* GRANITE:START */
+  position: fixed;
+  /* GRANITE:END */
+  top:55px;
+  left:10px;
+  background-color: white;
+  z-index:5000000;
+  border: 3px solid black;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-transition: opacity 0.25s linear;
+  -moz-transition: opacity 0.25s linear;
+  transition: opacity 0.25s linear;
+  overflow-x:visible;
+  height:80%;
+  /* GRANITE:START */
+  top:113px; /* 58px of header + 55px above*/
+  /* GRANITE:END */
+}
+
+/* GRANITE:START */
+.panel-popover > .header {
+    font-weight: bold;
+    margin: 0;
+    padding: 3px;
+    height: 25px;
+    line-height:23px;
+    text-shadow:rgba(0, 0, 0, 1) 0 -1px 0;
+    color: white;
+    background: #222; /* old browsers */
+    background: -moz-linear-gradient(top, #333 0%, #111 100%); /* firefox */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.55)), color-stop(0.2, rgba(255, 255, 255, 0.35)), color-stop(0.5, rgba(255, 255, 255, 0.1)), color-stop(0.5, transparent), to(transparent) );
+    text-align: center;
+}
+
+.panel-popover > .popover_triangle {
+    position: absolute;
+    top: -34px;
+    font-size: 0px;
+    line-height: 0%;
+    width: 0px;
+    border-top: 16px solid rgba(0,0,0,0);
+    border-left: 16px solid rgba(0,0,0,0);
+    border-right: 16px solid rgba(0,0,0,0);
+    border-bottom: 16px solid black;
+}
+/* GRANITE:END */
+
+.panel-popover div[data-role="page"] {
+    height: inherit;
+    overflow-y:auto;
+    /* GRANITE:START */
+    height: 100%;
+    /* GRANITE:END */
+}
+
+/* GRANITE:START */
+.panel-popover > .content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size:14px;
+}
+
+.panel-popover > .content ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.panel-popover > .content ul li {
+    line-height:20px;
+    border-bottom:#ccc 1px solid;
+}
+
+.panel-popover > .content ul li.item:hover {
+    border-bottom:#1443BE 1px solid;
+}
+.panel-popover > .content ul li a {
+    padding: 0 14px;
+    border-style: none;
+}
+/* GRANITE:END */
+
+/**********************************************************************************************************
+CSS animations for panel resize using new data-width attribute.
+**********************************************************************************************************/

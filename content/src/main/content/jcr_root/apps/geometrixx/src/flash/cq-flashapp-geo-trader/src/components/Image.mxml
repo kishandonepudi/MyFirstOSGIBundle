@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 implements="components.CQComponent"
+		 width="100%"
+		 resize="onResize()"
+		 >
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.jcr.Node;
+			
+			public function loadContent(node:Node):void {
+				var path:String = node.session.urlPrefix + node.path.replace("/jcr:", "/_jcr_") + ".img.png";
+				var loader:Loader = new Loader();
+				loader.contentLoaderInfo.addEventListener(Event.COMPLETE, function(evt:Event):void{
+					var loader:Loader = (evt.target as LoaderInfo).loader;
+					myImage.source = loader.content;
+					onResize();
+				});
+				loader.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR, function(evt:IOErrorEvent):void {
+					trace(evt.text);	
+				});
+				loader.load(new URLRequest(path));
+			}
+			
+			protected function onResize():void {
+				if (myImage.visible) {
+					var w:Number = myImage.source.width;
+					var h:Number = myImage.source.height;
+					var width:int = this.width - 40;
+					if (w <= width) {
+						myImage.width = w;
+						myImage.height = h;
+					} else {
+						myImage.width = width;
+						myImage.height = (h / w) * width;
+					}
+				}
+			}
+
+		]]>
+	</fx:Script>
+	<s:BorderContainer minHeight="0" width="100%" 
+					   borderVisible="false"
+					   backgroundAlpha="0">
+		<s:layout>
+			<s:HorizontalLayout gap="0" paddingLeft="20" paddingRight="20" paddingTop="0" paddingBottom="0"/>
+		</s:layout>		
+		<s:BitmapImage id="myImage" left="0" right="0" top="0" bottom="0">
+			<s:mask>
+				<s:BorderContainer cornerRadius="10" width="{myImage.width}" height="{myImage.height}" />
+			</s:mask>
+		</s:BitmapImage>
+			
+	</s:BorderContainer>
+
+</s:Group>

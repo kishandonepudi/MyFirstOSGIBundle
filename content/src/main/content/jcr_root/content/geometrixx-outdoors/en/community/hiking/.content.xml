@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <jcr:content
+        cq:lastModified="{Date}2013-01-17T10:51:51.277-08:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page"
+        jcr:description="Looking for the greatest hiking spots in the world? Come on in and join the conversation."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Hiking"
+        sling:resourceType="geometrixx-outdoors/components/page_community"
+        admingroup="/home/groups/geometrixx/communities/hiking-admins"
+        detailDescription="There are very few activities in life like hiking. Exercise, nature, and friendly, like-minded passers-by are the ingredients of a perfect day on the trail. Is it the destination or the journey that matters most to you? Do you like to summit or stroll? Do you sport light trail running shoes, or do your hiking boots make you look like Paul Bunyan? No matter what you hike for or how you get there, this community is for you. I hope you enjoy reading other hiker’s journal entries, and that you tell us all about some of your own epic hikes. Feel free to post pictures and videos if you have them, too. Also, visit the forum to discuss hiking etiquette and wilderness conservation, read up on the latest gear, or just tell us all a nice story. "
+        landingPageContent="journal"
+        membergroup=" /home/groups/geometrixx/communities/hiking-members"
+        pageTitle="Hiking">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+        <statustoggle
+            jcr:lastModified="{Date}2012-12-05T17:03:08.954+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="social/commons/components/toggle"
+            confirmationMessageToggle="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Your request have been successfully sent.&lt;/p>&#xa;"
+            confirmationMessageUntoggle="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Your request have been successfully sent.&lt;/p>&#xa;"
+            stateProvider="/libs/social/group/components/stateproviders/join"
+            toggleLabel="Leave"
+            toggleWorkflowModel="/etc/workflow/models/social/group/join-community/jcr:content/model"
+            transitionLabel="In progress"
+            untoggleLabel="Join"
+            untoggleWorkflowModel="/etc/workflow/models/social/group/leave-community/jcr:content/model"/>
+        <sidebar
+            jcr:lastModified="{Date}2012-12-17T12:28:49.522+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys"
+            inheritance="cancel">
+            <topforumtopics_fbbd
+                jcr:created="{Date}2012-12-17T12:06:08.721+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-17T12:06:08.721+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/social/analytics/components/topforumtopics"
+                requesttype="synchronous"
+                title="Top Forum Topics">
+                <report jcr:primaryType="nt:unstructured">
+                    <thirtyday/>
+                </report>
+            </topforumtopics_fbbd>
+            <upcomingevents_e379
+                jcr:created="{Date}2012-12-17T17:54:58.461+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-17T19:54:19.610+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/social/calendar/components/upcomingevents"
+                calendarPagePath="/content/geometrixx-outdoors/en/community/hiking/calendar"
+                maxEvents="{Long}3"
+                title="Upcoming Events"/>
+            <useractivities_386f
+                jcr:created="{Date}2013-01-08T16:38:55.748-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-01-17T10:51:51.254-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/activitystreams/communitystreams/useractivities"
+                maxNbActivities="3"
+                title="ACTIVITY STREAM"/>
+            <topusers_8d26
+                jcr:created="{Date}2012-12-17T12:06:23.514+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-12-17T12:10:02.285+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/social/analytics/components/topusers"
+                requesttype="synchronous"
+                title="Top Members">
+                <report
+                    jcr:primaryType="nt:unstructured"
+                    interval="{Long}3600"
+                    source="screport:default">
+                    <thirtyday/>
+                </report>
+            </topusers_8d26>
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </sidebar>
+    </jcr:content>
+    <journal/>
+    <forum/>
+    <calendar/>
+    <activity/>
+    <members/>
+    <about/>
+    <photos/>
+</jcr:root>

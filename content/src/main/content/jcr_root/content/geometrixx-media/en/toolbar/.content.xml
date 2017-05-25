@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-media"
+        cq:lastModified="{Date}2012-10-17T08:25:17.165-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-media/templates/media-home-page"
+        jcr:created="{Date}2012-10-16T11:20:09.949-04:00"
+        jcr:createdBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Toolbar"
+        sling:resourceType="geometrixx-media/components/page/media-home"
+        hideInNav="true">
+        <image
+            jcr:lastModified="{Date}2012-10-05T15:56:36.091-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+    <account/>
+    <profiles/>
+    <feeds jcr:primaryType="nt:unstructured">
+        <twitter
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Twitter"
+            icon="/etc/designs/geometrixx-media/feeds/images/Twitter_24.png"/>
+        <facebook
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Facebook"
+            icon="/etc/designs/geometrixx-media/feeds/images/Facebook_24.png"/>
+        <pinetress
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Pintress"
+            icon="/etc/designs/geometrixx-media/feeds/images/Pinterest_24.png"/>
+        <rss
+            jcr:primaryType="nt:unstructured"
+            jcr:title="RSS Feeds"
+            icon="/etc/designs/geometrixx-media/feeds/images/Rss_24.png"/>
+    </feeds>
+    <search/>
+</jcr:root>

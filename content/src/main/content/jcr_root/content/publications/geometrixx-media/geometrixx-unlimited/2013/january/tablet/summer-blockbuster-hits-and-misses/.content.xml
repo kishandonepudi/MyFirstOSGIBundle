@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-unlimited"
+        cq:lastModified="{Date}2012-11-14T16:23:09.349-05:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[geometrixx-media:entertainment/movies,geometrixx-media:entertainment]"
+        cq:template="/apps/geometrixx-unlimited/templates/article"
+        jcr:description="Our reviewers watch all the movies so you don't have to."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Summer Blockbuster Hits and Misses"
+        sling:resourceType="geometrixx-unlimited/components/pages/article"
+        dps-author="by Iris Mccoy"
+        dps-kicker="Entertainment"
+        dps-resourceType="dps:Article">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <article
+                jcr:created="{Date}2012-10-24T13:03:56.576-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-01T11:42:03.867-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="media/articles/components/article"
+                fileReference="/content/dam/geometrixx-media/articles/2012/September/summer-blockbuster-hits-and-misses"/>
+        </par>
+        <article-title jcr:primaryType="nt:unstructured">
+            <article-author
+                jcr:lastModified="{Date}2012-10-24T14:21:52.057-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-unlimited/components/author"
+                articleAuthor="/home/users/geometrixx/aparker@geometrixx.info"
+                publishedDate="November 01, 2012"/>
+        </article-title>
+        <image
+            jcr:lastModified="{Date}2012-11-14T16:23:09.345-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-unlimited/issues/issue1/summer-blockbuster-hits-and-misses_TOC.png"
+            imageRotate="0"/>
+        <article-image
+            jcr:lastModified="{Date}2012-11-14T15:40:18.364-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx-unlimited/components/image"
+            fileReference="/content/dam/geometrixx-media/articles/DI_trailer.jpg"
+            imageCrop="8,0,640,360"
+            imageRotate="0"/>
+        <scrubber-p
+            jcr:lastModified="{Date}2012-11-14T16:23:09.345-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/issues/issue1/summer-blockbuster-hits-and-misses_Scrubber_v.png"
+            imageRotate="0"/>
+        <scrubber-l
+            jcr:lastModified="{Date}2012-11-14T16:23:09.345-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/issues/issue1/summer-blockbuster-hits-and-misses_Scrubber_l.png"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

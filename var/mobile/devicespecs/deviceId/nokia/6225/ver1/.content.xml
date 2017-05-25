@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    columns="16"
+    CQ5_UserAgentRadical="nokia6225"
+    fall_back="nokia_6220_ver1"
+    max_image_width="120"
+    model_name="6225"
+    playback_3gpp="true"
+    playback_acodec_amr="nb"
+    playback_mp4="true"
+    playback_vcodec_h263_0="10"
+    rows="8"
+    streaming_3gpp="true"
+    streaming_real_media="none"
+    user_agent="Nokia6225"
+    video="true"/>

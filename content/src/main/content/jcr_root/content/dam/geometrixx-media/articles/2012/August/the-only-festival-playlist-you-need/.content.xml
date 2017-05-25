@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2012-12-10T11:57:13.576-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2012-12-10T11:57:13.241-05:00"
+            dam:sha1="73409b1fc5ca776cd99042299cd61b356a5fa8a0"
+            dam:WordCount="{Long}339"
+            dc:format="text/plain"
+            dc:modified="{Date}2012-10-23T14:33:22.068-04:00"
+            dc:title="The only festival playlist you need"
+            jcr:lastModified="{Date}2012-12-10T11:57:13.576-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <assignment
+            jcr:primaryType="nt:unstructured"
+            brief=""
+            editor="admin"
+            startDate="{Date}2012-10-23T14:33:21.000-04:00"
+            status="Assigned"
+            writer="scott.b.reynolds@dodgit.com"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

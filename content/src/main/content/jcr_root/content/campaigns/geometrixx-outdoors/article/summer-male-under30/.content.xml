@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <article/>
+    <article-mobile/>
+    <jcr:content
+        cq:lastModified="{Date}2011-11-30T12:09:31.289+01:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="[/etc/segmentation/geometrixx-outdoors/summer-male-under30]"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Summer Male Under 30"
+        jcr:uuid="c2ec20c1-f70d-4ebd-a166-e59ef679b8ad"
+        sling:resourceType="cq/personalization/components/experiencepage">
+        <image
+            jcr:lastModified="{Date}2011-11-30T12:09:31.288+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/articles/make-your-rogue-trail-legitimate.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

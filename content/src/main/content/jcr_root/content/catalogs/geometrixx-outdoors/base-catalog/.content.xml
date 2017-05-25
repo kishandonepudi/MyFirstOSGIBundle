@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-01-23T11:05:28.592+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/commerce/templates/catalog"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Base Catalog"
+        jcr:uuid="3507e753-d86a-4e30-8bce-5e59c8415a22"
+        sling:resourceType="commerce/components/catalog">
+        <target
+            jcr:primaryType="nt:unstructured"
+            cq_designPath="/etc/designs/geometrixx-outdoors"
+            jcr_title="English"
+            pageTitle="Geometrixx Outdoors"/>
+        <templates
+            jcr:primaryType="nt:unstructured"
+            catalog="/apps/geometrixx-outdoors/templates/page_home"
+            cq_rolloutConfigs="[/etc/msm/rolloutconfigs/catalog]"
+            product="/apps/geometrixx-outdoors/templates/page_product"
+            section="/apps/geometrixx-outdoors/templates/page_sidebar"/>
+        <filter
+            jcr:primaryType="nt:unstructured"
+            basePath="/etc/commerce/products/geometrixx-outdoors"/>
+    </jcr:content>
+    <equipment/>
+    <men/>
+    <seasonal/>
+    <women/>
+</jcr:root>

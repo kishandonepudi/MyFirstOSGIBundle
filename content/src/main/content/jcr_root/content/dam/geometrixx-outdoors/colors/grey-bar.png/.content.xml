@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="33e320d8-7a82-444e-a221-7ac9e76e7575">
+    <jcr:content
+        cq:name="grey-bar.png"
+        cq:parentPath="/content/dam/geometrixx-outdoors/colors"
+        jcr:lastModified="{Date}2012-03-05T13:28:47.380+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="32"
+            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.3-c011 66.145433, 2012/01/17-15:11:19        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;    xmlns:dam=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2012-03-01T14:41:18.636+01:00&quot;&#xa;   dam:Physicalwidthininches=&quot;66656.8125&quot;&#xa;   dam:sha1=&quot;8d0f22b322d410da0c4b09ad887327214d81bcaa&quot;&#xa;   dam:extracted=&quot;2012-03-01T14:41:18.402+01:00&quot;&#xa;   dam:MIMEtype=&quot;image/png&quot;&#xa;   dam:Numberoftextualcomments=&quot;0&quot;&#xa;   dam:Numberofimages=&quot;1&quot;&#xa;   dam:Progressive=&quot;no&quot;&#xa;   dam:Fileformat=&quot;PNG&quot;&#xa;   dam:Bitsperpixel=&quot;32&quot;&#xa;   dam:Physicalheightininches=&quot;1799.5899658203125&quot;&#xa;   dam:Physicalheightindpi=&quot;72&quot;&#xa;   dam:Physicalwidthindpi=&quot;72&quot;&#xa;   tiff:ImageLength=&quot;25&quot;&#xa;   tiff:ImageWidth=&quot;926&quot;/>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2012-03-01T14:41:18.000+01:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="1"
+            dam:Numberoftextualcomments="0"
+            dam:Physicalheightindpi="72"
+            dam:Physicalheightininches="1799.5899658203125"
+            dam:Physicalwidthindpi="72"
+            dam:Physicalwidthininches="66656.8125"
+            dam:Progressive="no"
+            dam:sha1="8d0f22b322d410da0c4b09ad887327214d81bcaa"
+            dc:format="image/png"
+            dc:modified="{Date}2012-03-01T14:41:18.000+01:00"
+            jcr:lastModified="{Date}2012-03-05T13:28:47.380+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="25"
+            tiff:ImageWidth="926"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

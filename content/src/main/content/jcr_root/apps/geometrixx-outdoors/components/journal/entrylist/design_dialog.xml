@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Entry type"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Resource Types">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <entrytype
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="true"
+                        fieldLabel="Entry Resource Type"
+                        name="./entryresourcetype"
+                        predicate="nosystem"
+                        rootPath="/apps"
+                        showTitlesInTree="false"
+                        xtype="pathfield"/>
+                    <commentstype
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="true"
+                        fieldLabel="Comments Resource Type"
+                        name="./commentsresourcetype"
+                        predicate="nosystem"
+                        rootPath="/apps"
+                        showTitlesInTree="false"
+                        xtype="pathfield"/>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

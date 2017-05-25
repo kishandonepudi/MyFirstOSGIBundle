@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2012-12-10T14:48:03.672-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2012-12-10T14:48:03.395-05:00"
+            dam:sha1="2452c839728e8661f4ced4d35e4b668ad9a09f56"
+            dam:WordCount="{Long}261"
+            dc:format="text/plain"
+            dc:modified="{Date}2012-10-23T16:03:59.529-04:00"
+            dc:title="Summer Blockbuster Hits and Misses"
+            jcr:lastModified="{Date}2012-12-10T14:48:03.672-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <assignment
+            jcr:primaryType="nt:unstructured"
+            brief=""
+            editor="admin"
+            startDate="{Date}2012-10-23T16:03:58.000-04:00"
+            status="Assigned"
+            writer="iris.r.mccoy@mailinator.com"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,3279 @@
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+/* default the element selectors inside the CQ panel */
+#CQ,
+#CQ P,
+#CQ IMG,
+#CQ TABLE,
+#CQ TBODY,
+#CQ TR,
+#CQ TD,
+#CQ INPUT,
+#CQ TEXTAREA,
+#CQ SELECT,
+#CQ FORM,
+#CQ FONT,
+#CQ B,
+#CQ STRONG,
+#CQ I,
+#CQ U,
+#CQ EM,
+#CQ OL,
+#CQ UL,
+#CQ LI,
+#CQ H1,
+#CQ H2,
+#CQ H3,
+#CQ A {
+    /* text */
+    font-weight:normal;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none;
+    text-indent:0;
+    letter-spacing:normal;
+    word-spacing:normal;
+    line-height:normal;
+    direction:ltr;
+
+    /* background */
+    background-color:transparent;
+    background-image:none;
+    background-repeat:repeat;
+    background-attachment:scroll;
+    background-position:top left;
+    opacity:1;
+
+    /* box model */
+    width:auto;
+    height:auto;
+    margin:0;
+    padding:0;
+    border-style:none;
+    border-width:0;
+
+    /* layout */
+    position:static;
+    visibility:inherit;
+    z-index:auto;
+    overflow:visible;
+    /* clip seems to create an issue*/
+    /*clip:auto;*/
+    float:none;
+    clear:none;
+
+    /* other */
+    cursor:auto;
+    list-style:none;
+}
+/*!
+ * jQuery Mobile v1.0a3pre
+ * http://jquerymobile.com/
+ *
+ * Copyright 2010, jQuery Project
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ */
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+* Note: Code is in draft form and is subject to change 
+*/
+
+/* theme bar,body,btn containers
+----------------------------------*/
+#CQ .ui-bar-a {
+    border: 1px solid #2A2A2A;
+    background: #111111;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px #000;
+    background-image: -moz-linear-gradient(top, #3c3c3c, #111111);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3c3c3c), color-stop(1, #111111));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#3c3c3c', EndColorStr='#111111')";
+}
+
+#CQ .ui-bar-a, #CQ .ui-bar-a input, #CQ .ui-bar-a select, #CQ .ui-bar-a textarea, #CQ .ui-bar-a button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-bar-a .ui-link-inherit {
+    color: #fff;
+}
+
+#CQ .ui-bar-a .ui-link {
+    color: #7cc4e7;
+    font-weight: bold;
+}
+
+#CQ .ui-body-a {
+    border: 1px solid #2A2A2A;
+    background: #222222;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    font-weight: normal;
+    background-image: -moz-linear-gradient(top, #666666, #222222);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #666666), color-stop(1, #222222));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#666666', EndColorStr='#222222)')";
+}
+
+#CQ .ui-body-a, #CQ .ui-body-a input, #CQ .ui-body-a select, #CQ .ui-body-a textarea, #CQ .ui-body-a button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-body-a .ui-link-inherit {
+    color: #fff;
+}
+
+#CQ .ui-body-a .ui-link {
+    color: #2489CE;
+    font-weight: bold;
+}
+
+#CQ .ui-br {
+    border-bottom: 1px solid rgba(130, 130, 130, .3);
+}
+
+#CQ .ui-btn-up-a {
+    border: 1px solid #222;
+    background: #333333;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 -1px 1px #000;
+    text-decoration: none;
+    background-image: -moz-linear-gradient(top, #555555, #333333);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #555555), color-stop(1, #333333));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#555555', EndColorStr='#333333')";
+}
+
+#CQ .ui-btn-up-a a.ui-link-inherit {
+    color: #fff;
+}
+
+#CQ .ui-btn-hover-a {
+    border: 1px solid #000;
+    background: #444444;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 -1px 1px #000;
+    text-decoration: none;
+    background-image: -moz-linear-gradient(top, #666666, #444444);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #666666), color-stop(1, #444444));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#666666', EndColorStr='#444444')";
+}
+
+#CQ .ui-btn-hover-a a.ui-link-inherit {
+    color: #fff;
+}
+
+#CQ .ui-btn-down-a {
+    border: 1px solid #000;
+    background: #3d3d3d;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 -1px 1px #000;
+    background-image: -moz-linear-gradient(top, #333333, #5a5a5a);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #333333), color-stop(1, #5a5a5a));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#333333', EndColorStr='#5a5a5a')";
+}
+
+#CQ .ui-btn-down-a a.ui-link-inherit {
+    color: #fff;
+}
+
+#CQ .ui-btn-up-a, #CQ .ui-btn-hover-a, #CQ .ui-btn-down-a {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-bar-b {
+    border: 1px solid #456f9a;
+    background: #5e87b0;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px #254f7a;
+    background-image: -moz-linear-gradient(top, #81a8ce, #5e87b0);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #81a8ce), color-stop(1, #5e87b0));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#81a8ce', EndColorStr='#5e87b0')";
+}
+
+#CQ .ui-bar-b, #CQ .ui-bar-b input, #CQ .ui-bar-b select, #CQ .ui-bar-b textarea, #CQ .ui-bar-b button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-bar-b .ui-link-inherit {
+    color: #fff;
+}
+
+#CQ .ui-bar-b .ui-link {
+    color: #7cc4e7;
+    font-weight: bold;
+}
+
+#CQ .ui-body-b {
+    border: 1px solid #C6C6C6;
+    background: #cccccc;
+    color: #333333;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: normal;
+    background-image: -moz-linear-gradient(top, #e6e6e6, #cccccc);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e6e6e6), color-stop(1, #cccccc));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#cccccc')";
+}
+
+#CQ .ui-body-b, #CQ .ui-body-b input, #CQ .ui-body-b select, #CQ .ui-body-b textarea, #CQ .ui-body-b button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-body-b .ui-link-inherit {
+    color: #333333;
+}
+
+#CQ .ui-body-b .ui-link {
+    color: #2489CE;
+    font-weight: bold;
+}
+
+#CQ .ui-btn-up-b {
+    border: 1px solid #145072;
+    background: #2567ab;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 -1px 1px #145072;
+    text-decoration: none;
+    background-image: -moz-linear-gradient(top, #4e89c5, #2567ab);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5f9cc5), color-stop(1, #396b9e));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#4e89c5', EndColorStr='#2567ab')";
+}
+
+#CQ .ui-btn-up-b a.ui-link-inherit {
+    color: #fff;
+}
+
+#CQ .ui-btn-hover-b {
+    border: 1px solid #00516e;
+    background: #4b88b6;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 -1px 1px #014D68;
+    background-image: -moz-linear-gradient(top, #72b0d4, #4b88b6);
+    text-decoration: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #72b0d4), color-stop(1, #4b88b6));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#72b0d4', EndColorStr='#4b88b6')";
+}
+
+#CQ .ui-btn-hover-b a.ui-link-inherit {
+    color: #fff;
+}
+
+#CQ .ui-btn-down-b {
+    border: 1px solid #225377;
+    background: #4e89c5;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 -1px 1px #225377;
+    background-image: -moz-linear-gradient(top, #396b9e, #4e89c5);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #396b9e), color-stop(1, #4e89c5));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#396b9e', EndColorStr='#4e89c5')";
+}
+
+#CQ .ui-btn-down-b a.ui-link-inherit {
+    color: #fff;
+}
+
+#CQ .ui-btn-up-b, #CQ .ui-btn-hover-b, #CQ .ui-btn-down-b {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-bar-c {
+    border: 1px solid #B3B3B3;
+    background: #e9eaeb;
+    color: #3E3E3E;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #fff;
+    background-image: -moz-linear-gradient(top, #f0f0f0, #e9eaeb);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f0f0f0), color-stop(1, #e9eaeb));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f0f0f0', EndColorStr='#e9eaeb')";
+}
+
+#CQ .ui-bar-c, #CQ .ui-bar-c input, #CQ .ui-bar-c select, #CQ .ui-bar-c textarea, #CQ .ui-bar-c button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-body-c {
+    border: 1px solid #B3B3B3;
+    color: #333333;
+    text-shadow: 0 1px 0 #fff;
+    background: #f0f0f0;
+    background-image: -moz-linear-gradient(top, #fff, #f0f0f0);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #f0f0f0));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#f0f0f0')";
+}
+
+#CQ .ui-body-c, #CQ .ui-body-c input, #CQ .ui-body-c select, #CQ .ui-body-c textarea, #CQ .ui-body-c button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-body-c .ui-link-inherit {
+    color: #333333;
+}
+
+#CQ .ui-body-c .ui-link {
+    color: #2489CE;
+    font-weight: bold;
+}
+
+#CQ .ui-btn-up-c {
+    border: 1px solid #ccc;
+    background: #eee;
+    font-weight: bold;
+    color: #444;
+    cursor: pointer;
+    text-shadow: 0 1px 1px #f6f6f6;
+    text-decoration: none;
+    background-image: -moz-linear-gradient(top, #fdfdfd, #eeeeee);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fdfdfd), color-stop(1, #eeeeee));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fdfdfd', EndColorStr='#eeeeee')";
+}
+
+#CQ .ui-btn-up-c a.ui-link-inherit {
+    color: #2F3E46;
+}
+
+#CQ .ui-btn-hover-c {
+    border: 1px solid #aaa;
+    background: #f5f5f5;
+    font-weight: bold;
+    color: #111111;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #fff;
+    background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #f5f5f5));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#f5f5f5')";
+}
+
+#CQ .ui-btn-hover-c a.ui-link-inherit {
+    color: #2F3E46;
+}
+
+#CQ .ui-btn-down-c {
+    border: 1px solid #808080;
+    background: #fdfdfd;
+    font-weight: bold;
+    color: #111111;
+    text-shadow: 0 1px 1px #ffffff;
+    background-image: -moz-linear-gradient(top, #eeeeee, #fdfdfd);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eeeeee), color-stop(1, #fdfdfd));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#fdfdfd')";
+}
+
+#CQ .ui-btn-down-c a.ui-link-inherit {
+    color: #2F3E46;
+}
+
+#CQ .ui-btn-up-c, #CQ .ui-btn-hover-c, #CQ .ui-btn-down-c {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-bar-d {
+    border: 1px solid #ccc;
+    background: #bbb;
+    color: #333;
+    text-shadow: 0 1px 0 #eee;
+    background-image: -moz-linear-gradient(top, #ddd, #bbb);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ddd), color-stop(1, #bbb));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd', EndColorStr='#bbb')";
+}
+
+#CQ .ui-bar-d, #CQ .ui-bar-d input, #CQ .ui-bar-d select, #CQ .ui-bar-d textarea, #CQ .ui-bar-d button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-bar-d .ui-link-inherit {
+    color: #333;
+}
+
+#CQ .ui-bar-d .ui-link {
+    color: #2489CE;
+    font-weight: bold;
+}
+
+#CQ .ui-body-d {
+    border: 1px solid #ccc;
+    color: #333333;
+    text-shadow: 0 1px 0 #fff;
+    background: #ffffff;
+}
+
+#CQ .ui-body-d, #CQ .ui-body-d input, #CQ .ui-body-d select, #CQ .ui-body-d textarea, #CQ .ui-body-d button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-body-d .ui-link-inherit {
+    color: #333333;
+}
+
+#CQ .ui-body-d .ui-link {
+    color: #2489CE;
+    font-weight: bold;
+}
+
+#CQ .ui-btn-up-d {
+    border: 1px solid #ccc;
+    background: #fff;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #fff;
+}
+
+#CQ .ui-btn-up-d a.ui-link-inherit {
+    color: #333;
+}
+
+#CQ .ui-btn-hover-d {
+    border: 1px solid #aaa;
+    background: #eeeeee;
+    font-weight: bold;
+    color: #222;
+    cursor: pointer;
+    text-shadow: 0 1px 1px #fff;
+    text-decoration: none;
+    background-image: -moz-linear-gradient(top, #fdfdfd, #eeeeee);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fdfdfd), color-stop(1, #eeeeee));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fdfdfd', EndColorStr='#eeeeee')";
+}
+
+#CQ .ui-btn-hover-d a.ui-link-inherit {
+    color: #222;
+}
+
+#CQ .ui-btn-down-d {
+    border: 1px solid #aaaaaa;
+    background: #ffffff;
+    font-weight: bold;
+    color: #111;
+    text-shadow: 0 1px 1px #ffffff;
+    background-image: -moz-linear-gradient(top, #eeeeee, #ffffff);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eeeeee), color-stop(1, #ffffff));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#ffffff')";
+}
+
+#CQ .ui-btn-down-d a.ui-link-inherit {
+    border: 1px solid #808080;
+    background: #ced0d2;
+    font-weight: bold;
+    color: #111;
+    text-shadow: none;
+    background-image: -moz-linear-gradient(top, #cccccc, #eeeeee);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cccccc), color-stop(1, #eeeeee));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#cccccc', EndColorStr='#eeeeee')";
+}
+
+#CQ .ui-btn-up-d, #CQ .ui-btn-hover-d, #CQ .ui-btn-down-d {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-bar-e {
+    border: 1px solid #F7C942;
+    background: #fadb4e;
+    color: #333;
+    text-shadow: 0 1px 0 #fff;
+    background-image: -moz-linear-gradient(top, #fceda7, #fadb4e);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fceda7), color-stop(1, #fadb4e));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fceda7', EndColorStr='#fadb4e')";
+}
+
+#CQ .ui-bar-e, #CQ .ui-bar-e input, #CQ .ui-bar-e select, #CQ .ui-bar-e textarea, #CQ .ui-bar-d button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-bar-e .ui-link-inherit {
+    color: #333;
+}
+
+#CQ .ui-bar-e .ui-link {
+    color: #2489CE;
+    font-weight: bold;
+}
+
+#CQ .ui-body-e {
+    border: 1px solid #F7C942;
+    color: #333333;
+    text-shadow: 0 1px 0 #fff;
+    background: #faeb9e;
+    background-image: -moz-linear-gradient(top, #fff, #faeb9e);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #faeb9e));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#faeb9e')";
+}
+
+#CQ .ui-body-e, #CQ .ui-body-e input, #CQ .ui-body-e select, #CQ .ui-body-e textarea, #CQ .ui-body-e button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#CQ .ui-body-e .ui-link-inherit {
+    color: #333333;
+}
+
+#CQ .ui-body-e .ui-link {
+    color: #2489CE;
+    font-weight: bold;
+}
+
+#CQ .ui-btn-up-e {
+    border: 1px solid #F7C942;
+    background: #fadb4e;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    text-shadow: 0 1px 1px #fe3;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    background-image: -moz-linear-gradient(top, #fceda7, #fadb4e);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fceda7), color-stop(1, #fadb4e));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fceda7', EndColorStr='#fadb4e')";
+}
+
+#CQ .ui-btn-up-e a.ui-link-inherit {
+    color: #333;
+}
+
+#CQ .ui-btn-hover-e {
+    border: 1px solid #e79952;
+    background: #fbe26f;
+    font-weight: bold;
+    color: #111;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #fff;
+    background-image: -moz-linear-gradient(top, #fcf0b5, #fbe26f);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcf0b5), color-stop(1, #fbe26f));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fcf0b5', EndColorStr='#fbe26f')";
+}
+
+#CQ .ui-btn-hover-e a.ui-link-inherit {
+    color: #333;
+}
+
+#CQ .ui-btn-down-e {
+    border: 1px solid #F7C942;
+    background: #fceda7;
+    font-weight: bold;
+    color: #111;
+    text-shadow: 0 1px 1px #ffffff;
+    background-image: -moz-linear-gradient(top, #fadb4e, #fceda7);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fadb4e), color-stop(1, #fceda7));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fadb4e', EndColorStr='#fceda7')";
+}
+
+#CQ .ui-btn-down-e a.ui-link-inherit {
+    color: #333;
+}
+
+#CQ .ui-btn-up-e, #CQ .ui-btn-hover-e, #CQ .ui-btn-down-e {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* links within "buttons" */
+#CQ a.ui-link-inherit {
+    text-decoration: none !important;
+}
+
+/* Active class used as the "on" state across all themes */
+#CQ .ui-btn-active {
+    border: 1px solid #155678;
+    background: #4596ce;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 -1px 1px #145072;
+    text-decoration: none;
+    background-image: -moz-linear-gradient(top, #85bae4, #5393c5);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #85bae4), color-stop(1, #5393c5));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#85bae4', EndColorStr='#5393c5')";
+}
+
+#CQ .ui-btn-active a.ui-link-inherit {
+    color: #fff;
+}
+
+/* button inner top highlight */
+#CQ .ui-btn-inner {
+    border-top: 1px solid #fff;
+    border-color: rgba(255, 255, 255, .3);
+}
+
+/* Container Corner radius */
+#CQ .ui-corner-tl {
+    -moz-border-radius-topleft: .6em;
+    -webkit-border-top-left-radius: .6em;
+    border-top-left-radius: .6em;
+}
+
+#CQ .ui-corner-tr {
+    -moz-border-radius-topright: .6em;
+    -webkit-border-top-right-radius: .6em;
+    border-top-right-radius: .6em;
+}
+
+#CQ .ui-corner-bl {
+    -moz-border-radius-bottomleft: .6em;
+    -webkit-border-bottom-left-radius: .6em;
+    border-bottom-left-radius: .6em;
+}
+
+#CQ .ui-corner-br {
+    -moz-border-radius-bottomright: .6em;
+    -webkit-border-bottom-right-radius: .6em;
+    border-bottom-right-radius: .6em;
+}
+
+#CQ .ui-corner-top {
+    -moz-border-radius-topleft: .6em;
+    -webkit-border-top-left-radius: .6em;
+    border-top-left-radius: .6em;
+    -moz-border-radius-topright: .6em;
+    -webkit-border-top-right-radius: .6em;
+    border-top-right-radius: .6em;
+}
+
+#CQ .ui-corner-bottom {
+    -moz-border-radius-bottomleft: .6em;
+    -webkit-border-bottom-left-radius: .6em;
+    border-bottom-left-radius: .6em;
+    -moz-border-radius-bottomright: .6em;
+    -webkit-border-bottom-right-radius: .6em;
+    border-bottom-right-radius: .6em;
+}
+
+#CQ .ui-corner-right {
+    -moz-border-radius-topright: .6em;
+    -webkit-border-top-right-radius: .6em;
+    border-top-right-radius: .6em;
+    -moz-border-radius-bottomright: .6em;
+    -webkit-border-bottom-right-radius: .6em;
+    border-bottom-right-radius: .6em;
+}
+
+#CQ .ui-corner-left {
+    -moz-border-radius-topleft: .6em;
+    -webkit-border-top-left-radius: .6em;
+    border-top-left-radius: .6em;
+    -moz-border-radius-bottomleft: .6em;
+    -webkit-border-bottom-left-radius: .6em;
+    border-bottom-left-radius: .6em;
+}
+
+#CQ .ui-corner-all {
+    -moz-border-radius: .6em;
+    -webkit-border-radius: .6em;
+    border-radius: .6em;
+}
+
+/* Interaction Cues
+----------------------------------*/
+#CQ .ui-disabled {
+    opacity: .3;
+}
+
+#CQ .ui-disabled, #CQ .ui-disabled a {
+    cursor: default !important;
+}
+
+/* Icons
+----------------------------------*/
+/* .ui-icon { background-position: 50% 50%; background-repeat: no-repeat; background-color: #fff; background-color: rgba(0,0,0,.4);  -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px; } */
+
+#CQ .ui-icon {
+    background-image: url(default/jquerymobile/resources/images/icons-18-white.png);
+    background-repeat: no-repeat;
+    background-color: #666;
+    background-color: rgba(0, 0, 0, .4);
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+}
+
+#CQ .ui-icon-disc {
+    background-color: #666;
+    background-color: rgba(0, 0, 0, .3);
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+}
+
+/* alt color */
+#CQ .ui-icon-black {
+    background-image: url(default/jquerymobile/resources/images/icons-18-black.png);
+}
+
+#CQ .ui-icon-black-disc {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .3);
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+}
+
+/* retina */
+@media screen and (-webkit-min-device-pixel-ratio: 2), #CQ screen and (max--moz-device-pixel-ratio: 2) {
+    .ui-icon {
+        background-image: url(default/jquerymobile/resources/images/icons-36-white.png);
+        background-size: 558px 18px;
+    }
+
+    .ui-icon-black {
+        background-image: url(default/jquerymobile/resources/images/icons-36-black.png);
+    }
+}
+
+/*plus minus*/
+#CQ .ui-icon-plus {
+    background-position: -0 0;
+}
+
+#CQ .ui-icon-minus {
+    background-position: -36px 0;
+}
+
+/* delete/close */
+#CQ .ui-icon-delete {
+    background-position: -72px 0;
+}
+
+/*arrows*/
+#CQ .ui-icon-arrow-r {
+    background-position: -108px 0;
+}
+
+#CQ .ui-icon-arrow-l {
+    background-position: -144px 0;
+}
+
+#CQ .ui-icon-arrow-u {
+    background-position: -180px 0;
+}
+
+#CQ .ui-icon-arrow-d {
+    background-position: -216px 0;
+}
+
+#CQ .ui-icon-check {
+    background-position: -252px 0;
+}
+
+#CQ .ui-icon-gear {
+    background-position: -288px 0;
+}
+
+#CQ .ui-icon-refresh {
+    background-position: -324px 0;
+}
+
+#CQ .ui-icon-forward {
+    background-position: -360px 0;
+}
+
+#CQ .ui-icon-back {
+    background-position: -396px 0;
+}
+
+#CQ .ui-icon-grid {
+    background-position: -432px 0;
+}
+
+#CQ .ui-icon-star {
+    background-position: -468px 0;
+}
+
+#CQ .ui-icon-alert {
+    background-position: -504px 0;
+}
+
+#CQ .ui-icon-info {
+    background-position: -540px 0;
+}
+
+/*checks,radios*/
+#CQ .ui-icon-checkbox-off,
+#CQ .ui-icon-checkbox-on,
+#CQ .ui-icon-radio-off,
+#CQ .ui-icon-radio-on {
+    background-color: transparent;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-size: 20px 20px;
+}
+
+#CQ .ui-icon-checkbox-off {
+    background-image: url(default/jquerymobile/resources/images/form-check-off.png);
+}
+
+#CQ .ui-icon-checkbox-on {
+    background-image: url(default/jquerymobile/resources/images/form-check-on.png);
+}
+
+#CQ .ui-icon-radio-off {
+    background-image: url(default/jquerymobile/resources/images/form-radio-off.png);
+}
+
+#CQ .ui-icon-radio-on {
+    background-image: url(default/jquerymobile/resources/images/form-radio-on.png);
+}
+
+#CQ .ui-icon-search {
+    background-image: url(default/jquerymobile/resources/images/icon-search-black.png);
+    background-size: 16px 16px;
+}
+
+/* loading icon */
+#CQ .ui-icon-loading {
+    background-image: url(default/jquerymobile/resources/images/ajax-loader.png);
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background-size: 35px 35px;
+}
+
+/* btn Corner radius */
+#CQ .ui-btn-corner-tl {
+    -moz-border-radius-topleft: 1em;
+    -webkit-border-top-left-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+#CQ .ui-btn-corner-tr {
+    -moz-border-radius-topright: 1em;
+    -webkit-border-top-right-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+#CQ .ui-btn-corner-bl {
+    -moz-border-radius-bottomleft: 1em;
+    -webkit-border-bottom-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+#CQ .ui-btn-corner-br {
+    -moz-border-radius-bottomright: 1em;
+    -webkit-border-bottom-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+#CQ .ui-btn-corner-top {
+    -moz-border-radius-topleft: 1em;
+    -webkit-border-top-left-radius: 1em;
+    border-top-left-radius: 1em;
+    -moz-border-radius-topright: 1em;
+    -webkit-border-top-right-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+#CQ .ui-btn-corner-bottom {
+    -moz-border-radius-bottomleft: 1em;
+    -webkit-border-bottom-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    -moz-border-radius-bottomright: 1em;
+    -webkit-border-bottom-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+#CQ .ui-btn-corner-right {
+    -moz-border-radius-topright: 1em;
+    -webkit-border-top-right-radius: 1em;
+    border-top-right-radius: 1em;
+    -moz-border-radius-bottomright: 1em;
+    -webkit-border-bottom-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+#CQ .ui-btn-corner-left {
+    -moz-border-radius-topleft: 1em;
+    -webkit-border-top-left-radius: 1em;
+    border-top-left-radius: 1em;
+    -moz-border-radius-bottomleft: 1em;
+    -webkit-border-bottom-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+#CQ .ui-btn-corner-all {
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+/* radius clip */
+#CQ .ui-corner-tl, #CQ .ui-corner-tr, #CQ .ui-corner-bl,
+#CQ .ui-corner-br, #CQ .ui-corner-top, #CQ .ui-corner-bottom,
+#CQ .ui-corner-right, #CQ .ui-corner-left, #CQ .ui-corner-all,
+#CQ .ui-btn-corner-tl, #CQ .ui-btn-corner-tr, #CQ .ui-btn-corner-bl,
+#CQ .ui-btn-corner-br, #CQ .ui-btn-corner-top, #CQ .ui-btn-corner-bottom,
+#CQ .ui-btn-corner-right, #CQ .ui-btn-corner-left, #CQ .ui-btn-corner-all {
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+/* Overlays */
+#CQ .ui-overlay {
+    background: #666;
+    opacity: .5;
+    filter: Alpha(Opacity = 50);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#CQ .ui-overlay-shadow {
+    -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, .6);
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, .6);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, .6);
+}
+
+#CQ .ui-shadow {
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, .3);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, .3);
+}
+
+#CQ .ui-bar-a .ui-shadow, #CQ .ui-bar-b .ui-shadow, #CQ .ui-bar-c .ui-shadow {
+    -moz-box-shadow: 0px 1px 0 rgba(255, 255, 255, .3);
+    -webkit-box-shadow: 0px 1px 0 rgba(255, 255, 255, .3);
+    box-shadow: 0px 1px 0 rgba(255, 255, 255, .3);
+}
+
+#CQ .ui-shadow-inset {
+    -moz-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .2);
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .2);
+}
+
+#CQ .ui-icon-shadow {
+    -moz-box-shadow: 0px 1px 0 rgba(255, 255, 255, .4);
+    -webkit-box-shadow: 0px 1px 0 rgba(255, 255, 255, .4);
+    box-shadow: 0px 1px 0 rgba(255, 255, 255, .4);
+}
+
+/* set focus state last */
+#CQ .ui-focus {
+    outline-width: 0;
+    -moz-box-shadow: 0px 0px 12px #387bbe;
+    -webkit-box-shadow: 0px 0px 12px #387bbe;
+    box-shadow: 0px 0px 12px #387bbe;
+}
+
+/* unset box shadow in browsers that don't do it right */
+#CQ .ui-mobile-nosupport-boxshadow * {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+#CQ .ui-mobile-nosupport-boxshadow .ui-focus {
+    outline-width: 2px;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+* Note: Code is in draft form and is subject to change 
+*/
+
+/* some unsets - more probably needed */
+.ui-mobile #CQ fieldset, #CQ .ui-page {
+    padding: 0;
+    margin: 0;
+}
+
+.ui-mobile #CQ a img, .ui-mobile #CQ fieldset {
+    border: 0;
+}
+
+/* responsive page widths */
+#CQ .ui-mobile-viewport {
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*orientations from js are available */
+#CQ .portrait {
+}
+
+.landscape #CQ {
+}
+
+/* "page" containers - full-screen views, one should always be in view post-pageload */
+#CQ .ui-page {
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: none;
+    border: 0;
+}
+
+#CQ .ui-page-active {
+    display: block;
+    overflow: visible;
+    min-height: 100%;
+}
+
+/* loading screen */
+#CQ .ui-loading .ui-mobile-viewport {
+    overflow: hidden !important;
+}
+
+#CQ .ui-loading .ui-loader {
+    display: block;
+}
+
+#CQ .ui-loading .ui-page {
+    overflow: hidden;
+}
+
+#CQ .ui-loader {
+    display: none;
+    position: absolute;
+    opacity: .85;
+    z-index: 10;
+    top: 75px;
+    left: 50%;
+    width: 200px;
+    margin-left: -130px;
+    padding: 20px 30px;
+}
+
+#CQ .ui-loader h1 {
+    font-size: 15px;
+    text-align: center;
+}
+
+#CQ .ui-loader .ui-icon {
+    position: static;
+    display: block;
+    opacity: .9;
+    margin: 0 auto;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+}
+
+/*fouc*/
+#CQ .ui-mobile-rendering > * {
+    visibility: hidden;
+}
+
+/*headers, content panels*/
+#CQ .ui-bar, #CQ .ui-body {
+    position: relative;
+    padding: .4em 15px;
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+
+#CQ .ui-bar {
+    font-size: 16px;
+    margin: 0;
+}
+
+#CQ .ui-bar h1, #CQ .ui-bar h2, #CQ .ui-bar h3, #CQ .ui-bar h4, #CQ .ui-bar h5, #CQ .ui-bar h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    display: inline-block;
+}
+
+#CQ .ui-header, #CQ .ui-footer {
+    display: block;
+}
+
+#CQ .ui-page .ui-header, #CQ .ui-page .ui-footer {
+    position: relative;
+}
+
+#CQ .ui-header .ui-btn-left {
+    position: absolute;
+    left: 10px;
+    top: .4em;
+}
+
+#CQ .ui-header .ui-title, #CQ .ui-footer .ui-title {
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin: .6em 90px .8em;
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: 0 !important;
+}
+
+#CQ .ui-header .ui-btn-right {
+    position: absolute;
+    right: 10px;
+    top: .4em;
+}
+
+/*content area*/
+#CQ .ui-content {
+    border-width: 0;
+    overflow: visible;
+    overflow-x: hidden;
+    padding: 15px;
+}
+
+#CQ .ui-page-fullscreen .ui-content {
+    padding: 0;
+}
+
+/* icons sizing */
+#CQ .ui-icon {
+    width: 18px;
+    height: 18px;
+}
+
+/* fullscreen class on ui-content div */
+#CQ .ui-fullscreen {
+}
+
+#CQ .ui-fullscreen img {
+    max-width: 100%;
+}
+
+/* non-js content hiding */
+#CQ .ui-nojs {
+    position: absolute;
+    left: -9999px;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ .spin {
+    -webkit-transform: rotate(360deg);
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes spin {
+	from {-webkit-transform: rotate(0deg);}
+  	to {-webkit-transform: rotate(360deg);}
+}
+
+/* Transitions from jQtouch (with small modifications): http://www.jqtouch.com/
+Built by David Kaneda and maintained by Jonathan Stark.
+*/
+#CQ .in, #CQ .out {
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 350ms;
+}
+
+#CQ .slide.in {
+    -webkit-transform: translateX(0);
+    -webkit-animation-name: slideinfromright;
+}
+
+#CQ .slide.out {
+    -webkit-transform: translateX(-100%);
+    -webkit-animation-name: slideouttoleft;
+}
+
+#CQ .slide.in.reverse {
+    -webkit-transform: translateX(0);
+    -webkit-animation-name: slideinfromleft;
+}
+
+#CQ .slide.out.reverse {
+    -webkit-transform: translateX(100%);
+    -webkit-animation-name: slideouttoright;
+}
+
+#CQ .slideup.in {
+    -webkit-transform: translateY(0);
+    -webkit-animation-name: slideinfrombottom;
+    z-index: 10;
+}
+
+#CQ .slideup.out {
+    -webkit-animation-name: dontmove;
+    z-index: 0;
+}
+
+#CQ .slideup.out.reverse {
+    -webkit-transform: translateY(100%);
+    z-index: 10;
+    -webkit-animation-name: slideouttobottom;
+}
+
+#CQ .slideup.in.reverse {
+    z-index: 0;
+    -webkit-animation-name: dontmove;
+}
+
+#CQ .slidedown.in {
+    -webkit-transform: translateY(0);
+    -webkit-animation-name: slideinfromtop;
+    z-index: 10;
+}
+
+#CQ .slidedown.out {
+    -webkit-animation-name: dontmove;
+    z-index: 0;
+}
+
+#CQ .slidedown.out.reverse {
+    -webkit-transform: translateY(-100%);
+    z-index: 10;
+    -webkit-animation-name: slideouttotop;
+}
+
+#CQ .slidedown.in.reverse {
+    z-index: 0;
+    -webkit-animation-name: dontmove;
+}
+
+@-webkit-keyframes slideinfromright {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(0); }
+}
+
+@-webkit-keyframes slideinfromleft {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(0); }
+}
+
+@-webkit-keyframes slideouttoleft {
+    from { -webkit-transform: translateX(0); }
+    to { -webkit-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slideouttoright {
+    from { -webkit-transform: translateX(0); }
+    to { -webkit-transform: translateX(100%); }
+}
+
+@-webkit-keyframes slideinfromtop {
+    from { -webkit-transform: translateY(-100%); }
+    to { -webkit-transform: translateY(0); }
+}
+
+@-webkit-keyframes slideinfrombottom {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(0); }
+}
+
+@-webkit-keyframes slideouttobottom {
+    from { -webkit-transform: translateY(0); }
+    to { -webkit-transform: translateY(100%); }
+}
+
+@-webkit-keyframes slideouttotop {
+    from { -webkit-transform: translateY(0); }
+    to { -webkit-transform: translateY(-100%); }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+#CQ .fade.in {
+    opacity: 1;
+    z-index: 10;
+    -webkit-animation-name: fadein;
+}
+
+#CQ .fade.out {
+    z-index: 0;
+    -webkit-animation-name: fadeout;
+}
+
+/* The properties in this body rule are only necessary for the 'flip' transition.
+ * We need specify the perspective to create a projection matrix. This will add
+ * some depth as the element flips. The depth number represents the distance of
+ * the viewer from the z-plane. According to the CSS3 spec, 1000 is a moderate
+ * value.
+ */
+#CQ .ui-mobile-viewport-perspective {
+    -webkit-perspective: 1000;
+    position: absolute;
+}
+
+#CQ .ui-mobile-viewport-transitioning,
+#CQ .ui-mobile-viewport-transitioning .ui-page {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#CQ .flip {
+    -webkit-animation-duration: .65s;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateX(0); /* Needed to work around an iOS 3.1 bug that causes listview thumbs to disappear when -webkit-visibility:hidden is used. */
+}
+
+#CQ .flip.in {
+    -webkit-transform: rotateY(0) scale(1);
+    -webkit-animation-name: flipinfromleft;
+}
+
+#CQ .flip.out {
+    -webkit-transform: rotateY(-180deg) scale(.8);
+    -webkit-animation-name: flipouttoleft;
+}
+
+/* Shake it all about */
+
+#CQ .flip.in.reverse {
+    -webkit-transform: rotateY(0) scale(1);
+    -webkit-animation-name: flipinfromright;
+}
+
+#CQ .flip.out.reverse {
+    -webkit-transform: rotateY(180deg) scale(.8);
+    -webkit-animation-name: flipouttoright;
+}
+
+@-webkit-keyframes flipinfromright {
+    from { -webkit-transform: rotateY(-180deg) scale(.8); }
+    to { -webkit-transform: rotateY(0) scale(1); }
+}
+
+@-webkit-keyframes flipinfromleft {
+    from { -webkit-transform: rotateY(180deg) scale(.8); }
+    to { -webkit-transform: rotateY(0) scale(1); }
+}
+
+@-webkit-keyframes flipouttoleft {
+    from { -webkit-transform: rotateY(0) scale(1); }
+    to { -webkit-transform: rotateY(-180deg) scale(.8); }
+}
+
+@-webkit-keyframes flipouttoright {
+    from { -webkit-transform: rotateY(0) scale(1); }
+    to { -webkit-transform: rotateY(180deg) scale(.8); }
+}
+
+/* Hackish, but reliable. */
+
+@-webkit-keyframes dontmove {
+    from { opacity: 1; }
+    to { opacity: 1; }
+}
+
+#CQ .pop {
+    -webkit-transform-origin: 50% 50%;
+}
+
+#CQ .pop.in {
+    -webkit-transform: scale(1);
+    opacity: 1;
+    -webkit-animation-name: popin;
+    z-index: 10;
+}
+
+#CQ .pop.out.reverse {
+    -webkit-transform: scale(.2);
+    opacity: 0;
+    -webkit-animation-name: popout;
+    z-index: 10;
+}
+
+#CQ .pop.in.reverse {
+    z-index: 0;
+    -webkit-animation-name: dontmove;
+}
+
+@-webkit-keyframes popin {
+    from {
+        -webkit-transform: scale(.2);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes popout {
+    from {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        -webkit-transform: scale(.2);
+        opacity: 0;
+    }
+}
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+
+/* content configurations. */
+#CQ .ui-grid-a, #CQ .ui-grid-b, #CQ .ui-grid-c, #CQ .ui-grid-d {
+    overflow: hidden;
+}
+
+#CQ .ui-block-a, #CQ .ui-block-b, #CQ .ui-block-c, #CQ .ui-block-d, #CQ .ui-block-e {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    float: left;
+}
+
+/* grid a: 50/50 */
+#CQ .ui-grid-a .ui-block-a, #CQ .ui-grid-a .ui-block-b {
+    width: 50%;
+}
+
+#CQ .ui-grid-a .ui-block-a {
+    clear: left;
+}
+
+/* grid b: 33/33/33 */
+#CQ .ui-grid-b .ui-block-a, #CQ .ui-grid-b .ui-block-b, #CQ .ui-grid-b .ui-block-c {
+    width: 33.333%;
+}
+
+#CQ .ui-grid-b .ui-block-a {
+    clear: left;
+}
+
+/* grid c: 25/25/25/25 */
+#CQ .ui-grid-c .ui-block-a, #CQ .ui-grid-c .ui-block-b, #CQ .ui-grid-c .ui-block-c, #CQ .ui-grid-c .ui-block-d {
+    width: 25%;
+}
+
+#CQ .ui-grid-c .ui-block-a {
+    clear: left;
+}
+
+/* grid d: 20/20/20/20/20 */
+#CQ .ui-grid-d .ui-block-a, #CQ .ui-grid-d .ui-block-b, #CQ .ui-grid-d .ui-block-c, #CQ .ui-grid-d .ui-block-d, #CQ .ui-grid-d .ui-block-e {
+    width: 20%;
+}
+
+#CQ .ui-grid-d .ui-block-a {
+    clear: left;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+/* fixed page header & footer configuration */
+#CQ .ui-header, #CQ .ui-footer, #CQ .ui-page-fullscreen .ui-header, #CQ .ui-page-fullscreen .ui-footer {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+#CQ .ui-header-fixed, #CQ .ui-footer-fixed {
+    z-index: 1000;
+    -webkit-transform: translateZ(0); /* Force header/footer rendering to go through the same rendering pipeline as native page scrolling. */
+}
+
+#CQ .ui-footer-duplicate, #CQ .ui-page-fullscreen .ui-fixed-inline {
+    display: none;
+}
+
+#CQ .ui-page-fullscreen .ui-header, #CQ .ui-page-fullscreen .ui-footer {
+    opacity: .9;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ .ui-navbar {
+    overflow: hidden;
+}
+
+#CQ .ui-navbar ul, #CQ .ui-navbar-expanded ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: block;
+    border: 0;
+}
+
+#CQ .ui-navbar-collapsed ul {
+    float: left;
+    width: 75%;
+    margin-right: -2px;
+}
+
+#CQ .ui-navbar-collapsed .ui-navbar-toggle {
+    float: left;
+    width: 25%;
+}
+
+#CQ .ui-navbar li.ui-navbar-truncate {
+    position: absolute;
+    left: -99999px;
+    top: -99999px;
+}
+
+#CQ .ui-navbar li .ui-btn, #CQ .ui-navbar .ui-navbar-toggle .ui-btn {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    outline: none;
+    border-right-width: 0;
+}
+
+#CQ .ui-navbar li .ui-btn {
+    margin-right: -1px;
+}
+
+#CQ .ui-navbar li .ui-btn:last-child {
+    margin-right: 0;
+}
+
+#CQ .ui-header .ui-navbar li .ui-btn, #CQ .ui-header .ui-navbar .ui-navbar-toggle .ui-btn,
+#CQ .ui-footer .ui-navbar li .ui-btn, #CQ .ui-footer .ui-navbar .ui-navbar-toggle .ui-btn {
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+#CQ .ui-navbar .ui-btn-inner {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#CQ .ui-navbar-noicons li .ui-btn .ui-btn-inner, #CQ .ui-navbar-noicons .ui-navbar-toggle .ui-btn-inner {
+    padding-top: .8em;
+    padding-bottom: .9em;
+}
+
+/*expanded page styles*/
+#CQ .ui-navbar-expanded .ui-btn {
+    margin: 0;
+    font-size: 14px;
+}
+
+#CQ .ui-navbar-expanded .ui-btn-inner {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#CQ .ui-navbar-expanded .ui-btn-icon-top .ui-btn-inner {
+    padding: 45px 5px 15px;
+    text-align: center;
+}
+
+#CQ .ui-navbar-expanded .ui-btn-icon-top .ui-icon {
+    top: 15px;
+}
+
+#CQ .ui-navbar-expanded .ui-btn-icon-bottom .ui-btn-inner {
+    padding: 15px 5px 45px;
+    text-align: center;
+}
+
+#CQ .ui-navbar-expanded .ui-btn-icon-bottom .ui-icon {
+    bottom: 15px;
+}
+
+#CQ .ui-navbar-expanded li .ui-btn .ui-btn-inner {
+    min-height: 2.5em;
+}
+
+#CQ .ui-navbar-expanded .ui-navbar-noicons .ui-btn .ui-btn-inner {
+    padding-top: 1.8em;
+    padding-bottom: 1.9em;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ .ui-btn {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    margin: .5em 5px;
+    padding: 0;
+}
+
+#CQ .ui-btn:focus, #CQ .ui-btn a:focus {
+    outline: none;
+}
+
+#CQ .ui-btn:visited {
+    color: #fff;
+}
+
+#CQ .ui-header .ui-btn, #CQ .ui-footer .ui-btn, #CQ .ui-bar .ui-btn {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+}
+
+#CQ .ui-btn-inline {
+    display: inline-block;
+}
+
+#CQ .ui-btn-inner {
+    padding: .6em 25px;
+    display: block;
+    height: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+#CQ .ui-header .ui-btn-inner, #CQ .ui-footer .ui-btn-inner, #CQ .ui-bar .ui-btn-inner {
+    padding: .4em 8px .5em;
+}
+
+#CQ .ui-btn-icon-notext {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 1px 0px 1px 2px;
+    text-indent: -9999px;
+}
+
+#CQ .ui-btn-icon-notext .ui-btn-inner {
+    padding: 0;
+}
+
+#CQ .ui-btn-icon-notext .ui-btn-text {
+    position: absolute;
+    left: -999px;
+}
+
+#CQ .ui-btn-icon-left .ui-btn-inner {
+    padding-left: 33px;
+}
+
+#CQ .ui-header .ui-btn-icon-left .ui-btn-inner,
+#CQ .ui-footer .ui-btn-icon-left .ui-btn-inner,
+#CQ .ui-bar .ui-btn-icon-left .ui-btn-inner {
+    padding-left: 27px;
+}
+
+#CQ .ui-btn-icon-right .ui-btn-inner {
+    padding-right: 33px;
+}
+
+#CQ .ui-header .ui-btn-icon-right .ui-btn-inner,
+#CQ .ui-footer .ui-btn-icon-right .ui-btn-inner,
+#CQ .ui-bar .ui-btn-icon-right .ui-btn-inner {
+    padding-right: 27px;
+}
+
+#CQ .ui-btn-icon-top .ui-btn-inner {
+    padding-top: 33px;
+}
+
+#CQ .ui-header .ui-btn-icon-top .ui-btn-inner,
+#CQ .ui-footer .ui-btn-icon-top .ui-btn-inner,
+#CQ .ui-bar .ui-btn-icon-top .ui-btn-inner {
+    padding-top: 27px;
+}
+
+#CQ .ui-btn-icon-bottom .ui-btn-inner {
+    padding-bottom: 33px;
+}
+
+#CQ .ui-header .ui-btn-icon-bottom .ui-btn-inner,
+#CQ .ui-footer .ui-btn-icon-bottom .ui-btn-inner,
+#CQ .ui-bar .ui-btn-icon-bottom .ui-btn-inner {
+    padding-bottom: 27px;
+}
+
+/*btn icon positioning*/
+#CQ .ui-btn-icon-notext .ui-icon {
+    display: block;
+}
+
+#CQ .ui-btn-icon-left .ui-icon, #CQ .ui-btn-icon-right .ui-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+}
+
+#CQ .ui-btn-icon-top .ui-icon, #CQ .ui-btn-icon-bottom .ui-icon {
+    position: absolute;
+    left: 50%;
+    margin-left: -9px;
+}
+
+#CQ .ui-btn-icon-left .ui-icon {
+    left: 10px;
+}
+
+#CQ .ui-btn-icon-right .ui-icon {
+    right: 10px;
+}
+
+#CQ .ui-header .ui-btn-icon-left .ui-icon,
+#CQ .ui-footer .ui-btn-icon-left .ui-icon,
+#CQ .ui-bar .ui-btn-icon-left .ui-icon {
+    left: 4px;
+}
+
+#CQ .ui-header .ui-btn-icon-right .ui-icon,
+#CQ .ui-footer .ui-btn-icon-right .ui-icon,
+#CQ .ui-bar .ui-btn-icon-right .ui-icon {
+    right: 4px;
+}
+
+#CQ .ui-header .ui-btn-icon-top .ui-icon,
+#CQ .ui-footer .ui-btn-icon-top .ui-icon,
+#CQ .ui-bar .ui-btn-icon-top .ui-icon {
+    top: 4px;
+}
+
+#CQ .ui-header .ui-btn-icon-bottom .ui-icon,
+#CQ .ui-footer .ui-btn-icon-bottom .ui-icon,
+#CQ .ui-bar .ui-btn-icon-bottom .ui-icon {
+    bottom: 4px;
+}
+
+#CQ .ui-btn-icon-top .ui-icon {
+    top: 5px;
+}
+
+#CQ .ui-btn-icon-bottom .ui-icon {
+    bottom: 5px;
+}
+
+/*hiding native button,inputs */
+#CQ .ui-btn-hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-appearance: button;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ .ui-collapsible-contain {
+    margin: .5em 0;
+}
+
+#CQ .ui-collapsible-heading {
+    font-size: 16px;
+    display: block;
+    margin: 0 -8px;
+    padding: 0;
+    border-width: 0 0 1px 0;
+    position: relative;
+}
+
+#CQ .ui-collapsible-heading a {
+    text-align: left;
+    margin: 0;
+}
+
+#CQ .ui-collapsible-heading a .ui-btn-inner {
+    padding-left: 40px;
+}
+
+#CQ .ui-collapsible-heading a span.ui-btn {
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    margin: -12px 0 0 0;
+    width: 20px;
+    height: 20px;
+    padding: 1px 0px 1px 2px;
+    text-indent: -9999px;
+}
+
+#CQ .ui-collapsible-heading a span.ui-btn .ui-btn-inner {
+    padding: 0;
+}
+
+#CQ .ui-collapsible-heading a span.ui-btn .ui-icon {
+    left: 0;
+    margin-top: -10px;
+}
+
+#CQ .ui-collapsible-heading-status {
+    position: absolute;
+    left: -99999px;
+}
+
+#CQ .ui-collapsible-content {
+    display: block;
+    padding: 10px 0 10px 8px;
+}
+
+#CQ .ui-collapsible-content-collapsed {
+    display: none;
+}
+
+#CQ .ui-collapsible-set {
+    margin: .5em 0;
+}
+
+#CQ .ui-collapsible-set .ui-collapsible-contain {
+    margin: -1px 0 0;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ .ui-controlgroup, #CQ fieldset.ui-controlgroup {
+    padding: 0;
+    margin: .5em 0 1em;
+}
+
+#CQ .ui-bar .ui-controlgroup {
+    margin: 0 .3em;
+}
+
+#CQ .ui-controlgroup-label {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 0 0 .3em;
+}
+
+#CQ .ui-controlgroup-controls {
+    display: block;
+    width: 95%;
+}
+
+#CQ .ui-controlgroup li {
+    list-style: none;
+}
+
+#CQ .ui-controlgroup-vertical .ui-btn,
+#CQ .ui-controlgroup-vertical .ui-checkbox, #CQ .ui-controlgroup-vertical .ui-radio {
+    margin: 0;
+    border-bottom-width: 0;
+}
+
+#CQ .ui-controlgroup-vertical .ui-controlgroup-last {
+    border-bottom-width: 1px;
+}
+
+#CQ .ui-controlgroup-horizontal {
+    padding: 0;
+}
+
+#CQ .ui-controlgroup-horizontal .ui-btn,
+#CQ .ui-controlgroup-horizontal .ui-checkbox, #CQ .ui-controlgroup-horizontal .ui-radio {
+    margin: 0 -5px 0 0;
+    display: inline-block;
+}
+
+#CQ .ui-controlgroup-horizontal .ui-checkbox .ui-btn, #CQ .ui-controlgroup-horizontal .ui-radio .ui-btn,
+#CQ .ui-controlgroup-horizontal .ui-checkbox:last-child, #CQ .ui-controlgroup-horizontal .ui-radio:last-child {
+    margin-right: 0;
+}
+
+#CQ .ui-controlgroup-horizontal .ui-controlgroup-last {
+    margin-right: 0;
+}
+
+#CQ .ui-controlgroup .ui-checkbox label, #CQ .ui-controlgroup .ui-radio label {
+    font-size: 16px;
+}
+
+/* conflicts with listview..
+#CQ .ui-controlgroup .ui-btn-icon-notext { width: 30px; height: 30px; text-indent: -9999px; }
+#CQ .ui-controlgroup .ui-btn-icon-notext .ui-btn-inner {  padding: 5px 6px 5px 5px; }
+*/
+
+.min-width-480px #CQ .ui-controlgroup-label {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    margin: 0 2% 0 0;
+}
+
+.min-width-480px #CQ .ui-controlgroup-controls {
+    width: 60%;
+    display: inline-block;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ .ui-dialog .ui-header, #CQ .ui-dialog .ui-content, #CQ .ui-dialog .ui-footer {
+    margin: 15px;
+    position: relative;
+}
+
+#CQ .ui-dialog .ui-header, #CQ .ui-dialog .ui-footer {
+    z-index: 10;
+    width: auto;
+}
+
+#CQ .ui-dialog .ui-content, #CQ .ui-dialog .ui-footer {
+    margin-top: -15px;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ .ui-checkbox, #CQ .ui-radio {
+    position: relative;
+    margin: .2em 0 .5em;
+    z-index: 1;
+}
+
+#CQ .ui-checkbox .ui-btn, #CQ .ui-radio .ui-btn {
+    margin: 0;
+    text-align: left;
+    z-index: 2;
+}
+
+#CQ .ui-checkbox .ui-btn-icon-left .ui-btn-inner, #CQ .ui-radio .ui-btn-icon-left .ui-btn-inner {
+    padding-left: 45px;
+}
+
+#CQ .ui-checkbox .ui-btn-icon-right .ui-btn-inner, #CQ .ui-radio .ui-btn-icon-right .ui-btn-inner {
+    padding-right: 45px;
+}
+
+#CQ .ui-checkbox .ui-btn-icon-left .ui-icon, #CQ .ui-radio .ui-btn-icon-left .ui-icon {
+    left: 15px;
+}
+
+#CQ .ui-checkbox .ui-btn-icon-right .ui-icon, #CQ .ui-radio .ui-btn-icon-right .ui-icon {
+    right: 15px;
+}
+
+/* input, label positioning */
+#CQ .ui-checkbox input, #CQ .ui-radio input {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    margin: -5px 0 0 0;
+    outline: 0 !important;
+    z-index: 1;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ .ui-field-contain {
+    background: none;
+    padding: 1.5em 0;
+    margin: 0;
+    border-bottom-width: 1px;
+    overflow: visible;
+}
+
+#CQ .ui-field-contain:first-child {
+    border-top-width: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .ui-field-contain {
+        border-width: 0;
+        padding: 0;
+        margin: 1em 0;
+    }
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ .ui-select {
+    display: block;
+}
+
+#CQ .ui-select select {
+    position: absolute;
+    left: -99999px;
+}
+
+#CQ .ui-select .ui-btn-icon-right .ui-btn-inner {
+    padding-right: 45px;
+}
+
+#CQ .ui-select .ui-btn-icon-right .ui-icon {
+    right: 15px;
+}
+
+/* labels */
+#CQ label.ui-select {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 0 0 .3em;
+    display: block;
+}
+
+/*listbox*/
+#CQ .ui-select .ui-btn-text, #CQ .ui-selectmenu .ui-btn-text {
+    display: inline-block;
+    min-height: 1em;
+}
+
+#CQ .ui-select .ui-btn-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 85%
+}
+
+#CQ .ui-selectmenu {
+    position: absolute;
+    padding: 0;
+    z-index: 100 !important;
+    width: 80%;
+    max-width: 350px;
+    padding: 6px;
+}
+
+#CQ .ui-selectmenu .ui-listview {
+    margin: 0;
+}
+
+#CQ .ui-selectmenu .ui-btn.ui-li-divider {
+    cursor: default;
+}
+
+#CQ .ui-selectmenu-hidden {
+    top: -999999px;
+    left: -99999px;
+}
+
+#CQ .ui-selectmenu-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+#CQ .ui-screen-hidden, #CQ .ui-selectmenu-list .ui-li .ui-icon {
+    display: none;
+}
+
+#CQ .ui-selectmenu-list .ui-li .ui-icon {
+    display: block;
+}
+
+#CQ .ui-selectmenu-placeholder {
+    display: none;
+}
+
+.min-width-480px #CQ label.ui-select {
+    display: inline-block;
+    width: 20%;
+    margin: 0 2% 0 0;
+}
+
+.min-width-480px #CQ .ui-select {
+    width: 60%;
+    display: inline-block;
+}
+
+/* when no placeholder is defined in a multiple select, the header height doesn't even extend past the close button.  this shim's content in there */
+#CQ .ui-selectmenu .ui-header h1:after {
+    content: '.';
+    visibility: hidden;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ label.ui-input-text {
+    font-size: 16px;
+    line-height: 1.4;
+    display: block;
+    font-weight: normal;
+    margin: 0 0 .3em;
+}
+
+#CQ input.ui-input-text, #CQ textarea.ui-input-text {
+    background-image: none;
+    padding: .4em;
+    line-height: 1.4;
+    font-size: 16px;
+    display: block;
+    width: 95%;
+}
+
+#CQ input.ui-input-text {
+    -webkit-appearance: none;
+}
+
+#CQ textarea.ui-input-text {
+    height: 50px;
+    -webkit-transition: height 200ms linear;
+    -moz-transition: height 200ms linear;
+    -o-transition: height 200ms linear;
+    transition: height 200ms linear;
+}
+
+#CQ .ui-input-search {
+    padding: 0 30px;
+    width: 77%;
+    background-position: 8px 50%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#CQ .ui-input-search input.ui-input-text {
+    border: none;
+    width: 98%;
+    padding: .4em 0;
+    margin: 0;
+    display: block;
+    background: transparent none;
+    outline: 0 !important;
+}
+
+#CQ .ui-input-search .ui-input-clear {
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    margin-top: -12px;
+}
+
+#CQ .ui-input-search .ui-input-clear-hidden {
+    display: none;
+}
+
+/* orientation adjustments - incomplete!*/
+.min-width-480px #CQ label.ui-input-text {
+    vertical-align: top;
+}
+
+.min-width-480px #CQ label.ui-input-text {
+    display: inline-block;
+    width: 20%;
+    margin: 0 2% 0 0;
+}
+
+.min-width-480px #CQ input.ui-input-text,
+.min-width-480px #CQ textarea.ui-input-text,
+.min-width-480px #CQ .ui-input-search {
+    width: 60%;
+    display: inline-block;
+}
+
+.min-width-480px #CQ .ui-input-search {
+    width: 50%;
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ .ui-listview {
+    margin: 0;
+    counter-reset: listnumbering;
+}
+
+#CQ .ui-content .ui-listview {
+    margin: -15px;
+}
+
+#CQ .ui-content .ui-listview-inset {
+    margin: 1em 0;
+}
+
+#CQ .ui-listview, #CQ .ui-li {
+    list-style: none;
+    padding: 0;
+    zoom: 1;
+}
+
+#CQ .ui-li {
+    display: block;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    border-width: 0;
+    border-top-width: 1px;
+}
+
+#CQ .ui-li .ui-btn-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#CQ .ui-li-divider, #CQ .ui-li-static {
+    padding: .5em 15px;
+    font-size: 14px;
+    font-weight: bold;
+    counter-reset: listnumbering;
+}
+
+#CQ ol.ui-listview .ui-link-inherit:before, #CQ .ui-li-dec {
+    font-size: .8em;
+    display: inline-block;
+    padding-right: .3em;
+    font-weight: normal;
+    counter-increment: listnumbering;
+    content: counter(listnumbering) ". ";
+}
+
+#CQ ol.ui-listview .ui-li-jsnumbering:before {
+    content: "" !important;
+}
+
+/* to avoid chance of duplication */
+#CQ .ui-listview-inset .ui-li {
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+#CQ .ui-li:last-child {
+    border-bottom-width: 1px;
+}
+
+#CQ .ui-li .ui-btn-inner {
+    display: block;
+    position: relative;
+    padding: .7em 75px .7em 15px;
+}
+
+#CQ .ui-li-has-thumb .ui-btn-inner {
+    min-height: 60px;
+    padding-left: 100px;
+}
+
+#CQ .ui-li-has-icon .ui-btn-inner {
+    min-height: 20px;
+    padding-left: 40px;
+}
+
+#CQ .ui-li-heading {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: .6em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#CQ .ui-li-desc {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    margin: -.5em 0 .6em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#CQ .ui-li-thumb, #CQ .ui-li-icon {
+    position: absolute;
+    left: 1px;
+    top: 0;
+    max-height: 80px;
+    max-width: 80px;
+}
+
+#CQ .ui-li-icon {
+    max-height: 40px;
+    max-width: 40px;
+    left: 10px;
+    top: .9em;
+}
+
+#CQ .ui-li-thumb, #CQ .ui-li-icon, #CQ .ui-li-content {
+    float: left;
+    margin-right: 10px;
+}
+
+#CQ .ui-li-aside {
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin: .3em 0;
+}
+
+.min-width-480px #CQ .ui-li-aside {
+    width: 45%;
+}
+
+#CQ .ui-li-has-alt .ui-btn-inner {
+    padding-right: 95px;
+}
+
+#CQ .ui-li-count {
+    position: absolute;
+    font-size: 11px;
+    font-weight: bold;
+    padding: .2em .5em;
+    top: 50%;
+    margin-top: -.9em;
+    right: 38px;
+}
+
+#CQ .ui-li-divider .ui-li-count {
+    right: 10px;
+}
+
+#CQ .ui-li-has-alt .ui-li-count {
+    right: 55px;
+}
+
+#CQ .ui-li-link-alt {
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    border-width: 0;
+    border-left-width: 1px;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#CQ .ui-li-link-alt .ui-btn {
+    overflow: hidden;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    margin: -11px 0 0 0;
+    border-bottom-width: 1px;
+}
+
+#CQ .ui-li-link-alt .ui-btn-inner {
+    padding: 0;
+    position: static;
+}
+
+#CQ .ui-li-link-alt .ui-btn .ui-icon {
+    right: 50%;
+    margin-right: -9px;
+}
+
+#CQ .ui-listview-filter {
+    border-width: 0;
+    overflow: hidden;
+    margin: -15px -15px 15px -15px
+}
+
+#CQ .ui-listview-filter .ui-input-search {
+    margin: 5px;
+    width: auto;
+    display: block;
+}
+
+/* Odd iPad positioning issue. */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .ui-li .ui-btn-text {
+        overflow: visible;
+    }
+}
+
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+#CQ label.ui-slider {
+    display: block;
+}
+
+#CQ input.ui-slider-input, .min-width-480px #CQ input.ui-slider-input {
+    display: inline-block;
+    width: 50px;
+}
+
+#CQ select.ui-slider-switch {
+    display: none;
+}
+
+#CQ div.ui-slider {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+    height: 15px;
+    padding: 0;
+    margin: 0 2% 0 20px;
+    top: 4px;
+    width: 66%;
+}
+
+#CQ a.ui-slider-handle {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    width: 28px;
+    height: 28px;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+#CQ a.ui-slider-handle .ui-btn-inner {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.min-width-480px #CQ label.ui-slider {
+    display: inline-block;
+    width: 20%;
+    margin: 0 2% 0 0;
+}
+
+.min-width-480px #CQ div.ui-slider {
+    width: 45%;
+}
+
+#CQ div.ui-slider-switch {
+    height: 32px;
+    overflow: hidden;
+    margin-left: 0;
+}
+
+#CQ div.ui-slider-inneroffset {
+    margin-left: 50%;
+    position: absolute;
+    top: 1px;
+    height: 100%;
+    width: 50%;
+}
+
+#CQ div.ui-slider-handle-snapping {
+    -webkit-transition: left 100ms linear;
+}
+
+#CQ div.ui-slider-labelbg {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+#CQ div.ui-slider-switch div.ui-slider-labelbg-a {
+    width: 60%;
+    height: 100%;
+    left: 0;
+}
+
+#CQ div.ui-slider-switch div.ui-slider-labelbg-b {
+    width: 60%;
+    height: 100%;
+    right: 0;
+}
+
+#CQ .ui-slider-switch-a div.ui-slider-labelbg-a, #CQ .ui-slider-switch-b div.ui-slider-labelbg-b {
+    z-index: 1;
+}
+
+#CQ .ui-slider-switch-a div.ui-slider-labelbg-b, #CQ .ui-slider-switch-b div.ui-slider-labelbg-a {
+    z-index: 10;
+}
+
+#CQ div.ui-slider-switch a.ui-slider-handle {
+    z-index: 20;
+    width: 101%;
+    height: 32px;
+    margin-top: -18px;
+    margin-left: -101%;
+}
+
+#CQ span.ui-slider-label {
+    width: 100%;
+    position: absolute;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 2;
+    background: none;
+    border-color: transparent;
+}
+
+#CQ span.ui-slider-label-a {
+    left: -100%;
+    margin-right: -1px
+}
+
+#CQ span.ui-slider-label-b {
+    right: -100%;
+    margin-left: -1px
+}
+
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+
+#CQ .ui-popover {
+    z-index: 9999 !important;
+    position: absolute;
+    padding: 6px;
+
+}
+
+#CQ .ui-popover-shadow {
+    -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, .6);
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, .6);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, .6);
+}
+
+#CQ .ui-popover .ui-btn-text {
+    display: inline-block;
+    min-height: 1em;
+}
+
+#CQ .ui-popover .ui-listview {
+    margin: 0;
+}
+
+#CQ .ui-popover-modal-mask {
+    opacity: .85;
+    z-index: 9990;
+    top: 0;
+    left: 0;
+    background-color: #CCC;
+    position: absolute;
+}
+
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+#CQ .ui-modal-mask {
+    opacity: .85;
+    z-index: 9990;
+    top: 0;
+    left: 0;
+    background-color: #CCC;
+    position: absolute;
+}
+
+#CQ .ui-mask {
+    z-index: 9999;
+    margin: -30px 0 0 0;
+}
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+/*#CQ .ui-popover {*/
+    /*background: transparent;*/
+    /*border: 0;*/
+/*}*/
+
+/*#CQ .ui-popover .ui-controlgroup {*/
+    /*margin: 0;*/
+    /*background: white;*/
+/*}*/
+
+#CQ * {
+    font-family: tahoma,arial,helvetica,sans-serif !important;
+}
+
+#CQ .ui-popover .ui-disabled {
+    opacity: 1;
+}
+
+#CQ .ui-popover .ui-disabled .ui-btn-inner {
+    opacity: 0.3;
+}
+
+.min-width-480px #CQ .cq-page-overlap input.ui-input-text,
+.min-width-480px #CQ .cq-page-overlap textarea.ui-input-text,
+.min-width-480px #CQ .cq-page-overlap .ui-input-search {
+    width: 75%;
+}
+
+.min-width-480px #CQ .cq-page-overlap .ui-select {
+    width: 76%;
+}
+
+.min-width-480px #CQ label.ui-select {
+    width: 20% !important;
+}
+
+#CQ label.ui-slider {
+    font-size: 16px;
+    line-height: 1.4;
+    display: block;
+    font-weight: normal;
+    margin: 0 0 .3em;
+}
+
+.min-width-480px #CQ label.ui-slider {
+    vertical-align: top;
+}
+
+#CQ .ui-loader h1 {
+    color: white;
+    font-weight: bold;
+}
+
+#CQ label.ui-input-static-label, #CQ label.ui-input-static-text {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0px 0px 0.3em;
+}
+
+#CQ .ui-input-static-label {
+    display: inline-block;
+    margin: 0px 2% 0px 0px;
+    width: 20%;
+}
+#CQ .ui-input-static-text {
+    width: 75%;
+}
+
+
+#CQ .ui-btn-selected {
+    border: 1px solid #225377 !important;
+    background: #4e89c5 !important;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 -1px 1px #225377 !important;
+    background-image: -moz-linear-gradient(top, #396b9e, #4e89c5) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #396b9e), color-stop(1, #4e89c5)) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#396b9e', EndColorStr='#4e89c5')" !important;
+}
+
+
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+/* page*/
+#CQ #CQ-page {
+    height: 40px;
+    min-height: 0;
+}
+
+#CQ #CQ-page div {
+    z-index: 9001;
+}
+
+.cq-page-placeholder {
+    height: 40px;
+
+    /* copy of ui-bar-d to apply same styling to placeholder*/
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    background: #bbb;
+    text-shadow: 0 1px 0 #eee;
+    background-image: -moz-linear-gradient(top, #ddd, #bbb);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ddd), color-stop(1, #bbb));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd', EndColorStr='#bbb')";
+}
+
+#CQ .cq-page-overlap {
+    z-index: 9989 !important;
+}
+
+.cq-body-page-overlap {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#CQ .cq-popover-page {
+    width: 200px;
+}
+
+#CQ .cq-popover-components {
+    width: 300px;
+}
+
+#CQ .cq-popover-assets {
+    width: 350px;
+}
+
+#CQ .cq-popover-page-workflow {
+    width: 715px;
+}
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+#CQ .cq-paragraph-selection-overlay {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+    padding: 5px 5px 5px 5px;
+    opacity: 0.3;
+    z-index: 8005 !important;
+}
+
+.cq-paragraph-cut {
+    opacity: 0.3;
+}
+
+.cq-insert-container {
+    height: 40px;
+    border: 2px dashed #CCCCCC;
+    z-index: 8004 !important;
+}
+
+.cq-editbar-placeholder {
+    height: 40px;
+    margin: 4px 0 4px 0;
+}
+
+#CQ div.cq-editbar.ui-header {
+    height: 40px;
+    position: absolute !important;
+    z-index: 8003 !important;
+}
+
+#CQ .cq-editbar h1 {
+    margin: 0.7em 1px 0.8em !important;
+}
+
+#CQ .cq-popover-editbase-menu {
+    width: 120px;
+    z-index: 9940 !important;
+}
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+#CQ .cq-ui-sidekick-right-fillspace {
+    float: right;
+    height: 40px;
+    width: 1px;
+}
+
+#CQ .cq-ui-sidekick {
+    height: 40px;
+}
+
+#CQ .cq-ui-sidekick-right {
+    float: right;
+    height: 40px;
+    margin: 6px 30px 6px 6px;
+}
+
+#CQ .cq-ui-spacer {
+    width: 5px;
+    display: inline-block;
+}
+
+
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+
+/* assets */
+#CQ .cq-asset-view {
+    overflow: auto;
+    height: 408px;
+}
+
+#CQ .cq-target-selected {
+    -webkit-box-shadow: 0px 0px 35px #f5bd43;
+    border: 1px #f5e4be solid !important;
+    position: absolute;
+    padding: 1px;
+}
+
+.cq-asset-selected {
+    -webkit-box-shadow: 0px 0px 35px #dedede;
+    border: 1px #d0d0d0 solid !important;
+    background-color: #dedede;
+}
+
+#CQ .cq-asset-wrap {
+    float:left;
+    margin:4px;
+    margin-right:0;
+    padding:6px;
+    border:1px solid transparent;
+}
+
+#CQ .cq-asset-preview {
+    background-position:center center;
+    background-repeat:no-repeat;
+    height:100px;
+    width:140px;
+}
+
+#CQ .cq-asset-title {
+    color: #000;
+    display:block;
+    overflow:hidden;
+    text-align:center;
+    width:140px;
+    text-shadow: white 0 0;
+}
+
+/* carousel */
+#CQ .cq-carousel-banner-switches,
+#CQ .cq-carousel-banner-switches-tl,
+#CQ .cq-carousel-banner-switches-tc,
+#CQ .cq-carousel-banner-switches-tr,
+#CQ .cq-carousel-banner-switches-bl,
+#CQ .cq-carousel-banner-switches-bc,
+#CQ .cq-carousel-banner-switches-br {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#CQ .cq-carousel-banner-switches {
+    display: none;
+}
+#CQ .cq-carousel-banner-switches-tl {
+    top: 0;
+    left: 0;
+}
+#CQ .cq-carousel-banner-switches-tc {
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+#CQ .cq-carousel-banner-switches-tr {
+    top: 0;
+    left: 0;
+    text-align: right;
+}
+#CQ .cq-carousel-banner-switches-bl {
+    bottom: 0;
+    left: 0;
+}
+#CQ .cq-carousel-banner-switches-bc {
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+#CQ .cq-carousel-banner-switches-br {
+    bottom: 0;
+    left: 0;
+    text-align: right;
+}
+
+#CQ .cq-carousel-banner-switch {
+    display: inline-block;
+    margin: 8px;
+    padding: 0;
+}
+#CQ .cq-carousel-banner-switch-br {
+    position: absolute;
+    margin: 0;
+    padding:0;
+    bottom: 0;
+    right: 8px;
+}
+#CQ .cq-carousel-banner-switch-bl {
+    position: absolute;
+    margin: 0;
+    padding:0;
+    bottom: 0;
+    left: 8px;
+}
+
+#CQ .cq-carousel-banner-switch a {
+    display: inline-block;
+    background: url("../../../../../etc/designs/default/images/carousel/switcher.png") no-repeat scroll 0 0 transparent;
+}
+
+#CQ .cq-carousel-banner-switch a img {
+    width: 25px;
+    height: 25px;
+    vertical-align:top;
+}
+
+#CQ .cq-carousel-banner-switch a.cq-carousel-active, .cq-carousel-banner-switch a:hover {
+    background-position: -25px 0;
+}
+
+#CQ .cq-carousel-banner-switch li {
+    background: none !important;
+    display: inline-block;
+    list-style: none;
+    float:left;
+}
+
+#CQ .cq-ui-carousel {
+    height: 470px;
+    width: 350px;
+
+    background: #FFF -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FDFDFD), to(#FFF));
+
+    border: 1px solid #AAA;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+    border: 1px solid #AAA;
+}
+
+#CQ .cq-ui-carousel-banners {
+
+}
+
+#CQ .cq-ui-carousel-banner-switch a {
+
+}
+
+#CQ .cq-ui-carousel-banner-item {
+    background-color: transparent;
+
+    height: 400px;
+    width: 320px;
+    margin: 5px;
+
+    padding-left: 10px;
+
+}
+
+
+
+/*
+ * Copyright 1997-2010 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+#CQ .cq-popover-annotation {
+    z-index: 9940 !important;
+    padding: 0;
+    min-width: 295px;
+}
+
+#CQ .cq-popover-annotation .ui-content {
+    padding: 0;
+    border: 0;
+}
+
+#CQ .cq-popover-annotation .ui-controlgroup {
+    margin: 0 0 0 0 !important;
+    min-width: 295px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#CQ .cq-popover-annotation .ui-btn {
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#CQ textarea.cq-annotation-text {
+    display: block;
+    resize: none;
+    width: 98% !important;
+    font-size: 12px !important;
+
+
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    border: 0;
+
+    -moz-box-shadow: 0px 0px 0px 0px #fff !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #fff !important;
+
+    box-shadow: 0px 0px 0px 0px #fff !important;
+}
+
+#CQ .cq-bring-to-front {
+    z-index: 9999 !important;
+}
+
+#CQ .cq-annnotation-modinfo {
+    padding: 2px 5px;
+    text-align: center;
+    background: transparent;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+/*
+ * Copyright 1997-2011 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+#CQ .ui-li-heading {
+    margin: 0 !important;
+}
+
+#CQ .ui-li-link-alt {
+    border-width: 0 1px 0 0 !important;
+    left: 0 !important;
+}
+
+
+#CQ .ui-li-heading {
+    margin-left: 40px !important;
+}
+
+#CQ .ui-li-link-alt.ui-corner-br {
+    -moz-border-radius-bottomleft: .6em;
+    -webkit-border-bottom-left-radius: .6em;
+    border-bottom-left-radius: .6em;
+
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#CQ .ui-btn-active-custom {
+    border: 1px solid #155678;
+    background: #4596ce;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 -1px 1px #145072;
+    text-decoration: none;
+    background-image: -moz-linear-gradient(top, #85bae4, #5393c5);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #85bae4), color-stop(1, #5393c5));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#85bae4', EndColorStr='#5393c5')";
+}
+
+#CQ .ui-btn-active-custom a.ui-link-inherit {
+    color: #fff;
+}
+
+#CQ .cq-sitebrowser-page h1 {
+    font-weight: bold;
+}
+/*
+ * Placeholder for empty components. Note that those classes are used outside the
+ * #CQ div.
+ */
+.cq-chart-placeholder,
+.cq-image-placeholder,
+.cq-text-placeholder,
+.cq-title-placeholder,
+.cq-file-placeholder,
+.cq-feedlink-placeholder,
+.cq-list-placeholder,
+.cq-carousel-placeholder,
+.cq-reference-placeholder,
+.cq-flash-placeholder,
+.cq-teaser-placeholder,
+.cq-table-placeholder {
+    width: 74px;
+    height: 74px;
+    border: 2px dashed #cccccc;
+}
+
+.cq-chart-placeholder-off,
+.cq-image-placeholder-off,
+.cq-text-placeholder-off,
+.cq-title-placeholder-off,
+.cq-file-placeholder-off,
+.cq-feedlink-placeholder-off,
+.cq-list-placeholder-off,
+.cq-carousel-placeholder-off,
+.cq-reference-placeholder-off,
+.cq-flash-placeholder-off,
+.cq-teaser-placeholder-off,
+.cq-table-placeholder-off {
+}
+
+.cq-chart-placeholder {
+    background: url("default/placeholders/chart.png" ) no-repeat scroll 50% 50%
+}
+.cq-image-placeholder {
+    background: url("default/placeholders/img.png" ) no-repeat scroll 50% 50%
+}
+.cq-text-placeholder {
+    background: url("default/placeholders/text.png" ) no-repeat scroll 50% 50%
+}
+.cq-text-placeholder-ipe {
+    font-size: 32px;
+    color: #dddddd;
+}
+.cq-title-placeholder {
+    background: url("default/placeholders/title.png" ) no-repeat scroll 50% 50%
+}
+.cq-file-placeholder {
+    background: url("default/placeholders/file.png" ) no-repeat scroll 50% 50%
+}
+.cq-feedlink-placeholder {
+    background: url("default/placeholders/feedlink.png" ) no-repeat scroll 50% 50%
+}
+.cq-list-placeholder {
+    background: url("default/placeholders/list.png" ) no-repeat scroll 50% 50%
+}
+.cq-carousel-placeholder {
+    background: url("default/placeholders/carousel.png" ) no-repeat scroll 50% 50%
+}
+.cq-reference-placeholder {
+    background: url("default/placeholders/reference.png" ) no-repeat scroll 50% 50%
+}
+.cq-flash-placeholder {
+    background: url("default/placeholders/flash.png" ) no-repeat scroll 50% 50%
+}
+.cq-teaser-placeholder {
+    background: url("default/placeholders/teaser.png" ) no-repeat scroll 50% 50%
+}
+.cq-table-placeholder {
+    background: url("default/placeholders/table.png" ) no-repeat scroll 50% 50%
+}
+
+/*
+ * Placeholder containing text
+ */
+
+.cq-texthint-placeholder {
+    color: #cccccc;
+}
+
+.cq-texthint-placeholder-off {
+    display: none;
+}
+
+.cq-form-hidden-placeholder {
+    padding: 8px 0 0;
+    margin-bottom: 13px;
+    color: #cccccc;
+}
+
+.cq-form-hidden-placeholder-off {
+    display: none;
+}
+

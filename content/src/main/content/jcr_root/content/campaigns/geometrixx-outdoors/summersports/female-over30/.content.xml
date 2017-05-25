@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-06-27T16:36:05.080+02:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="/etc/segmentation/geometrixx-outdoors/female-over30"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:created="{Date}2012-06-07T14:52:57.847+03:00"
+        jcr:createdBy="admin"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Female over 30"
+        jcr:uuid="188193ae-a84c-4a7a-8587-621d0954a7ca"
+        sling:resourceType="cq/personalization/components/experiencepage"/>
+    <banner/>
+    <shirt/>
+</jcr:root>

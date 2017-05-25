@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-03T20:57:02.175+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/campaign"
+        jcr:description="A social engagement campaign linking selected blog entries with $10-off vouchers."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Article Campaign"
+        jcr:uuid="03ac6462-be88-47d5-8dd6-f7b5d4e30bf2"
+        sling:resourceType="cq/personalization/components/campaignpage"/>
+    <_x0031_0-bucks-off/>
+    <summer-female-under30/>
+    <summer-female-over30/>
+    <summer-female/>
+    <winter-female-under30/>
+    <winter-female-over30/>
+    <winter-female/>
+    <summer-male-under30/>
+    <summer-male-over30/>
+    <summer-male/>
+    <winter-male-under30/>
+    <winter-male-over30/>
+    <winter-male/>
+    <summer/>
+    <winter/>
+    <generic/>
+</jcr:root>

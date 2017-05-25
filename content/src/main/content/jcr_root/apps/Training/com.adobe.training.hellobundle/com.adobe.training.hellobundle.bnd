@@ -1,0 +1,9 @@
+# Export-Package: *
+# Import-Package: *
+Private-Package: com.adobe.training
+# Include-Resource: 
+Bundle-Name: My training bundle
+Bundle-Description: 
+Bundle-SymbolicName: com.adobe.training.hellobundle
+Bundle-Version: 1.0.0-SNAPSHOT
+Bundle-Activator: com.adobe.training.Activator

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    oauth.access.token.persist="{Boolean}true"
+    oauth.client.id="324926940878880"
+    oauth.client.secret="20aa5efd73da9242173305ab2dad5ff4"
+    oauth.config.id="cb4da2dbc7a22ad11bacb8e39ef92929"
+    oauth.config.provider.id="soco-facebook"
+    oauth.create.users="true"
+    oauth.create.users.groups="[geometrixx-facebook]"
+    oauth.encode.userids="false"
+    oauth.scope="[user_about_me,user_birthday,user_checkins,user_education_history,email,user_hometown,user_interests,user_likes,user_location,user_work_history]"/>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2013-01-20T18:31:37.021+01:00"
+    jcr:createdBy="author"
+    jcr:description="Marketing"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="share">
+    <object
+        jcr:primaryType="nt:unstructured"
+        displayName="BS_Horizontal.jpg"
+        id="/content/dam/geometrixx-unlimited/ads/fullPage/BS_Horizontal.jpg"
+        objectType="image"
+        product="AEM DAM"
+        summary="Asset Preview"
+        url="/content/dam/geometrixx-unlimited/ads/fullPage/BS_Horizontal.jpg">
+        <image
+            jcr:primaryType="nt:unstructured"
+            url="/content/dam/geometrixx-unlimited/ads/fullPage/BS_Horizontal.jpg"/>
+    </object>
+</jcr:root>

@@ -1,0 +1,48 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.recommend_social {
+    background: #dbdcdd url(../../../../../../etc/designs/geometrixx-outdoors/images/page_mobile/social_bg.png) repeat-x left top;
+}
+.recommend_social article {
+    border-bottom: 1px solid #bebebe;
+}
+.recommend_social a {
+    display: block;
+    overflow: hidden;
+    padding: 10px 20px 10px 10px;
+    text-decoration: none;
+}
+.recommend_social:hover a {
+    padding-right: 0;
+}
+.recommend_social img {
+    float: left;
+}
+.recommend_social h3,
+.recommend_social p {
+    margin: 0;
+    font-size: 12px;
+}
+.recommend_social h3 {
+    margin-left: 50px;
+    color: #f26522;
+}
+.recommend_social p {
+    margin-left: 50px;
+    color: #5a5a5a;
+}

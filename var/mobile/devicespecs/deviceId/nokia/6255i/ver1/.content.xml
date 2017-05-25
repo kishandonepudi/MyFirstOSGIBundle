@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia6255i"
+    fall_back="nokia_6255_ver1"
+    max_image_width="123"
+    model_name="6255i"
+    playback_3gpp="true"
+    playback_acodec_amr="nb"
+    streaming_3gpp="true"
+    streaming_real_media="none"
+    user_agent="Nokia6255i"
+    video="true"/>

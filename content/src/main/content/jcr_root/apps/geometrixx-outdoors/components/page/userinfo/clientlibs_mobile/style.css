@@ -1,0 +1,43 @@
+/*
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2011 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+*/
+
+.userinfo {
+    display: none;
+}
+.userinfo ul {
+    overflow: hidden;
+    color: #faede8;
+    background: #ff8159 /*#fd9977*/;
+}
+.userinfo li {
+    float: left;
+    width: 50%;
+}
+.userinfo li a,
+.userinfo li span {
+    display: block;
+    margin: 0 1px 1px 0;
+    height: 15px;
+    line-height: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+.userinfo li a {
+    color: #fff;
+    background: #ef5f2f;
+}

@@ -1,0 +1,21 @@
+"thirtyday" : {
+    "jcr:primaryType": "cq:PollConfigFolder",
+    "source": "screport:default",
+    "interval": 3600,
+    "cq:reportType": "ranked",
+    "reportDescription": {
+        "dateFrom": "+0d",
+        "dateTo": "-30d",
+        "elements":{
+            "0": {
+                "id": "eVar52",
+                "top": "10" 
+            }
+        },
+        "metrics": {
+            "0": {
+                "id": "event52"
+            }
+        }
+    }
+}

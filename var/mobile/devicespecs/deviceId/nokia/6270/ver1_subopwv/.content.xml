@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    CQ5_UserAgentRadical="nokia-6270-browser-119-gui-mmp-push-nokia-6270"
+    fall_back="nokia_6270_ver1"
+    html_wi_imode_html_1="true"
+    mobile_browser="Openwave Mobile Browser"
+    mobile_browser_version="7"
+    user_agent="Nokia 6270 UP.Browser/7.0.2.3.119 (GUI) MMP/2.0 Push/PO, Nokia 6270"
+    xhtml_support_level="3"/>

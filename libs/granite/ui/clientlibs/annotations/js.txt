@@ -1,0 +1,6 @@
+#base=source
+Annotation.js
+Shape.js
+Canvas.js
+jquery-event-resize.js
+jquery-annotations.js

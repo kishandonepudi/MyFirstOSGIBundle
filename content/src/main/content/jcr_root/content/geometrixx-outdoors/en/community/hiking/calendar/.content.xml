@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-29T15:22:53.005+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Calendar"
+        sling:resourceType="geometrixx-outdoors/components/page_calendar">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <calendar
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/calendar">
+                <events jcr:primaryType="nt:unstructured">
+                    <meet_at_my_place_to_
+                        jcr:description="This one is for the diehards! We’re headed out to the Columbia River Gorge for a 5 night, 60-mile hike. We ask that if you decide to join this hike, you have hiked at least 3 days carrying all your gear and food. This is a difficult hike, so if you are considering joining, please grab a topo map and give the trail a good review before you make your final decision. &#xd;&#xa;&#xd;&#xa;I would like to look into scheduling at least three meet-ups before hand so we can discuss gear, safety, etc. Let me know if you’re interested."
+                        jcr:lastModified="{Date}2012-11-29T14:22:53.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Meet at my place to hit the road"
+                        end="{Date}2012-06-07T14:00:00.000Z"
+                        location="Mark O. Hatfiled hike"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:22:53.000Z"
+                        start="{Date}2012-06-07T10:00:00.000Z"
+                        uid="4CD7692C-92CC-40DE-9979-AF9663B27709"/>
+                    <slaughter_canyon_cav
+                        jcr:description="I would like to get a group together to hike Slaughter Canyon Cave at Carlsbad. It is a strenuous hike, but it should only take us about 2 hours. From there you can explore, enjoy the park, and do pretty much whatever you want. &#xd;&#xa;&#xd;&#xa;Since it’s in a national park, there are strict hike times—we need to be there ready to go at 8:00am. Also, there is a 25-person limit to each group, so it is a first-come-first-serve event. Let me know if you’re interested."
+                        jcr:lastModified="{Date}2012-11-29T14:15:55.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Slaughter Canyon Cave"
+                        end="{Date}2012-08-18T21:30:00.000Z"
+                        location="City Center YMCA"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:15:55.000Z"
+                        start="{Date}2012-08-18T19:00:00.000Z"
+                        uid="31DD0A03-D2D8-460C-9675-808447F9AA53"/>
+                    <hiker_s_corner_
+                        jcr:description="This month, we will be discussing avalanche safety. The snow season is just around the corner, and I know a lot of you really enjoy snowshoeing, so let’s all prepare for a safe season. &#xd;&#xa;&#xd;&#xa;We will discuss common warning signs of an avalanche and what to do if you are caught in one, and we will also go through a first aid/CPR refresher."
+                        jcr:lastModified="{Date}2012-11-29T14:08:39.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Hiker’s Corner "
+                        end="{Date}2012-12-01T21:30:00.000Z"
+                        location="City Center YMCA"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:08:39.000Z"
+                        start="{Date}2012-12-01T19:00:00.000Z"
+                        uid="D6552319-996C-4BF9-B733-890AE3DF22DB"/>
+                    <movie_night_the_moun
+                        jcr:description="The Superplex is showing The Mountain for their Saturday Throwback movie this month. For those of you who don’t know, this 1956 classic is about two brother who hike a mountain to the site of a plane crash, but each brother has their own motives. Suspenseful. Fun. Don’t miss out."
+                        jcr:lastModified="{Date}2012-11-29T14:18:38.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Movie Night: The Mountain"
+                        end="{Date}2012-12-08T23:30:00.000Z"
+                        location="Superplex Movies 21"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:18:38.000Z"
+                        start="{Date}2012-12-08T21:30:00.000Z"
+                        uid="03555FC6-A948-4EBD-AF1F-99459BE8369E"/>
+                    <hiker_community_food
+                        jcr:description="Hey everyone, hope you’re all doing well. As we look forward to the holiday season, I think it would be a great idea to all pitch in and help out those in need. Even if we aren’t rich and glamorous, a few cans of food here and there, or maybe an old jacket or blanket that you won’t use anymore can go a long way toward helping brighten someone else’s day. &#xd;&#xa;&#xd;&#xa;My family and I will be posted up at the library pretty much all day long, so please fell free to stop by whenever you get a moment."
+                        jcr:lastModified="{Date}2012-11-29T14:20:59.000Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="cq:CalendarEvent"
+                        jcr:title="Hiker community food drive"
+                        end="{Date}2012-12-19T19:00:00.000Z"
+                        location="City Library"
+                        sequence="{Long}1"
+                        stamp="{Date}2012-11-29T14:20:59.000Z"
+                        start="{Date}2012-12-19T09:00:00.000Z"
+                        uid="9A79D514-F9EC-4607-8C9B-5CCCDD914A57"/>
+                </events>
+            </calendar>
+        </par>
+    </jcr:content>
+    <eventeditor/>
+</jcr:root>

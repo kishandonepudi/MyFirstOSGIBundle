@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="Social">
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+    <Avatar_1.jpg/>
+    <Avatar_2.jpg/>
+    <Avatar_3.jpg/>
+    <Avatar_4.jpg/>
+    <Avatar_5.jpg/>
+    <Avatar_6.jpg/>
+    <Avatar_7.jpg/>
+    <Avatar_8.jpg/>
+    <Avatar_9.jpg/>
+    <Avatar_10.jpg/>
+    <Avatar_11.jpg/>
+    <Avatar_12.jpg/>
+    <Avatar_13.jpg/>
+    <Avatar_14.jpg/>
+    <Avatar_15.jpg/>
+    <Avatar_16.jpg/>
+    <Avatar_17.jpg/>
+</jcr:root>

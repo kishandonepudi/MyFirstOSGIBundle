@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    accept_third_party_cookie="false"
+    CQ5_UserAgentRadical="nokia6275i"
+    fall_back="nokia_6275_ver1"
+    model_name="6275i"
+    playback_3gpp="true"
+    playback_mp4="true"
+    streaming_3gpp="true"
+    streaming_real_media="none"
+    user_agent="Nokia6275i"
+    video="true"/>

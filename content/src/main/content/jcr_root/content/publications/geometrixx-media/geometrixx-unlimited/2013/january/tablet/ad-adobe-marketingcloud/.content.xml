@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/geometrixx-unlimited"
+        cq:lastModified="{Date}2013-01-09T12:11:49.168-05:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[marketing:interest/product,stockphotography:technology/computers,stockphotography:technology/electronics]"
+        cq:template="/apps/geometrixx-unlimited/templates/adpage"
+        jcr:description="Marketing is BS"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Adobe Marketing Cloud"
+        sling:resourceType="geometrixx-unlimited/components/pages/adpage"
+        dps-isAdvertisement="true"
+        dps-isHiddenFromTOC="true"
+        dps-kicker="Adobe"
+        dps-resourceType="dps:Article">
+        <adPortraitPar
+            jcr:lastModified="{Date}2013-01-09T12:11:49.166-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx-unlimited/components/advertisement-portrait"
+            fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/BS_Vertical.jpg"/>
+        <adLandscapePar
+            jcr:lastModified="{Date}2013-01-09T12:11:45.847-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="geometrixx-unlimited/components/advertisement-landscape"
+            fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/BS_Horizontal.jpg"/>
+        <image
+            jcr:lastModified="{Date}2013-01-09T12:11:41.210-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/BS_TOC.jpg"
+            imageRotate="0"/>
+        <scrubber-p
+            jcr:lastModified="{Date}2013-01-09T12:11:41.210-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/BS_Scrubber_h.jpg"
+            imageRotate="0"/>
+        <scrubber-l
+            jcr:lastModified="{Date}2013-01-09T12:11:41.210-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-unlimited/ads/fullPage/BS_Scrubber_l.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

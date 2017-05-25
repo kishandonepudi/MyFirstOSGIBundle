@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    autoScroll="true"
+    height="550"
+    minHeight="550"
+    minWidth="1000"
+    stateful="false"
+    width="1000"
+    xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <editor
+            jcr:primaryType="cq:Widget"
+            colsSelection="[ProductId,ProductName,Color,CatalogCode,SellingSku]"
+            colsValue="[ProductId,ProductName,Color,CatalogCode,SellingSku]"
+            contentMode="false"
+            exportURL="/etc/importers/bulkeditor/export.tsv"
+            extraCols="Selection"
+            hideColsSelection="false"
+            hideContentMode="true"
+            hideDeleteButton="false"
+            hideExportButton="false"
+            hideExtraCols="true"
+            hideImportButton="false"
+            hideInsertButton="false"
+            hideMoveButtons="false"
+            hidePathCol="true"
+            hideRootPath="true"
+            hideSaveButton="false"
+            hideSearchButton="false"
+            importURL="/etc/importers/bulkeditor/import"
+            initialSearch="true"
+            insertedResourceType="geometrixx/components/productlist/sku"
+            queryParams=""
+            queryURL="/etc/importers/bulkeditor/query.json"
+            saveURL="/etc/importers/bulkeditor/save"
+            xtype="bulkeditor">
+            <saveButton
+                jcr:primaryType="nt:unstructured"
+                text="Save modifications"/>
+            <searchButton
+                jcr:primaryType="nt:unstructured"
+                text="Apply filter"/>
+            <queryParamsInput
+                jcr:primaryType="nt:unstructured"
+                fieldDescription="Enter here your filters"
+                fieldLabel="Filters"/>
+            <searchPanel
+                jcr:primaryType="nt:unstructured"
+                height="200">
+                <defaults
+                    jcr:primaryType="nt:unstructured"
+                    labelWidth="150"/>
+            </searchPanel>
+            <grid
+                jcr:primaryType="nt:unstructured"
+                height="275"/>
+            <store jcr:primaryType="nt:unstructured">
+                <sortInfo
+                    jcr:primaryType="nt:unstructured"
+                    direction="ASC"
+                    field="CatalogCode"/>
+            </store>
+            <colModel
+                jcr:primaryType="nt:unstructured"
+                width="150"/>
+            <colsMetadata jcr:primaryType="nt:unstructured">
+                <Selection
+                    jcr:primaryType="nt:unstructured"
+                    checkbox="true"
+                    forcedPosition="0"
+                    headerText=""/>
+                <ProductId
+                    jcr:primaryType="nt:unstructured"
+                    cellCls="productlist-cell-productid"
+                    headerText="Product Id"/>
+                <ProductName
+                    jcr:primaryType="nt:unstructured"
+                    cellStyle="background-color: #FFCC99;"
+                    headerText="Product Name"/>
+                <CatalogCode
+                    jcr:primaryType="nt:unstructured"
+                    cellStyle="background-color: #EDEDED;"
+                    headerText="Catalog Code"/>
+                <Color jcr:primaryType="nt:unstructured">
+                    <editor
+                        jcr:primaryType="nt:unstructured"
+                        store="[Blue,Red,Yellow]"
+                        triggerAction="all"
+                        typeAhead="true"
+                        xtype="combo"/>
+                </Color>
+                <SellingSku
+                    jcr:primaryType="nt:unstructured"
+                    headerText="Sku Id"/>
+            </colsMetadata>
+        </editor>
+    </items>
+</jcr:root>

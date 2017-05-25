@@ -1,0 +1,77 @@
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2011 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ **************************************************************************/
+
+.cameraContainer {
+	border: 2px solid #EAEAEA;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+/**
+ * Camera table 
+ */
+.cameraTable {
+    width: 100%;	
+}
+
+.cameraIconCell {
+    height: 100px;
+    vertical-align: bottom;
+    background-color: #EAEAEA;
+}
+
+.photoButtonCell {
+	height: 40px;
+    vertical-align: middle;
+    background-color: #EAEAEA;
+}
+.photoButtonCell>img, .submitTable img {
+    cursor: pointer;
+}
+
+.tableSpacer {
+	height: 10px;
+    background-color: #EAEAEA;
+}
+
+
+/**
+ * Preview view 
+ */
+.previewTable, .submitTable {
+	display: none;
+    width: 100%;
+}
+
+.submitTable {
+    margin-bottom: 15px;
+}
+
+.previewImage {
+	max-width: 100%;
+}
+
+/**
+ * Progress
+ */
+.progressBar {
+	display: none;
+    text-align: center;
+    margin-bottom: 15px;
+}

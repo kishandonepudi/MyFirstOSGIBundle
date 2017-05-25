@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-07-26T12:28:15.978+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/commerce/templates/voucher"
+        jcr:description="$10 off for EnduroLife followers."
+        jcr:lastModified="{Date}2012-07-26T12:28:15.974+03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="EnduroLife Voucher"
+        sling:resourceType="commerce/components/voucher"
+        code="ENDUROLIFE"
+        message="$10 off your order!"
+        promotion="/content/campaigns/geometrixx-outdoors/article/10-bucks-off"/>
+</jcr:root>

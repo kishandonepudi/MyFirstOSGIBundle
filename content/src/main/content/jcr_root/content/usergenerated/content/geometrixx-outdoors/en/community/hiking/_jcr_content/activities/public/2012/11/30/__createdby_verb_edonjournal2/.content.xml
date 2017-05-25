@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:54.725-05:00"
+    jcr:createdBy="weston.mccall@dodgit.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Journal"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>For&#xd;&#xa;anyone out there who may know me and has even hiked with me, you will&#xd;&#xa;know that I am what most people would consider to be a “minimalist&#xd;&#xa;hiker.” Running shoes, basketball shorts, and a t-shirt are about&#xd;&#xa;all I need to get by. However, if you know me that well you will also&#xd;&#xa;know that I have had a small knee issue lately, especially when it&#xd;&#xa;comes to long stretches of downhill trail. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>I&#xd;&#xa;have believed, and always will believe that the best way to enjoy&#xd;&#xa;nature is without all the expensive gear and latest hiking&#xd;&#xa;“technology.” We didn’t need it before it existed, and we&#xd;&#xa;certainly don’t need it now. That said, when my knees started&#xd;&#xa;causing problems, I opted for a nice, sturdy hiking stick off the&#xd;&#xa;side of my favorite local trail. However, my wife decided that she&#xd;&#xa;would still buy me a set of hiking poles, and insisted that I try&#xd;&#xa;them at least once. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Okay.&#xd;&#xa;So. Maybe the technology guys are on to something. After one&#xd;&#xa;eight-mile hike with the Longirod Trek hiking poles, my knees felt 10&#xd;&#xa;years younger. I’m still a minimalist, but I think there is room&#xd;&#xa;for one exception.&amp;nbsp;&lt;/font>&#xd;&#xa;&lt;/p>"
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/journal/jcr:content/entrycomments/1Bucket/ijtt-_p_cl"
+        objectType="comment"
+        subType="social/journal/components/entrytext"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Journal"
+        id="/content/geometrixx-outdoors/en/community/hiking/journal"
+        objectType="geometrixx-outdoors/components/journal/page"/>
+</jcr:root>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-30T16:04:23.407+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About"
+        sling:resourceType="geometrixx-outdoors/components/page_about">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title_ba14
+                jcr:created="{Date}2012-11-30T15:59:19.798+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-30T15:59:23.770+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="About the Running Community "
+                sling:resourceType="foundation/components/title"/>
+            <image
+                jcr:created="{Date}2010-08-23T22:03:39.419+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-09-18T23:53:12.519-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/geometrixx-outdoors/en/community/running/photos/image"
+                imageRotate="0"/>
+            <text_64f5
+                jcr:created="{Date}2012-11-30T15:59:30.638+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-30T16:04:23.403+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Sometimes the only people who can truly understand a runner are other runners. For some, 26.2 is just another number, but for others its what we live for every day—this is why I’ve created the running community.&lt;/p>&#xa;&lt;p>Even if it isn’t your goal to run through cramps and fatigue for upwards of five hours straight, I promise this forum is still for you. If you are interested in finding a running group, learning more about pronation and the art of choosing the perfect running shoe, finding the best hydration and recovery techniques, or would simply like to connect with other who enjoy one of the oldest sports in history as much as you do, then I’m confident you’ll enjoy yourself here.&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </par>
+        <sidebar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <info
+                jcr:created="{Date}2012-09-19T13:49:47.433-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-09-19T13:49:47.433-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/info"/>
+            <title_bc06
+                jcr:created="{Date}2012-11-30T15:55:54.651+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-30T15:56:12.584+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="COMMUNITY GUIDELINES"
+                sling:resourceType="geometrixx/components/title"
+                type="small"/>
+            <text_3fca
+                jcr:created="{Date}2012-11-30T15:55:12.347+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-30T15:57:55.133+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;ol>&#xa;&lt;li>&lt;p>&lt;b>Be courteous to others&lt;br>&#xa;&lt;/b>This is a community of people who all share a common love of outdoor sports. Please, keep your comments friendly, and avoid name-calling or any other derogatory remarks. Profanity, hate speech, and pornographic content are prohibited. If someone posts something that you find offensive, take the high road, report abuse, and leave the comment for us to take care of.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>&lt;b>No soliciting&lt;br>&#xa;&lt;/b>This community is not intended for the solicitation of any product, service, or third party site. Please do not use any part of Geometrixx Outdoors for solicitation of any kind. Spam is also prohibited. Violators will be removed.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>&lt;b>Post Relevant Content&lt;br>&#xa;&lt;/b>It is important that all content posted is relevant to the community and the specific topics being discussed. This will make for an overall better forum where everyone is able to find what he or she is seeking and drive better discussions all around.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>&lt;b>Privacy&lt;br>&#xa;&lt;/b>Geometrixx Outdoors will never sell or publish confidential information such as your email address, telephone number, or any other information that is not publicly accessible.&amp;nbsp;&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ol>&#xa;"
+                textIsRich="true"/>
+        </sidebar>
+    </jcr:content>
+</jcr:root>

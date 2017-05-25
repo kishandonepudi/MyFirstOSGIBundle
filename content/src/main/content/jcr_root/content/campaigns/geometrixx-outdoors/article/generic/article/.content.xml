@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-12-08T17:49:49.170+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:description="12 Travel Tips"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Article Offer"
+        jcr:uuid="ee7afe9c-748a-4c78-813f-048d46f20f34"
+        sling:resourceType="cq/personalization/components/teaserpage"
+        location="article">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <recommend_article
+                jcr:created="{Date}2011-11-29T17:09:01.275+01:00"
+                jcr:createdBy="admin"
+                jcr:description="Packing light is just the beginning."
+                jcr:lastModified="{Date}2011-12-08T17:49:49.169+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="12 Travel Tips"
+                sling:resourceType="geometrixx-outdoors/components/recommend/recommend_article"
+                image="/content/dam/geometrixx-outdoors/articles/12-travel-tips.jpg"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2011-11-03T20:57:30.256+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/articles/12-travel-tips.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

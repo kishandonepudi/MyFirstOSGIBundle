@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Template for normal content pages, without sidebar."
+    jcr:mixinTypes="[mix:lockable]"
+    jcr:primaryType="cq:Template"
+    jcr:title="Content Page without Sidebar"
+    allowedPaths="[/content/geometrixx-outdoors/[^/]+(/.*)?]"
+    ranking="{Long}10">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="geometrixx-outdoors/components/page">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/title"/>
+            <colctrl_d37f
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/colctrl"
+                controlType="start"
+                layout="2;colctrl-2c"/>
+            <text_8d9e
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"/>
+            <col_break13264609865470
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/colctrl"
+                controlType="break"/>
+            <text_9d6b
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"/>
+            <col_end13264609865471
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/colctrl"
+                controlType="end"/>
+        </par>
+    </jcr:content>
+</jcr:root>

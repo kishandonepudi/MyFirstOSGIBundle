@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e560c063-c182-4ed7-8c2d-f338d3d04599">
+    <jcr:content
+        cq:name="meet-canada-s-hip-hop-royalty_Scrubber_l.png"
+        cq:parentPath="/content/dam/geometrixx-unlimited/issues/issue1"
+        jcr:lastModified="{Date}2012-11-19T15:34:00.067-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true"
+        restored="{Boolean}true">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2012-11-19T15:34:00.191-05:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}96"
+            dam:Physicalheightininches="{Double}1.7289505004882812"
+            dam:Physicalwidthindpi="{Long}96"
+            dam:Physicalwidthininches="{Double}2.343456983566284"
+            dam:Progressive="no"
+            dam:sha1="b566326153804126ea95988719d6bb9c5247c0a4"
+            dc:format="image/png"
+            dc:modified="{Date}2012-11-19T15:34:00.068-05:00"
+            jcr:lastModified="{Date}2012-11-19T15:34:00.060-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}166"
+            tiff:ImageWidth="{Long}225"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

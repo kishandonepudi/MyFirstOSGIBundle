@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <Robotics/>
+    <Telecom/>
+    <e4c07e46-a081-4213-9af1-b83f9b2ea356/>
+    <Software/>
+    <Electrical/>
+    <_x0031_8ec0af0-6485-4208-ba46-3ff22c278f0e/>
+    <e8df58fb-df71-45d5-8329-4c5693b9891b/>
+    <f13f8278-3784-47a4-9f1f-a4a96e6c3309/>
+    <_x0032_19b2202-b6af-4cb9-a024-87be492a9157/>
+    <_x0037_94405c9-e2cd-49ff-aedc-55bec7a20947/>
+</jcr:root>

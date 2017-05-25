@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastModified="{Date}2012-11-29T17:44:27.896+01:00"
+    cq:lastModifiedBy="weston.mccall@dodgit.com"
+    jcr:description="Is the Lagos mini longboard surfboard epoxy or fiberglass? "
+    jcr:primaryType="cq:Comment"
+    jcr:title="Is the Lagos mini..."
+    sling:resourceType="geometrixx-outdoors/components/qna/topic"
+    _charset_="UTF-8"
+    added="{Date}2012-11-29T17:39:20.241+01:00"
+    authorizableId="weston.mccall@dodgit.com"
+    helpful="0"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notHelpful="0"
+    positive="{Long}0"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.html"
+    sentiment="{Long}3"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="weston.mccall@dodgit.com">
+    <_x0031__tosp jcr:primaryType="sling:Folder">
+        <andi-donna_is_rightabout
+            jcr:description="Donna is right about NexGen….as long as you are okay shelling out big $$$."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:44:27.876+01:00"
+            authorizableId="aaron.mcdonald@mailinator.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.forum__pley-is_the_lagosminilo__z9nj-the_lagos_isanall-._s_1_tosp.html/forum__pley-is_the_lagosminilo.html"
+            sentiment="{Long}3"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aaron.mcdonald@mailinator.com"/>
+        <rdcl-you_may_alsowantto
+            jcr:description="You may also want to check out NexGen. It’s like epoxy, but crazy light without any stiffness."
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:43:19.538+01:00"
+            authorizableId="donna.billups@pookmail.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}1"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.forum__pley-is_the_lagosminilo__z9nj-the_lagos_isanall-._s_1_tosp.html/forum__pley-is_the_lagosminilo.html"
+            sentiment="{Long}5"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="donna.billups@pookmail.com"/>
+        <ww6o-the_lagos_ismadeof
+            jcr:description="The Lagos is made of epoxy and does not contain any fiberglass. "
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:40:20.637+01:00"
+            authorizableId="sean.smith@geometrixxoutdoors.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}0"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__pley-is_the_lagosminilo.html"
+            sentiment="{Long}3"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="sean.smith@geometrixxoutdoors.com"/>
+        <z9nj-the_lagos_isanall-
+            jcr:description="The Lagos is an all-epoxy, super light board. That’s a good question that I think a lot of people overlook when shopping around for their first board, so good looking out. In addition to the Lagos being a lot lighter than a glass board, it is also way stronger which is an important consideration if you plan on being bad for a while (kidding). Overall, I recommend epoxy. It’s more buoyant and if you are one to care about the environment, epoxy decomposes a lot faster than traditional glass. My friend has a GoPro and got this awesome picture of me on my board (it’s epoxy). "
+            jcr:primaryType="cq:Comment"
+            sling:resourceType="geometrixx-outdoors/components/qna/post"
+            added="{Date}2012-11-29T17:42:09.455+01:00"
+            authorizableId="aaron.mcdonald@mailinator.com"
+            helpful="0"
+            ip="192.168.1.114"
+            negative="{Long}0"
+            notHelpful="0"
+            positive="{Long}5"
+            referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/support.topic.1_ciot.html/forum__pley-is_the_lagosminilo.html"
+            sentiment="{Long}5"
+            submit="Post Answer"
+            userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+            userIdentifier="aaron.mcdonald@mailinator.com">
+            <attachments
+                jcr:isCheckedOut="{Boolean}true"
+                jcr:mixinTypes="[mix:versionable]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="0e9779c3-3ea4-489e-8cd0-abff0a1f5429">
+                <iStock_000008387990Small_edit.jpg jcr:primaryType="nt:file">
+                    <jcr:content
+                        jcr:data="{Binary}"
+                        jcr:lastModified="{Date}2017-05-15T09:00:01.173+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mimeType="image/jpeg"
+                        jcr:primaryType="nt:resource"
+                        jcr:uuid="72e0ec10-2bbc-4fdb-8c00-71153b7d64de"/>
+                </iStock_000008387990Small_edit.jpg>
+            </attachments>
+        </z9nj-the_lagos_isanall->
+    </_x0031__tosp>
+</jcr:root>

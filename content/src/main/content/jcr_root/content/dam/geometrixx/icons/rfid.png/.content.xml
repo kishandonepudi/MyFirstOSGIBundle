@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2010-11-11T13:54:53.958+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:tags="[stockphotography:illustrations_vectors/vector_icons,stockphotography:illustrations_vectors,stockphotography:technology,stockphotography:technology/electronics,properties:style/color,properties:orientation/square]"
+            dam:Bitsperpixel="{Long}32"
+            dam:Comments="Creation Time: Mi 8 Mrz 2006 12:50:42 +0100&#xa;"
+            dam:extracted="{Date}2010-11-11T13:53:57.410+01:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Double}9210.6494140625"
+            dam:Progressive="no"
+            dc:description="Radio Frequency Identifier Icon"
+            dc:format="image/png"
+            dc:modified="{Date}2009-09-15T14:11:00.000+02:00"
+            dc:title="RFID"
+            jcr:lastModified="{Date}2010-11-11T13:54:53.958+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}128"
+            tiff:ImageWidth="{Long}128"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

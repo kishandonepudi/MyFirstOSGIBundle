@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="In preparation for my upcoming trip to Hawaii, I have purchased the El Greco and taken it out a few times with my 5mm wetsuit. I have got to say, for the price it’s a pretty incredible board. I plan to provide a more detailed product review later, but for now I will say that the board is very well balanced and I would recommend it to anyone who is looking to get into the sport!"
+    jcr:primaryType="cq:Comment"
+    jcr:title="The El Greco"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T14:53:39.486+01:00"
+    authorizableId="aaron.mcdonald@mailinator.com"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}5"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/surfing/forum.html"
+    sentiment="{Long}5"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="aaron.mcdonald@mailinator.com"/>

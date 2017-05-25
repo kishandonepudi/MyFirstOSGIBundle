@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-30T18:41:09.162+01:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured">
+        <forum
+            jcr:primaryType="nt:unstructured"
+            commentsNode="/content/geometrixx-outdoors/en/community/winter-sports/forum/jcr:content/par/forum">
+            <_x0031__ciot/>
+        </forum>
+        <forum_index/>
+    </jcr:content>
+</jcr:root>

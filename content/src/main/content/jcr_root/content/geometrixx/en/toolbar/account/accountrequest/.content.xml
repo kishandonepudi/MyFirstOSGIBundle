@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-09-15T15:24:41.807+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Account Request"
+        sling:resourceType="geometrixx/components/contentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <start
+                jcr:created="{Date}2010-09-15T12:12:59.628+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T15:24:41.797+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/start"
+                actionType="foundation/components/account/actions/accountrequest"
+                createAccountPage="/content/geometrixx/en/toolbar/account/register"
+                formid="accountrequest"
+                ThankYouPage="/content/geometrixx/en/toolbar/account/accountrequest/thank_you"/>
+            <text
+                jcr:created="{Date}2010-09-15T12:14:35.011+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2010-09-15T12:14:47.920+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="E-Mail"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="rep:userId"/>
+            <form_end_1284545649043
+                jcr:lastModified="{Date}2010-09-15T12:14:56.414+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/end"
+                submit="true"/>
+        </par>
+    </jcr:content>
+    <thank_you/>
+</jcr:root>

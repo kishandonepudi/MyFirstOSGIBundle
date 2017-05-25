@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2012-11-30T16:15:47.043-05:00"
+    jcr:createdBy="boyd.larsen@dodgit.com"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="\{createdBy} {verb}ed on Journal"
+    sling:resourceType="granite/activitystreams/components/activity"
+    verb="POST">
+    <object
+        jcr:description="&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#x9;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>Call&#xd;&#xa;me traditional. Call me old school. I’ve been a skier all my life,&#xd;&#xa;and proud of it. However, I &lt;/font>&lt;font color=&quot;#000000&quot;>&lt;i>finally&#xd;&#xa;&lt;/i>&lt;/font>&lt;font color=&quot;#000000&quot;>decided that this is the year I make&#xd;&#xa;the switch. I’ve never strapped into a snowboard, but I’m going&#xd;&#xa;to give it a shot. &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>I&#xd;&#xa;think it’s a good thing that I have waited so long. Now that I have&#xd;&#xa;had an outside perspective of snowboarders, watching them on the&#xd;&#xa;mountain while I’m on my skis, I think that I will be better off.&#xd;&#xa;For instance, I won’t just stop in the middle of the run and plant&#xd;&#xa;my butt in the snow, because I already know that oncoming skiers get&#xd;&#xa;really, really frustrated when that happens! &lt;/font>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;br/>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0in&quot;>&lt;font color=&quot;#000000&quot;>I&#xd;&#xa;am incredibly curious to see how it will be having my feet basically&#xd;&#xa;locked together…a new experience, indeed. Who else out there was a&#xd;&#xa;skier first who then took up snowboarding?&lt;/font>&lt;/p>"
+        jcr:primaryType="nt:unstructured"
+        id="/content/usergenerated/content/geometrixx-outdoors/en/community/winter-sports/journal/jcr:content/entrycomments/1Bucket/oulz-_p_cl"
+        objectType="comment"
+        subType="social/journal/components/entrytext"/>
+    <target
+        jcr:primaryType="nt:unstructured"
+        displayName="Journal"
+        id="/content/geometrixx-outdoors/en/community/winter-sports/journal"
+        objectType="geometrixx-outdoors/components/journal/page"/>
+</jcr:root>

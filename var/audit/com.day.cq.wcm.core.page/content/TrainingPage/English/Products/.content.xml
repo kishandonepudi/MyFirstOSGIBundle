@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <_x0031_cac1db2-ce3e-48e3-aeeb-5d155a328d87/>
+    <Drones/>
+    <PFS/>
+    <_x0034_18e7219-7321-4c53-be40-5392c7128b32/>
+    <_x0031_3134d5b-c204-45bd-aac4-26bedcd7a551/>
+    <f031b819-fbed-48ae-b19d-730c364070bb/>
+</jcr:root>

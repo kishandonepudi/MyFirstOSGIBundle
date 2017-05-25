@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Who would have ever thought that shuffleboard on ice could be so fun! If you’ve never tried it, I highly recommend it. Plus, it’s a great activity for the whole family. I don’t know why, but I became fascinated with the event and started making sure I didn’t miss one match during the 2010 Olympics. I love how technical the sport is with the sweepers that make sure the rock travels at the exact speed to hit the mark. Too bad the United States came in dead last…I hope we get better."
+    jcr:primaryType="cq:Comment"
+    jcr:title="My new addiction: curling"
+    sling:resourceType="geometrixx-outdoors/components/forum/topic"
+    added="{Date}2012-11-29T14:02:34.202+01:00"
+    authorizableId="aparker@geometrixx.info"
+    ip="192.168.1.114"
+    negative="{Long}0"
+    notify="true"
+    positive="{Long}6"
+    referer="http://192.168.1.111:4502/content/geometrixx-outdoors/en/community/winter-sports/forum.html"
+    sentiment="{Long}5"
+    submit="Submit"
+    userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+    userIdentifier="aparker@geometrixx.info">
+    <attachments
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="ba6468b3-91d9-43a5-8c75-de66d9385e9a">
+        <iStock_000019443860Small.jpg jcr:primaryType="nt:file">
+            <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2017-05-15T08:59:58.499+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mimeType="image/jpeg"
+                jcr:primaryType="nt:resource"
+                jcr:uuid="6a24516a-b91e-494b-827c-1f5a33b88ead"/>
+        </iStock_000019443860Small.jpg>
+    </attachments>
+</jcr:root>

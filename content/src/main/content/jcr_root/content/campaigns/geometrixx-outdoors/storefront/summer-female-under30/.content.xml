@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-10-31T19:32:02.580Z"
+        cq:lastModifiedBy="admin"
+        cq:segments="[/etc/segmentation/geometrixx-outdoors/summer-female-under30]"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2012-10-31T19:32:02.575Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Summer Female Under 30"
+        jcr:uuid="c3436a6f-48f0-4ba6-9571-c0f370542c51"
+        sling:resourceType="cq/personalization/components/experiencepage">
+        <image
+            jcr:lastModified="{Date}2012-10-31T19:32:02.575Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/geometrixx-outdoors/banners/summer.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+    <banner/>
+    <products/>
+    <banner-mobile/>
+    <products-mobile/>
+</jcr:root>

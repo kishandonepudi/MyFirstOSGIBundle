@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-11-08T21:40:23.130Z"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured">
+        <ratings
+            jcr:primaryType="nt:unstructured"
+            commentsNode="/content/geometrixx/en/products/mandelbrot/jcr:content/par/ratings"
+            score="{Double}0.09453148796027493">
+            <rating_1289252407877/>
+            <rating_1289252423129/>
+        </ratings>
+    </jcr:content>
+</jcr:root>

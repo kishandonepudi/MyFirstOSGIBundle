@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Call to Action"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <heading
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Heading"
+            name="./heading"
+            xtype="textfield"/>
+        <message
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Message"
+            name="./message"
+            xtype="textarea"/>
+        <call-to-action
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Button Label"
+            name="./callToAction"
+            xtype="textfield"/>
+        <call-to-action-path
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Button Destination"
+            name="./callToActionPath"
+            rootPath="/content/geometrixx-outdoors"
+            xtype="pathfield"/>
+        <background-image
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Background Image"
+            name="./backgroundImage"
+            rootPath="/content/dam/geometrixx-outdoors"
+            xtype="pathfield"/>
+    </items>
+</jcr:root>

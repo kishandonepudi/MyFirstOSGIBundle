@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    cookie_support="true"
+    CQ5_UserAgentRadical="not-match-nokia-series40"
+    fall_back="nokia_generic_series40_dp40"
+    flash_lite_version="2_1"
+    nokia_edition="5"
+    ringtone_mp3="true"
+    streaming_acodec_aac="lc"
+    streaming_acodec_amr="nb"
+    streaming_vcodec_h263_0="10"
+    streaming_vcodec_h264_bp="0"
+    user_agent="DO_NOT_MATCH_NOKIA_SERIES40_DP_5_0"/>

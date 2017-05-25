@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Widget"
+    title="Advanced"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <title
+            jcr:primaryType="cq:Widget"
+            fieldLabel="TextArea"
+            name="./jcr:title"
+            xtype="textarea"/>
+        <alt
+            jcr:primaryType="cq:Widget"
+            fieldDescription="(leave empty to use the title defined above)"
+            fieldLabel="Alt Text"
+            name="./alt"
+            xtype="textfield"/>
+        <linkURL
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Drop files or pages from the Content Finder"
+            fieldLabel="Link to"
+            name="./linkURL"
+            xtype="pathfield"/>
+        <description
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Description"
+            name="./jcr:description"
+            xtype="textarea"/>
+        <size
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Size"
+            heightParameter="./height"
+            widthParameter="./width"
+            xtype="sizefield"/>
+    </items>
+</jcr:root>
