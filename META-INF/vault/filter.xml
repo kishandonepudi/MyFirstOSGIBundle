@@ -1,0 +1,4 @@
+<filter root="/etc/workflow/models/StockAlert"/>
+<filter root="/etc/workflow/launcher/config"/>
+<filter root="/etc/importers/polling/adobe_stock"/>
+
