@@ -50,7 +50,7 @@ public class StockAlertProcess implements WorkflowProcess {
             else if (data.getPayload() != null && type.equals(TYPE_JCR_UUID)) {
                 node = session.getNodeByIdentifier((String) data.getPayload());
             }
-            LOGGER.info("********running with node {}", node.getPath());
+            LOGGER.info("*******running with node {}", node.getPath());
             // parent's is expected to be stock symbol
             String symbol = node.getParent().getName();
             LOGGER.info("********found symbol {}", symbol);
@@ -77,5 +77,3 @@ public class StockAlertProcess implements WorkflowProcess {
     }
 }
 
-
-/* commit
